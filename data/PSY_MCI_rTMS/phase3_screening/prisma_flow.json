@@ -1,0 +1,27 @@
+{
+  "identification": {
+    "europepmc": 1864,
+    "pubmed": 236,
+    "scopus": 603,
+    "cochrane_search": 780,
+    "records 1-500": 500,
+    "records 1001-1500": 500,
+    "records 1501-2000": 500,
+    "records 2001-2495": 495,
+    "records 501-1000": 500
+  },
+  "total_identified": 5978,
+  "after_deduplication": 4045,
+  "title_abstract_screened": 4045,
+  "title_abstract_excluded": 3748,
+  "fulltext_assessed": 297,
+  "fulltext_excluded": 57,
+  "fulltext_no_pdf": 54,
+  "included_in_synthesis": 186,
+  "exclusion_breakdown": {
+    "other": 38,
+    "design": 7,
+    "intervention": 5,
+    "population": 7
+  }
+}

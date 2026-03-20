@@ -1,0 +1,32 @@
+{
+  "download_log.json": {
+    "updated_at": "2026-03-09T01:07:36.469719",
+    "size_bytes": 58298,
+    "record_count": 354
+  },
+  "fulltext_review.json": {
+    "updated_at": "2026-03-15T11:31:31.569172",
+    "size_bytes": 426536,
+    "record_count": 297
+  },
+  "exclusion_reasons.json": {
+    "updated_at": "2026-03-15T11:31:31.666853",
+    "size_bytes": 114344,
+    "record_count": 57
+  },
+  "included_studies.json": {
+    "updated_at": "2026-03-15T11:31:31.932279",
+    "size_bytes": 465586,
+    "record_count": 186
+  },
+  "fulltext_review_stats.json": {
+    "updated_at": "2026-03-15T11:31:31.738678",
+    "size_bytes": 93,
+    "record_count": 4
+  },
+  "validation_metrics.json": {
+    "updated_at": "2026-03-15T11:31:32.607917",
+    "size_bytes": 327,
+    "record_count": 13
+  }
+}

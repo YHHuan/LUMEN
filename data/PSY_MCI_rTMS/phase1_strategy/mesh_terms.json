@@ -1,0 +1,11 @@
+{
+  "population": [
+    "Cognitive Dysfunction",
+    "Mild Cognitive Impairment",
+    "Alzheimer Disease"
+  ],
+  "intervention": [
+    "Transcranial Magnetic Stimulation",
+    "Transcranial Direct Current Stimulation"
+  ]
+}

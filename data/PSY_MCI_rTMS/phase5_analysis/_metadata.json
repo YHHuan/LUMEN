@@ -1,0 +1,17 @@
+{
+  "sanity_check.json": {
+    "updated_at": "2026-03-15T18:41:01.135748",
+    "size_bytes": 19111,
+    "record_count": 5
+  },
+  "safety_summary.json": {
+    "updated_at": "2026-03-15T18:41:19.461606",
+    "size_bytes": 19794,
+    "record_count": 48
+  },
+  "statistical_results.json": {
+    "updated_at": "2026-03-15T18:42:28.997053",
+    "size_bytes": 85931,
+    "record_count": 11
+  }
+}

@@ -1,0 +1,86 @@
+# ============================================
+# PICO Input - NIBS for MCI / Early AD
+# ============================================
+
+pico:
+  population: |
+    Adults (≥18 years) diagnosed with:
+    - Mild Cognitive Impairment (MCI), including amnestic MCI (aMCI)
+    - Mild Alzheimer's Disease / Early-stage AD
+    Diagnostic criteria: NIA-AA, DSM-5, ICD-10/11, Petersen criteria, or equivalent
+    Setting: outpatient, community, or research cohort
+
+  intervention: |
+    Non-invasive brain stimulation (NIBS):
+    - rTMS (repetitive Transcranial Magnetic Stimulation), including iTBS and cTBS
+    - tDCS (transcranial Direct Current Stimulation)
+    - tACS (transcranial Alternating Current Stimulation)
+    May be combined with standard care (ChEI, memantine), 
+    but the stimulation effect must be isolable.
+
+  comparison: |
+    - Sham stimulation (preferred)
+    - No intervention / usual care / waiting list
+    - Active control (different stimulation parameters or modality)
+
+  outcome:
+    primary:
+      - name: "Global cognition"
+        measures: ["ADAS-Cog", "MMSE", "MoCA"]
+        preferred: "ADAS-Cog"
+        metric: "SMD or MD"
+      - name: "Safety and tolerability"
+        measures: ["adverse events", "headache", "scalp discomfort", "seizure events", "dropout rate"]
+        metric: "risk ratio or proportion"
+
+    secondary:
+      - name: "Specific cognitive domains"
+        measures: ["memory", "executive function", "attention", "language"]
+        metric: "SMD"
+      - name: "Functional outcomes"
+        measures: ["ADL", "IADL", "ADCS-ADL"]
+        metric: "SMD or MD"
+      - name: "Neuropsychiatric symptoms"
+        measures: ["NPI", "GDS"]
+        metric: "SMD or MD"
+      - name: "Quality of life / caregiver burden"
+        measures: ["QoL-AD", "ZBI"]
+        metric: "SMD or MD"
+
+  timepoints:
+    - label: "Post-treatment"
+      description: "Immediately after intervention ends"
+    - label: "Short-term follow-up"
+      description: "≤3 months post-treatment"
+    - label: "Medium-term follow-up"
+      description: ">3 to 6 months post-treatment (if data available)"
+
+study_design:
+  include:
+    - "Randomized Controlled Trial (RCT)"
+    - "Controlled Clinical Trial"
+    - "Crossover trial (with adequate washout)"
+  exclude:
+    - "Case reports"
+    - "Case series"
+    - "Observational studies without control group"
+    - "Animal studies"
+    - "Conference abstracts only (no full text)"
+
+language: ["English", "Chinese"]
+
+date_range:
+  start: "2000-01-01"
+  end: "2025-12-31"
+
+subgroup_analyses:
+  - variable: "Stimulation type"
+    groups: ["rTMS", "tDCS", "tACS"]
+  - variable: "Population"
+    groups: ["MCI only", "Mild AD only", "Mixed"]
+  - variable: "Stimulation target"
+    groups: ["DLPFC", "Temporal", "Parietal", "Multi-site"]
+  - variable: "Session count"
+    groups: ["≤10 sessions", ">10 sessions"]
+  - variable: "Combined with cognitive training"
+    groups: ["Yes", "No"]

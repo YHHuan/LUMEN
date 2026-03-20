@@ -1,0 +1,122 @@
+[
+  {
+    "marker": "[CITATION NEEDED: prior meta-analysis of rTMS in Alzheimer's disease]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Prior systematic review/meta-analysis specifically of rTMS in Alzheimer's disease reporting cognitive effect sizes on global cognition measures; e.g., a meta-analysis of rTMS for AD cognition outcomes."
+  },
+  {
+    "marker": "[CITATION NEEDED: prior meta-analysis of tDCS in MCI and AD]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Prior meta-analysis/systematic review of tDCS in MCI and/or Alzheimer's disease reporting pooled cognitive effect sizes, ideally separated for global cognition."
+  },
+  {
+    "marker": "[CITATION NEEDED: meta-analysis reporting ADAS-Cog improvement with NIBS]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Meta-analysis of non-invasive brain stimulation (rTMS/tDCS/tACS or broader NIBS) in AD/MCI that specifically reports pooled improvement on ADAS-Cog."
+  },
+  {
+    "marker": "[CITATION NEEDED: systematic review of domain-specific NIBS effects in MCI/AD]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Systematic review of NIBS in MCI/AD that discusses domain-specific cognitive effects, especially memory/language benefits versus less consistent executive or functional outcomes."
+  },
+  {
+    "marker": "[CITATION NEEDED: mechanistic review of rTMS and LTP in human cortex]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Mechanistic review on rTMS-induced cortical excitability changes and LTP-/LTD-like plasticity in humans; classic neurophysiology review rather than a disease-specific trial."
+  },
+  {
+    "marker": "[CITATION NEEDED: synaptic plasticity window in early AD neuropathology]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Neuropathology/mechanistic review describing preserved but declining synaptic plasticity in prodromal or early Alzheimer's disease, with reduced plasticity as disease advances."
+  },
+  {
+    "marker": "[CITATION NEEDED: functional connectivity of DLPFC-hippocampal memory network]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Functional neuroimaging/connectivity study or review showing DLPFC interactions with hippocampal/parietal memory networks during episodic encoding and retrieval."
+  },
+  {
+    "marker": "[CITATION NEEDED: gamma tACS and neural oscillation entrainment in AD]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Mechanistic review or experimental study on gamma-frequency tACS/entrainment in Alzheimer's disease or aging, showing modulation of gamma oscillations/network synchrony."
+  },
+  {
+    "marker": "[CITATION NEEDED: blinding adequacy and sham credibility in rTMS and tDCS trials]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Methodological review or consensus paper on sham stimulation, participant unblinding, and blinding adequacy in rTMS and tDCS randomized trials."
+  },
+  {
+    "marker": "[CITATION NEEDED: effect size of cholinesterase inhibitors on MMSE in AD]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Meta-analysis or Cochrane review of cholinesterase inhibitors in Alzheimer's disease reporting MMSE change of roughly 1–3 points over 6–12 months and corresponding small standardized effects."
+  },
+  {
+    "marker": "[CITATION NEEDED: CONSORT extension for non-pharmacological interventions]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "CONSORT extension statement for randomized trials of nonpharmacologic/non-pharmacological treatments (e.g., Boutron et al. CONSORT extension)."
+  },
+  {
+    "marker": "[CITATION NEEDED: WHO World Alzheimer Report prevalence estimates]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Global prevalence report from WHO or WHO-backed dementia fact sheet/report giving AD as 60–70% of dementia cases and ~55 million people living with dementia worldwide."
+  },
+  {
+    "marker": "[CITATION NEEDED: Alzheimer's Disease International Global Prevalence Report]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Alzheimer's Disease International World Alzheimer Report with global prevalence/projection estimates, including ~55 million currently and ~139 million by 2050."
+  },
+  {
+    "marker": "[CITATION NEEDED: global cost-of-dementia estimates]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "World Alzheimer Report or equivalent global economic analysis reporting annual dementia costs exceeding USD 1.3 trillion."
+  },
+  {
+    "marker": "[CITATION NEEDED: Petersen criteria and NIA-AA MCI diagnostic framework]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Seminal diagnostic criteria papers: Petersen criteria for MCI and NIA-AA recommendations/framework for MCI due to Alzheimer's disease."
+  },
+  {
+    "marker": "[CITATION NEEDED: MCI prevalence meta-analysis]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Population-based systematic review/meta-analysis estimating MCI prevalence in adults aged 65+ at approximately 15–20%."
+  },
+  {
+    "marker": "[CITATION NEEDED: MCI-to-AD conversion rate longitudinal studies]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Longitudinal cohort studies or meta-analysis on amnestic MCI progression to Alzheimer's dementia, reporting annual conversion rates around 10–15%."
+  },
+  {
+    "marker": "[CITATION NEEDED: synaptic plasticity in early AD neuropathology]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Mechanistic/neuropathology review on early Alzheimer's disease showing retained but vulnerable neuronal network plasticity before advanced neurodegeneration."
+  },
+  {
+    "marker": "[CITATION NEEDED: Cochrane review of ChEIs in AD and MCI]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Cochrane review(s) of cholinesterase inhibitors in Alzheimer's disease and, if needed separately, Cochrane/systematic review in MCI showing modest symptomatic benefit and adverse effects."
+  },
+  {
+    "marker": "[CITATION NEEDED: FDA approval and safety data for lecanemab/donanemab]",
+    "type": "external",
+    "suggested_id": null,
+    "external_suggestion": "Regulatory/phase 3 trial references for lecanemab and donanemab, including FDA approval announcements/labels and pivotal trial papers reporting ARIA and infusion-related safety data."
+  }
+]

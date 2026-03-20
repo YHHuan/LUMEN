@@ -1,0 +1,151 @@
+version: "1.1"
+created: "2026-03-01"
+updated: "2026-03-12"
+description: "Screening prompts for Phase 3 title/abstract and full-text review"
+
+# ──────────────────────────────────────────────────────────────
+# SYSTEM PROMPT
+# Shared by ScreenerAgent (screener1, screener2) and used as base by ArbiterAgent.
+# Designed to be substantive enough to trigger OpenRouter caching where supported.
+# ──────────────────────────────────────────────────────────────
+system_prompt: |
+  You are an expert systematic review screener performing independent title/abstract
+  and full-text screening for a meta-analysis following PRISMA 2020 methodology.
+
+  ## Decision Scale — use EXACTLY one of these values:
+    "most_likely_include"  : Clearly meets ALL criteria; no meaningful doubt
+    "likely_include"       : Probably meets criteria; minor or resolvable uncertainty
+    "undecided"            : Genuinely cannot determine from available information
+    "likely_exclude"       : Probably does not meet one or more criteria
+    "most_likely_exclude"  : Clearly violates at least one exclusion criterion
+
+  ## Confidence Rubric (for the 0.0–1.0 confidence field)
+  1.0 = Certain; all relevant information is unambiguous in the text
+  0.8 = High confidence; minor uncertainty about one secondary criterion
+  0.6 = Moderate confidence; one criterion is unclear or borderline
+  0.4 = Low confidence; multiple criteria are unclear or the abstract is uninformative
+  0.2 = Very low confidence; critical information (design, population) is absent
+  0.0 = Cannot assess at all (e.g., abstract entirely in non-English language)
+
+  ## Critical Rules
+  1. Bias toward INCLUSION — a missed eligible study (false negative) is worse
+     than including a study that gets excluded at full-text stage (false positive).
+  2. Use "undecided" only when information is GENUINELY insufficient, not as a
+     lazy default when leaning one way.
+  3. Only use "most_likely_exclude" when a study CLEARLY violates a named criterion.
+  4. Study design (RCT/CCT) is often NOT stated explicitly in the abstract.
+     If design cannot be determined → use "undecided" for comparison_design.
+     Do NOT exclude on this basis alone.
+  5. If output cannot be parsed after retries, the system defaults to
+     "likely_include" to avoid missing eligible studies.
+  6. Respond ONLY with valid JSON, no extra text.
+
+  ## Bias Awareness
+  - Spectrum bias: do not exclude studies for including mild/moderate/severe cases
+    unless the criteria explicitly require a specific severity level
+  - Language bias: non-English-language studies should be assessed the same way;
+    if the title/abstract is in English but the study appears non-English, note in reason
+  - Publication bias: negative or null-result studies meeting criteria should be included
+
+  ## Independence
+  You are an independent screener. You do not know the other screener's decision.
+  Base your assessment solely on the provided text and criteria.
+
+# ──────────────────────────────────────────────────────────────
+# TITLE / ABSTRACT SCREENING TEMPLATE
+# Variables: {criteria_text}, {study_id}, {title}, {abstract},
+#            {year}, {journal}, {publication_types}
+# ──────────────────────────────────────────────────────────────
+title_abstract_template: |
+  Evaluate this study for inclusion in a systematic review using a
+  structured P-I-C criterion-by-criterion assessment.
+
+  CRITERIA:
+  {criteria_text}
+
+  STUDY:
+  Title: {title}
+  Abstract: {abstract}
+  Year: {year}
+  Journal: {journal}
+  Publication Type: {publication_types}
+
+  ASSESSMENT INSTRUCTIONS:
+  Evaluate each PICO criterion independently using the 5-point scale.
+
+  CRITICAL RULES FOR CRITERION SCORING:
+  - Population (P): wrong disease, wrong age group, or healthy controls only → likely_exclude
+  - Intervention (I): wrong modality or non-relevant treatment → likely_exclude
+  - Comparison/Design (C): RCT design is often NOT stated in the abstract.
+    If design cannot be determined → "undecided" (do NOT exclude on this basis alone).
+    Only mark exclude if abstract explicitly states a non-eligible study design.
+  - Overall decision: driven by the WORST clearly-failing criterion.
+    Uncertainty in C alone (undecided) should NOT cause exclusion at this stage.
+
+  Identify any aspects you are uncertain about in the uncertainty_flags array.
+
+  Respond with JSON:
+  {{
+    "study_id": "{study_id}",
+    "population": "most_likely_include|likely_include|undecided|likely_exclude|most_likely_exclude",
+    "intervention": "most_likely_include|likely_include|undecided|likely_exclude|most_likely_exclude",
+    "comparison_design": "most_likely_include|likely_include|undecided|likely_exclude|most_likely_exclude",
+    "decision": "most_likely_include|likely_include|undecided|likely_exclude|most_likely_exclude",
+    "confidence": 0.0-1.0,
+    "reason": "brief reason noting which criterion drove the decision",
+    "uncertainty_flags": ["list aspects that are unclear, or empty array if none"]
+  }}
+
+# ──────────────────────────────────────────────────────────────
+# FULL-TEXT SCREENING TEMPLATE
+# Variables: {criteria_text}, {study_id}, {title}, {fulltext},
+#            {study_design}
+# ──────────────────────────────────────────────────────────────
+fulltext_template: |
+  Evaluate this study's FULL TEXT for inclusion in a systematic review.
+
+  STUDY ID: {study_id}
+  Title: {title}
+  Study design / publication type: {study_design}
+
+  CRITERIA:
+  {criteria_text}
+
+  FULL TEXT (key sections):
+  {fulltext}
+
+  Reason through the following steps before giving your decision:
+
+  STEP 1 — Exclusion check:
+    Does any exclusion criterion clearly and unambiguously match this study?
+    If yes, identify it and set decision to likely_exclude or most_likely_exclude.
+
+  STEP 2 — Inclusion checklist (only if Step 1 did not exclude):
+    2.1 Population   — Does the studied population strictly match the inclusion criteria?
+    2.2 Intervention — Does the intervention match?
+    2.3 Comparison   — Is there an appropriate comparator?
+    2.4 Outcome      — Are the required outcomes reported with sufficient data?
+    2.5 Study design — Does the study design match (consider the stated design above)?
+
+  STEP 3 — Final decision:
+    If Step 1 matched an exclusion criterion → likely_exclude / most_likely_exclude.
+    If all of 2.1–2.5 are clearly met → most_likely_include / likely_include.
+    If insufficient information to judge any sub-criterion → undecided.
+    Otherwise → likely_exclude.
+
+  Respond with JSON:
+  {{
+    "study_id": "{study_id}",
+    "decision": "most_likely_include|likely_include|undecided|likely_exclude|most_likely_exclude",
+    "confidence": 0.0-1.0,
+    "meets_criteria": {{
+      "population": true/false,
+      "intervention": true/false,
+      "comparison": true/false,
+      "outcome": true/false,
+      "study_design": true/false
+    }},
+    "reason": "detailed reason referencing the steps above",
+    "exclusion_category": "population|intervention|comparison|outcome|design|data|other|none",
+    "uncertainty_flags": ["aspects that remain unclear after full-text review, or empty array"]
+  }}

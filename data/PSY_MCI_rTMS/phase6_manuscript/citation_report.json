@@ -1,0 +1,474 @@
+{
+  "internal_citations_checked": 0,
+  "internal_accurate": 0,
+  "internal_issues": 0,
+  "citation_needed_markers": 93,
+  "issues": [],
+  "markers": [
+    {
+      "marker": "[CITATION NEEDED: prior meta-analysis of rTMS in Alzheimer's disease]",
+      "topic": "prior meta-analysis of rTMS in Alzheimer's disease",
+      "context": "TMS in AD reported standardised mean differences in the range of 0.5–0.8 on global cognition scales [CITATION NEEDED: prior meta-analysis of rTMS in Alzheimer's disease], while tDCS-specific reviews have reported smaller effects, typically in the range of 0.3–0.5 [CITA"
+    },
+    {
+      "marker": "[CITATION NEEDED: prior meta-analysis of tDCS in MCI and AD]",
+      "topic": "prior meta-analysis of tDCS in MCI and AD",
+      "context": "ease], while tDCS-specific reviews have reported smaller effects, typically in the range of 0.3–0.5 [CITATION NEEDED: prior meta-analysis of tDCS in MCI and AD]. The somewhat larger estimates in the present review may reflect several factors: our broader inclu"
+    },
+    {
+      "marker": "[CITATION NEEDED: meta-analysis reporting ADAS-Cog improvement with NIBS]",
+      "topic": "meta-analysis reporting ADAS-Cog improvement with NIBS",
+      "context": "ADAS-Cog contrasts with some prior reviews that reported modest positive effects on this instrument [CITATION NEEDED: meta-analysis reporting ADAS-Cog improvement with NIBS]. However, the extreme heterogeneity in our ADAS-Cog analysis (I²=85.7%) and the wide confidence int"
+    },
+    {
+      "marker": "[CITATION NEEDED: systematic review of domain-specific NIBS effects in MCI/AD]",
+      "topic": "systematic review of domain-specific NIBS effects in MCI/AD",
+      "context": " and less consistent effects on higher-order executive processes and real-world functional capacity [CITATION NEEDED: systematic review of domain-specific NIBS effects in MCI/AD]. [CONFIDENCE: medium]  ---  ### 4.3 Possible Mechanisms  The theoretical basis for NIBS-induced cog"
+    },
+    {
+      "marker": "[CITATION NEEDED: mechanistic review of rTMS and LTP in human cortex]",
+      "topic": "mechanistic review of rTMS and LTP in human cortex",
+      "context": "excitability and promote long-term potentiation (LTP)-like synaptic plasticity in targeted networks [CITATION NEEDED: mechanistic review of rTMS and LTP in human cortex]. In the context of early AD pathology, where synaptic loss and cholinergic denervation precede fran"
+    },
+    {
+      "marker": "[CITATION NEEDED: synaptic plasticity window in early AD neuropathology]",
+      "topic": "synaptic plasticity window in early AD neuropathology",
+      "context": "icity-based enhancement — a window that narrows as disease progresses to moderate and severe stages [CITATION NEEDED: synaptic plasticity window in early AD neuropathology].  The preferential benefit observed for memory is mechanistically coherent: the most commonly targe"
+    },
+    {
+      "marker": "[CITATION NEEDED: functional connectivity of DLPFC-hippocampal memory network]",
+      "topic": "functional connectivity of DLPFC-hippocampal memory network",
+      "context": " and the parietal-hippocampal network, both of which are central to episodic encoding and retrieval [CITATION NEEDED: functional connectivity of DLPFC-hippocampal memory network]. Stimulation of the DLPFC may enhance top-down modulation of hippocampal encoding via cortico-limbi"
+    },
+    {
+      "marker": "[CITATION NEEDED: gamma tACS and neural oscillation entrainment in AD]",
+      "topic": "gamma tACS and neural oscillation entrainment in AD",
+      "context": " of endogenous gamma oscillations that are disrupted in AD, potentially restoring network synchrony [CITATION NEEDED: gamma tACS and neural oscillation entrainment in AD]. The convergence of multiple modalities on similar effect sizes for memory suggests that LTP-like p"
+    },
+    {
+      "marker": "[CITATION NEEDED: blinding adequacy and sham credibility in rTMS and tDCS trials]",
+      "topic": "blinding adequacy and sham credibility in rTMS and tDCS trials",
+      "context": "ticipants may detect active stimulation through scalp sensations, potentially unblinding allocation [CITATION NEEDED: blinding adequacy and sham credibility in rTMS and tDCS trials]. This concern applies across all modalities included in this review.  **Language and publication bi"
+    },
+    {
+      "marker": "[CITATION NEEDED: effect size of cholinesterase inhibitors on MMSE in AD]",
+      "topic": "effect size of cholinesterase inhibitors on MMSE in AD",
+      "context": "mine) produce MMSE improvements of approximately 1–3 points over 6–12 months in mild-to-moderate AD [CITATION NEEDED: effect size of cholinesterase inhibitors on MMSE in AD], corresponding to standardised effect sizes in the range of 0.2–0.4 — smaller than the NIBS effects"
+    },
+    {
+      "marker": "[CITATION NEEDED: CONSORT extension for non-pharmacological interventions]",
+      "topic": "CONSORT extension for non-pharmacological interventions",
+      "context": " number — ideally through international expert panels producing protocol standardisation guidelines [CITATION NEEDED: CONSORT extension for non-pharmacological interventions]. The session range of 1 to 180 observed in this review [STAT_REF: session_range] is clinically unte"
+    },
+    {
+      "marker": "[CITATION NEEDED: WHO World Alzheimer Report prevalence estimates]",
+      "topic": "WHO World Alzheimer Report prevalence estimates",
+      "context": "century. Alzheimer's disease (AD) accounts for approximately 60–70% of all dementia cases worldwide [CITATION NEEDED: WHO World Alzheimer Report prevalence estimates], affecting an estimated 55 million people globally, a figure projected to exceed 139 million by 205"
+    },
+    {
+      "marker": "[CITATION NEEDED: Alzheimer's Disease International Global Prevalence Report]",
+      "topic": "Alzheimer's Disease International Global Prevalence Report",
+      "context": "ted 55 million people globally, a figure projected to exceed 139 million by 2050 as populations age [CITATION NEEDED: Alzheimer's Disease International Global Prevalence Report]. The economic cost of dementia care exceeds USD 1.3 trillion annually, with the majority borne by i"
+    },
+    {
+      "marker": "[CITATION NEEDED: global cost-of-dementia estimates]",
+      "topic": "global cost-of-dementia estimates",
+      "context": "th the majority borne by informal caregivers and health systems in low- and middle-income countries [CITATION NEEDED: global cost-of-dementia estimates]. Beyond its economic toll, AD imposes profound burdens on patients, families, and caregivers, erodi"
+    },
+    {
+      "marker": "[CITATION NEEDED: Petersen criteria and NIA-AA MCI diagnostic framework]",
+      "topic": "Petersen criteria and NIA-AA MCI diagnostic framework",
+      "context": "ine exceeding age-expected norms without functional impairment sufficient to meet dementia criteria [CITATION NEEDED: Petersen criteria and NIA-AA MCI diagnostic framework], MCI affects an estimated 15–20% of adults aged 65 years and older [CITATION NEEDED: MCI prevalence"
+    },
+    {
+      "marker": "[CITATION NEEDED: MCI prevalence meta-analysis]",
+      "topic": "MCI prevalence meta-analysis",
+      "context": "NIA-AA MCI diagnostic framework], MCI affects an estimated 15–20% of adults aged 65 years and older [CITATION NEEDED: MCI prevalence meta-analysis]. Amnestic MCI (aMCI), characterised by predominant episodic memory impairment, carries an annual co"
+    },
+    {
+      "marker": "[CITATION NEEDED: MCI-to-AD conversion rate longitudinal studies]",
+      "topic": "MCI-to-AD conversion rate longitudinal studies",
+      "context": "pisodic memory impairment, carries an annual conversion rate to AD dementia of approximately 10–15% [CITATION NEEDED: MCI-to-AD conversion rate longitudinal studies], making it a priority target for disease-modifying and cognitive-preserving interventions. Early-st"
+    },
+    {
+      "marker": "[CITATION NEEDED: synaptic plasticity in early AD neuropathology]",
+      "topic": "synaptic plasticity in early AD neuropathology",
+      "context": "e, during which neuronal networks retain sufficient plasticity to respond to therapeutic modulation [CITATION NEEDED: synaptic plasticity in early AD neuropathology].  Current pharmacological options for MCI and early AD remain limited in scope and effect. Cholines"
+    },
+    {
+      "marker": "[CITATION NEEDED: Cochrane review of ChEIs in AD and MCI]",
+      "topic": "Cochrane review of ChEIs in AD and MCI",
+      "context": "cognitive benefits, do not alter underlying neuropathology, and carry dose-limiting adverse effects [CITATION NEEDED: Cochrane review of ChEIs in AD and MCI]. The recent approval of anti-amyloid monoclonal antibodies (lecanemab, donanemab) represents a mech"
+    },
+    {
+      "marker": "[CITATION NEEDED: FDA approval and safety data for lecanemab/donanemab]",
+      "topic": "FDA approval and safety data for lecanemab/donanemab",
+      "context": "ation, and remain inaccessible to most patients globally due to cost and infrastructure constraints [CITATION NEEDED: FDA approval and safety data for lecanemab/donanemab]. No pharmacological agent has demonstrated robust, durable improvement in global cognition or funct"
+    },
+    {
+      "marker": "[CITATION NEEDED: Hallett rTMS mechanisms review]",
+      "topic": "Hallett rTMS mechanisms review",
+      "context": "Hz) generally increases cortical excitability, while low-frequency protocols (≤1 Hz) are inhibitory [CITATION NEEDED: Hallett rTMS mechanisms review]. Theta-burst stimulation (TBS), a patterned variant of rTMS, delivers bursts at theta frequency (5 "
+    },
+    {
+      "marker": "[CITATION NEEDED: Huang et al. TBS original characterisation]",
+      "topic": "Huang et al. TBS original characterisation",
+      "context": "ter treatment durations; intermittent TBS (iTBS) is excitatory and continuous TBS (cTBS) inhibitory [CITATION NEEDED: Huang et al. TBS original characterisation]. Deep rTMS using H-coils extends the stimulation field to deeper cortical and limbic structures, po"
+    },
+    {
+      "marker": "[CITATION NEEDED: deep rTMS H-coil penetration depth studies]",
+      "topic": "deep rTMS H-coil penetration depth studies",
+      "context": "es, potentially engaging hippocampal circuits more directly than conventional figure-of-eight coils [CITATION NEEDED: deep rTMS H-coil penetration depth studies]. tDCS applies weak, constant direct current (typically 1–2 mA) via scalp electrodes, with anodal st"
+    },
+    {
+      "marker": "[CITATION NEEDED: Nitsche and Paulus tDCS mechanism original papers]",
+      "topic": "Nitsche and Paulus tDCS mechanism original papers",
+      "context": "thodal stimulation decreasing neuronal firing thresholds through subthreshold membrane polarisation [CITATION NEEDED: Nitsche and Paulus tDCS mechanism original papers]. High-definition tDCS (HD-tDCS) uses smaller, focally arranged electrodes to improve spatial precis"
+    },
+    {
+      "marker": "[CITATION NEEDED: gamma oscillation deficits in AD and 40 Hz tACS rationale]",
+      "topic": "gamma oscillation deficits in AD and 40 Hz tACS rationale",
+      "context": "terest for its potential to restore pathologically reduced gamma oscillations observed in AD cortex [CITATION NEEDED: gamma oscillation deficits in AD and 40 Hz tACS rationale].  The theoretical rationale for NIBS in MCI and early AD is grounded in the neuroscience of synapti"
+    },
+    {
+      "marker": "[CITATION NEEDED: AD network dysfunction neuroimaging reviews]",
+      "topic": "AD network dysfunction neuroimaging reviews",
+      "context": "unctional networks including the default mode network and the hippocampal-entorhinal memory circuit [CITATION NEEDED: AD network dysfunction neuroimaging reviews]. NIBS protocols targeting the dorsolateral prefrontal cortex (DLPFC), left or bilateral parietal co"
+    },
+    {
+      "marker": "[CITATION NEEDED: NIBS target site rationale in cognitive disorders]",
+      "topic": "NIBS target site rationale in cognitive disorders",
+      "context": "cacy, enhance cholinergic tone, and restore functional connectivity within memory-relevant networks [CITATION NEEDED: NIBS target site rationale in cognitive disorders]. Neuronavigation-guided stimulation, increasingly employed in recent trials, allows individualised "
+    },
+    {
+      "marker": "[CITATION NEEDED: neuronavigated TMS in cognitive research]",
+      "topic": "neuronavigated TMS in cognitive research",
+      "context": "g based on structural or functional MRI, potentially improving both precision and therapeutic yield [CITATION NEEDED: neuronavigated TMS in cognitive research]. The combination of NIBS with concurrent cognitive training has also emerged as a promising strateg"
+    },
+    {
+      "marker": "[CITATION NEEDED: NIBS combined with cognitive training synergy evidence]",
+      "topic": "NIBS combined with cognitive training synergy evidence",
+      "context": "ple that stimulation-induced plasticity is amplified when paired with task-relevant neural activity [CITATION NEEDED: NIBS combined with cognitive training synergy evidence].  ---  ### Existing Evidence and Its Limitations  The past decade has witnessed a rapid accumulatio"
+    },
+    {
+      "marker": "[CITATION NEEDED: early meta-analyses of rTMS/tDCS in AD and MCI, e.g., Hsu et al., Tatti et al., Nguyen et al.]",
+      "topic": "early meta-analyses of rTMS/tDCS in AD and MCI, e.g., Hsu et al., Tatti et al., Nguyen et al.",
+      "context": "MS and tDCS on global cognition and memory, with pooled effect sizes in the small-to-moderate range [CITATION NEEDED: early meta-analyses of rTMS/tDCS in AD and MCI, e.g., Hsu et al., Tatti et al., Nguyen et al.]. More recent syntheses have extended these findings to specific cognitive domains including working"
+    },
+    {
+      "marker": "[CITATION NEEDED: recent NIBS meta-analyses 2021–2024]",
+      "topic": "recent NIBS meta-analyses 2021–2024",
+      "context": "on, and language, and have begun to examine neuropsychiatric outcomes such as apathy and depression [CITATION NEEDED: recent NIBS meta-analyses 2021–2024].  Despite this growing body of evidence, prior reviews are limited by several important methodologi"
+    },
+    {
+      "marker": "[CITATION NEEDED: single-modality NIBS reviews]",
+      "topic": "single-modality NIBS reviews",
+      "context": "sons and a comprehensive understanding of the relative efficacy of different stimulation approaches [CITATION NEEDED: single-modality NIBS reviews]. Second, many reviews have conflated MCI and AD populations, or have included moderate-to-severe de"
+    },
+    {
+      "marker": "[CITATION NEEDED: publication bias concerns in NIBS literature]",
+      "topic": "publication bias concerns in NIBS literature",
+      "context": "stematically evaluated across the full spectrum of NIBS modalities and outcomes in any prior review [CITATION NEEDED: publication bias concerns in NIBS literature].  ---  ### Knowledge Gap and Objectives  The convergence of an expanding trial base, the emergence "
+    },
+    {
+      "marker": "[CITATION NEEDED: PROSPERO registration number if applicable]",
+      "topic": "PROSPERO registration number if applicable",
+      "context": "date, and is intended to inform both clinical practice and the design of future large-scale trials. [CITATION NEEDED: PROSPERO registration number if applicable] # TITLE  Non-Invasive Brain Stimulation for Mild Cognitive Impairment and Early Alzheimer's Disease"
+    },
+    {
+      "marker": "[CITATION NEEDED: WHO World Alzheimer Report prevalence estimates]",
+      "topic": "WHO World Alzheimer Report prevalence estimates",
+      "context": "century. Alzheimer's disease (AD) accounts for approximately 60–70% of all dementia cases worldwide [CITATION NEEDED: WHO World Alzheimer Report prevalence estimates], affecting an estimated 55 million people globally, a figure projected to exceed 139 million by 205"
+    },
+    {
+      "marker": "[CITATION NEEDED: Alzheimer's Disease International Global Prevalence Report]",
+      "topic": "Alzheimer's Disease International Global Prevalence Report",
+      "context": "ted 55 million people globally, a figure projected to exceed 139 million by 2050 as populations age [CITATION NEEDED: Alzheimer's Disease International Global Prevalence Report]. The economic cost of dementia care exceeds USD 1.3 trillion annually, with the majority borne by i"
+    },
+    {
+      "marker": "[CITATION NEEDED: global cost-of-dementia estimates]",
+      "topic": "global cost-of-dementia estimates",
+      "context": "th the majority borne by informal caregivers and health systems in low- and middle-income countries [CITATION NEEDED: global cost-of-dementia estimates]. Beyond its economic toll, AD imposes profound burdens on patients, families, and caregivers, erodi"
+    },
+    {
+      "marker": "[CITATION NEEDED: Petersen criteria and NIA-AA MCI diagnostic framework]",
+      "topic": "Petersen criteria and NIA-AA MCI diagnostic framework",
+      "context": "ine exceeding age-expected norms without functional impairment sufficient to meet dementia criteria [CITATION NEEDED: Petersen criteria and NIA-AA MCI diagnostic framework], MCI affects an estimated 15–20% of adults aged 65 years and older [CITATION NEEDED: MCI prevalence"
+    },
+    {
+      "marker": "[CITATION NEEDED: MCI prevalence meta-analysis]",
+      "topic": "MCI prevalence meta-analysis",
+      "context": "NIA-AA MCI diagnostic framework], MCI affects an estimated 15–20% of adults aged 65 years and older [CITATION NEEDED: MCI prevalence meta-analysis]. Amnestic MCI (aMCI), characterised by predominant episodic memory impairment, carries an annual co"
+    },
+    {
+      "marker": "[CITATION NEEDED: MCI-to-AD conversion rate longitudinal studies]",
+      "topic": "MCI-to-AD conversion rate longitudinal studies",
+      "context": "pisodic memory impairment, carries an annual conversion rate to AD dementia of approximately 10–15% [CITATION NEEDED: MCI-to-AD conversion rate longitudinal studies], making it a priority target for disease-modifying and cognitive-preserving interventions. Early-st"
+    },
+    {
+      "marker": "[CITATION NEEDED: synaptic plasticity in early AD neuropathology]",
+      "topic": "synaptic plasticity in early AD neuropathology",
+      "context": "e, during which neuronal networks retain sufficient plasticity to respond to therapeutic modulation [CITATION NEEDED: synaptic plasticity in early AD neuropathology].  Current pharmacological options for MCI and early AD remain limited in scope and effect. Cholines"
+    },
+    {
+      "marker": "[CITATION NEEDED: Cochrane review of ChEIs in AD and MCI]",
+      "topic": "Cochrane review of ChEIs in AD and MCI",
+      "context": "cognitive benefits, do not alter underlying neuropathology, and carry dose-limiting adverse effects [CITATION NEEDED: Cochrane review of ChEIs in AD and MCI]. The recent approval of anti-amyloid monoclonal antibodies (lecanemab, donanemab) represents a mech"
+    },
+    {
+      "marker": "[CITATION NEEDED: FDA approval and safety data for lecanemab/donanemab]",
+      "topic": "FDA approval and safety data for lecanemab/donanemab",
+      "context": "ation, and remain inaccessible to most patients globally due to cost and infrastructure constraints [CITATION NEEDED: FDA approval and safety data for lecanemab/donanemab]. No pharmacological agent has demonstrated robust, durable improvement in global cognition or funct"
+    },
+    {
+      "marker": "[CITATION NEEDED: Hallett rTMS mechanisms review]",
+      "topic": "Hallett rTMS mechanisms review",
+      "context": "Hz) generally increases cortical excitability, while low-frequency protocols (≤1 Hz) are inhibitory [CITATION NEEDED: Hallett rTMS mechanisms review]. Theta-burst stimulation (TBS), a patterned variant of rTMS, delivers bursts at theta frequency (5 "
+    },
+    {
+      "marker": "[CITATION NEEDED: Huang et al. TBS original characterisation]",
+      "topic": "Huang et al. TBS original characterisation",
+      "context": "ter treatment durations; intermittent TBS (iTBS) is excitatory and continuous TBS (cTBS) inhibitory [CITATION NEEDED: Huang et al. TBS original characterisation]. Deep rTMS using H-coils extends the stimulation field to deeper cortical and limbic structures, po"
+    },
+    {
+      "marker": "[CITATION NEEDED: deep rTMS H-coil penetration depth studies]",
+      "topic": "deep rTMS H-coil penetration depth studies",
+      "context": "es, potentially engaging hippocampal circuits more directly than conventional figure-of-eight coils [CITATION NEEDED: deep rTMS H-coil penetration depth studies]. tDCS applies weak, constant direct current (typically 1–2 mA) via scalp electrodes, with anodal st"
+    },
+    {
+      "marker": "[CITATION NEEDED: Nitsche and Paulus tDCS mechanism original papers]",
+      "topic": "Nitsche and Paulus tDCS mechanism original papers",
+      "context": "thodal stimulation decreasing neuronal firing thresholds through subthreshold membrane polarisation [CITATION NEEDED: Nitsche and Paulus tDCS mechanism original papers]. High-definition tDCS (HD-tDCS) uses smaller, focally arranged electrodes to improve spatial precis"
+    },
+    {
+      "marker": "[CITATION NEEDED: gamma oscillation deficits in AD and 40 Hz tACS rationale]",
+      "topic": "gamma oscillation deficits in AD and 40 Hz tACS rationale",
+      "context": "terest for its potential to restore pathologically reduced gamma oscillations observed in AD cortex [CITATION NEEDED: gamma oscillation deficits in AD and 40 Hz tACS rationale].  The theoretical rationale for NIBS in MCI and early AD is grounded in the neuroscience of synapti"
+    },
+    {
+      "marker": "[CITATION NEEDED: AD network dysfunction neuroimaging reviews]",
+      "topic": "AD network dysfunction neuroimaging reviews",
+      "context": "unctional networks including the default mode network and the hippocampal-entorhinal memory circuit [CITATION NEEDED: AD network dysfunction neuroimaging reviews]. NIBS protocols targeting the dorsolateral prefrontal cortex (DLPFC), left or bilateral parietal co"
+    },
+    {
+      "marker": "[CITATION NEEDED: NIBS target site rationale in cognitive disorders]",
+      "topic": "NIBS target site rationale in cognitive disorders",
+      "context": "cacy, enhance cholinergic tone, and restore functional connectivity within memory-relevant networks [CITATION NEEDED: NIBS target site rationale in cognitive disorders]. Neuronavigation-guided stimulation, increasingly employed in recent trials, allows individualised "
+    },
+    {
+      "marker": "[CITATION NEEDED: neuronavigated TMS in cognitive research]",
+      "topic": "neuronavigated TMS in cognitive research",
+      "context": "g based on structural or functional MRI, potentially improving both precision and therapeutic yield [CITATION NEEDED: neuronavigated TMS in cognitive research]. The combination of NIBS with concurrent cognitive training has also emerged as a promising strateg"
+    },
+    {
+      "marker": "[CITATION NEEDED: NIBS combined with cognitive training synergy evidence]",
+      "topic": "NIBS combined with cognitive training synergy evidence",
+      "context": "ple that stimulation-induced plasticity is amplified when paired with task-relevant neural activity [CITATION NEEDED: NIBS combined with cognitive training synergy evidence].  ---  ### Existing Evidence and Its Limitations  The past decade has witnessed a rapid accumulatio"
+    },
+    {
+      "marker": "[CITATION NEEDED: early meta-analyses of rTMS/tDCS in AD and MCI, e.g., Hsu et al., Tatti et al., Nguyen et al.]",
+      "topic": "early meta-analyses of rTMS/tDCS in AD and MCI, e.g., Hsu et al., Tatti et al., Nguyen et al.",
+      "context": "MS and tDCS on global cognition and memory, with pooled effect sizes in the small-to-moderate range [CITATION NEEDED: early meta-analyses of rTMS/tDCS in AD and MCI, e.g., Hsu et al., Tatti et al., Nguyen et al.]. More recent syntheses have extended these findings to specific cognitive domains including working"
+    },
+    {
+      "marker": "[CITATION NEEDED: recent NIBS meta-analyses 2021–2024]",
+      "topic": "recent NIBS meta-analyses 2021–2024",
+      "context": "on, and language, and have begun to examine neuropsychiatric outcomes such as apathy and depression [CITATION NEEDED: recent NIBS meta-analyses 2021–2024].  Despite this growing body of evidence, prior reviews are limited by several important methodologi"
+    },
+    {
+      "marker": "[CITATION NEEDED: single-modality NIBS reviews]",
+      "topic": "single-modality NIBS reviews",
+      "context": "sons and a comprehensive understanding of the relative efficacy of different stimulation approaches [CITATION NEEDED: single-modality NIBS reviews]. Second, many reviews have conflated MCI and AD populations, or have included moderate-to-severe de"
+    },
+    {
+      "marker": "[CITATION NEEDED: publication bias concerns in NIBS literature]",
+      "topic": "publication bias concerns in NIBS literature",
+      "context": "stematically evaluated across the full spectrum of NIBS modalities and outcomes in any prior review [CITATION NEEDED: publication bias concerns in NIBS literature].  ---  ### Knowledge Gap and Objectives  The convergence of an expanding trial base, the emergence "
+    },
+    {
+      "marker": "[CITATION NEEDED: PROSPERO registration number if applicable]",
+      "topic": "PROSPERO registration number if applicable",
+      "context": "date, and is intended to inform both clinical practice and the design of future large-scale trials. [CITATION NEEDED: PROSPERO registration number if applicable]  ---  # METHODS  # 2. Methods  ### 2.1 Protocol and Registration  We prospectively registered this "
+    },
+    {
+      "marker": "[CITATION NEEDED: Page MJ et al., PRISMA 2020 statement, BMJ 2021]",
+      "topic": "Page MJ et al., PRISMA 2020 statement, BMJ 2021",
+      "context": "with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement [CITATION NEEDED: Page MJ et al., PRISMA 2020 statement, BMJ 2021] and the Cochrane Handbook for Systematic Reviews of Interventions v6.3 [CITATION NEEDED: Higgins JP"
+    },
+    {
+      "marker": "[CITATION NEEDED: Higgins JPT et al., Cochrane Handbook v6.3]",
+      "topic": "Higgins JPT et al., Cochrane Handbook v6.3",
+      "context": "MA 2020 statement, BMJ 2021] and the Cochrane Handbook for Systematic Reviews of Interventions v6.3 [CITATION NEEDED: Higgins JPT et al., Cochrane Handbook v6.3]. No post-registration deviations from the prespecified protocol were made. [CONFIDENCE: medium]  --"
+    },
+    {
+      "marker": "[CITATION NEEDED: Petersen RC, MCI diagnostic criteria]",
+      "topic": "Petersen RC, MCI diagnostic criteria",
+      "context": " National Institute on Aging–Alzheimer's Association [NIA-AA] criteria, DSM-5, or Petersen criteria [CITATION NEEDED: Petersen RC, MCI diagnostic criteria]). We excluded studies enrolling healthy controls without a concurrent MCI or AD arm, individuals wi"
+    },
+    {
+      "marker": "[CITATION NEEDED: WHO ICTRP URL]",
+      "topic": "WHO ICTRP URL",
+      "context": " we searched ClinicalTrials.gov and the WHO International Clinical Trials Registry Platform (ICTRP) [CITATION NEEDED: WHO ICTRP URL]. We additionally screened the reference lists of all included full-text articles and of relevant pr"
+    },
+    {
+      "marker": "[CITATION NEEDED: Cohen J, 1960, κ statistic]",
+      "topic": "Cohen J, 1960, κ statistic",
+      "context": "as arbiter. Inter-rater reliability for title and abstract screening was quantified using Cohen's κ [CITATION NEEDED: Cohen J, 1960, κ statistic]. Records passing title and abstract screening were retrieved in full text and assessed independentl"
+    },
+    {
+      "marker": "[CITATION NEEDED: Sterne JAC et al., RoB 2 tool, BMJ 2019]",
+      "topic": "Sterne JAC et al., RoB 2 tool, BMJ 2019",
+      "context": " all included RCTs and randomised crossover trials using the Cochrane Risk of Bias 2.0 tool (RoB 2) [CITATION NEEDED: Sterne JAC et al., RoB 2 tool, BMJ 2019], which evaluates five domains: (1) bias arising from the randomisation process; (2) bias due to dev"
+    },
+    {
+      "marker": "[CITATION NEEDED: Sterne JA et al., ROBINS-I, BMJ 2016]",
+      "topic": "Sterne JA et al., ROBINS-I, BMJ 2016",
+      "context": "ed designs), we applied the Risk Of Bias In Non-randomised Studies of Interventions (ROBINS-I) tool [CITATION NEEDED: Sterne JA et al., ROBINS-I, BMJ 2016]. Each domain was rated as low risk, some concerns, or high risk, and an overall RoB judgement was a"
+    },
+    {
+      "marker": "[CITATION NEEDED: Egger M et al., BMJ 1997]",
+      "topic": "Egger M et al., BMJ 1997",
+      "context": "ias.** We assessed small-study effects and potential publication bias using Egger's regression test [CITATION NEEDED: Egger M et al., BMJ 1997] and visual inspection of funnel plot asymmetry (Figure 3) for any outcome with k≥10 studies, as rec"
+    },
+    {
+      "marker": "[CITATION NEEDED: Duval S & Tweedie R, trim-and-fill, 2000]",
+      "topic": "Duval S & Tweedie R, trim-and-fill, 2000",
+      "context": "ome with k≥10 studies, as recommended by the Cochrane Handbook. We applied the trim-and-fill method [CITATION NEEDED: Duval S & Tweedie R, trim-and-fill, 2000] to estimate the number of potentially missing studies and to generate a bias-adjusted pooled estima"
+    },
+    {
+      "marker": "[CITATION NEEDED: pre-specified subgroup analysis plan from PROSPERO registration]",
+      "topic": "pre-specified subgroup analysis plan from PROSPERO registration",
+      "context": "ed). Results of subgroup analyses are presented alongside the primary forest plots in **Figure 2**. [CITATION NEEDED: pre-specified subgroup analysis plan from PROSPERO registration] [CONFIDENCE: medium]  ## 3.6 Sensitivity Analyses  Sensitivity analyses were conducted by restricti"
+    },
+    {
+      "marker": "[CITATION NEEDED: Egger's test statistics and trim-and-fill results from the analysis pipeline]",
+      "topic": "Egger's test statistics and trim-and-fill results from the analysis pipeline",
+      "context": "el plots for the primary outcomes (MMSE, MoCA, ADAS-Cog, and memory) are presented in **Figure 3**. [CITATION NEEDED: Egger's test statistics and trim-and-fill results from the analysis pipeline] The considerable heterogeneity observed across most outcomes (I²=49.6%–85.7%) complicates the inter"
+    },
+    {
+      "marker": "[CITATION NEEDED: prior meta-analysis of rTMS in Alzheimer's disease]",
+      "topic": "prior meta-analysis of rTMS in Alzheimer's disease",
+      "context": "TMS in AD reported standardised mean differences in the range of 0.5–0.8 on global cognition scales [CITATION NEEDED: prior meta-analysis of rTMS in Alzheimer's disease], while tDCS-specific reviews have reported smaller effects, typically in the range of 0.3–0.5 [CITA"
+    },
+    {
+      "marker": "[CITATION NEEDED: prior meta-analysis of tDCS in MCI and AD]",
+      "topic": "prior meta-analysis of tDCS in MCI and AD",
+      "context": "ease], while tDCS-specific reviews have reported smaller effects, typically in the range of 0.3–0.5 [CITATION NEEDED: prior meta-analysis of tDCS in MCI and AD]. The somewhat larger estimates in the present review may reflect several factors: our broader inclu"
+    },
+    {
+      "marker": "[CITATION NEEDED: meta-analysis reporting ADAS-Cog improvement with NIBS]",
+      "topic": "meta-analysis reporting ADAS-Cog improvement with NIBS",
+      "context": "ADAS-Cog contrasts with some prior reviews that reported modest positive effects on this instrument [CITATION NEEDED: meta-analysis reporting ADAS-Cog improvement with NIBS]. However, the extreme heterogeneity in our ADAS-Cog analysis (I²=85.7%) and the wide confidence int"
+    },
+    {
+      "marker": "[CITATION NEEDED: systematic review of domain-specific NIBS effects in MCI/AD]",
+      "topic": "systematic review of domain-specific NIBS effects in MCI/AD",
+      "context": " and less consistent effects on higher-order executive processes and real-world functional capacity [CITATION NEEDED: systematic review of domain-specific NIBS effects in MCI/AD]. [CONFIDENCE: medium]  ---  ### 4.3 Possible Mechanisms  The theoretical basis for NIBS-induced cog"
+    },
+    {
+      "marker": "[CITATION NEEDED: mechanistic review of rTMS and LTP in human cortex]",
+      "topic": "mechanistic review of rTMS and LTP in human cortex",
+      "context": "excitability and promote long-term potentiation (LTP)-like synaptic plasticity in targeted networks [CITATION NEEDED: mechanistic review of rTMS and LTP in human cortex]. In the context of early AD pathology, where synaptic loss and cholinergic denervation precede fran"
+    },
+    {
+      "marker": "[CITATION NEEDED: synaptic plasticity window in early AD neuropathology]",
+      "topic": "synaptic plasticity window in early AD neuropathology",
+      "context": "icity-based enhancement — a window that narrows as disease progresses to moderate and severe stages [CITATION NEEDED: synaptic plasticity window in early AD neuropathology].  The preferential benefit observed for memory is mechanistically coherent: the most commonly targe"
+    },
+    {
+      "marker": "[CITATION NEEDED: functional connectivity of DLPFC-hippocampal memory network]",
+      "topic": "functional connectivity of DLPFC-hippocampal memory network",
+      "context": " and the parietal-hippocampal network, both of which are central to episodic encoding and retrieval [CITATION NEEDED: functional connectivity of DLPFC-hippocampal memory network]. Stimulation of the DLPFC may enhance top-down modulation of hippocampal encoding via cortico-limbi"
+    },
+    {
+      "marker": "[CITATION NEEDED: gamma tACS and neural oscillation entrainment in AD]",
+      "topic": "gamma tACS and neural oscillation entrainment in AD",
+      "context": " of endogenous gamma oscillations that are disrupted in AD, potentially restoring network synchrony [CITATION NEEDED: gamma tACS and neural oscillation entrainment in AD]. The convergence of multiple modalities on similar effect sizes for memory suggests that LTP-like p"
+    },
+    {
+      "marker": "[CITATION NEEDED: blinding adequacy and sham credibility in rTMS and tDCS trials]",
+      "topic": "blinding adequacy and sham credibility in rTMS and tDCS trials",
+      "context": "ticipants may detect active stimulation through scalp sensations, potentially unblinding allocation [CITATION NEEDED: blinding adequacy and sham credibility in rTMS and tDCS trials]. This concern applies across all modalities included in this review.  **Language and publication bi"
+    },
+    {
+      "marker": "[CITATION NEEDED: effect size of cholinesterase inhibitors on MMSE in AD]",
+      "topic": "effect size of cholinesterase inhibitors on MMSE in AD",
+      "context": "mine) produce MMSE improvements of approximately 1–3 points over 6–12 months in mild-to-moderate AD [CITATION NEEDED: effect size of cholinesterase inhibitors on MMSE in AD], corresponding to standardised effect sizes in the range of 0.2–0.4 — smaller than the NIBS effects"
+    },
+    {
+      "marker": "[CITATION NEEDED: CONSORT extension for non-pharmacological interventions]",
+      "topic": "CONSORT extension for non-pharmacological interventions",
+      "context": " number — ideally through international expert panels producing protocol standardisation guidelines [CITATION NEEDED: CONSORT extension for non-pharmacological interventions]. The session range of 1 to 180 observed in this review [STAT_REF: session_range] is clinically unte"
+    },
+    {
+      "marker": "[CITATION NEEDED: Page MJ et al., PRISMA 2020 statement, BMJ 2021]",
+      "topic": "Page MJ et al., PRISMA 2020 statement, BMJ 2021",
+      "context": "with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement [CITATION NEEDED: Page MJ et al., PRISMA 2020 statement, BMJ 2021] and the Cochrane Handbook for Systematic Reviews of Interventions v6.3 [CITATION NEEDED: Higgins JP"
+    },
+    {
+      "marker": "[CITATION NEEDED: Higgins JPT et al., Cochrane Handbook v6.3]",
+      "topic": "Higgins JPT et al., Cochrane Handbook v6.3",
+      "context": "MA 2020 statement, BMJ 2021] and the Cochrane Handbook for Systematic Reviews of Interventions v6.3 [CITATION NEEDED: Higgins JPT et al., Cochrane Handbook v6.3]. No post-registration deviations from the prespecified protocol were made. [CONFIDENCE: medium]  --"
+    },
+    {
+      "marker": "[CITATION NEEDED: Petersen RC, MCI diagnostic criteria]",
+      "topic": "Petersen RC, MCI diagnostic criteria",
+      "context": " National Institute on Aging–Alzheimer's Association [NIA-AA] criteria, DSM-5, or Petersen criteria [CITATION NEEDED: Petersen RC, MCI diagnostic criteria]). We excluded studies enrolling healthy controls without a concurrent MCI or AD arm, individuals wi"
+    },
+    {
+      "marker": "[CITATION NEEDED: WHO ICTRP URL]",
+      "topic": "WHO ICTRP URL",
+      "context": " we searched ClinicalTrials.gov and the WHO International Clinical Trials Registry Platform (ICTRP) [CITATION NEEDED: WHO ICTRP URL]. We additionally screened the reference lists of all included full-text articles and of relevant pr"
+    },
+    {
+      "marker": "[CITATION NEEDED: Cohen J, 1960, κ statistic]",
+      "topic": "Cohen J, 1960, κ statistic",
+      "context": "as arbiter. Inter-rater reliability for title and abstract screening was quantified using Cohen's κ [CITATION NEEDED: Cohen J, 1960, κ statistic]. Records passing title and abstract screening were retrieved in full text and assessed independentl"
+    },
+    {
+      "marker": "[CITATION NEEDED: Sterne JAC et al., RoB 2 tool, BMJ 2019]",
+      "topic": "Sterne JAC et al., RoB 2 tool, BMJ 2019",
+      "context": " all included RCTs and randomised crossover trials using the Cochrane Risk of Bias 2.0 tool (RoB 2) [CITATION NEEDED: Sterne JAC et al., RoB 2 tool, BMJ 2019], which evaluates five domains: (1) bias arising from the randomisation process; (2) bias due to dev"
+    },
+    {
+      "marker": "[CITATION NEEDED: Sterne JA et al., ROBINS-I, BMJ 2016]",
+      "topic": "Sterne JA et al., ROBINS-I, BMJ 2016",
+      "context": "ed designs), we applied the Risk Of Bias In Non-randomised Studies of Interventions (ROBINS-I) tool [CITATION NEEDED: Sterne JA et al., ROBINS-I, BMJ 2016]. Each domain was rated as low risk, some concerns, or high risk, and an overall RoB judgement was a"
+    },
+    {
+      "marker": "[CITATION NEEDED: Egger M et al., BMJ 1997]",
+      "topic": "Egger M et al., BMJ 1997",
+      "context": "ias.** We assessed small-study effects and potential publication bias using Egger's regression test [CITATION NEEDED: Egger M et al., BMJ 1997] and visual inspection of funnel plot asymmetry (Figure 3) for any outcome with k≥10 studies, as rec"
+    },
+    {
+      "marker": "[CITATION NEEDED: Duval S & Tweedie R, trim-and-fill, 2000]",
+      "topic": "Duval S & Tweedie R, trim-and-fill, 2000",
+      "context": "ome with k≥10 studies, as recommended by the Cochrane Handbook. We applied the trim-and-fill method [CITATION NEEDED: Duval S & Tweedie R, trim-and-fill, 2000] to estimate the number of potentially missing studies and to generate a bias-adjusted pooled estima"
+    },
+    {
+      "marker": "[CITATION NEEDED: pre-specified subgroup analysis plan from PROSPERO registration]",
+      "topic": "pre-specified subgroup analysis plan from PROSPERO registration",
+      "context": "ed). Results of subgroup analyses are presented alongside the primary forest plots in **Figure 2**. [CITATION NEEDED: pre-specified subgroup analysis plan from PROSPERO registration] [CONFIDENCE: medium]  ## 3.6 Sensitivity Analyses  Sensitivity analyses were conducted by restricti"
+    },
+    {
+      "marker": "[CITATION NEEDED: Egger's test statistics and trim-and-fill results from the analysis pipeline]",
+      "topic": "Egger's test statistics and trim-and-fill results from the analysis pipeline",
+      "context": "el plots for the primary outcomes (MMSE, MoCA, ADAS-Cog, and memory) are presented in **Figure 3**. [CITATION NEEDED: Egger's test statistics and trim-and-fill results from the analysis pipeline] The considerable heterogeneity observed across most outcomes (I²=49.6%–85.7%) complicates the inter"
+    },
+    {
+      "marker": "[CITATION NEEDED]",
+      "topic": "",
+      "context": "fere significantly with daily functioning, affects approximately 15-20% of adults aged 65 and older [CITATION NEEDED]. Among individuals with MCI, particularly amnestic MCI (aMCI), the annual conversion rate to dement"
+    },
+    {
+      "marker": "[CITATION NEEDED]",
+      "topic": "",
+      "context": "th MCI, particularly amnestic MCI (aMCI), the annual conversion rate to dementia ranges from 10-15% [CITATION NEEDED]. Mild AD, the earliest symptomatic stage of Alzheimer's disease, represents the progression from MC"
+    },
+    {
+      "marker": "[CITATION NEEDED]",
+      "topic": "",
+      "context": "findings of this review [align with/contrast with/extend] previous systematic reviews in this field [CITATION NEEDED]. [Comparison with specific previous meta-analyses and their findings would require citations]. The "
+    }
+  ]
+}

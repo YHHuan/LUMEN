@@ -1,0 +1,1263 @@
+{
+  "total": 186,
+  "complete_outcomes": 24,
+  "with_issues": 162,
+  "issues_detail": [
+    {
+      "study_id": "PMID_41013466",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_39604076",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40658276",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_41414714",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40984052",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40736330",
+      "issues": [
+        "Missing total N",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_40801847",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for adverse events",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_40305881",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40838395",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_39755599",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_40336555",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40004217",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_39138281",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40500659",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40746364",
+      "issues": [
+        "No effect data for MoCA",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_38804028",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for Visual recognition task (reaction time)"
+      ]
+    },
+    {
+      "study_id": "PMID_38056370",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for adverse events",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_38310304",
+      "issues": [
+        "No effect data for MoCA",
+        "No effect data for QoL-AD"
+      ]
+    },
+    {
+      "study_id": "PMID_39863318",
+      "issues": [
+        "Missing total N",
+        "Missing intervention type",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_36834642",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40125804",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_37534626",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_41199470",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_41258002",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_39336854",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40176122",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for ADCS-ADL",
+        "No effect data for NPI"
+      ]
+    },
+    {
+      "study_id": "PMID_38365761",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40756002",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_37156876",
+      "issues": [
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_38908485",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_37608981",
+      "issues": [
+        "No effect data for MoCA",
+        "No effect data for MQ",
+        "No effect data for Stroop test color",
+        "No effect data for Sustained attention time"
+      ]
+    },
+    {
+      "study_id": "PMID_38105601",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_37744398",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_39267112",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_38944654",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_35134853",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_38414493",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_35594397",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for adverse events",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_33762220",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_37615489",
+      "issues": [
+        "Missing total N",
+        "Missing intervention type",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_37872457",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_31790015",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_35068464",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_39269839",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_40443505",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_33957292",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_38503484",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_34752934",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for adverse events",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_39845447",
+      "issues": [
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_34924374",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_34200847",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_35625731",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_38427493",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_30395314",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA",
+        "No effect data for adverse events",
+        "No effect data for headache"
+      ]
+    },
+    {
+      "study_id": "PMID_38287520",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_38360452",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "PMID_40312071",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_38709534",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_37601952",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "PMID_34602464",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_34388179",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "PMID_38155843",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_39324544",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_36623419",
+      "issues": [
+        "No effect data for MoCA",
+        "No effect data for NPI"
+      ]
+    },
+    {
+      "study_id": "PMID_33935089",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_35607946",
+      "issues": [
+        "Missing total N",
+        "No effect data for RAVLT immediate recall",
+        "No effect data for RAVLT delayed recall",
+        "No effect data for FNAT"
+      ]
+    },
+    {
+      "study_id": "PMID_38970141",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_40878312",
+      "issues": [
+        "No effect data for MoCA",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_36281767",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for ADCS-ADL"
+      ]
+    },
+    {
+      "study_id": "PMID_35339351",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_33063732",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_34751749",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_31127779",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for GDS"
+      ]
+    },
+    {
+      "study_id": "PMID_36125835",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADL"
+      ]
+    },
+    {
+      "study_id": "PMID_36942495",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_32280093",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_36660288",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA",
+        "No effect data for adverse events"
+      ]
+    },
+    {
+      "study_id": "PMID_35700915",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_36137949",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for MBI"
+      ]
+    },
+    {
+      "study_id": "PMID_29331848",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_35839637",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_34762980",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for ADL",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_34366347",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_28637840",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for adverse events",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_36313021",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_26160997",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_32437690",
+      "issues": [
+        "No effect data for MoCA",
+        "No effect data for TMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_34764150",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for adverse events",
+        "No effect data for headache",
+        "No effect data for scalp discomfort"
+      ]
+    },
+    {
+      "study_id": "PMID_25449530",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_27903289",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "EPMC_PMC12782143",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_33679572",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_31196835",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_33610772",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for NPI",
+        "No effect data for GDS"
+      ]
+    },
+    {
+      "study_id": "PMID_36704634",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_31609693",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA",
+        "No effect data for memory"
+      ]
+    },
+    {
+      "study_id": "PMID_30940012",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "PMID_35370614",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_32925060",
+      "issues": [
+        "Missing intervention type",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "PMID_34267648",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_26401945",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADAS-Cog",
+        "No effect data for ST-W"
+      ]
+    },
+    {
+      "study_id": "PMID_36098440",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for ADCS-ADL"
+      ]
+    },
+    {
+      "study_id": "PMID_35478169",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "PMID_22514525",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for memory"
+      ]
+    },
+    {
+      "study_id": "PMID_25346688",
+      "issues": [
+        "Missing total N",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "PMID_18977813",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for VRM",
+        "No effect data for Stroop"
+      ]
+    },
+    {
+      "study_id": "PMID_24678298",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "SCOPUS_2-s2.0-105029980285",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for GDS"
+      ]
+    },
+    {
+      "study_id": "SCOPUS_2-s2.0-85214924861",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "SCOPUS_2-s2.0-85083859922",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_7",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_111",
+      "issues": [
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_230",
+      "issues": [
+        "No effect data for GDS",
+        "No effect data for NPI",
+        "No effect data for ZBI"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_242",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_259",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA",
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_307",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_323",
+      "issues": [
+        "No effect data for MoCA",
+        "No effect data for memory"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_357",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_366",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_382",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_383",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_406",
+      "issues": [
+        "Missing total N",
+        "Missing intervention type",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_415",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADL"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_417",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_418",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for IADL"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_466",
+      "issues": [
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_558",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_572",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_589",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_598",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_605",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_614",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_617",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for ADCS-ADL"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_694",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_695",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_697",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADL"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_708",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_711",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_716",
+      "issues": [
+        "Missing total N",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_726",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_735",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for ADCS-ADL"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_744",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_cochrane_749",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for NPI",
+        "No effect data for ADL"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1-500_415",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1001-1500_224",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1001-1500_279",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA",
+        "No effect data for NPI"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1001-1500_412",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1001-1500_468",
+      "issues": [
+        "Missing total N",
+        "Missing intervention type",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1501-2000_0",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1501-2000_119",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1501-2000_120",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for memory"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1501-2000_438",
+      "issues": [
+        "No effect data for MMSE"
+      ]
+    },
+    {
+      "study_id": "RIS_records 1501-2000_467",
+      "issues": [
+        "Missing total N",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_records 2001-2495_199",
+      "issues": [
+        "No effect data for adverse events",
+        "No effect data for dropout rate"
+      ]
+    },
+    {
+      "study_id": "RIS_records 2001-2495_217",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_records 501-1000_22",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_records 501-1000_66",
+      "issues": [
+        "No effect data for ADAS-Cog",
+        "No effect data for MMSE",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_records 501-1000_155",
+      "issues": [
+        "No effect data for ADAS-Cog"
+      ]
+    },
+    {
+      "study_id": "RIS_records 501-1000_298",
+      "issues": [
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_records 501-1000_302",
+      "issues": [
+        "Missing total N",
+        "No outcomes extracted"
+      ]
+    },
+    {
+      "study_id": "RIS_records 501-1000_339",
+      "issues": [
+        "No effect data for MMSE",
+        "No effect data for ADAS-Cog",
+        "No effect data for MoCA"
+      ]
+    },
+    {
+      "study_id": "RIS_records 501-1000_455",
+      "issues": [
+        "Missing total N",
+        "No effect data for ADAS-Cog",
+        "No effect data for NPI"
+      ]
+    }
+  ]
+}

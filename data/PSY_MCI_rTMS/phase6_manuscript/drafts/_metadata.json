@@ -1,0 +1,72 @@
+{
+  "title.txt": {
+    "updated_at": "2026-02-20T22:19:59.376873",
+    "size_bytes": 179,
+    "record_count": 1
+  },
+  "abstract.txt": {
+    "updated_at": "2026-02-20T22:20:10.667585",
+    "size_bytes": 2382,
+    "record_count": 1
+  },
+  "introduction.txt": {
+    "updated_at": "2026-02-20T22:20:28.049129",
+    "size_bytes": 3930,
+    "record_count": 1
+  },
+  "methods.txt": {
+    "updated_at": "2026-02-20T22:20:55.526600",
+    "size_bytes": 7264,
+    "record_count": 1
+  },
+  "results.txt": {
+    "updated_at": "2026-02-20T22:21:50.347442",
+    "size_bytes": 9783,
+    "record_count": 1
+  },
+  "discussion.txt": {
+    "updated_at": "2026-02-20T22:22:06.656654",
+    "size_bytes": 3338,
+    "record_count": 1
+  },
+  "round1_initial.md": {
+    "updated_at": "2026-02-20T22:22:06.680832",
+    "size_bytes": 26959,
+    "record_count": 1
+  },
+  "title.md": {
+    "updated_at": "2026-03-15T18:45:45.563298",
+    "size_bytes": 129,
+    "record_count": 1
+  },
+  "abstract.md": {
+    "updated_at": "2026-03-15T18:46:04.979107",
+    "size_bytes": 3535,
+    "record_count": 1
+  },
+  "introduction.md": {
+    "updated_at": "2026-03-15T18:46:58.849502",
+    "size_bytes": 11435,
+    "record_count": 1
+  },
+  "methods.md": {
+    "updated_at": "2026-03-15T18:48:06.814253",
+    "size_bytes": 15171,
+    "record_count": 1
+  },
+  "results.md": {
+    "updated_at": "2026-03-15T18:49:01.856834",
+    "size_bytes": 12417,
+    "record_count": 1
+  },
+  "discussion.md": {
+    "updated_at": "2026-03-15T18:50:25.000314",
+    "size_bytes": 16028,
+    "record_count": 1
+  },
+  "manuscript_draft.md": {
+    "updated_at": "2026-03-15T18:50:25.050064",
+    "size_bytes": 58823,
+    "record_count": 1
+  }
+}

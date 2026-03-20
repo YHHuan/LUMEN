@@ -1,0 +1,361 @@
+{
+  "mesh_terms": {
+    "population": [
+      "Cognitive Dysfunction",
+      "Mild Cognitive Impairment",
+      "Alzheimer Disease"
+    ],
+    "intervention": [
+      "Transcranial Magnetic Stimulation",
+      "Transcranial Direct Current Stimulation"
+    ]
+  },
+  "free_text_terms": {
+    "population": [
+      {
+        "term": "mild cognitive impairment",
+        "scope": "specific"
+      },
+      {
+        "term": "MCI",
+        "scope": "specific"
+      },
+      {
+        "term": "amnestic MCI",
+        "scope": "specific"
+      },
+      {
+        "term": "aMCI",
+        "scope": "specific"
+      },
+      {
+        "term": "nonamnestic MCI",
+        "scope": "specific"
+      },
+      {
+        "term": "non-amnestic MCI",
+        "scope": "specific"
+      },
+      {
+        "term": "naMCI",
+        "scope": "specific"
+      },
+      {
+        "term": "prodromal dementia",
+        "scope": "specific"
+      },
+      {
+        "term": "pre-dementia",
+        "scope": "specific"
+      },
+      {
+        "term": "predementia",
+        "scope": "specific"
+      },
+      {
+        "term": "cognitive impairment",
+        "scope": "broad"
+      },
+      {
+        "term": "cognitive decline",
+        "scope": "broad"
+      },
+      {
+        "term": "memory loss",
+        "scope": "broad"
+      },
+      {
+        "term": "Alzheimer's disease",
+        "scope": "specific"
+      },
+      {
+        "term": "Alzheimer disease",
+        "scope": "specific"
+      },
+      {
+        "term": "Alzheimers disease",
+        "scope": "specific"
+      },
+      {
+        "term": "early Alzheimer",
+        "scope": "specific"
+      },
+      {
+        "term": "mild Alzheimer",
+        "scope": "specific"
+      },
+      {
+        "term": "early stage Alzheimer",
+        "scope": "specific"
+      },
+      {
+        "term": "prodromal Alzheimer",
+        "scope": "specific"
+      },
+      {
+        "term": "probable Alzheimer",
+        "scope": "specific"
+      },
+      {
+        "term": "dementia",
+        "scope": "broad"
+      }
+    ],
+    "intervention": [
+      {
+        "term": "non-invasive brain stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "noninvasive brain stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "NIBS",
+        "scope": "specific"
+      },
+      {
+        "term": "brain stimulation",
+        "scope": "broad"
+      },
+      {
+        "term": "neurostimulation",
+        "scope": "broad"
+      },
+      {
+        "term": "neuromodulation",
+        "scope": "broad"
+      },
+      {
+        "term": "transcranial magnetic stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "TMS",
+        "scope": "specific"
+      },
+      {
+        "term": "repetitive TMS",
+        "scope": "specific"
+      },
+      {
+        "term": "rTMS",
+        "scope": "specific"
+      },
+      {
+        "term": "intermittent theta burst stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "iTBS",
+        "scope": "specific"
+      },
+      {
+        "term": "continuous theta burst stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "cTBS",
+        "scope": "specific"
+      },
+      {
+        "term": "theta-burst stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "transcranial direct current stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "tDCS",
+        "scope": "specific"
+      },
+      {
+        "term": "transcranial alternating current stimulation",
+        "scope": "specific"
+      },
+      {
+        "term": "tACS",
+        "scope": "specific"
+      }
+    ]
+  },
+  "prescreen_exclusion_keywords": [
+    "rat",
+    "rats",
+    "mouse",
+    "mice",
+    "murine",
+    "animal",
+    "animal model",
+    "canine",
+    "feline",
+    "bovine",
+    "review",
+    "meta-analysis",
+    "systematic review",
+    "scoping review",
+    "narrative review",
+    "protocol",
+    "editorial",
+    "commentary",
+    "letter",
+    "erratum",
+    "case report",
+    "case series",
+    "in vitro",
+    "ex vivo",
+    "cell culture",
+    "post-mortem",
+    "postmortem",
+    "cadaver",
+    "computational model",
+    "simulation",
+    "deep brain stimulation",
+    "DBS",
+    "vagus nerve stimulation",
+    "VNS",
+    "electroconvulsive therapy",
+    "ECT"
+  ],
+  "inclusion_criteria": [
+    "Population: Adults (≥18 years) with a formal diagnosis of Mild Cognitive Impairment (any subtype) or mild/early-stage Alzheimer's Disease, according to established criteria (e.g., NIA-AA, DSM-5, Petersen).",
+    "Intervention: Application of a non-invasive brain stimulation technique, including repetitive Transcranial Magnetic Stimulation (rTMS, iTBS, cTBS), transcranial Direct Current Stimulation (tDCS), or transcranial Alternating Current Stimulation (tACS).",
+    "Comparison: Sham stimulation, no intervention, usual care, waiting list, or an active control group (e.g., different NIBS parameters).",
+    "Outcomes: At least one primary or secondary outcome of interest is reported (e.g., global cognition, safety, ADLs, neuropsychiatric symptoms).",
+    "Study Design: Randomized Controlled Trial (RCT), Controlled Clinical Trial (CCT), or randomized crossover trial with an adequate washout period.",
+    "Publication Date: Published between January 1, 2000 and December 31, 2025.",
+    "Language: Full text available in English or Chinese."
+  ],
+  "exclusion_criteria": [
+    "Population: Healthy controls, subjective cognitive decline without MCI diagnosis, moderate-to-severe dementia, or other dementia etiologies (e.g., vascular, frontotemporal, Lewy body).",
+    "Intervention: Invasive stimulation (e.g., DBS, VNS), electroconvulsive therapy (ECT), or studies where the effect of NIBS cannot be isolated from a concurrent active intervention (e.g., NIBS + cognitive training vs. cognitive training alone).",
+    "Study Design: Non-controlled trials, observational studies, case reports/series, reviews, meta-analyses, protocols, conference abstracts, or animal/in-vitro studies.",
+    "Population: Studies exclusively on pediatric or adolescent populations (<18 years)."
+  ],
+  "prisma_protocol": {
+    "title": "Efficacy and Safety of Non-invasive Brain Stimulation for Mild Cognitive Impairment and Early-Stage Alzheimer's Disease: A Systematic Review and Meta-analysis of Randomized Controlled Trials",
+    "objectives": "To systematically review and synthesize evidence from randomized controlled trials on the efficacy and safety of non-invasive brain stimulation (rTMS, tDCS, tACS) for improving cognitive, functional, and neuropsychiatric outcomes in adults with Mild Cognitive Impairment or early-stage Alzheimer's Disease.",
+    "eligibility": "We will include randomized controlled trials (RCTs) and crossover trials comparing non-invasive brain stimulation (NIBS) against sham, no intervention, or active control in adults (≥18 years) with a diagnosis of MCI or mild AD. Studies must report on at least one outcome of interest, including global cognition, safety, activities of daily living, or neuropsychiatric symptoms.",
+    "information_sources": "A comprehensive search will be conducted in PubMed, Embase, Cochrane Central Register of Controlled Trials (CENTRAL), PsycINFO, and Web of Science from January 2000 onwards. Trial registries (e.g., ClinicalTrials.gov) and reference lists of included studies will also be screened.",
+    "search_strategy_description": "The search strategy will combine subject headings (e.g., MeSH, Emtree) and free-text terms for two main concepts: (1) the population (MCI, Alzheimer's Disease) and (2) the intervention (rTMS, tDCS, tACS). The search will be supplemented with a validated filter to identify randomized controlled trials.",
+    "study_selection_process": "Two reviewers will independently screen titles and abstracts, followed by full-text articles, against the predefined eligibility criteria. Disagreements will be resolved through discussion or consultation with a third reviewer. A PRISMA flow diagram will document the selection process.",
+    "data_extraction_plan": "Two reviewers will independently extract data using a standardized form. Extracted data will include study characteristics, participant demographics, intervention and comparator details (modality, parameters, duration), outcome measures, and results. Discrepancies will be resolved by consensus.",
+    "risk_of_bias_tool": "Cochrane Risk of Bias tool for randomized trials (RoB 2)",
+    "statistical_methods": "Meta-analyses will be performed using a random-effects model. For continuous outcomes, Standardized Mean Differences (SMD) or Mean Differences (MD) will be calculated. For dichotomous outcomes (e.g., adverse events), Risk Ratios (RR) will be calculated. Statistical heterogeneity will be assessed using the I² statistic. Publication bias will be explored using funnel plots and Egger's test if sufficient studies are available."
+  },
+  "subgroup_analyses": [
+    {
+      "variable": "Diagnosis",
+      "groups": [
+        "Mild Cognitive Impairment",
+        "Mild Alzheimer's Disease"
+      ]
+    },
+    {
+      "variable": "Intervention Modality",
+      "groups": [
+        "rTMS",
+        "tDCS",
+        "tACS"
+      ]
+    },
+    {
+      "variable": "rTMS Protocol",
+      "groups": [
+        "High-frequency (≥5 Hz)",
+        "Low-frequency (≤1 Hz)",
+        "Theta-burst stimulation (iTBS/cTBS)"
+      ]
+    },
+    {
+      "variable": "Stimulation Target",
+      "groups": [
+        "Dorsolateral Prefrontal Cortex (DLPFC)",
+        "Other cortical regions (e.g., parietal, temporal)"
+      ]
+    },
+    {
+      "variable": "Comparator Type",
+      "groups": [
+        "Sham stimulation",
+        "No intervention / Usual Care"
+      ]
+    }
+  ],
+  "sensitivity_analyses": [
+    "Excluding studies with a high overall risk of bias.",
+    "Excluding studies with small sample sizes (e.g., <20 participants per arm).",
+    "Leave-one-out analysis to assess the influence of individual studies on the overall effect size.",
+    "Comparing results from random-effects and fixed-effect models."
+  ],
+  "search_queries": {
+    "pubmed": "(\"Cognitive Dysfunction\"[MeSH Terms] OR \"Mild Cognitive Impairment\"[MeSH Terms] OR \"Alzheimer Disease\"[MeSH Terms] OR \"mild cognitive impairment\"[tiab] OR \"MCI\"[tiab] OR \"amnestic MCI\"[tiab] OR \"aMCI\"[tiab] OR \"nonamnestic MCI\"[tiab] OR \"non-amnestic MCI\"[tiab] OR \"naMCI\"[tiab] OR \"prodromal dementia\"[tiab] OR \"pre-dementia\"[tiab] OR \"predementia\"[tiab] OR \"cognitive impairment\"[ti] OR \"cognitive decline\"[ti] OR \"memory loss\"[ti] OR \"Alzheimer's disease\"[tiab] OR \"Alzheimer disease\"[tiab] OR \"Alzheimers disease\"[tiab] OR \"early Alzheimer\"[tiab] OR \"mild Alzheimer\"[tiab] OR \"early stage Alzheimer\"[tiab] OR \"prodromal Alzheimer\"[tiab] OR \"probable Alzheimer\"[tiab] OR \"dementia\"[ti]) AND (\"Transcranial Magnetic Stimulation\"[MeSH Terms] OR \"Transcranial Direct Current Stimulation\"[MeSH Terms] OR \"non-invasive brain stimulation\"[tiab] OR \"noninvasive brain stimulation\"[tiab] OR \"NIBS\"[tiab] OR \"brain stimulation\"[ti] OR \"neurostimulation\"[ti] OR \"neuromodulation\"[ti] OR \"transcranial magnetic stimulation\"[tiab] OR \"TMS\"[tiab] OR \"repetitive TMS\"[tiab] OR \"rTMS\"[tiab] OR \"intermittent theta burst stimulation\"[tiab] OR \"iTBS\"[tiab] OR \"continuous theta burst stimulation\"[tiab] OR \"cTBS\"[tiab] OR \"theta-burst stimulation\"[tiab] OR \"transcranial direct current stimulation\"[tiab] OR \"tDCS\"[tiab] OR \"transcranial alternating current stimulation\"[tiab] OR \"tACS\"[tiab]) AND (eng[la] OR chi[la]) AND (randomized controlled trial[pt] OR clinical trial[pt])",
+    "europepmc": "(KW:\"Cognitive Dysfunction\" OR KW:\"Mild Cognitive Impairment\" OR KW:\"Alzheimer Disease\" OR (TITLE:\"mild cognitive impairment\" OR ABSTRACT:\"mild cognitive impairment\") OR (TITLE:\"MCI\" OR ABSTRACT:\"MCI\") OR (TITLE:\"amnestic MCI\" OR ABSTRACT:\"amnestic MCI\") OR (TITLE:\"aMCI\" OR ABSTRACT:\"aMCI\") OR (TITLE:\"nonamnestic MCI\" OR ABSTRACT:\"nonamnestic MCI\") OR (TITLE:\"non-amnestic MCI\" OR ABSTRACT:\"non-amnestic MCI\") OR (TITLE:\"naMCI\" OR ABSTRACT:\"naMCI\") OR (TITLE:\"prodromal dementia\" OR ABSTRACT:\"prodromal dementia\") OR (TITLE:\"pre-dementia\" OR ABSTRACT:\"pre-dementia\") OR (TITLE:\"predementia\" OR ABSTRACT:\"predementia\") OR TITLE:\"cognitive impairment\" OR TITLE:\"cognitive decline\" OR TITLE:\"memory loss\" OR (TITLE:\"Alzheimer's disease\" OR ABSTRACT:\"Alzheimer's disease\") OR (TITLE:\"Alzheimer disease\" OR ABSTRACT:\"Alzheimer disease\") OR (TITLE:\"Alzheimers disease\" OR ABSTRACT:\"Alzheimers disease\") OR (TITLE:\"early Alzheimer\" OR ABSTRACT:\"early Alzheimer\") OR (TITLE:\"mild Alzheimer\" OR ABSTRACT:\"mild Alzheimer\") OR (TITLE:\"early stage Alzheimer\" OR ABSTRACT:\"early stage Alzheimer\") OR (TITLE:\"prodromal Alzheimer\" OR ABSTRACT:\"prodromal Alzheimer\") OR (TITLE:\"probable Alzheimer\" OR ABSTRACT:\"probable Alzheimer\") OR TITLE:\"dementia\") AND (KW:\"Transcranial Magnetic Stimulation\" OR KW:\"Transcranial Direct Current Stimulation\" OR (TITLE:\"non-invasive brain stimulation\" OR ABSTRACT:\"non-invasive brain stimulation\") OR (TITLE:\"noninvasive brain stimulation\" OR ABSTRACT:\"noninvasive brain stimulation\") OR (TITLE:\"NIBS\" OR ABSTRACT:\"NIBS\") OR TITLE:\"brain stimulation\" OR TITLE:\"neurostimulation\" OR TITLE:\"neuromodulation\" OR (TITLE:\"transcranial magnetic stimulation\" OR ABSTRACT:\"transcranial magnetic stimulation\") OR (TITLE:\"TMS\" OR ABSTRACT:\"TMS\") OR (TITLE:\"repetitive TMS\" OR ABSTRACT:\"repetitive TMS\") OR (TITLE:\"rTMS\" OR ABSTRACT:\"rTMS\") OR (TITLE:\"intermittent theta burst stimulation\" OR ABSTRACT:\"intermittent theta burst stimulation\") OR (TITLE:\"iTBS\" OR ABSTRACT:\"iTBS\") OR (TITLE:\"continuous theta burst stimulation\" OR ABSTRACT:\"continuous theta burst stimulation\") OR (TITLE:\"cTBS\" OR ABSTRACT:\"cTBS\") OR (TITLE:\"theta-burst stimulation\" OR ABSTRACT:\"theta-burst stimulation\") OR (TITLE:\"transcranial direct current stimulation\" OR ABSTRACT:\"transcranial direct current stimulation\") OR (TITLE:\"tDCS\" OR ABSTRACT:\"tDCS\") OR (TITLE:\"transcranial alternating current stimulation\" OR ABSTRACT:\"transcranial alternating current stimulation\") OR (TITLE:\"tACS\" OR ABSTRACT:\"tACS\")) AND (FIRST_PDATE:[2000-01-01 TO 2025-12-31]) AND (LANG:\"eng\" OR LANG:\"chi\")",
+    "scopus": "(KEY(\"Cognitive Dysfunction\" OR \"Mild Cognitive Impairment\" OR \"Alzheimer Disease\") OR TITLE-ABS-KEY(\"mild cognitive impairment\" OR \"MCI\" OR \"amnestic MCI\" OR \"aMCI\" OR \"nonamnestic MCI\" OR \"non-amnestic MCI\" OR \"naMCI\" OR \"prodromal dementia\" OR \"pre-dementia\" OR \"predementia\" OR \"Alzheimer's disease\" OR \"Alzheimer disease\" OR \"Alzheimers disease\" OR \"early Alzheimer\" OR \"mild Alzheimer\" OR \"early stage Alzheimer\" OR \"prodromal Alzheimer\" OR \"probable Alzheimer\") OR TITLE(\"cognitive impairment\" OR \"cognitive decline\" OR \"memory loss\" OR \"dementia\")) AND (KEY(\"Transcranial Magnetic Stimulation\" OR \"Transcranial Direct Current Stimulation\") OR TITLE-ABS-KEY(\"non-invasive brain stimulation\" OR \"noninvasive brain stimulation\" OR \"NIBS\" OR \"transcranial magnetic stimulation\" OR \"TMS\" OR \"repetitive TMS\" OR \"rTMS\" OR \"intermittent theta burst stimulation\" OR \"iTBS\" OR \"continuous theta burst stimulation\" OR \"cTBS\" OR \"theta-burst stimulation\" OR \"transcranial direct current stimulation\" OR \"tDCS\" OR \"transcranial alternating current stimulation\" OR \"tACS\") OR TITLE(\"brain stimulation\" OR \"neurostimulation\" OR \"neuromodulation\")) AND PUBYEAR > 1999 AND PUBYEAR < 2026 AND (LANGUAGE(english) OR LANGUAGE(chinese)) AND DOCTYPE(ar) AND TITLE-ABS-KEY(\"randomized\" OR \"randomised\" OR \"placebo\" OR \"double-blind\" OR \"trial\" OR \"crossover\")",
+    "wos": "(TS=(\"mild cognitive impairment\" OR \"MCI\" OR \"amnestic MCI\" OR \"aMCI\" OR \"nonamnestic MCI\" OR \"non-amnestic MCI\" OR \"naMCI\" OR \"prodromal dementia\" OR \"pre-dementia\" OR \"predementia\" OR \"Alzheimer's disease\" OR \"Alzheimer disease\" OR \"Alzheimers disease\" OR \"early Alzheimer\" OR \"mild Alzheimer\" OR \"early stage Alzheimer\" OR \"prodromal Alzheimer\" OR \"probable Alzheimer\") OR TI=(\"cognitive impairment\" OR \"cognitive decline\" OR \"memory loss\" OR \"dementia\")) AND (TS=(\"non-invasive brain stimulation\" OR \"noninvasive brain stimulation\" OR \"NIBS\" OR \"transcranial magnetic stimulation\" OR \"TMS\" OR \"repetitive TMS\" OR \"rTMS\" OR \"intermittent theta burst stimulation\" OR \"iTBS\" OR \"continuous theta burst stimulation\" OR \"cTBS\" OR \"theta-burst stimulation\" OR \"transcranial direct current stimulation\" OR \"tDCS\" OR \"transcranial alternating current stimulation\" OR \"tACS\") OR TI=(\"brain stimulation\" OR \"neurostimulation\" OR \"neuromodulation\")) AND PY=(2000-2025) AND LA=(English OR Chinese)",
+    "crossref": {
+      "query": "mild cognitive impairment MCI amnestic MCI aMCI non-invasive brain stimulation noninvasive brain stimulation NIBS transcranial magnetic stimulation",
+      "filter": "from-pub-date:2000,until-pub-date:2025,type:journal-article",
+      "rows": 200,
+      "sort": "relevance",
+      "order": "desc"
+    }
+  },
+  "_flat_terms": {
+    "population": [
+      "mild cognitive impairment",
+      "MCI",
+      "amnestic MCI",
+      "aMCI",
+      "nonamnestic MCI",
+      "non-amnestic MCI",
+      "naMCI",
+      "prodromal dementia",
+      "pre-dementia",
+      "predementia",
+      "cognitive impairment",
+      "cognitive decline",
+      "memory loss",
+      "Alzheimer's disease",
+      "Alzheimer disease",
+      "Alzheimers disease",
+      "early Alzheimer",
+      "mild Alzheimer",
+      "early stage Alzheimer",
+      "prodromal Alzheimer",
+      "probable Alzheimer",
+      "dementia"
+    ],
+    "intervention": [
+      "non-invasive brain stimulation",
+      "noninvasive brain stimulation",
+      "NIBS",
+      "brain stimulation",
+      "neurostimulation",
+      "neuromodulation",
+      "transcranial magnetic stimulation",
+      "TMS",
+      "repetitive TMS",
+      "rTMS",
+      "intermittent theta burst stimulation",
+      "iTBS",
+      "continuous theta burst stimulation",
+      "cTBS",
+      "theta-burst stimulation",
+      "transcranial direct current stimulation",
+      "tDCS",
+      "transcranial alternating current stimulation",
+      "tACS"
+    ],
+    "broad_terms": [
+      "brain stimulation",
+      "cognitive decline",
+      "cognitive impairment",
+      "dementia",
+      "memory loss",
+      "neuromodulation",
+      "neurostimulation"
+    ]
+  }
+}

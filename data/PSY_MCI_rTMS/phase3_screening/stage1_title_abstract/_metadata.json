@@ -1,0 +1,22 @@
+{
+  "screening_results.json": {
+    "updated_at": "2026-03-14T10:57:50.758938",
+    "size_bytes": 2663231,
+    "record_count": 12
+  },
+  "included_studies.json": {
+    "updated_at": "2026-03-14T10:57:50.813092",
+    "size_bytes": 714708,
+    "record_count": 297
+  },
+  "excluded_studies.json": {
+    "updated_at": "2026-03-14T10:57:51.113432",
+    "size_bytes": 4636102,
+    "record_count": 1650
+  },
+  "human_review_queue.json": {
+    "updated_at": "2026-03-14T10:57:51.136479",
+    "size_bytes": 9013,
+    "record_count": 12
+  }
+}

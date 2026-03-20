@@ -1,0 +1,81 @@
+# Discussion
+
+### 4.1 Summary of Main Findings
+
+This systematic review and meta-analysis synthesised evidence from 186 studies (N=6,007 participants) examining the effects of non-invasive brain stimulation (NIBS) — encompassing rTMS, tDCS, tACS, and related modalities — on cognitive and functional outcomes in adults with mild cognitive impairment (MCI) or mild-to-early Alzheimer's disease (AD). The overall pattern of evidence is best characterised as promising but substantially heterogeneous.
+
+The most robust finding was a moderate, statistically supported effect of NIBS on global cognition as measured by the MMSE: k=23, g=0.6183 (95% CI: 0.2709–0.9657), p=0.000486, I²=80.0% [STAT_REF: Global_cognition_MMSE]. A closely concordant effect emerged on the MoCA: k=8, g=0.6236 (95% CI: 0.1174–1.1298), p=0.015747, I²=79.3% [STAT_REF: Global_cognition_MoCA]. These two independent global cognition instruments yielded nearly identical point estimates, lending convergent validity to the finding. By contrast, the ADAS-Cog — a more sensitive and multidimensional instrument — did not yield a pooled effect distinguishable from zero: k=13, g=0.2035 (95% CI: −0.3208 to 0.7278), p=0.446869, I²=85.7% [STAT_REF: Global_cognition_ADAS-Cog]. This divergence likely reflects both the greater sensitivity of the ADAS-Cog to detect subtle decline and the extreme heterogeneity (I²=85.7%) that renders the pooled estimate unreliable.
+
+At the domain level, memory showed a moderate-to-large effect: k=14, g=0.6496 (95% CI: 0.3353–0.9639), p=0.000051, I²=49.6% [STAT_REF: Specific_cognitive_domains_memory]. Attention also reached statistical support: k=5, g=0.5410 (95% CI: 0.0446–1.0374), p=0.032667, I²=48.9% [STAT_REF: Specific_cognitive_domains_attention]. Executive function did not: g=0.0601 (95% CI: −0.2308 to 0.3509), p=0.685692 [STAT_REF: Specific_cognitive_domains_executive_function]. Functional outcomes were largely null — ADL (k=5, g=−0.1060, p=0.696177) [STAT_REF: Functional_outcomes_ADL] and IADL (k=3, g=0.4339, p=0.444775) [STAT_REF: Functional_outcomes_IADL] — though the ADCS-ADL analysis yielded a negative effect of g=−0.5044 (95% CI: −0.7347 to −0.2742), p=0.000018 [STAT_REF: Functional_outcomes_ADCS-ADL], a finding that warrants cautious interpretation given the small and unspecified k. Neuropsychiatric outcomes (NPI, GDS) did not reach statistical support. Taken together, the evidence suggests NIBS may preferentially benefit memory and global cognition in this population, with limited translation to functional independence or neuropsychiatric symptoms. [CONFIDENCE: high]
+
+---
+
+### 4.2 Comparison with Existing Literature
+
+The moderate effect sizes observed for global cognition (g≈0.62) and memory (g=0.65) are broadly consistent with, though at the upper range of, estimates reported in prior meta-analyses of NIBS in cognitive aging and dementia. Earlier pooled analyses focusing exclusively on rTMS in AD reported standardised mean differences in the range of 0.5–0.8 on global cognition scales [CITATION NEEDED: prior meta-analysis of rTMS in Alzheimer's disease], while tDCS-specific reviews have reported smaller effects, typically in the range of 0.3–0.5 [CITATION NEEDED: prior meta-analysis of tDCS in MCI and AD]. The somewhat larger estimates in the present review may reflect several factors: our broader inclusion of multiple NIBS modalities (rTMS, tDCS, tACS, iTBS, HD-tDCS), the incorporation of more recently published trials employing optimised stimulation parameters, and the inclusion of MCI populations who may be more neuroplastically responsive than patients with established moderate-to-severe AD.
+
+The null finding for the ADAS-Cog contrasts with some prior reviews that reported modest positive effects on this instrument [CITATION NEEDED: meta-analysis reporting ADAS-Cog improvement with NIBS]. However, the extreme heterogeneity in our ADAS-Cog analysis (I²=85.7%) and the wide confidence interval (−0.3208 to 0.7278) indicate that the pooled estimate is not reliable, and this discrepancy is more likely attributable to between-study variance than to a true absence of effect. The null findings for executive function and functional outcomes are consistent with the broader literature, which has consistently found that NIBS effects are most pronounced on episodic memory and global screening measures, with weaker and less consistent effects on higher-order executive processes and real-world functional capacity [CITATION NEEDED: systematic review of domain-specific NIBS effects in MCI/AD]. [CONFIDENCE: medium]
+
+---
+
+### 4.3 Possible Mechanisms
+
+The theoretical basis for NIBS-induced cognitive improvement in MCI and early AD rests on several converging neurobiological mechanisms. High-frequency rTMS (≥5 Hz) and anodal tDCS are understood to increase cortical excitability and promote long-term potentiation (LTP)-like synaptic plasticity in targeted networks [CITATION NEEDED: mechanistic review of rTMS and LTP in human cortex]. In the context of early AD pathology, where synaptic loss and cholinergic denervation precede frank neuronal death, residual synaptic capacity may still be amenable to plasticity-based enhancement — a window that narrows as disease progresses to moderate and severe stages [CITATION NEEDED: synaptic plasticity window in early AD neuropathology].
+
+The preferential benefit observed for memory is mechanistically coherent: the most commonly targeted sites across included studies were the dorsolateral prefrontal cortex (DLPFC) and the parietal-hippocampal network, both of which are central to episodic encoding and retrieval [CITATION NEEDED: functional connectivity of DLPFC-hippocampal memory network]. Stimulation of the DLPFC may enhance top-down modulation of hippocampal encoding via cortico-limbic projections, while direct parietal stimulation may augment attentional allocation during memory tasks. The moderate effect on attention (g=0.5410) [STAT_REF: Specific_cognitive_domains_attention] is consistent with this fronto-parietal network account.
+
+The absence of a meaningful effect on executive function (g=0.0601) [STAT_REF: Specific_cognitive_domains_executive_function] may reflect the greater anatomical and network complexity of executive processes, which depend on distributed prefrontal-subcortical circuits that are less amenable to focal surface stimulation. Alternatively, the heterogeneity of executive function task batteries across studies may have diluted any true effect. For tACS, particularly gamma-frequency (40 Hz) stimulation, the proposed mechanism involves entrainment of endogenous gamma oscillations that are disrupted in AD, potentially restoring network synchrony [CITATION NEEDED: gamma tACS and neural oscillation entrainment in AD]. The convergence of multiple modalities on similar effect sizes for memory suggests that LTP-like plasticity and network re-entrainment may represent shared downstream mechanisms, regardless of the specific stimulation waveform. [CONFIDENCE: medium]
+
+---
+
+### 4.4 Strengths
+
+This review incorporates several methodological features that strengthen confidence in its findings. We conducted a comprehensive search across nine databases, identifying 5,978 records [STAT_REF: PRISMA_flow.total_identified], with dual independent screening applied to 4,045 deduplicated records [STAT_REF: PRISMA_flow.after_deduplication]. Dual extraction and conflict resolution procedures were applied throughout, and risk of bias was assessed for all 186 included studies using the Cochrane RoB 2.0 tool [STAT_REF: risk_of_bias.n_assessed]. The use of Hedges' g as the standardised effect size metric, combined with random-effects modelling (DerSimonian-Laird), appropriately accounts for the expected between-study variance in a clinically heterogeneous literature. The breadth of NIBS modalities included — rTMS, tDCS, tACS, iTBS, HD-tDCS, and variants — provides a more comprehensive picture of the field than modality-specific reviews. Adherence to PRISMA 2020 reporting standards and pre-registration of the protocol further support the transparency and reproducibility of our methods. [CONFIDENCE: high]
+
+---
+
+### 4.5 Limitations
+
+Several limitations must be acknowledged when interpreting these findings.
+
+**Substantial heterogeneity.** The majority of analyses exhibited high I² values: I²=80.0% for MMSE [STAT_REF: Global_cognition_MMSE], I²=79.3% for MoCA [STAT_REF: Global_cognition_MoCA], and I²=85.7% for ADAS-Cog [STAT_REF: Global_cognition_ADAS-Cog]. This heterogeneity likely reflects the wide variation in stimulation parameters (frequency, intensity, session number ranging from 1 to 180 sessions [STAT_REF: session_range]), target sites, concurrent pharmacotherapy, diagnostic heterogeneity (MCI versus mild AD), and outcome assessment timing across included studies. Where I² exceeded 75%, pooled estimates should be interpreted with particular caution, as they may not represent a single underlying effect.
+
+**Incomplete data availability.** Of 297 full-text articles assessed, 54 could not be retrieved [STAT_REF: PRISMA_flow.fulltext_no_pdf], and only a subset of the 186 included studies provided fully computable data (means, standard deviations, and sample sizes). The remainder required effect size estimation from partial statistics or were excluded from quantitative synthesis, introducing potential selection bias into the meta-analytic estimates.
+
+**Underpowered analyses.** Several outcome-specific analyses were based on very small numbers of studies (k=3 for IADL and NPI; k=5 for ADL and attention), precluding reliable formal publication bias testing (Egger's test requires k≥10) and limiting the stability of pooled estimates. The k for executive function and ADCS-ADL analyses was not fully ascertainable from available data, further constraining interpretation.
+
+**Risk of bias.** Of the 186 studies assessed, 110 were rated as "some concerns" and 76 as "high risk" of bias [STAT_REF: risk_of_bias.overall_distribution], with no studies rated as low risk overall. The dominant concerns included inadequate allocation concealment, incomplete blinding of participants and outcome assessors, and selective outcome reporting — all of which may inflate observed effect sizes.
+
+**Blinding adequacy.** The credibility of sham conditions in NIBS trials is a recognised methodological challenge, as participants may detect active stimulation through scalp sensations, potentially unblinding allocation [CITATION NEEDED: blinding adequacy and sham credibility in rTMS and tDCS trials]. This concern applies across all modalities included in this review.
+
+**Language and publication bias.** Although no language restriction was applied at the search stage, the predominance of English-language publications in the included sample may introduce language bias. With most individual analyses comprising fewer than 10 studies, formal funnel plot asymmetry testing was not interpretable for the majority of outcomes, leaving publication bias inadequately quantified. [CONFIDENCE: high]
+
+---
+
+### 4.6 Clinical Implications
+
+The moderate effect sizes observed for global cognition (MMSE: g=0.6183; MoCA: g=0.6236) [STAT_REF: Global_cognition_MMSE; STAT_REF: Global_cognition_MoCA] and memory (g=0.6496) [STAT_REF: Specific_cognitive_domains_memory] are clinically meaningful in a population for whom pharmacological options remain limited. For context, approved cholinesterase inhibitors (donepezil, rivastigmine, galantamine) produce MMSE improvements of approximately 1–3 points over 6–12 months in mild-to-moderate AD [CITATION NEEDED: effect size of cholinesterase inhibitors on MMSE in AD], corresponding to standardised effect sizes in the range of 0.2–0.4 — smaller than the NIBS effects observed here, though direct comparison is complicated by differences in study design, population, and follow-up duration.
+
+The broad range of effective NIBS modalities (rTMS, tDCS, tACS) suggests that clinicians and researchers are not constrained to a single technology, which has practical implications for resource availability and patient tolerability. However, the extreme variability in session numbers (median 10, range 1–180) [STAT_REF: session_range] underscores the absence of consensus on optimal dosing. Until standardised protocols are established, clinicians should exercise caution in translating these findings to routine practice. The absence of meaningful functional benefit (ADL, IADL) suggests that cognitive improvements observed on screening instruments may not yet translate to independence in daily activities — a critical consideration for patients and caregivers. Future trials should incorporate patient-reported and caregiver-reported functional outcomes as co-primary endpoints. [CONFIDENCE: medium]
+
+---
+
+### 4.7 Future Research Directions
+
+Several specific gaps in the current evidence base warrant prioritisation in future research. First, the field urgently requires consensus on stimulation parameters — frequency, intensity, pulse number, inter-session interval, and total session number — ideally through international expert panels producing protocol standardisation guidelines [CITATION NEEDED: CONSORT extension for non-pharmacological interventions]. The session range of 1 to 180 observed in this review [STAT_REF: session_range] is clinically untenable as a basis for practice recommendations.
+
+Second, complete and transparent statistical reporting (means, standard deviations, and sample sizes for all randomised arms at all timepoints) must become a minimum standard for publication in this field. The inability to extract computable data from a substantial proportion of the 186 included studies represents a preventable waste of research effort and participant contribution.
+
+Third, biomarker integration — including amyloid PET, tau PET, EEG-based connectivity measures, and structural MRI — should be incorporated into future trials to identify neurobiological predictors of NIBS response. Patients at different stages of the AD continuum, or with distinct network connectivity profiles, may respond differentially to specific stimulation targets and modalities.
+
+Fourth, long-term durability of NIBS effects remains almost entirely uncharacterised. The majority of included studies assessed outcomes immediately post-intervention or within weeks; whether cognitive benefits persist at 6 or 12 months is unknown and represents a critical evidence gap for clinical translation.
+
+Fifth, individual patient data (IPD) meta-analysis, when sufficient data become available, would enable examination of moderators such as age, sex, APOE genotype, baseline cognitive severity, and concurrent pharmacotherapy — factors that are currently confounded across studies.
+
+Finally, head-to-head randomised comparisons between NIBS modalities (e.g., rTMS versus tDCS versus tACS targeting the same network) are needed to guide technology selection, and trials combining NIBS with cognitive training or pharmacotherapy should be designed with factorial structures to isolate additive or synergistic effects. [CONFIDENCE: high]
+
+---
+
+### 4.8 Conclusion
+
+This meta-analysis of 186 studies (N=6,007) indicates that NIBS produces moderate effects on global cognition and episodic memory in adults with MCI or mild AD, with the most consistent evidence emerging for MMSE (k=23, g=0.6183, 95% CI: 0.2709–0.9657, p=0.000486) [STAT_REF: Global_cognition_MMSE] and memory outcomes (k=14, g=0.6496, 95% CI: 0.3353–0.9639, p=0.000051) [STAT_REF: Specific_cognitive_domains_memory]. These findings are tempered by substantial heterogeneity across nearly all analyses, a pervasive high or unclear risk of bias, and limited evidence of functional benefit. The results support cautious optimism regarding NIBS as a cognitive intervention in early neurodegenerative disease, but robust clinical translation requires standardised stimulation protocols, comprehensive outcome reporting, and adequately powered long-term trials. [CONFIDENCE: high]

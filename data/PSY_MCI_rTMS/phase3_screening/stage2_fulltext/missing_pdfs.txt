@@ -1,0 +1,79 @@
+# Missing PDFs — stage1 studies (73 missing / 354 total)
+# Coverage: 281/354  |  updated by --integrate
+
+# ── With DOI (33) — paste into Zotero / browser ──
+10.1016/j.clinph.2025.04.012
+10.1177/15459683251360731
+10.1001/jamapsychiatry.2024.3241
+10.1016/j.clinph.2023.11.003
+10.1109/embc53108.2024.10782425
+10.1007/s11571-025-10310-5
+10.1016/j.bbr.2024.115117
+10.1177/15500594231215847
+10.1007/s11357-025-01888-z
+10.1177/13872877251320124
+10.1016/j.psychres.2023.115461
+10.3233/jad-215390
+10.3233/jad-240400
+10.1109/embc53108.2024.10782607
+10.3233/jad-240002
+10.1038/s41380-025-02991-5
+10.1016/j.bbr.2022.114226
+10.1016/j.neucli.2022.02.003
+10.1016/j.psychres.2022.114721
+10.1016/j.neulet.2021.136337
+10.1016/j.archger.2025.106000
+10.32598/bcn.2024.514.2
+10.1002/ima.22765
+10.1093/arclin/acad067.035
+10.1007/s10072-024-07787-z
+10.1093/arclin/acad067.040
+10.1002/alz.094951
+10.2139/ssrn.5369450
+10.1016/j.biopsych.2025.02.241
+10.1212/WNL.0000000000210604
+10.1016/j.clinph.2022.07.380
+10.1016/j.sleep.2023.11.133
+10.1016/j.clinph.2023.03.088
+
+# ── No DOI — manual search needed (40) ──
+RIS_cochrane_30 | 2024 | Wei, Y | Research on the Improvement of Cognitive Function of Patients with Alzheimer’s Disease and Cerebral Small Vessel Disease by Repetitive Transcranial Magnetic Stimulation
+RIS_cochrane_361 | 2018 | Pini, L | Non-invasive neuromodulation of neural networks in Alzheimer's disease: cognitive and clinical effects
+RIS_records 1-500_251 | 2025 |  | The Safty and Efficacy of Mild Cognitiive Impairment Network Guided Transcranial Magnetic Stimulations for Patients With Early Alzheimer's Disease (SENS-eAD): A Randomized, Double-blind Trial
+RIS_records 1-500_470 | 2024 |  | Transcranial Alternating Current Stimulation to Engage Theta-Gamma Coupling and Enhance Working Memory in Patients With Mild Cognitive Impairment
+RIS_records 1001-1500_87 | 2022 |  | Cognitive Outcomes of Brain Stimulation As a Later-in-Life Treatment
+RIS_records 1001-1500_146 | 2022 |  | Pathways Relating Amnestic MCI to a Mild Traumatic Brain Injury History
+RIS_records 1001-1500_191 | 2022 |  | Non-invasive Neurostimulation as a Tool for Diagnostics and Management for Neurodegenerative Diseases
+RIS_records 1001-1500_209 | 2022 |  | Repetitive Transcranial Magnetic Stimulation (rTMS) for the Treatment of Affective Symptoms in Patients Suffering From Dementia: a Randomised Clinical Trial
+RIS_records 1001-1500_225 | 2022 |  | In a Patient With Mild Dementia, Improvement of Cognitive Function Using YMS-201B, To Evaluate the Effectiveness and Safety, Randomized, Double-blinded, Sham Control Comparison, Confirmatory
+RIS_records 1001-1500_334 | 2021 |  | WeArable Neuromodulation DeVice for the TrEatment of Alzheimer's Disease
+RIS_records 1001-1500_396 | 2021 |  | Interventional Cross-over Study to Evaluate the Modulators of Efficacy of Alternating Current Brain Stimulation (tACS) in Patients With Alzheimer's Disease
+RIS_records 1001-1500_403 | 2021 |  | Analysis of Inflammatory Predictors and Differences in Gene Expression in Patients With Cognitive Impairment Responders and Non-responders to Neurostimulation: Clinical Trial, Double-Blind, Randomized
+RIS_records 1001-1500_414 | 2021 |  | DAOIB Combined With tDCS for Early-phase Dementia - a Randomized, Double-blinded and Placebo Controlled Clinical Trial
+RIS_records 1501-2000_3 | 2020 |  | Interventional Cross-over Study to Evaluate the Efficacy on Cognitive Performance of Alternating Current Brain Stimulation (tACS) in Patients Suffering From Neurodegenerative Diseases
+RIS_records 1501-2000_68 | 2020 |  | Modulating Brain Activity to Improve Cognitive-motor Function in Alzheimer's Disease
+RIS_records 1501-2000_75 | 2020 |  | Novel Tailored Network-based rTMS Treatments in Alzheimer's Disease: an Integrated Multiimaging Approach
+RIS_records 1501-2000_77 | 2020 |  | Prospective, Randomized, Evaluator-blind, Single Center Study on the Effect of Transcranial Magnetic Stimulation in Mild to Moderate Alzheimer's Disease
+RIS_records 1501-2000_132 | 2019 |  | Effectiveness of a Non-Invasive, Low-Intensity Brain Stimulation Approach in Addressing Emotional Regulation
+RIS_records 1501-2000_285 | 2018 |  | Repetitive TMS of the Precuneus: a Randomized Double-blinded Placebo-controlled Trial in Alzheimer's Disease Patients.
+RIS_records 1501-2000_326 | 2018 |  | Brain Stimulation for Neurological Patients
+RIS_records 1501-2000_336 | 2018 |  | Exercise Augmenting Cognition tDCS (EXACT): A Pilot Study of a Combined Exercise and Transcranial Direct Current Stimulation Intervention for Cognition
+RIS_records 1501-2000_362 | 2018 |  | Targeted Transcranial Magnetic Stimulation to Improve Hippocampal-dependent Declarative Memory Abilities
+RIS_records 1501-2000_381 | 2018 |  | The Italian Network of Telerehabilitation: Evaluation of Telerehabilitation System in Mild Cognitive Impairment
+RIS_records 1501-2000_400 | 2018 |  | A Non-invasive, Multimodal Approach to Restore Functional Networks and Cognition in Alzheimer's Disease and Frontotemporal Dementia
+RIS_records 1501-2000_401 | 2018 |  | Investigation for Individualized Noninvasive Neuromodulation in Mild Cognitive Impairment
+RIS_records 2001-2495_157 | 2015 |  | Enhancing Working Memory in Patients With Early Alzheimer's Disease Through the Enhancement of Dorsolateral Prefrontal Cortex Neuroplasticity: A TMS-EEG Study
+RIS_records 2001-2495_170 | 2015 |  | The Use of Repetitive Transcranial Magnetic Stimulation in the Treatment of Mild Cognitive Impairment Due to Brain Injury
+RIS_records 2001-2495_275 | 2013 |  | To Investigate the Effect of Application of Repeated Trans-cranial Magnetic Stimulation (rTMS) Applied on the Left Prefrontal Cortex on Electroencephalography Signal Recorded From Brain Regions Involved in Cognitive Function in Patients With Alzheimer's Disease (AD)
+RIS_records 2001-2495_382 | 2010 |  | Effects of rTMS on the Cognition of Elderly With Cognitive Impairment no Dementia ( CIND )
+RIS_records 2001-2495_431 | 2008 |  | Phase 2 (Feasibility) Study of Transcranial Magnetic Stimulation as Additional Therapy to Drug Treatment in Patients With Alzheimer's Disease
+RIS_records 501-1000_33 | 2024 |  | Neuromodulation Effects in Older Adults
+RIS_records 501-1000_52 | 2024 |  | Optimizing Intermittent Theta-burst Stimulation for Enhancing Dual-Task Walking, Cognitive, and Physical Function in Mild Cognitive Impairment: a Randomized Double-Blind Controlled Trial
+RIS_records 501-1000_88 | 2024 |  | Randomized Controlled Trial of Transcranial Direct Current Stimulation (tDCS) as Augmentation Therapy to Cognitive Training (CT) in Individuals With Major Neurocognitive Disorder (MND) of Mild Severity
+RIS_records 501-1000_177 | 2024 |  | Comparison of Two Non-invasive Neuromodulation Techniques as Synergistic Therapy to Cognitive Stimulation in Amnestic Mild Cognitive Impairment (aMCI): Genetic Characterization, Proteins Associated With Neurogenesis, Clinical, Neuroimaging and Electrophysiological Markers
+RIS_records 501-1000_376 | 2023 |  | Transcranial Magnetic Stimulation for MCI: A Phase II Dose-Response Study
+RIS_records 501-1000_377 | 2023 |  | A Mechanistic Study to Investigate tDCS and Working Memory in MCI Patients
+RIS_records 501-1000_396 | 2023 |  | Closed-Loop Brain Stimulation as a Potential Intervention for Cognitive Decline
+RIS_records 501-1000_415 | 2023 |  | A Prospective, Randomized, Double-blind, Controlled Trial of rTMS in the Treatment of Mild Alzheimer's Disease Guided by Personalized Brain Functional Sectors(pBFS)
+RIS_records 501-1000_429 | 2023 |  | Cognitively Engaging Walking Exercise and Neuromodulation to Enhance Brain Function in Older Adults
+RIS_records 501-1000_458 | 2023 |  | Improvement of Memory in Mild Cognitive Impairment (MCI) Using Transcranial Alternating Current Stimulation (tACS) Guided by EEG and MRI: a Randomized, Sham-controlled, Parallel-arm, Double-blind Study

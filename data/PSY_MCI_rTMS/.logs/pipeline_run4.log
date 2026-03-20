@@ -1,0 +1,567 @@
+
+==================================================
+  Project Selector
+==================================================
+  [1] PSY_MCI_rTMS (last active)
+  [N] Create new project
+
+Select project [default: 1=PSY_MCI_rTMS]: 2026-03-14 10:04:01,139 [INFO] __main__: 📋 Loading studies and criteria...
+2026-03-14 10:04:01,139 [INFO] __main__: ✅ Found pre-screened data from Phase 2.5
+2026-03-14 10:04:01,318 [INFO] __main__: Loaded 1947 studies for screening
+2026-03-14 10:04:01,342 [INFO] src.utils.langfuse_client: Langfuse keys not set — observability disabled
+2026-03-14 10:04:01,413 [INFO] src.agents.screener: Starting dual screening on 1947 studies
+2026-03-14 10:04:01,593 [INFO] src.utils.cache: Resumed checkpoint [screener1_screening_ta_screener1]: 1947 items already done
+
+  Active project: PSY_MCI_rTMS
+  Data directory: data/PSY_MCI_rTMS/
+
+[screener1]:   0%|          | 0/1947 [00:00<?, ?it/s][screener1]: 100%|██████████| 1947/1947 [00:00<00:00, 603392.19it/s]
+2026-03-14 10:04:01,844 [INFO] src.utils.cache: Checkpoint [screener1_screening_ta_screener1] finalized: {'completed': 1947, 'failed': 0, 'remaining': 0, 'total': 1947, 'percent': '100.0%'}
+2026-03-14 10:04:01,964 [INFO] src.utils.cache: Resumed checkpoint [screener2_screening_ta_screener2]: 1947 items already done
+[screener2]:   0%|          | 0/1947 [00:00<?, ?it/s][screener2]: 100%|██████████| 1947/1947 [00:00<00:00, 573315.77it/s]
+2026-03-14 10:04:02,240 [INFO] src.utils.cache: Checkpoint [screener2_screening_ta_screener2] finalized: {'completed': 1947, 'failed': 0, 'remaining': 0, 'total': 1947, 'percent': '100.0%'}
+2026-03-14 10:04:02,246 [INFO] src.agents.screener: Side agreement: 84.2% | Exact agreement: 22.8% | κ=0.495 | Firm conflicts: 296 | Undecided conflicts → human queue: 12
+2026-03-14 10:04:02,366 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_41408121...
+2026-03-14 10:04:02,390 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40513355...
+2026-03-14 10:04:02,418 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_41025579...
+2026-03-14 10:04:02,444 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40252967...
+2026-03-14 10:04:02,469 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40740460...
+2026-03-14 10:04:02,493 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39958266...
+2026-03-14 10:04:02,518 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40254536...
+2026-03-14 10:04:02,542 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40420669...
+2026-03-14 10:04:02,564 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_41013456...
+2026-03-14 10:04:02,588 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40248597...
+2026-03-14 10:04:02,613 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39165554...
+2026-03-14 10:04:02,639 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40500659...
+2026-03-14 10:04:02,663 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_38926897...
+2026-03-14 10:04:02,692 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39224475...
+2026-03-14 10:04:02,724 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40370751...
+2026-03-14 10:04:02,751 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40184901...
+2026-03-14 10:04:02,779 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40039580...
+2026-03-14 10:04:02,808 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40125804...
+2026-03-14 10:04:02,835 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37534626...
+2026-03-14 10:04:02,859 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37276822...
+2026-03-14 10:04:02,883 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40619473...
+2026-03-14 10:04:02,905 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40176122...
+2026-03-14 10:04:02,929 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_38232116...
+2026-03-14 10:04:02,954 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39531323...
+2026-03-14 10:04:02,983 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_38987229...
+2026-03-14 10:04:03,009 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37156876...
+2026-03-14 10:04:03,034 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39077918...
+2026-03-14 10:04:03,063 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37715232...
+2026-03-14 10:04:03,088 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_38410745...
+2026-03-14 10:04:03,114 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_36766520...
+2026-03-14 10:04:03,142 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39595863...
+2026-03-14 10:04:03,167 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_36093863...
+2026-03-14 10:04:03,192 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_35796264...
+2026-03-14 10:04:03,219 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37729717...
+2026-03-14 10:04:03,243 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37530727...
+2026-03-14 10:04:03,266 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37923844...
+2026-03-14 10:04:03,287 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37872457...
+2026-03-14 10:04:03,323 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_33002764...
+2026-03-14 10:04:03,346 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_35322340...
+2026-03-14 10:04:03,373 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40283048...
+2026-03-14 10:04:03,400 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_35068464...
+2026-03-14 10:04:03,424 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40473076...
+2026-03-14 10:04:03,447 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_40031488...
+2026-03-14 10:04:03,472 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_34880743...
+2026-03-14 10:04:03,495 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_33450553...
+2026-03-14 10:04:03,519 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_35925736...
+2026-03-14 10:04:03,541 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37925960...
+2026-03-14 10:04:03,562 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_34200847...
+2026-03-14 10:04:03,602 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_36806520...
+2026-03-14 10:04:03,625 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_33453454...
+2026-03-14 10:04:03,649 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39515419...
+2026-03-14 10:04:03,675 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39115246...
+2026-03-14 10:04:03,700 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39207080...
+2026-03-14 10:04:03,726 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_38820018...
+2026-03-14 10:04:03,748 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_38287520...
+2026-03-14 10:04:03,768 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_34751037...
+2026-03-14 10:04:03,792 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_29043928...
+2026-03-14 10:04:03,819 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39059465...
+2026-03-14 10:04:03,844 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_31424410...
+2026-03-14 10:04:03,867 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_36436729...
+2026-03-14 10:04:03,890 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_39324544...
+2026-03-14 10:04:03,912 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_36675330...
+2026-03-14 10:04:03,933 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37098192...
+2026-03-14 10:04:03,954 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_30625292...
+2026-03-14 10:04:03,975 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_30627430...
+2026-03-14 10:04:03,998 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_35368257...
+2026-03-14 10:04:04,019 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_33117261...
+2026-03-14 10:04:04,044 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_32380212...
+2026-03-14 10:04:04,066 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_31787103...
+2026-03-14 10:04:04,087 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_34716559...
+2026-03-14 10:04:04,110 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_34930421...
+2026-03-14 10:04:04,131 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_37245842...
+2026-03-14 10:04:04,153 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_36619873...
+2026-03-14 10:04:04,175 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_36351687...
+2026-03-14 10:04:04,195 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_34203558...
+2026-03-14 10:04:04,217 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_33775259...
+2026-03-14 10:04:04,238 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_34513765...
+2026-03-14 10:04:04,261 [INFO] src.agents.base_agent: [arbiter] Cache hit! Saved tokens for: Arbiter: PMID_35019804...
+2026-03-14 10:04:07,203 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:04:23,312 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:04:33,815 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:04:35,919 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:04:47,101 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:04:49,552 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:05:03,442 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:05:04,523 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:05:17,988 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:05:20,309 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:05:33,664 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:05:35,743 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:05:48,445 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:05:50,609 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:06:00,875 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:06:03,420 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:06:13,160 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:06:14,270 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:06:27,741 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:06:39,268 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:06:39,969 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:06:55,882 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:06:58,227 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:07:11,879 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:07:12,883 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:07:30,126 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:07:31,404 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:07:47,179 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:07:49,265 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:07:57,406 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:07:58,434 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:08:12,441 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:08:13,939 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:08:25,899 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:08:27,052 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:08:37,672 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:08:38,627 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:08:51,996 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:08:54,262 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:09:10,555 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:09:12,516 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:09:23,513 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:09:24,986 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:09:37,936 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:09:39,956 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:09:55,385 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:09:57,341 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:10:11,377 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:10:14,035 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:10:28,166 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:10:30,456 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:10:44,851 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:10:45,887 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:11:00,226 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:11:01,711 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:11:14,904 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:11:17,714 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:11:26,806 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:11:28,755 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:11:45,401 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:11:47,709 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:12:02,781 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:12:04,839 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:12:16,115 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:12:17,166 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:12:33,147 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:12:35,108 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:12:44,953 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:12:46,905 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:13:01,647 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:13:04,940 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:13:19,591 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:13:20,551 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:13:36,678 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:13:38,682 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:13:47,287 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:13:49,286 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:14:01,676 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:14:03,660 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:14:13,919 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:14:16,118 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:14:28,726 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:14:29,960 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:14:43,782 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:14:45,874 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:14:56,721 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:15:00,029 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:15:10,114 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:15:12,150 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:15:22,971 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:15:25,311 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:15:38,732 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:15:40,636 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:15:52,280 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:15:53,867 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:16:04,389 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:16:05,833 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:16:17,034 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:16:19,443 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:16:31,865 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:16:33,942 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:16:46,145 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:16:48,238 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:17:06,755 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:17:09,133 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:17:24,704 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:17:26,875 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:17:37,719 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:17:39,739 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:17:54,684 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:17:56,981 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:18:11,706 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:18:14,503 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:18:31,919 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:18:45,648 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:18:47,764 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:19:13,042 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:19:15,293 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:19:30,700 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:19:33,052 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:19:46,825 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:19:49,671 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:20:00,743 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:20:02,421 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:20:12,549 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:20:13,696 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:20:23,259 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:20:25,458 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:20:40,362 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:20:44,370 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:20:57,616 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:20:59,746 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:21:08,586 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:21:10,935 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:21:23,681 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:21:26,011 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:21:37,212 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:21:39,467 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:21:50,927 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:21:53,374 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:22:01,514 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:22:03,534 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:22:15,882 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:22:17,802 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:22:31,474 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:22:34,543 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:22:44,948 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:22:46,876 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:22:57,804 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:23:00,071 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:23:13,785 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:23:15,833 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:23:27,507 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:23:29,509 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:23:40,027 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:23:42,308 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:23:59,907 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:24:02,374 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:24:14,636 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:24:16,810 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:24:29,387 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:24:32,286 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:24:41,063 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:24:43,472 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:25:01,950 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:25:04,146 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:25:15,044 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:25:17,969 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:25:31,913 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:25:34,306 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:25:44,505 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:25:46,475 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:26:01,554 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:26:03,142 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:26:12,464 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:26:14,512 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:26:27,272 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:26:30,173 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:26:43,601 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:26:45,979 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:27:00,067 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:27:01,996 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:27:18,364 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:27:20,803 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:27:37,469 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:27:39,389 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:27:51,275 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:27:52,950 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:28:05,146 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:28:07,666 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:28:19,663 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:28:21,583 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:28:37,062 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:28:39,278 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:28:56,419 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:28:58,498 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:29:16,785 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:29:19,440 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:29:31,725 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:29:33,981 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:29:46,686 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:29:48,624 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:29:58,446 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:30:01,834 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:30:17,118 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:30:19,336 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:30:29,694 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:30:31,914 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:30:42,870 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:30:45,365 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:30:58,283 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:31:00,711 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:31:15,050 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:31:17,716 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:31:30,316 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:31:32,359 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:31:44,267 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:31:46,588 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:31:59,572 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:32:02,229 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:32:17,800 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:32:20,429 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:32:36,850 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:32:39,562 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:32:54,004 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:32:56,249 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:33:03,676 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:33:06,109 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:33:16,061 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:33:17,315 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:33:26,941 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:33:28,258 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:33:39,534 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:33:41,484 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:33:53,212 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:33:55,328 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:34:07,576 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:34:10,247 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:34:22,270 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:34:24,385 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:34:33,024 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:34:35,434 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:34:45,169 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:34:46,864 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:34:56,255 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:34:58,486 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:35:10,512 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:35:12,903 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:35:27,943 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:35:30,791 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:35:46,717 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:35:49,211 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:36:06,284 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:36:08,197 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:36:19,111 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:36:22,354 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:36:36,670 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:36:38,649 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:36:55,873 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:36:58,160 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:37:07,715 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:37:10,276 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:37:22,950 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:37:25,806 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:37:34,964 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:37:36,972 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:37:50,108 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:37:51,288 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:38:04,060 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:38:06,006 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:38:17,210 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:38:19,421 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:38:32,835 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:38:34,655 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:38:46,239 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:38:48,105 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:39:05,051 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:39:06,485 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:39:20,898 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:39:23,128 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:39:35,699 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:39:37,888 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:39:50,599 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:39:52,880 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:40:02,118 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:40:03,995 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:40:15,274 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:40:17,190 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:40:28,972 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:40:30,687 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:40:42,168 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:40:44,330 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:40:54,298 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:40:56,939 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:41:08,985 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:41:11,240 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:41:26,073 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:41:27,868 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:41:42,607 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:41:44,799 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:41:55,449 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:41:57,590 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:42:14,141 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:42:15,329 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:42:25,581 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:42:26,868 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:42:38,912 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:42:41,248 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:42:50,661 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:42:53,000 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:43:04,546 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:43:06,526 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:43:16,887 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:43:18,425 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:43:31,071 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:43:33,333 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:43:43,591 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:43:45,519 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:43:55,987 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:43:58,372 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:44:07,927 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:44:09,195 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:44:18,570 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:44:21,848 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:44:30,088 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:44:32,267 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:44:43,095 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:44:46,310 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:44:56,563 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:44:57,674 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:45:07,389 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:45:09,362 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:45:23,639 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:45:25,968 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:45:36,506 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:45:38,733 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:45:49,287 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:45:51,584 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:46:05,702 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:46:07,868 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:46:18,510 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:46:21,357 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:46:39,499 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:46:42,762 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:46:57,959 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:47:00,393 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:47:10,838 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:47:12,983 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:47:24,073 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:47:26,155 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:47:37,450 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:47:39,599 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:47:54,498 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:47:56,282 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:48:07,027 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:48:09,373 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:48:22,920 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:48:25,209 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:48:38,337 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:48:42,512 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:48:53,995 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:48:55,241 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:49:09,006 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:49:11,361 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:49:21,837 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:49:24,088 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:49:33,303 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:49:35,351 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:49:51,188 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:49:53,792 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:50:08,143 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:50:10,144 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:50:23,762 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:50:26,196 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:50:40,801 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:50:43,124 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:50:57,252 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:51:00,096 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:51:10,409 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:51:11,614 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:51:31,303 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:51:33,338 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:51:46,432 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:51:48,359 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:52:01,173 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:52:02,448 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:52:18,101 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:52:20,407 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:52:30,982 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:52:33,202 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:52:45,976 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:52:47,215 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:52:56,803 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:52:58,189 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:53:10,528 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:53:12,357 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:53:25,404 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:53:27,611 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:53:38,944 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:53:41,369 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:53:56,244 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:53:57,687 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:54:09,064 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:54:11,054 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:54:25,376 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:54:26,787 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:54:40,566 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:54:43,138 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:54:58,208 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:55:00,406 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:55:10,491 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:55:12,520 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:55:21,695 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:55:23,738 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:55:35,322 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:55:37,525 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:55:47,046 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:55:49,332 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:56:00,230 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:56:02,188 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:56:17,332 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:56:18,706 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:56:34,279 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:56:36,499 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:56:49,775 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:56:52,104 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:57:04,162 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:57:06,504 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:57:20,286 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:57:21,547 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:57:32,251 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:57:34,345 [INFO] httpx: HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-14 10:57:50,514 [INFO] src.agents.base_agent: [arbiter] Cache — read: 2371 tok, write: 0 tok
+2026-03-14 10:57:50,762 [INFO] src.utils.file_handlers: ✅ Saved: data/PSY_MCI_rTMS/phase3_screening/stage1_title_abstract/screening_results.json
+2026-03-14 10:57:50,817 [INFO] src.utils.file_handlers: ✅ Saved: data/PSY_MCI_rTMS/phase3_screening/stage1_title_abstract/included_studies.json
+2026-03-14 10:57:51,119 [INFO] src.utils.file_handlers: ✅ Saved: data/PSY_MCI_rTMS/phase3_screening/stage1_title_abstract/excluded_studies.json
+2026-03-14 10:57:51,141 [INFO] src.utils.file_handlers: ✅ Saved: data/PSY_MCI_rTMS/phase3_screening/stage1_title_abstract/human_review_queue.json
+2026-03-14 10:57:51,141 [INFO] __main__: ⚠️  12 studies need human review — saved to stage1_title_abstract/human_review_queue.json
+
+============================================================
+Phase 3 Stage 1 Complete!
+============================================================
+  Total screened:         1947
+  Included:               297
+  Excluded:               1650
+  → Human review queue:   12 (undecided conflicts, temporarily included)
+  Firm conflicts → Arbiter: 296
+  Side agreement rate:    84.2%
+  Exact agreement rate:   22.8%
+  Cohen's κ (binary):     0.495
+
+  Token budget: {
+  "phase": "phase3_stage1",
+  "total_cost_usd": "$6.0473",
+  "limit_usd": "$20.0",
+  "remaining_usd": "$13.9527",
+  "total_input_tokens": 4472022,
+  "total_output_tokens": 446644,
+  "total_cache_read_tokens": 689961,
+  "total_cache_write_tokens": 0,
+  "cache_hit_rate": "15.4%",
+  "total_calls": 2243,
+  "over_budget": false
+}
+
+Next: python scripts/run_phase3_stage2.py --download

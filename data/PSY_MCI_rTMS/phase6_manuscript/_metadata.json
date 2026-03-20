@@ -1,0 +1,22 @@
+{
+  "citation_validation.json": {
+    "updated_at": "2026-02-20T22:22:07.993732",
+    "size_bytes": 2,
+    "record_count": 0
+  },
+  "citation_validation_internal.json": {
+    "updated_at": "2026-03-15T18:50:25.696379",
+    "size_bytes": 2,
+    "record_count": 0
+  },
+  "citation_suggestions.json": {
+    "updated_at": "2026-03-15T18:50:46.673564",
+    "size_bytes": 6282,
+    "record_count": 20
+  },
+  "citation_report.json": {
+    "updated_at": "2026-03-15T18:50:46.767974",
+    "size_bytes": 38825,
+    "record_count": 6
+  }
+}

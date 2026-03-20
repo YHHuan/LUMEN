@@ -1,0 +1,32 @@
+{
+  "source_counts": {
+    "europepmc": 1864,
+    "pubmed": 236,
+    "scopus": 603,
+    "cochrane_search": 780,
+    "records 1-500": 500,
+    "records 1001-1500": 500,
+    "records 1501-2000": 500,
+    "records 2001-2495": 495,
+    "records 501-1000": 500
+  },
+  "total_before_dedup": 5978,
+  "total_after_dedup": 4045,
+  "duplicates_removed": 1932,
+  "databases_searched": [
+    "europepmc",
+    "pubmed",
+    "scopus",
+    "cochrane_search",
+    "records 1-500",
+    "records 1001-1500",
+    "records 1501-2000",
+    "records 2001-2495",
+    "records 501-1000"
+  ],
+  "databases_skipped": [
+    "wos (no key)",
+    "crossref (disabled)",
+    "semantic_scholar (no key)"
+  ]
+}

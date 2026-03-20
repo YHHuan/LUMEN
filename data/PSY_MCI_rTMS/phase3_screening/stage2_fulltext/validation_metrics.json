@@ -1,0 +1,15 @@
+{
+  "phase": "phase3_stage2",
+  "run_date": "2026-03-15T11:31:32.575784",
+  "fulltext_assessed": 297,
+  "included": 186,
+  "excluded": 57,
+  "pending_no_pdf": 54,
+  "conflict_count": 137,
+  "cohens_kappa": 0.333,
+  "side_agreement_rate": 0.6955,
+  "duration_seconds": 1225.7,
+  "duration_minutes": 20.4,
+  "cost_usd": "$3.0559",
+  "total_llm_calls": 589
+}

@@ -1,0 +1,27 @@
+{
+  "search_strategy.json": {
+    "updated_at": "2026-03-01T08:38:16.317412",
+    "size_bytes": 16527,
+    "record_count": 10
+  },
+  "mesh_terms.json": {
+    "updated_at": "2026-03-01T08:38:16.340727",
+    "size_bytes": 189,
+    "record_count": 2
+  },
+  "prisma_protocol.json": {
+    "updated_at": "2026-03-01T08:38:16.357277",
+    "size_bytes": 2743,
+    "record_count": 9
+  },
+  "screening_criteria.json": {
+    "updated_at": "2026-03-01T08:38:16.374495",
+    "size_bytes": 1768,
+    "record_count": 2
+  },
+  "mesh_validation.json": {
+    "updated_at": "2026-03-01T08:38:16.414633",
+    "size_bytes": 807,
+    "record_count": 2
+  }
+}

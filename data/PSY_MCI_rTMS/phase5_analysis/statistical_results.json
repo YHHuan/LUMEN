@@ -1,0 +1,5410 @@
+{
+  "Global_cognition_ADAS-Cog": {
+    "k": 13,
+    "studies": [
+      "Cantoni et al., JAMA Network Open 2025",
+      "Li et al., Brain Stimulation 2021",
+      "Andrade et al., Neurophysiologie Clinique 2022",
+      "Li et al., Brain Stimulation 2021",
+      "Lithgow et al., Neuroscience Insights 2025",
+      "Inagawa et al., Front. Hum. Neurosci. 2019",
+      "Leocani et al., Frontiers in Neurology 2021",
+      "Zhao et al., Oncotarget 2017",
+      "Rutherford et al., Journal of Experimental Neuroscience 2015",
+      "Boggio et al., Brain Stimulation 2012",
+      "Cantoni et al., JAMA Network Open 2025",
+      "Inagawa et al., Alzheimer's & Dementia 2018",
+      "Sabbagh et al., Alzheimer's & Dementia 2019"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": -0.0498,
+      "se": 0.0898,
+      "ci_lower": -0.2258,
+      "ci_upper": 0.1262,
+      "z": -0.5549,
+      "p_value": 0.578948,
+      "weights": [
+        16.75,
+        14.68,
+        4.83,
+        14.68,
+        14.5,
+        0.46,
+        1.28,
+        5.69,
+        2.86,
+        6.01,
+        16.75,
+        0.5,
+        1.01
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.2035,
+      "se": 0.2675,
+      "ci_lower": -0.3208,
+      "ci_upper": 0.7278,
+      "z": 0.7606,
+      "p_value": 0.446869,
+      "k": 13,
+      "heterogeneity": {
+        "Q": 84.0476,
+        "df": 12,
+        "p_heterogeneity": 0.0,
+        "I2": 85.7,
+        "I2_interpretation": "considerable",
+        "H2": 7.0,
+        "tau2": 0.668215,
+        "tau": 0.8174
+      },
+      "prediction_interval": {
+        "lower": -1.6896,
+        "upper": 2.0965
+      },
+      "weights_percent": [
+        9.99,
+        9.9,
+        8.57,
+        9.9,
+        9.89,
+        2.96,
+        5.51,
+        8.83,
+        7.53,
+        8.92,
+        9.99,
+        3.14,
+        4.88
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.2044,
+      "se": 0.2775,
+      "ci_lower": -0.3396,
+      "ci_upper": 0.7484,
+      "z": 0.7365,
+      "p_value": 0.461396,
+      "k": 13,
+      "heterogeneity": {
+        "Q": 84.0476,
+        "df": 12,
+        "p_heterogeneity": 0.0,
+        "I2": 85.7,
+        "I2_interpretation": "considerable",
+        "H2": 7.0,
+        "tau2": 0.732579,
+        "tau": 0.8559
+      },
+      "prediction_interval": {
+        "lower": -1.776,
+        "upper": 2.1848
+      },
+      "weights_percent": [
+        9.87,
+        9.78,
+        8.56,
+        9.78,
+        9.77,
+        3.11,
+        5.66,
+        8.81,
+        7.59,
+        8.89,
+        9.87,
+        3.28,
+        5.04
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.2035,
+      "se": 0.2675,
+      "ci_lower": -0.3208,
+      "ci_upper": 0.7278,
+      "z": 0.7606,
+      "p_value": 0.446869,
+      "k": 13,
+      "heterogeneity": {
+        "Q": 84.0476,
+        "df": 12,
+        "p_heterogeneity": 0.0,
+        "I2": 85.7,
+        "I2_interpretation": "considerable",
+        "H2": 7.0,
+        "tau2": 0.668215,
+        "tau": 0.8174
+      },
+      "prediction_interval": {
+        "lower": -1.6896,
+        "upper": 2.0965
+      },
+      "weights_percent": [
+        9.99,
+        9.9,
+        8.57,
+        9.9,
+        9.89,
+        2.96,
+        5.51,
+        8.83,
+        7.53,
+        8.92,
+        9.99,
+        3.14,
+        4.88
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Cantoni et al., JAMA Network Open 2025",
+          "pooled_effect": 0.3295,
+          "ci_lower": -0.2041,
+          "ci_upper": 0.8631,
+          "I2": 83.0
+        },
+        {
+          "excluded_study": "Li et al., Brain Stimulation 2021",
+          "pooled_effect": 0.1738,
+          "ci_lower": -0.4022,
+          "ci_upper": 0.7498,
+          "I2": 85.9
+        },
+        {
+          "excluded_study": "Andrade et al., Neurophysiologie Clinique 2022",
+          "pooled_effect": 0.026,
+          "ci_lower": -0.4472,
+          "ci_upper": 0.4992,
+          "I2": 80.8
+        },
+        {
+          "excluded_study": "Li et al., Brain Stimulation 2021",
+          "pooled_effect": 0.1738,
+          "ci_lower": -0.4022,
+          "ci_upper": 0.7498,
+          "I2": 85.9
+        },
+        {
+          "excluded_study": "Lithgow et al., Neuroscience Insights 2025",
+          "pooled_effect": 0.2707,
+          "ci_lower": -0.3165,
+          "ci_upper": 0.858,
+          "I2": 86.5
+        },
+        {
+          "excluded_study": "Inagawa et al., Front. Hum. Neurosci. 2019",
+          "pooled_effect": 0.2589,
+          "ci_lower": -0.2735,
+          "ci_upper": 0.7912,
+          "I2": 86.7
+        },
+        {
+          "excluded_study": "Leocani et al., Frontiers in Neurology 2021",
+          "pooled_effect": 0.1564,
+          "ci_lower": -0.3842,
+          "ci_upper": 0.697,
+          "I2": 86.6
+        },
+        {
+          "excluded_study": "Zhao et al., Oncotarget 2017",
+          "pooled_effect": 0.1655,
+          "ci_lower": -0.393,
+          "ci_upper": 0.7239,
+          "I2": 86.4
+        },
+        {
+          "excluded_study": "Rutherford et al., Journal of Experimental Neuroscience 2015",
+          "pooled_effect": 0.1631,
+          "ci_lower": -0.387,
+          "ci_upper": 0.7132,
+          "I2": 86.6
+        },
+        {
+          "excluded_study": "Boggio et al., Brain Stimulation 2012",
+          "pooled_effect": 0.2036,
+          "ci_lower": -0.3643,
+          "ci_upper": 0.7716,
+          "I2": 86.8
+        },
+        {
+          "excluded_study": "Cantoni et al., JAMA Network Open 2025",
+          "pooled_effect": 0.3295,
+          "ci_lower": -0.2041,
+          "ci_upper": 0.8631,
+          "I2": 83.0
+        },
+        {
+          "excluded_study": "Inagawa et al., Alzheimer's & Dementia 2018",
+          "pooled_effect": 0.2622,
+          "ci_lower": -0.2704,
+          "ci_upper": 0.7947,
+          "I2": 86.7
+        },
+        {
+          "excluded_study": "Sabbagh et al., Alzheimer's & Dementia 2019",
+          "pooled_effect": 0.1315,
+          "ci_lower": -0.4013,
+          "ci_upper": 0.6643,
+          "I2": 86.3
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.2035,
+        "ci_lower": -0.3208,
+        "ci_upper": 0.7278
+      }
+    },
+    "eggers_test": {
+      "test": "Egger's regression",
+      "intercept": 1.6759,
+      "intercept_se": 0.5071,
+      "intercept_p": 0.318429,
+      "significant": false,
+      "interpretation": "No significant funnel plot asymmetry"
+    },
+    "beggs_test": {
+      "test": "Begg's rank correlation",
+      "kendall_tau": 0.1053,
+      "p_value": 0.622933,
+      "significant": false
+    },
+    "trim_and_fill": {
+      "method": "trim_and_fill",
+      "side": "left",
+      "n_missing_estimated": 3,
+      "original_k": 13,
+      "adjusted_k": 16,
+      "original_effect": 0.2035,
+      "adjusted_effect": -0.0227,
+      "adjusted_ci_lower": -0.5176,
+      "adjusted_ci_upper": 0.4722
+    },
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "Gamma tACS": {
+            "pooled_effect": -0.93,
+            "se": 0.2194,
+            "k": 1
+          },
+          "HF-rTMS": {
+            "pooled_effect": 0.7016,
+            "se": 0.5311,
+            "k": 1
+          },
+          "active rTMS": {
+            "pooled_effect": -0.4087,
+            "se": 0.2358,
+            "k": 1
+          },
+          "anodal tDCS": {
+            "pooled_effect": 0.2116,
+            "se": 0.3662,
+            "k": 1
+          },
+          "rTMS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.554,
+            "se": 0.147,
+            "ci_lower": 0.2659,
+            "ci_upper": 0.842,
+            "z": 3.7693,
+            "p_value": 0.000164,
+            "k": 5,
+            "heterogeneity": {
+              "Q": 1.9018,
+              "df": 4,
+              "p_heterogeneity": 0.753817,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.48,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": 0.2659,
+              "upper": 0.842
+            },
+            "weights_percent": [
+              39.31,
+              39.31,
+              3.43,
+              15.24,
+              2.71
+            ]
+          },
+          "tACS": {
+            "pooled_effect": -0.93,
+            "se": 0.2194,
+            "k": 1
+          },
+          "tDCS": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.1995,
+            "se": 1.4569,
+            "ci_lower": -3.0551,
+            "ci_upper": 2.6561,
+            "z": -0.1369,
+            "p_value": 0.891099,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 13.0171,
+              "df": 2,
+              "p_heterogeneity": 0.001491,
+              "I2": 84.6,
+              "I2_interpretation": "considerable",
+              "H2": 6.51,
+              "tau2": 5.27808,
+              "tau": 2.2974
+            },
+            "prediction_interval": {
+              "lower": -34.7658,
+              "upper": 34.3668
+            },
+            "weights_percent": [
+              38.98,
+              30.22,
+              30.8
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 52.9523,
+          "df": 6,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Alzheimer's disease": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.7652,
+            "se": 0.2455,
+            "ci_lower": 0.2841,
+            "ci_upper": 1.2463,
+            "z": 3.1175,
+            "p_value": 0.001824,
+            "k": 6,
+            "heterogeneity": {
+              "Q": 14.5973,
+              "df": 5,
+              "p_heterogeneity": 0.012229,
+              "I2": 65.7,
+              "I2_interpretation": "substantial",
+              "H2": 2.92,
+              "tau2": 0.216631,
+              "tau": 0.4654
+            },
+            "prediction_interval": {
+              "lower": -0.6957,
+              "upper": 2.2261
+            },
+            "weights_percent": [
+              22.18,
+              15.7,
+              22.18,
+              16.81,
+              17.18,
+              5.94
+            ]
+          },
+          "Mild to moderate Alzheimer's disease with or without cerebrovascular disease": {
+            "pooled_effect": -0.4087,
+            "se": 0.2358,
+            "k": 1
+          },
+          "major or minor neurocognitive disorders": {
+            "pooled_effect": -1.61,
+            "se": 1.2703,
+            "k": 1
+          },
+          "mild or major neurocognitive disorders": {
+            "pooled_effect": -1.61,
+            "se": 1.3215,
+            "k": 1
+          },
+          "probable AD": {
+            "pooled_effect": 1.01,
+            "se": 0.7934,
+            "k": 1
+          },
+          "probable Alzheimer's disease": {
+            "pooled_effect": 0.7016,
+            "se": 0.5311,
+            "k": 1
+          },
+          "prodromal or mild Alzheimer disease": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.93,
+            "se": 0.1551,
+            "ci_lower": -1.2341,
+            "ci_upper": -0.6259,
+            "z": -5.9946,
+            "p_value": 0.0,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -1.2341,
+              "upper": -0.6259
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 43.3699,
+          "df": 6,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "Broca's area; Wernicke's area; left and right dorsolateral prefrontal cortex; left and right inferior parietal lobule": {
+            "pooled_effect": 1.61,
+            "se": 0.8929,
+            "k": 1
+          },
+          "F3/Fp2": {
+            "pooled_effect": -1.61,
+            "se": 1.2703,
+            "k": 1
+          },
+          "bilateral DLPFC": {
+            "pooled_effect": 0.7016,
+            "se": 0.5311,
+            "k": 1
+          },
+          "bilateral frontal-parietal-temporal regions": {
+            "pooled_effect": 1.01,
+            "se": 0.7934,
+            "k": 1
+          },
+          "left DLPFC": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.4884,
+            "se": 0.1657,
+            "ci_lower": 0.1635,
+            "ci_upper": 0.8133,
+            "z": 2.9467,
+            "p_value": 0.003212,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": 0.1635,
+              "upper": 0.8133
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          },
+          "left and right DLPFC": {
+            "pooled_effect": -0.4087,
+            "se": 0.2358,
+            "k": 1
+          },
+          "left and right dorsolateral prefrontal cortex (F3 and F4), Broca's area (F5), Wernicke's area (CP5), left and right somatosensory association cortex (P3 and P4)": {
+            "pooled_effect": 2.0084,
+            "se": 0.4088,
+            "k": 1
+          },
+          "parietal P3/P4 and posterior temporal T5/T6": {
+            "pooled_effect": 0.6018,
+            "se": 0.3765,
+            "k": 1
+          },
+          "precuneus": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.93,
+            "se": 0.1551,
+            "ci_lower": -1.2341,
+            "ci_upper": -0.6259,
+            "z": -5.9946,
+            "p_value": 0.0,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -1.2341,
+              "upper": -0.6259
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          },
+          "temporal lobes bilaterally (T3 and T4)": {
+            "pooled_effect": 0.2116,
+            "se": 0.3662,
+            "k": 1
+          },
+          "unknown": {
+            "pooled_effect": -1.61,
+            "se": 1.3215,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 84.0697,
+          "df": 10,
+          "p_value": 0.0,
+          "significant": true
+        }
+      },
+      "Session count": {
+        "subgroups": {
+          ">10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.6864,
+            "se": 0.2715,
+            "ci_lower": 0.1542,
+            "ci_upper": 1.2187,
+            "z": 2.5278,
+            "p_value": 0.011477,
+            "k": 8,
+            "heterogeneity": {
+              "Q": 30.4182,
+              "df": 7,
+              "p_heterogeneity": 8e-05,
+              "I2": 77.0,
+              "I2_interpretation": "considerable",
+              "H2": 4.35,
+              "tau2": 0.396451,
+              "tau": 0.6296
+            },
+            "prediction_interval": {
+              "lower": -0.9914,
+              "upper": 2.3643
+            },
+            "weights_percent": [
+              16.34,
+              13.08,
+              16.34,
+              16.31,
+              7.19,
+              13.7,
+              10.87,
+              6.18
+            ]
+          },
+          "unknown": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.9392,
+            "se": 0.1541,
+            "ci_lower": -1.2412,
+            "ci_upper": -0.6372,
+            "z": -6.0958,
+            "p_value": 0.0,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 0.2612,
+              "df": 2,
+              "p_heterogeneity": 0.877578,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.13,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -1.2412,
+              "upper": -0.6372
+            },
+            "weights_percent": [
+              49.32,
+              1.36,
+              49.32
+            ]
+          },
+          "≤10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.2931,
+            "se": 0.8152,
+            "ci_lower": -1.891,
+            "ci_upper": 1.3048,
+            "z": -0.3595,
+            "p_value": 0.719218,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 1.8986,
+              "df": 1,
+              "p_heterogeneity": 0.16824,
+              "I2": 47.3,
+              "I2_interpretation": "moderate",
+              "H2": 1.9,
+              "tau2": 0.785231,
+              "tau": 0.8861
+            },
+            "prediction_interval": {
+              "lower": -1.891,
+              "upper": 1.3048
+            },
+            "weights_percent": [
+              72.29,
+              27.71
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 27.2063,
+          "df": 2,
+          "p_value": 1e-06,
+          "significant": true
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.4472,
+            "se": 0.2494,
+            "ci_lower": -0.9361,
+            "ci_upper": 0.0417,
+            "z": -1.7929,
+            "p_value": 0.072996,
+            "k": 5,
+            "heterogeneity": {
+              "Q": 14.1723,
+              "df": 4,
+              "p_heterogeneity": 0.006765,
+              "I2": 71.8,
+              "I2_interpretation": "substantial",
+              "H2": 3.54,
+              "tau2": 0.201715,
+              "tau": 0.4491
+            },
+            "prediction_interval": {
+              "lower": -2.0822,
+              "upper": 1.1878
+            },
+            "weights_percent": [
+              24.9,
+              24.18,
+              7.49,
+              18.53,
+              24.9
+            ]
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.6922,
+            "se": 0.2686,
+            "ci_lower": 0.1657,
+            "ci_upper": 1.2188,
+            "z": 2.5768,
+            "p_value": 0.009971,
+            "k": 8,
+            "heterogeneity": {
+              "Q": 19.2575,
+              "df": 7,
+              "p_heterogeneity": 0.007418,
+              "I2": 63.7,
+              "I2_interpretation": "substantial",
+              "H2": 2.75,
+              "tau2": 0.294173,
+              "tau": 0.5424
+            },
+            "prediction_interval": {
+              "lower": -0.7888,
+              "upper": 2.1733
+            },
+            "weights_percent": [
+              20.67,
+              15.65,
+              20.67,
+              3.54,
+              16.56,
+              12.52,
+              3.78,
+              6.61
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 9.6633,
+          "df": 1,
+          "p_value": 0.00188,
+          "significant": true
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.203 (95% CI: -0.321 to 0.728), p=0.4469 (not significant). Heterogeneity: I²=85.7% (considerable).",
+    "measure": "ADAS-Cog",
+    "outcome_name": "Global cognition"
+  },
+  "Global_cognition_MMSE": {
+    "k": 23,
+    "studies": [
+      "Chen et al., Alzheimer's & Dementia 2025",
+      "Li et al., Brain Stimulation 2021",
+      "Manenti et al., Frontiers in Aging Neuroscience 2024",
+      "Ma J et al., J Neurol Neurosurg Psychiatry 2024",
+      "Zhao et al., Frontiers in Aging Neuroscience 2024",
+      "Kim et al., Frontiers in Neuroscience 2023",
+      "Meléndez et al., Journal of Alzheimer's Disease 2023",
+      "Yao et al., Molecular Psychiatry 2025",
+      "You et al., ORIGINAL RESEARCH 2023",
+      "He et al., 2021",
+      "Satorres et al., Front. Psychol. 2023",
+      "Li et al., Brain Stimulation 2021",
+      "Padala et al., Psychiatry Res. 2018",
+      "Gomes et al., Dement Neuropsychol 2019",
+      "Inagawa et al., Front. Hum. Neurosci. 2019",
+      "Im et al., Brain Stimul 2019",
+      "Koch et al., NeuroImage 2018",
+      "Khedr et al., Neurorehabilitation and Neural Repair 2019",
+      "Zhao et al., Oncotarget 2017",
+      "Ahmed et al., J Neurol 2012",
+      "Boggio et al., Brain Stimulation 2012",
+      "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+      "Inagawa et al., Alzheimer's & Dementia 2018"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.5072,
+      "se": 0.0753,
+      "ci_lower": 0.3597,
+      "ci_upper": 0.6548,
+      "z": 6.738,
+      "p_value": 0.0,
+      "weights": [
+        7.12,
+        4.8,
+        6.22,
+        5.88,
+        4.65,
+        1.87,
+        2.48,
+        8.45,
+        4.4,
+        5.99,
+        4.32,
+        10.29,
+        0.91,
+        8.21,
+        0.43,
+        2.42,
+        1.97,
+        5.38,
+        4.14,
+        2.03,
+        4.23,
+        3.35,
+        0.48
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.6183,
+      "se": 0.1772,
+      "ci_lower": 0.2709,
+      "ci_upper": 0.9657,
+      "z": 3.4884,
+      "p_value": 0.000486,
+      "k": 23,
+      "heterogeneity": {
+        "Q": 110.2481,
+        "df": 22,
+        "p_heterogeneity": 0.0,
+        "I2": 80.0,
+        "I2_interpretation": "considerable",
+        "H2": 5.01,
+        "tau2": 0.531298,
+        "tau": 0.7289
+      },
+      "prediction_interval": {
+        "lower": -0.9417,
+        "upper": 2.1783
+      },
+      "weights_percent": [
+        5.14,
+        4.84,
+        5.05,
+        5.0,
+        4.81,
+        3.77,
+        4.13,
+        5.25,
+        4.76,
+        5.02,
+        4.74,
+        5.36,
+        2.72,
+        5.23,
+        1.69,
+        4.1,
+        3.83,
+        4.93,
+        4.7,
+        3.88,
+        4.72,
+        4.48,
+        1.84
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.6237,
+      "se": 0.1885,
+      "ci_lower": 0.2542,
+      "ci_upper": 0.9932,
+      "z": 3.3081,
+      "p_value": 0.000939,
+      "k": 23,
+      "heterogeneity": {
+        "Q": 110.2481,
+        "df": 22,
+        "p_heterogeneity": 0.0,
+        "I2": 80.0,
+        "I2_interpretation": "considerable",
+        "H2": 5.01,
+        "tau2": 0.621842,
+        "tau": 0.7886
+      },
+      "prediction_interval": {
+        "lower": -1.0625,
+        "upper": 2.3098
+      },
+      "weights_percent": [
+        5.07,
+        4.8,
+        4.99,
+        4.95,
+        4.78,
+        3.84,
+        4.18,
+        5.16,
+        4.74,
+        4.96,
+        4.72,
+        5.25,
+        2.85,
+        5.14,
+        1.82,
+        4.15,
+        3.91,
+        4.89,
+        4.68,
+        3.95,
+        4.7,
+        4.49,
+        1.98
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.6183,
+      "se": 0.1772,
+      "ci_lower": 0.2709,
+      "ci_upper": 0.9657,
+      "z": 3.4884,
+      "p_value": 0.000486,
+      "k": 23,
+      "heterogeneity": {
+        "Q": 110.2481,
+        "df": 22,
+        "p_heterogeneity": 0.0,
+        "I2": 80.0,
+        "I2_interpretation": "considerable",
+        "H2": 5.01,
+        "tau2": 0.531298,
+        "tau": 0.7289
+      },
+      "prediction_interval": {
+        "lower": -0.9417,
+        "upper": 2.1783
+      },
+      "weights_percent": [
+        5.14,
+        4.84,
+        5.05,
+        5.0,
+        4.81,
+        3.77,
+        4.13,
+        5.25,
+        4.76,
+        5.02,
+        4.74,
+        5.36,
+        2.72,
+        5.23,
+        1.69,
+        4.1,
+        3.83,
+        4.93,
+        4.7,
+        3.88,
+        4.72,
+        4.48,
+        1.84
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Chen et al., Alzheimer's & Dementia 2025",
+          "pooled_effect": 0.6262,
+          "ci_lower": 0.257,
+          "ci_upper": 0.9953,
+          "I2": 81.0
+        },
+        {
+          "excluded_study": "Li et al., Brain Stimulation 2021",
+          "pooled_effect": 0.4448,
+          "ci_lower": 0.1978,
+          "ci_upper": 0.6918,
+          "I2": 57.8
+        },
+        {
+          "excluded_study": "Manenti et al., Frontiers in Aging Neuroscience 2024",
+          "pooled_effect": 0.6527,
+          "ci_lower": 0.2899,
+          "ci_upper": 1.0154,
+          "I2": 80.4
+        },
+        {
+          "excluded_study": "Ma J et al., J Neurol Neurosurg Psychiatry 2024",
+          "pooled_effect": 0.6668,
+          "ci_lower": 0.3117,
+          "ci_upper": 1.0218,
+          "I2": 79.6
+        },
+        {
+          "excluded_study": "Zhao et al., Frontiers in Aging Neuroscience 2024",
+          "pooled_effect": 0.6422,
+          "ci_lower": 0.2788,
+          "ci_upper": 1.0055,
+          "I2": 80.8
+        },
+        {
+          "excluded_study": "Kim et al., Frontiers in Neuroscience 2023",
+          "pooled_effect": 0.5917,
+          "ci_lower": 0.2365,
+          "ci_upper": 0.947,
+          "I2": 80.6
+        },
+        {
+          "excluded_study": "Meléndez et al., Journal of Alzheimer's Disease 2023",
+          "pooled_effect": 0.6251,
+          "ci_lower": 0.2649,
+          "ci_upper": 0.9853,
+          "I2": 81.0
+        },
+        {
+          "excluded_study": "Yao et al., Molecular Psychiatry 2025",
+          "pooled_effect": 0.6455,
+          "ci_lower": 0.277,
+          "ci_upper": 1.0139,
+          "I2": 80.6
+        },
+        {
+          "excluded_study": "You et al., ORIGINAL RESEARCH 2023",
+          "pooled_effect": 0.6082,
+          "ci_lower": 0.2455,
+          "ci_upper": 0.971,
+          "I2": 80.8
+        },
+        {
+          "excluded_study": "He et al., 2021",
+          "pooled_effect": 0.6439,
+          "ci_lower": 0.2787,
+          "ci_upper": 1.0092,
+          "I2": 80.7
+        },
+        {
+          "excluded_study": "Satorres et al., Front. Psychol. 2023",
+          "pooled_effect": 0.6108,
+          "ci_lower": 0.2477,
+          "ci_upper": 0.9738,
+          "I2": 80.8
+        },
+        {
+          "excluded_study": "Li et al., Brain Stimulation 2021",
+          "pooled_effect": 0.6288,
+          "ci_lower": 0.2546,
+          "ci_upper": 1.003,
+          "I2": 81.0
+        },
+        {
+          "excluded_study": "Padala et al., Psychiatry Res. 2018",
+          "pooled_effect": 0.539,
+          "ci_lower": 0.2057,
+          "ci_upper": 0.8723,
+          "I2": 78.3
+        },
+        {
+          "excluded_study": "Gomes et al., Dement Neuropsychol 2019",
+          "pooled_effect": 0.6579,
+          "ci_lower": 0.2959,
+          "ci_upper": 1.02,
+          "I2": 80.0
+        },
+        {
+          "excluded_study": "Inagawa et al., Front. Hum. Neurosci. 2019",
+          "pooled_effect": 0.6225,
+          "ci_lower": 0.2699,
+          "ci_upper": 0.975,
+          "I2": 81.0
+        },
+        {
+          "excluded_study": "Im et al., Brain Stimul 2019",
+          "pooled_effect": 0.6404,
+          "ci_lower": 0.2813,
+          "ci_upper": 0.9995,
+          "I2": 80.8
+        },
+        {
+          "excluded_study": "Koch et al., NeuroImage 2018",
+          "pooled_effect": 0.6337,
+          "ci_lower": 0.2752,
+          "ci_upper": 0.9923,
+          "I2": 80.9
+        },
+        {
+          "excluded_study": "Khedr et al., Neurorehabilitation and Neural Repair 2019",
+          "pooled_effect": 0.5931,
+          "ci_lower": 0.2331,
+          "ci_upper": 0.9531,
+          "I2": 80.3
+        },
+        {
+          "excluded_study": "Zhao et al., Oncotarget 2017",
+          "pooled_effect": 0.6373,
+          "ci_lower": 0.2741,
+          "ci_upper": 1.0004,
+          "I2": 80.9
+        },
+        {
+          "excluded_study": "Ahmed et al., J Neurol 2012",
+          "pooled_effect": 0.5642,
+          "ci_lower": 0.2169,
+          "ci_upper": 0.9115,
+          "I2": 79.6
+        },
+        {
+          "excluded_study": "Boggio et al., Brain Stimulation 2012",
+          "pooled_effect": 0.6417,
+          "ci_lower": 0.279,
+          "ci_upper": 1.0044,
+          "I2": 80.8
+        },
+        {
+          "excluded_study": "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+          "pooled_effect": 0.6638,
+          "ci_lower": 0.3088,
+          "ci_upper": 1.0187,
+          "I2": 80.1
+        },
+        {
+          "excluded_study": "Inagawa et al., Alzheimer's & Dementia 2018",
+          "pooled_effect": 0.6228,
+          "ci_lower": 0.2699,
+          "ci_upper": 0.9757,
+          "I2": 81.0
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.6183,
+        "ci_lower": 0.2709,
+        "ci_upper": 0.9657
+      }
+    },
+    "eggers_test": {
+      "test": "Egger's regression",
+      "intercept": 1.7846,
+      "intercept_se": 0.5166,
+      "intercept_p": 0.844331,
+      "significant": false,
+      "interpretation": "No significant funnel plot asymmetry"
+    },
+    "beggs_test": {
+      "test": "Begg's rank correlation",
+      "kendall_tau": 0.2569,
+      "p_value": 0.091111,
+      "significant": true
+    },
+    "trim_and_fill": {
+      "method": "trim_and_fill",
+      "side": "left",
+      "n_missing_estimated": 0,
+      "original_k": 23,
+      "adjusted_k": 23,
+      "original_effect": 0.6183,
+      "adjusted_effect": 0.6183,
+      "adjusted_ci_lower": 0.2709,
+      "adjusted_ci_upper": 0.9657
+    },
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "Anodal tDCS": {
+            "pooled_effect": -0.3539,
+            "se": 0.4114,
+            "k": 1
+          },
+          "Circuit-based PAS": {
+            "pooled_effect": -0.3088,
+            "se": 0.3104,
+            "k": 1
+          },
+          "HD-tDCS": {
+            "pooled_effect": 0.1739,
+            "se": 0.3077,
+            "k": 1
+          },
+          "Neuronavigated rTMS": {
+            "pooled_effect": 0.1776,
+            "se": 0.259,
+            "k": 1
+          },
+          "anodal tDCS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.6669,
+            "se": 0.4707,
+            "ci_lower": -0.2557,
+            "ci_upper": 1.5894,
+            "z": 1.4167,
+            "p_value": 0.156569,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 3.7072,
+              "df": 1,
+              "p_heterogeneity": 0.054179,
+              "I2": 73.0,
+              "I2_interpretation": "substantial",
+              "H2": 3.71,
+              "tau2": 0.323931,
+              "tau": 0.5691
+            },
+            "prediction_interval": {
+              "lower": -0.2557,
+              "upper": 1.5894
+            },
+            "weights_percent": [
+              51.6,
+              48.4
+            ]
+          },
+          "anodal tDCS + VRRS + Tele@H-VRRS": {
+            "pooled_effect": 0.0,
+            "se": 0.3018,
+            "k": 1
+          },
+          "high frequency rTMS": {
+            "pooled_effect": 1.9202,
+            "se": 0.5279,
+            "k": 1
+          },
+          "neuro-navigated rTMS": {
+            "pooled_effect": 0.8556,
+            "se": 0.3589,
+            "k": 1
+          },
+          "rTMS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.0997,
+            "se": 0.4471,
+            "ci_lower": 0.2235,
+            "ci_upper": 1.9759,
+            "z": 2.4599,
+            "p_value": 0.013898,
+            "k": 7,
+            "heterogeneity": {
+              "Q": 64.5304,
+              "df": 6,
+              "p_heterogeneity": 0.0,
+              "I2": 90.7,
+              "I2_interpretation": "considerable",
+              "H2": 10.76,
+              "tau2": 1.215745,
+              "tau": 1.1026
+            },
+            "prediction_interval": {
+              "lower": -1.9588,
+              "upper": 4.1582
+            },
+            "weights_percent": [
+              15.43,
+              14.98,
+              14.94,
+              15.73,
+              10.86,
+              13.29,
+              14.77
+            ]
+          },
+          "tDCS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.412,
+            "se": 0.2024,
+            "ci_lower": 0.0153,
+            "ci_upper": 0.8087,
+            "z": 2.0354,
+            "p_value": 0.041812,
+            "k": 7,
+            "heterogeneity": {
+              "Q": 7.5423,
+              "df": 6,
+              "p_heterogeneity": 0.273585,
+              "I2": 20.4,
+              "I2_interpretation": "low",
+              "H2": 1.26,
+              "tau2": 0.057663,
+              "tau": 0.2401
+            },
+            "prediction_interval": {
+              "lower": -0.3953,
+              "upper": 1.2193
+            },
+            "weights_percent": [
+              11.36,
+              14.29,
+              21.69,
+              32.34,
+              2.95,
+              14.03,
+              3.33
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 23.6455,
+          "df": 9,
+          "p_value": 0.004898,
+          "significant": true
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "AD-spectrum patients": {
+            "pooled_effect": 0.1776,
+            "se": 0.259,
+            "k": 1
+          },
+          "Alzheimer disease": {
+            "pooled_effect": 1.1227,
+            "se": 0.3247,
+            "k": 1
+          },
+          "Alzheimer's disease": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.1845,
+            "se": 0.5738,
+            "ci_lower": 0.0599,
+            "ci_upper": 2.3092,
+            "z": 2.0643,
+            "p_value": 0.038985,
+            "k": 5,
+            "heterogeneity": {
+              "Q": 54.187,
+              "df": 4,
+              "p_heterogeneity": 0.0,
+              "I2": 92.6,
+              "I2_interpretation": "considerable",
+              "H2": 13.55,
+              "tau2": 1.504878,
+              "tau": 1.2267
+            },
+            "prediction_interval": {
+              "lower": -3.1255,
+              "upper": 5.4945
+            },
+            "weights_percent": [
+              20.29,
+              21.11,
+              20.05,
+              18.46,
+              20.09
+            ]
+          },
+          "Alzheimer's disease (AD) spectrum with or without insomnia disorder (ID)": {
+            "pooled_effect": 0.8556,
+            "se": 0.3589,
+            "k": 1
+          },
+          "Amnestic mild cognitive impairment (aMCI)": {
+            "pooled_effect": 0.5313,
+            "se": 0.2822,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.0444,
+            "se": 0.1981,
+            "ci_lower": -0.4327,
+            "ci_upper": 0.344,
+            "z": -0.224,
+            "p_value": 0.82279,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.038,
+              "df": 1,
+              "p_heterogeneity": 0.845438,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.04,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.4327,
+              "upper": 0.344
+            },
+            "weights_percent": [
+              43.11,
+              56.89
+            ]
+          },
+          "Mild Cognitive Impairment with apathy": {
+            "pooled_effect": 3.4,
+            "se": 0.7908,
+            "k": 1
+          },
+          "amnestic mild cognitive impairment": {
+            "pooled_effect": -0.3088,
+            "se": 0.3104,
+            "k": 1
+          },
+          "amyloid positron emission tomography-positive Alzheimer's disease": {
+            "pooled_effect": 1.3031,
+            "se": 0.5505,
+            "k": 1
+          },
+          "depression in Alzheimer's disease": {
+            "pooled_effect": 0.1823,
+            "se": 0.349,
+            "k": 1
+          },
+          "early AD / prodromal Alzheimer's disease": {
+            "pooled_effect": 0.2602,
+            "se": 0.5368,
+            "k": 1
+          },
+          "early-stage AD": {
+            "pooled_effect": 0.4928,
+            "se": 0.4785,
+            "k": 1
+          },
+          "early-stage probable AD": {
+            "pooled_effect": 0.1288,
+            "se": 0.484,
+            "k": 1
+          },
+          "major or minor neurocognitive disorders": {
+            "pooled_effect": 0.41,
+            "se": 1.083,
+            "k": 1
+          },
+          "mild cognitive impairment (MCI)": {
+            "pooled_effect": 0.1739,
+            "se": 0.3077,
+            "k": 1
+          },
+          "mild neurocognitive disorder due to possible Alzheimer's disease": {
+            "pooled_effect": 0.8064,
+            "se": 0.3622,
+            "k": 1
+          },
+          "mild or major neurocognitive disorders": {
+            "pooled_effect": 0.41,
+            "se": 1.1531,
+            "k": 1
+          },
+          "probable mild to moderate AD": {
+            "pooled_effect": -0.3539,
+            "se": 0.4114,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 42.3651,
+          "df": 17,
+          "p_value": 0.000594,
+          "significant": true
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "DLPFC (anode F3/cathode F4)": {
+            "pooled_effect": 0.1288,
+            "se": 0.484,
+            "k": 1
+          },
+          "F3/Fp2": {
+            "pooled_effect": 0.41,
+            "se": 1.083,
+            "k": 1
+          },
+          "bilateral DLPFC": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.0061,
+            "se": 0.8678,
+            "ci_lower": -0.6947,
+            "ci_upper": 2.707,
+            "z": 1.1594,
+            "p_value": 0.246286,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 7.5417,
+              "df": 1,
+              "p_heterogeneity": 0.006029,
+              "I2": 86.7,
+              "I2_interpretation": "considerable",
+              "H2": 7.54,
+              "tau2": 1.309909,
+              "tau": 1.1445
+            },
+            "prediction_interval": {
+              "lower": -0.6947,
+              "upper": 2.707
+            },
+            "weights_percent": [
+              52.6,
+              47.4
+            ]
+          },
+          "bilateral temporo-parietal (TP) region (T3-P3, T4-P4)": {
+            "pooled_effect": 1.1227,
+            "se": 0.3247,
+            "k": 1
+          },
+          "cortical-hippocampal circuits": {
+            "pooled_effect": -0.3088,
+            "se": 0.3104,
+            "k": 1
+          },
+          "left DLPFC": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.0942,
+            "se": 0.9633,
+            "ci_lower": -0.794,
+            "ci_upper": 2.9823,
+            "z": 1.1358,
+            "p_value": 0.256041,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 53.0745,
+              "df": 2,
+              "p_heterogeneity": 0.0,
+              "I2": 96.2,
+              "I2_interpretation": "considerable",
+              "H2": 26.54,
+              "tau2": 2.670716,
+              "tau": 1.6342
+            },
+            "prediction_interval": {
+              "lower": -23.0099,
+              "upper": 25.1983
+            },
+            "weights_percent": [
+              33.28,
+              34.05,
+              32.68
+            ]
+          },
+          "left angular gyrus": {
+            "pooled_effect": 0.1776,
+            "se": 0.259,
+            "k": 1
+          },
+          "left dorsolateral prefrontal cortex": {
+            "pooled_effect": 0.4928,
+            "se": 0.4785,
+            "k": 1
+          },
+          "left dorsolateral prefrontal cortex (L-DLPFC)": {
+            "pooled_effect": 0.1739,
+            "se": 0.3077,
+            "k": 1
+          },
+          "left dorsolateral prefrontal cortex (LDLFC)": {
+            "pooled_effect": -0.078,
+            "se": 0.2627,
+            "k": 1
+          },
+          "left-angular gyrus": {
+            "pooled_effect": 0.8556,
+            "se": 0.3589,
+            "k": 1
+          },
+          "parietal P3/P4 and posterior temporal T5/T6": {
+            "pooled_effect": 0.2712,
+            "se": 0.3701,
+            "k": 1
+          },
+          "precuneus (PC)": {
+            "pooled_effect": 0.2602,
+            "se": 0.5368,
+            "k": 1
+          },
+          "precuneus (Pz site)": {
+            "pooled_effect": 0.5313,
+            "se": 0.2822,
+            "k": 1
+          },
+          "temporal lobes bilaterally (T3 and T4)": {
+            "pooled_effect": 0.1808,
+            "se": 0.3659,
+            "k": 1
+          },
+          "unknown": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.0911,
+            "se": 0.5013,
+            "ci_lower": 0.1085,
+            "ci_upper": 2.0737,
+            "z": 2.1763,
+            "p_value": 0.02953,
+            "k": 5,
+            "heterogeneity": {
+              "Q": 18.3613,
+              "df": 4,
+              "p_heterogeneity": 0.001049,
+              "I2": 78.2,
+              "I2_interpretation": "considerable",
+              "H2": 4.59,
+              "tau2": 0.880581,
+              "tau": 0.9384
+            },
+            "prediction_interval": {
+              "lower": -2.2948,
+              "upper": 4.4769
+            },
+            "weights_percent": [
+              25.87,
+              21.23,
+              24.84,
+              16.69,
+              11.37
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 19.9059,
+          "df": 15,
+          "p_value": 0.175572,
+          "significant": false
+        }
+      },
+      "Session count": {
+        "subgroups": {
+          ">10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.7914,
+            "se": 0.4288,
+            "ci_lower": -0.049,
+            "ci_upper": 1.6318,
+            "z": 1.8458,
+            "p_value": 0.064928,
+            "k": 6,
+            "heterogeneity": {
+              "Q": 57.1947,
+              "df": 5,
+              "p_heterogeneity": 0.0,
+              "I2": 91.3,
+              "I2_interpretation": "considerable",
+              "H2": 11.44,
+              "tau2": 0.990967,
+              "tau": 0.9955
+            },
+            "prediction_interval": {
+              "lower": -2.218,
+              "upper": 3.8007
+            },
+            "weights_percent": [
+              17.17,
+              16.58,
+              17.38,
+              17.57,
+              15.0,
+              16.3
+            ]
+          },
+          "unknown": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.3713,
+            "se": 0.1952,
+            "ci_lower": -0.0113,
+            "ci_upper": 0.7538,
+            "z": 1.9022,
+            "p_value": 0.05715,
+            "k": 8,
+            "heterogeneity": {
+              "Q": 12.6211,
+              "df": 7,
+              "p_heterogeneity": 0.081897,
+              "I2": 44.5,
+              "I2_interpretation": "moderate",
+              "H2": 1.8,
+              "tau2": 0.127351,
+              "tau": 0.3569
+            },
+            "prediction_interval": {
+              "lower": -0.624,
+              "upper": 1.3665
+            },
+            "weights_percent": [
+              17.44,
+              17.03,
+              15.29,
+              8.85,
+              14.87,
+              14.73,
+              2.61,
+              9.17
+            ]
+          },
+          "≤10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.6728,
+            "se": 0.296,
+            "ci_lower": 0.0928,
+            "ci_upper": 1.2529,
+            "z": 2.2734,
+            "p_value": 0.023002,
+            "k": 9,
+            "heterogeneity": {
+              "Q": 35.1671,
+              "df": 8,
+              "p_heterogeneity": 2.5e-05,
+              "I2": 77.3,
+              "I2_interpretation": "considerable",
+              "H2": 4.4,
+              "tau2": 0.553214,
+              "tau": 0.7438
+            },
+            "prediction_interval": {
+              "lower": -1.2201,
+              "upper": 2.5657
+            },
+            "weights_percent": [
+              11.2,
+              13.52,
+              7.43,
+              14.08,
+              13.3,
+              10.53,
+              12.75,
+              12.12,
+              5.07
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.2366,
+          "df": 2,
+          "p_value": 0.538865,
+          "significant": false
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.4872,
+            "se": 0.175,
+            "ci_lower": 0.1441,
+            "ci_upper": 0.8303,
+            "z": 2.7831,
+            "p_value": 0.005384,
+            "k": 13,
+            "heterogeneity": {
+              "Q": 36.1977,
+              "df": 12,
+              "p_heterogeneity": 0.000301,
+              "I2": 66.8,
+              "I2_interpretation": "substantial",
+              "H2": 3.02,
+              "tau2": 0.250156,
+              "tau": 0.5002
+            },
+            "prediction_interval": {
+              "lower": -0.6791,
+              "upper": 1.6535
+            },
+            "weights_percent": [
+              9.29,
+              8.84,
+              8.24,
+              6.4,
+              9.66,
+              8.09,
+              8.89,
+              8.04,
+              3.5,
+              9.6,
+              5.69,
+              5.79,
+              7.98
+            ]
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.7234,
+            "se": 0.3558,
+            "ci_lower": 0.026,
+            "ci_upper": 1.4207,
+            "z": 2.0332,
+            "p_value": 0.042033,
+            "k": 10,
+            "heterogeneity": {
+              "Q": 67.6431,
+              "df": 9,
+              "p_heterogeneity": 0.0,
+              "I2": 86.7,
+              "I2_interpretation": "considerable",
+              "H2": 7.52,
+              "tau2": 0.994687,
+              "tau": 0.9973
+            },
+            "prediction_interval": {
+              "lower": -1.7184,
+              "upper": 3.1652
+            },
+            "weights_percent": [
+              11.38,
+              11.66,
+              9.75,
+              12.06,
+              5.45,
+              10.3,
+              11.51,
+              11.19,
+              10.88,
+              5.84
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.3549,
+          "df": 1,
+          "p_value": 0.551375,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.618 (95% CI: 0.271 to 0.966), p=0.0005 (significant). Heterogeneity: I²=80.0% (considerable).",
+    "measure": "MMSE",
+    "outcome_name": "Global cognition"
+  },
+  "Global_cognition_MoCA": {
+    "k": 8,
+    "studies": [
+      "Chen et al., Alzheimer's & Dementia 2025",
+      "Riccitelli et al., Neurorehabilitation and Neural Repair 2025",
+      "Gu et al., Frontiers in Neuroscience 2022",
+      "Yao et al., Molecular Psychiatry 2025",
+      "You et al., ORIGINAL RESEARCH 2023",
+      "He et al., 2021",
+      "Khedr et al., Neurorehabilitation and Neural Repair 2019",
+      "Zhao et al., Oncotarget 2017"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.5417,
+      "se": 0.1158,
+      "ci_lower": 0.3148,
+      "ci_upper": 0.7686,
+      "z": 4.6785,
+      "p_value": 3e-06,
+      "weights": [
+        17.32,
+        7.5,
+        13.29,
+        19.02,
+        10.95,
+        14.22,
+        7.84,
+        9.87
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.6236,
+      "se": 0.2583,
+      "ci_lower": 0.1174,
+      "ci_upper": 1.1298,
+      "z": 2.4147,
+      "p_value": 0.015747,
+      "k": 8,
+      "heterogeneity": {
+        "Q": 33.8497,
+        "df": 7,
+        "p_heterogeneity": 1.8e-05,
+        "I2": 79.3,
+        "I2_interpretation": "considerable",
+        "H2": 4.84,
+        "tau2": 0.417357,
+        "tau": 0.646
+      },
+      "prediction_interval": {
+        "lower": -1.0788,
+        "upper": 2.3261
+      },
+      "weights_percent": [
+        13.48,
+        11.19,
+        12.87,
+        13.67,
+        12.36,
+        13.04,
+        11.34,
+        12.06
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.629,
+      "se": 0.2865,
+      "ci_lower": 0.0675,
+      "ci_upper": 1.1905,
+      "z": 2.1957,
+      "p_value": 0.028116,
+      "k": 8,
+      "heterogeneity": {
+        "Q": 33.8497,
+        "df": 7,
+        "p_heterogeneity": 1.8e-05,
+        "I2": 79.3,
+        "I2_interpretation": "considerable",
+        "H2": 4.84,
+        "tau2": 0.53984,
+        "tau": 0.7347
+      },
+      "prediction_interval": {
+        "lower": -1.3007,
+        "upper": 2.5587
+      },
+      "weights_percent": [
+        13.3,
+        11.42,
+        12.81,
+        13.45,
+        12.39,
+        12.94,
+        11.54,
+        12.15
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.6236,
+      "se": 0.2583,
+      "ci_lower": 0.1174,
+      "ci_upper": 1.1298,
+      "z": 2.4147,
+      "p_value": 0.015747,
+      "k": 8,
+      "heterogeneity": {
+        "Q": 33.8497,
+        "df": 7,
+        "p_heterogeneity": 1.8e-05,
+        "I2": 79.3,
+        "I2_interpretation": "considerable",
+        "H2": 4.84,
+        "tau2": 0.417357,
+        "tau": 0.646
+      },
+      "prediction_interval": {
+        "lower": -1.0788,
+        "upper": 2.3261
+      },
+      "weights_percent": [
+        13.48,
+        11.19,
+        12.87,
+        13.67,
+        12.36,
+        13.04,
+        11.34,
+        12.06
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Chen et al., Alzheimer's & Dementia 2025",
+          "pooled_effect": 0.6909,
+          "ci_lower": 0.1044,
+          "ci_upper": 1.2774,
+          "I2": 81.4
+        },
+        {
+          "excluded_study": "Riccitelli et al., Neurorehabilitation and Neural Repair 2025",
+          "pooled_effect": 0.6089,
+          "ci_lower": 0.0444,
+          "ci_upper": 1.1734,
+          "I2": 82.1
+        },
+        {
+          "excluded_study": "Gu et al., Frontiers in Neuroscience 2022",
+          "pooled_effect": 0.6809,
+          "ci_lower": 0.1001,
+          "ci_upper": 1.2618,
+          "I2": 81.8
+        },
+        {
+          "excluded_study": "Yao et al., Molecular Psychiatry 2025",
+          "pooled_effect": 0.6129,
+          "ci_lower": 0.0125,
+          "ci_upper": 1.2134,
+          "I2": 81.9
+        },
+        {
+          "excluded_study": "You et al., ORIGINAL RESEARCH 2023",
+          "pooled_effect": 0.6388,
+          "ci_lower": 0.0584,
+          "ci_upper": 1.2193,
+          "I2": 82.3
+        },
+        {
+          "excluded_study": "He et al., 2021",
+          "pooled_effect": 0.7207,
+          "ci_lower": 0.1632,
+          "ci_upper": 1.2783,
+          "I2": 80.0
+        },
+        {
+          "excluded_study": "Khedr et al., Neurorehabilitation and Neural Repair 2019",
+          "pooled_effect": 0.3622,
+          "ci_lower": 0.1258,
+          "ci_upper": 0.5986,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Zhao et al., Oncotarget 2017",
+          "pooled_effect": 0.7017,
+          "ci_lower": 0.1405,
+          "ci_upper": 1.2628,
+          "I2": 81.3
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.6236,
+        "ci_lower": 0.1174,
+        "ci_upper": 1.1298
+      }
+    },
+    "publication_bias_note": "Only 8 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "HD-tDCS": {
+            "pooled_effect": -0.0142,
+            "se": 0.3071,
+            "k": 1
+          },
+          "Neuronavigated rTMS": {
+            "pooled_effect": 0.7307,
+            "se": 0.2655,
+            "k": 1
+          },
+          "anodal tDCS": {
+            "pooled_effect": 2.6526,
+            "se": 0.4136,
+            "k": 1
+          },
+          "neuro-navigated rTMS": {
+            "pooled_effect": 0.5467,
+            "se": 0.3499,
+            "k": 1
+          },
+          "rTMS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.2942,
+            "se": 0.1966,
+            "ci_lower": -0.0911,
+            "ci_upper": 0.6795,
+            "z": 1.4965,
+            "p_value": 0.134524,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 1.663,
+              "df": 2,
+              "p_heterogeneity": 0.435397,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.83,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.0911,
+              "upper": 0.6795
+            },
+            "weights_percent": [
+              49.94,
+              21.62,
+              28.45
+            ]
+          },
+          "tDCS": {
+            "pooled_effect": 0.263,
+            "se": 0.3176,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 32.1865,
+          "df": 5,
+          "p_value": 5e-06,
+          "significant": true
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "AD-spectrum patients": {
+            "pooled_effect": 0.7307,
+            "se": 0.2655,
+            "k": 1
+          },
+          "Alzheimer disease": {
+            "pooled_effect": 2.6526,
+            "se": 0.4136,
+            "k": 1
+          },
+          "Alzheimer's disease": {
+            "pooled_effect": 0.0739,
+            "se": 0.3686,
+            "k": 1
+          },
+          "Alzheimer's disease (AD) spectrum with or without insomnia disorder (ID)": {
+            "pooled_effect": 0.5467,
+            "se": 0.3499,
+            "k": 1
+          },
+          "Amnestic mild cognitive impairment (aMCI)": {
+            "pooled_effect": 0.2168,
+            "se": 0.2782,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.4433,
+            "se": 0.2539,
+            "ci_lower": -0.0544,
+            "ci_upper": 0.941,
+            "z": 1.7457,
+            "p_value": 0.080866,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.8933,
+              "df": 1,
+              "p_heterogeneity": 0.344578,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.89,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.0544,
+              "upper": 0.941
+            },
+            "weights_percent": [
+              36.07,
+              63.93
+            ]
+          },
+          "mild cognitive impairment (MCI)": {
+            "pooled_effect": -0.0142,
+            "se": 0.3071,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 32.9564,
+          "df": 6,
+          "p_value": 1.1e-05,
+          "significant": true
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "Left temporal area (T3)": {
+            "pooled_effect": 0.263,
+            "se": 0.3176,
+            "k": 1
+          },
+          "bilateral temporo-parietal (TP) region (T3-P3, T4-P4)": {
+            "pooled_effect": 2.6526,
+            "se": 0.4136,
+            "k": 1
+          },
+          "left angular gyrus": {
+            "pooled_effect": 0.7307,
+            "se": 0.2655,
+            "k": 1
+          },
+          "left dorsolateral prefrontal cortex (L-DLPFC)": {
+            "pooled_effect": -0.0142,
+            "se": 0.3071,
+            "k": 1
+          },
+          "left-angular gyrus": {
+            "pooled_effect": 0.5467,
+            "se": 0.3499,
+            "k": 1
+          },
+          "parietal P3/P4 and posterior temporal T5/T6": {
+            "pooled_effect": 0.0739,
+            "se": 0.3686,
+            "k": 1
+          },
+          "precuneus (Pz site)": {
+            "pooled_effect": 0.2168,
+            "se": 0.2782,
+            "k": 1
+          },
+          "right Temporo-parietal Junction (rTPJ) and medial Prefrontal Cortex (mPFC)": {
+            "pooled_effect": 0.7628,
+            "se": 0.4228,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 33.8497,
+          "df": 7,
+          "p_value": 1.8e-05,
+          "significant": true
+        }
+      },
+      "Session count": {
+        "subgroups": {
+          ">10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.4466,
+            "se": 0.1701,
+            "ci_lower": 0.1132,
+            "ci_upper": 0.78,
+            "z": 2.6257,
+            "p_value": 0.008647,
+            "k": 4,
+            "heterogeneity": {
+              "Q": 3.4088,
+              "df": 3,
+              "p_heterogeneity": 0.33278,
+              "I2": 12.0,
+              "I2_interpretation": "low",
+              "H2": 1.14,
+              "tau2": 0.014227,
+              "tau": 0.1193
+            },
+            "prediction_interval": {
+              "lower": -0.4472,
+              "upper": 1.3405
+            },
+            "weights_percent": [
+              31.58,
+              14.99,
+              34.15,
+              19.28
+            ]
+          },
+          "unknown": {
+            "pooled_effect": 0.5467,
+            "se": 0.3499,
+            "k": 1
+          },
+          "≤10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.9435,
+            "se": 0.7609,
+            "ci_lower": -0.5478,
+            "ci_upper": 2.4348,
+            "z": 1.2401,
+            "p_value": 0.214953,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 29.5803,
+              "df": 2,
+              "p_heterogeneity": 0.0,
+              "I2": 93.2,
+              "I2_interpretation": "considerable",
+              "H2": 14.79,
+              "tau2": 1.615365,
+              "tau": 1.271
+            },
+            "prediction_interval": {
+              "lower": -17.8783,
+              "upper": 19.7654
+            },
+            "weights_percent": [
+              33.73,
+              33.86,
+              32.41
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.4451,
+          "df": 2,
+          "p_value": 0.800462,
+          "significant": false
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.3968,
+            "se": 0.1276,
+            "ci_lower": 0.1466,
+            "ci_upper": 0.6469,
+            "z": 3.1087,
+            "p_value": 0.001879,
+            "k": 6,
+            "heterogeneity": {
+              "Q": 4.9018,
+              "df": 5,
+              "p_heterogeneity": 0.427988,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.98,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": 0.1466,
+              "upper": 0.6469
+            },
+            "weights_percent": [
+              21.05,
+              9.11,
+              16.15,
+              23.11,
+              13.31,
+              17.27
+            ]
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.3564,
+            "se": 1.2893,
+            "ci_lower": -1.1707,
+            "ci_upper": 3.8835,
+            "z": 1.052,
+            "p_value": 0.292783,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 21.6651,
+              "df": 1,
+              "p_heterogeneity": 3e-06,
+              "I2": 95.4,
+              "I2_interpretation": "considerable",
+              "H2": 21.67,
+              "tau2": 3.171381,
+              "tau": 1.7808
+            },
+            "prediction_interval": {
+              "lower": -1.1707,
+              "upper": 3.8835
+            },
+            "weights_percent": [
+              49.74,
+              50.26
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.5486,
+          "df": 1,
+          "p_value": 0.458899,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.624 (95% CI: 0.117 to 1.130), p=0.0157 (significant). Heterogeneity: I²=79.3% (considerable).",
+    "measure": "MoCA",
+    "outcome_name": "Global cognition"
+  },
+  "Specific_cognitive_domains_memory": {
+    "k": 14,
+    "studies": [
+      "Chen et al., Alzheimer's & Dementia 2025",
+      "Jones et al., Scientific Reports 2023",
+      "Liu et al., Journal of ECT 2020",
+      "Gu et al., Frontiers in Neuroscience 2022",
+      "Manenti et al., Journal of Gerontology: Psychological Sciences 2022",
+      "Manenti et al., Journal of Gerontology: Psychological Sciences 2020",
+      "Velioglu et al., CNS Neurosci Ther 2024",
+      "You et al., ORIGINAL RESEARCH 2023",
+      "Chen et al., CNS Neurosci Ther 2023",
+      "Koch et al., NeuroImage 2018",
+      "Rutherford et al., Journal of Experimental Neuroscience 2015",
+      "Ferrucci et al., Neurology 2008",
+      "Manenti et al., Journal of Gerontology: Psychological Sciences 2017",
+      "Manenti et al., Journal of Gerontology: Psychological Sciences 2024"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.6739,
+      "se": 0.1115,
+      "ci_lower": 0.4552,
+      "ci_upper": 0.8925,
+      "z": 6.0413,
+      "p_value": 0.0,
+      "weights": [
+        12.74,
+        7.87,
+        8.29,
+        11.1,
+        5.22,
+        5.22,
+        9.7,
+        10.21,
+        5.6,
+        4.33,
+        3.35,
+        5.92,
+        5.22,
+        5.22
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.6496,
+      "se": 0.1604,
+      "ci_lower": 0.3353,
+      "ci_upper": 0.9639,
+      "z": 4.0507,
+      "p_value": 5.1e-05,
+      "k": 14,
+      "heterogeneity": {
+        "Q": 25.7761,
+        "df": 13,
+        "p_heterogeneity": 0.018217,
+        "I2": 49.6,
+        "I2_interpretation": "moderate",
+        "H2": 1.98,
+        "tau2": 0.173157,
+        "tau": 0.4161
+      },
+      "prediction_interval": {
+        "lower": -0.3221,
+        "upper": 1.6212
+      },
+      "weights_percent": [
+        9.5,
+        7.77,
+        7.96,
+        9.02,
+        6.25,
+        6.25,
+        8.53,
+        8.72,
+        6.5,
+        5.59,
+        4.72,
+        6.71,
+        6.25,
+        6.25
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.6496,
+      "se": 0.1602,
+      "ci_lower": 0.3357,
+      "ci_upper": 0.9635,
+      "z": 4.0558,
+      "p_value": 5e-05,
+      "k": 14,
+      "heterogeneity": {
+        "Q": 25.7761,
+        "df": 13,
+        "p_heterogeneity": 0.018217,
+        "I2": 49.6,
+        "I2_interpretation": "moderate",
+        "H2": 1.98,
+        "tau2": 0.172326,
+        "tau": 0.4151
+      },
+      "prediction_interval": {
+        "lower": -0.3198,
+        "upper": 1.6191
+      },
+      "weights_percent": [
+        9.5,
+        7.77,
+        7.96,
+        9.02,
+        6.25,
+        6.25,
+        8.53,
+        8.72,
+        6.5,
+        5.58,
+        4.72,
+        6.71,
+        6.25,
+        6.25
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.6496,
+      "se": 0.1604,
+      "ci_lower": 0.3353,
+      "ci_upper": 0.9639,
+      "z": 4.0507,
+      "p_value": 5.1e-05,
+      "k": 14,
+      "heterogeneity": {
+        "Q": 25.7761,
+        "df": 13,
+        "p_heterogeneity": 0.018217,
+        "I2": 49.6,
+        "I2_interpretation": "moderate",
+        "H2": 1.98,
+        "tau2": 0.173157,
+        "tau": 0.4161
+      },
+      "prediction_interval": {
+        "lower": -0.3221,
+        "upper": 1.6212
+      },
+      "weights_percent": [
+        9.5,
+        7.77,
+        7.96,
+        9.02,
+        6.25,
+        6.25,
+        8.53,
+        8.72,
+        6.5,
+        5.59,
+        4.72,
+        6.71,
+        6.25,
+        6.25
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Chen et al., Alzheimer's & Dementia 2025",
+          "pooled_effect": 0.5608,
+          "ci_lower": 0.2669,
+          "ci_upper": 0.8548,
+          "I2": 34.6
+        },
+        {
+          "excluded_study": "Jones et al., Scientific Reports 2023",
+          "pooled_effect": 0.7907,
+          "ci_lower": 0.5584,
+          "ci_upper": 1.0229,
+          "I2": 3.3
+        },
+        {
+          "excluded_study": "Liu et al., Journal of ECT 2020",
+          "pooled_effect": 0.6186,
+          "ci_lower": 0.2815,
+          "ci_upper": 0.9556,
+          "I2": 52.0
+        },
+        {
+          "excluded_study": "Gu et al., Frontiers in Neuroscience 2022",
+          "pooled_effect": 0.6161,
+          "ci_lower": 0.2759,
+          "ci_upper": 0.9564,
+          "I2": 51.6
+        },
+        {
+          "excluded_study": "Manenti et al., Journal of Gerontology: Psychological Sciences 2022",
+          "pooled_effect": 0.6411,
+          "ci_lower": 0.305,
+          "ci_upper": 0.9771,
+          "I2": 53.4
+        },
+        {
+          "excluded_study": "Manenti et al., Journal of Gerontology: Psychological Sciences 2020",
+          "pooled_effect": 0.6411,
+          "ci_lower": 0.305,
+          "ci_upper": 0.9771,
+          "I2": 53.4
+        },
+        {
+          "excluded_study": "Velioglu et al., CNS Neurosci Ther 2024",
+          "pooled_effect": 0.666,
+          "ci_lower": 0.324,
+          "ci_upper": 1.008,
+          "I2": 52.7
+        },
+        {
+          "excluded_study": "You et al., ORIGINAL RESEARCH 2023",
+          "pooled_effect": 0.662,
+          "ci_lower": 0.3183,
+          "ci_upper": 1.0057,
+          "I2": 53.0
+        },
+        {
+          "excluded_study": "Chen et al., CNS Neurosci Ther 2023",
+          "pooled_effect": 0.6957,
+          "ci_lower": 0.3736,
+          "ci_upper": 1.0178,
+          "I2": 49.0
+        },
+        {
+          "excluded_study": "Koch et al., NeuroImage 2018",
+          "pooled_effect": 0.6757,
+          "ci_lower": 0.3467,
+          "ci_upper": 1.0047,
+          "I2": 51.9
+        },
+        {
+          "excluded_study": "Rutherford et al., Journal of Experimental Neuroscience 2015",
+          "pooled_effect": 0.6082,
+          "ci_lower": 0.2888,
+          "ci_upper": 0.9276,
+          "I2": 49.8
+        },
+        {
+          "excluded_study": "Ferrucci et al., Neurology 2008",
+          "pooled_effect": 0.6496,
+          "ci_lower": 0.3119,
+          "ci_upper": 0.9874,
+          "I2": 53.4
+        },
+        {
+          "excluded_study": "Manenti et al., Journal of Gerontology: Psychological Sciences 2017",
+          "pooled_effect": 0.6411,
+          "ci_lower": 0.305,
+          "ci_upper": 0.9771,
+          "I2": 53.4
+        },
+        {
+          "excluded_study": "Manenti et al., Journal of Gerontology: Psychological Sciences 2024",
+          "pooled_effect": 0.6411,
+          "ci_lower": 0.305,
+          "ci_upper": 0.9771,
+          "I2": 53.4
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.6496,
+        "ci_lower": 0.3353,
+        "ci_upper": 0.9639
+      }
+    },
+    "eggers_test": {
+      "test": "Egger's regression",
+      "intercept": -1.2413,
+      "intercept_se": 0.855,
+      "intercept_p": 0.191777,
+      "significant": false,
+      "interpretation": "No significant funnel plot asymmetry"
+    },
+    "beggs_test": {
+      "test": "Begg's rank correlation",
+      "kendall_tau": -0.0588,
+      "p_value": 0.77876,
+      "significant": false
+    },
+    "trim_and_fill": {
+      "method": "trim_and_fill",
+      "side": "left",
+      "n_missing_estimated": 2,
+      "original_k": 14,
+      "adjusted_k": 16,
+      "original_effect": 0.6496,
+      "adjusted_effect": 0.5459,
+      "adjusted_ci_lower": 0.2335,
+      "adjusted_ci_upper": 0.8583
+    },
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "HF-rTMS": {
+            "pooled_effect": 1.4943,
+            "se": 0.6094,
+            "k": 1
+          },
+          "neuro-navigated rTMS": {
+            "pooled_effect": 0.5055,
+            "se": 0.349,
+            "k": 1
+          },
+          "rTMS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.5935,
+            "se": 0.3646,
+            "ci_lower": -0.121,
+            "ci_upper": 1.3081,
+            "z": 1.6281,
+            "p_value": 0.103511,
+            "k": 4,
+            "heterogeneity": {
+              "Q": 9.5899,
+              "df": 3,
+              "p_heterogeneity": 0.022394,
+              "I2": 68.7,
+              "I2_interpretation": "substantial",
+              "H2": 3.2,
+              "tau2": 0.35803,
+              "tau": 0.5984
+            },
+            "prediction_interval": {
+              "lower": -2.4212,
+              "upper": 3.6083
+            },
+            "weights_percent": [
+              29.17,
+              27.33,
+              22.91,
+              20.6
+            ]
+          },
+          "tACS": {
+            "pooled_effect": -0.7211,
+            "se": 0.3975,
+            "k": 1
+          },
+          "tDCS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.8422,
+            "se": 0.1641,
+            "ci_lower": 0.5205,
+            "ci_upper": 1.1638,
+            "z": 5.1314,
+            "p_value": 0.0,
+            "k": 7,
+            "heterogeneity": {
+              "Q": 0.6557,
+              "df": 6,
+              "p_heterogeneity": 0.995398,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.11,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": 0.5205,
+              "upper": 1.1638
+            },
+            "weights_percent": [
+              17.95,
+              24.03,
+              11.3,
+              11.3,
+              12.82,
+              11.3,
+              11.3
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 15.372,
+          "df": 4,
+          "p_value": 0.003989,
+          "significant": true
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Alzheimer's disease": {
+            "pooled_effect": 0.4598,
+            "se": 0.3582,
+            "k": 1
+          },
+          "Alzheimer's disease (AD) spectrum with or without insomnia disorder (ID)": {
+            "pooled_effect": 0.5055,
+            "se": 0.349,
+            "k": 1
+          },
+          "Amnestic mild cognitive impairment (aMCI)": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.2153,
+            "se": 0.3388,
+            "ci_lower": 0.5513,
+            "ci_upper": 1.8793,
+            "z": 3.5875,
+            "p_value": 0.000334,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 1.4843,
+              "df": 1,
+              "p_heterogeneity": 0.223103,
+              "I2": 32.6,
+              "I2_interpretation": "moderate",
+              "H2": 1.48,
+              "tau2": 0.081361,
+              "tau": 0.2852
+            },
+            "prediction_interval": {
+              "lower": 0.5513,
+              "upper": 1.8793
+            },
+            "weights_percent": [
+              64.1,
+              35.9
+            ]
+          },
+          "MCI or mild AD": {
+            "pooled_effect": 1.0013,
+            "se": 0.3874,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "pooled_effect": 0.9832,
+            "se": 0.3348,
+            "k": 1
+          },
+          "amnestic mild cognitive impairment (aMCI)": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.7626,
+            "se": 0.2819,
+            "ci_lower": 0.2101,
+            "ci_upper": 1.3151,
+            "z": 2.7056,
+            "p_value": 0.006819,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 2,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": 0.2101,
+              "upper": 1.3151
+            },
+            "weights_percent": [
+              33.33,
+              33.33,
+              33.33
+            ]
+          },
+          "early AD / prodromal Alzheimer's disease": {
+            "pooled_effect": 0.204,
+            "se": 0.5359,
+            "k": 1
+          },
+          "multi-domain amnestic mild cognitive impairment (md-aMCI)": {
+            "pooled_effect": -0.7211,
+            "se": 0.3975,
+            "k": 1
+          },
+          "probable AD": {
+            "pooled_effect": 0.6355,
+            "se": 0.4584,
+            "k": 1
+          },
+          "probable Alzheimer's disease": {
+            "pooled_effect": 1.4943,
+            "se": 0.6094,
+            "k": 1
+          },
+          "spectrum of Alzheimer's disease (aMCI and AD)": {
+            "pooled_effect": -0.0111,
+            "se": 0.4714,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 21.633,
+          "df": 10,
+          "p_value": 0.017088,
+          "significant": true
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "DLPFC or temporal cortices": {
+            "pooled_effect": 1.0013,
+            "se": 0.3874,
+            "k": 1
+          },
+          "Frontal": {
+            "pooled_effect": -0.7211,
+            "se": 0.3975,
+            "k": 1
+          },
+          "Left temporal area (T3)": {
+            "pooled_effect": 0.9832,
+            "se": 0.3348,
+            "k": 1
+          },
+          "anode over left lateral PFC, cathode over right supraorbital area": {
+            "pooled_effect": 0.7626,
+            "se": 0.4882,
+            "k": 1
+          },
+          "bilateral DLPFC": {
+            "pooled_effect": 1.4943,
+            "se": 0.6094,
+            "k": 1
+          },
+          "left angular gyrus": {
+            "pooled_effect": -0.0111,
+            "se": 0.4714,
+            "k": 1
+          },
+          "left lateral PFC": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.7626,
+            "se": 0.2819,
+            "ci_lower": 0.2101,
+            "ci_upper": 1.3151,
+            "z": 2.7056,
+            "p_value": 0.006819,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 2,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": 0.2101,
+              "upper": 1.3151
+            },
+            "weights_percent": [
+              33.33,
+              33.33,
+              33.33
+            ]
+          },
+          "left lateral parietal cortex": {
+            "pooled_effect": 0.4598,
+            "se": 0.3582,
+            "k": 1
+          },
+          "left-angular gyrus": {
+            "pooled_effect": 0.5055,
+            "se": 0.349,
+            "k": 1
+          },
+          "precuneus (PC)": {
+            "pooled_effect": 0.204,
+            "se": 0.5359,
+            "k": 1
+          },
+          "precuneus (Pz site)": {
+            "pooled_effect": 1.4688,
+            "se": 0.3125,
+            "k": 1
+          },
+          "temporoparietal areas bilaterally (P3-T5 left side; P6-T4 right side)": {
+            "pooled_effect": 0.6355,
+            "se": 0.4584,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 25.776,
+          "df": 11,
+          "p_value": 0.007007,
+          "significant": true
+        }
+      },
+      "Session count": {
+        "subgroups": {
+          ">10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 1.4741,
+            "se": 0.2781,
+            "ci_lower": 0.9291,
+            "ci_upper": 2.0191,
+            "z": 5.3012,
+            "p_value": 0.0,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0014,
+              "df": 1,
+              "p_heterogeneity": 0.970298,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": 0.9291,
+              "upper": 2.0191
+            },
+            "weights_percent": [
+              79.18,
+              20.82
+            ]
+          },
+          "unknown": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.2971,
+            "se": 0.2485,
+            "ci_lower": -0.19,
+            "ci_upper": 0.7842,
+            "z": 1.1955,
+            "p_value": 0.231896,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 0.8142,
+              "df": 2,
+              "p_heterogeneity": 0.665577,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.41,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.19,
+              "upper": 0.7842
+            },
+            "weights_percent": [
+              50.7,
+              27.79,
+              21.5
+            ]
+          },
+          "≤10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.5916,
+            "se": 0.1874,
+            "ci_lower": 0.2244,
+            "ci_upper": 0.9588,
+            "z": 3.1576,
+            "p_value": 0.001591,
+            "k": 9,
+            "heterogeneity": {
+              "Q": 14.0276,
+              "df": 8,
+              "p_heterogeneity": 0.081049,
+              "I2": 43.0,
+              "I2_interpretation": "moderate",
+              "H2": 1.75,
+              "tau2": 0.133807,
+              "tau": 0.3658
+            },
+            "prediction_interval": {
+              "lower": -0.3802,
+              "upper": 1.5634
+            },
+            "weights_percent": [
+              12.03,
+              12.37,
+              14.28,
+              9.43,
+              9.43,
+              13.39,
+              10.21,
+              9.43,
+              9.43
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 10.7086,
+          "df": 2,
+          "p_value": 0.004728,
+          "significant": true
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.7312,
+            "se": 0.1947,
+            "ci_lower": 0.3496,
+            "ci_upper": 1.1128,
+            "z": 3.7555,
+            "p_value": 0.000173,
+            "k": 7,
+            "heterogeneity": {
+              "Q": 10.9423,
+              "df": 6,
+              "p_heterogeneity": 0.090176,
+              "I2": 45.2,
+              "I2_interpretation": "moderate",
+              "H2": 1.82,
+              "tau2": 0.117692,
+              "tau": 0.3431
+            },
+            "prediction_interval": {
+              "lower": -0.2828,
+              "upper": 1.7451
+            },
+            "weights_percent": [
+              17.6,
+              14.16,
+              16.5,
+              15.41,
+              15.83,
+              11.15,
+              9.36
+            ]
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.577,
+            "se": 0.2721,
+            "ci_lower": 0.0436,
+            "ci_upper": 1.1104,
+            "z": 2.1204,
+            "p_value": 0.033975,
+            "k": 7,
+            "heterogeneity": {
+              "Q": 13.3437,
+              "df": 6,
+              "p_heterogeneity": 0.037891,
+              "I2": 55.0,
+              "I2_interpretation": "substantial",
+              "H2": 2.22,
+              "tau2": 0.282769,
+              "tau": 0.5318
+            },
+            "prediction_interval": {
+              "lower": -0.9585,
+              "upper": 2.1126
+            },
+            "weights_percent": [
+              16.8,
+              14.21,
+              14.21,
+              11.32,
+              15.03,
+              14.21,
+              14.21
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.2124,
+          "df": 1,
+          "p_value": 0.644891,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.650 (95% CI: 0.335 to 0.964), p=0.0001 (significant). Heterogeneity: I²=49.6% (moderate).",
+    "measure": "memory",
+    "outcome_name": "Specific cognitive domains"
+  },
+  "Specific_cognitive_domains_executive_function": {
+    "k": 6,
+    "studies": [
+      "Chen et al., Alzheimer's & Dementia 2025",
+      "Jones et al., Scientific Reports 2023",
+      "Gu et al., Frontiers in Neuroscience 2022",
+      "Velioglu et al., CNS Neurosci Ther 2024",
+      "Chen et al., CNS Neurosci Ther 2023",
+      "Koch et al., NeuroImage 2018"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.0601,
+      "se": 0.1484,
+      "ci_lower": -0.2308,
+      "ci_upper": 0.3509,
+      "z": 0.4047,
+      "p_value": 0.685692,
+      "weights": [
+        28.56,
+        14.52,
+        22.0,
+        17.34,
+        9.9,
+        7.68
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.0601,
+      "se": 0.1484,
+      "ci_lower": -0.2308,
+      "ci_upper": 0.3509,
+      "z": 0.4047,
+      "p_value": 0.685692,
+      "k": 6,
+      "heterogeneity": {
+        "Q": 2.5566,
+        "df": 5,
+        "p_heterogeneity": 0.767941,
+        "I2": 0,
+        "I2_interpretation": "low",
+        "H2": 0.51,
+        "tau2": 0.0,
+        "tau": 0.0
+      },
+      "prediction_interval": {
+        "lower": -0.2308,
+        "upper": 0.3509
+      },
+      "weights_percent": [
+        28.56,
+        14.52,
+        22.0,
+        17.34,
+        9.9,
+        7.68
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.0601,
+      "se": 0.1484,
+      "ci_lower": -0.2308,
+      "ci_upper": 0.3509,
+      "z": 0.4047,
+      "p_value": 0.685707,
+      "k": 6,
+      "heterogeneity": {
+        "Q": 2.5566,
+        "df": 5,
+        "p_heterogeneity": 0.767941,
+        "I2": 0,
+        "I2_interpretation": "low",
+        "H2": 0.51,
+        "tau2": 5e-06,
+        "tau": 0.0023
+      },
+      "prediction_interval": {
+        "lower": -0.352,
+        "upper": 0.4722
+      },
+      "weights_percent": [
+        28.56,
+        14.52,
+        22.0,
+        17.34,
+        9.9,
+        7.68
+      ]
+    },
+    "recommended_model": "fixed_effect",
+    "primary_analysis": {
+      "model": "fixed",
+      "pooled_effect": 0.0601,
+      "se": 0.1484,
+      "ci_lower": -0.2308,
+      "ci_upper": 0.3509,
+      "z": 0.4047,
+      "p_value": 0.685692,
+      "weights": [
+        28.56,
+        14.52,
+        22.0,
+        17.34,
+        9.9,
+        7.68
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Chen et al., Alzheimer's & Dementia 2025",
+          "pooled_effect": 0.0233,
+          "ci_lower": -0.3208,
+          "ci_upper": 0.3675,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Jones et al., Scientific Reports 2023",
+          "pooled_effect": 0.1421,
+          "ci_lower": -0.1725,
+          "ci_upper": 0.4567,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Gu et al., Frontiers in Neuroscience 2022",
+          "pooled_effect": 0.0542,
+          "ci_lower": -0.2752,
+          "ci_upper": 0.3835,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Velioglu et al., CNS Neurosci Ther 2024",
+          "pooled_effect": -0.0031,
+          "ci_lower": -0.323,
+          "ci_upper": 0.3168,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Chen et al., CNS Neurosci Ther 2023",
+          "pooled_effect": 0.0549,
+          "ci_lower": -0.2515,
+          "ci_upper": 0.3613,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Koch et al., NeuroImage 2018",
+          "pooled_effect": 0.0791,
+          "ci_lower": -0.2236,
+          "ci_upper": 0.3818,
+          "I2": 0
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.0601,
+        "ci_lower": -0.2308,
+        "ci_upper": 0.3509
+      }
+    },
+    "publication_bias_note": "Only 6 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "rTMS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.1633,
+            "se": 0.1863,
+            "ci_lower": -0.2018,
+            "ci_upper": 0.5284,
+            "z": 0.8765,
+            "p_value": 0.380752,
+            "k": 4,
+            "heterogeneity": {
+              "Q": 0.7083,
+              "df": 3,
+              "p_heterogeneity": 0.871256,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.24,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.2018,
+              "upper": 0.5284
+            },
+            "weights_percent": [
+              44.99,
+              27.32,
+              15.59,
+              12.1
+            ]
+          },
+          "tACS": {
+            "pooled_effect": -0.4227,
+            "se": 0.3894,
+            "k": 1
+          },
+          "tDCS": {
+            "pooled_effect": 0.081,
+            "se": 0.3164,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.8485,
+          "df": 2,
+          "p_value": 0.396836,
+          "significant": false
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Alzheimer's disease": {
+            "pooled_effect": 0.3611,
+            "se": 0.3564,
+            "k": 1
+          },
+          "Amnestic mild cognitive impairment (aMCI)": {
+            "pooled_effect": 0.1519,
+            "se": 0.2777,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "pooled_effect": 0.081,
+            "se": 0.3164,
+            "k": 1
+          },
+          "early AD / prodromal Alzheimer's disease": {
+            "pooled_effect": -0.1687,
+            "se": 0.5355,
+            "k": 1
+          },
+          "multi-domain amnestic mild cognitive impairment (md-aMCI)": {
+            "pooled_effect": -0.4227,
+            "se": 0.3894,
+            "k": 1
+          },
+          "spectrum of Alzheimer's disease (aMCI and AD)": {
+            "pooled_effect": 0.1071,
+            "se": 0.4717,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 2.5566,
+          "df": 5,
+          "p_value": 0.767941,
+          "significant": false
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "Frontal": {
+            "pooled_effect": -0.4227,
+            "se": 0.3894,
+            "k": 1
+          },
+          "Left temporal area (T3)": {
+            "pooled_effect": 0.081,
+            "se": 0.3164,
+            "k": 1
+          },
+          "left angular gyrus": {
+            "pooled_effect": 0.1071,
+            "se": 0.4717,
+            "k": 1
+          },
+          "left lateral parietal cortex": {
+            "pooled_effect": 0.3611,
+            "se": 0.3564,
+            "k": 1
+          },
+          "precuneus (PC)": {
+            "pooled_effect": -0.1687,
+            "se": 0.5355,
+            "k": 1
+          },
+          "precuneus (Pz site)": {
+            "pooled_effect": 0.1519,
+            "se": 0.2777,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 2.5566,
+          "df": 5,
+          "p_value": 0.767941,
+          "significant": false
+        }
+      },
+      "Session count": {
+        "subgroups": {
+          ">10 sessions": {
+            "pooled_effect": 0.1519,
+            "se": 0.2777,
+            "k": 1
+          },
+          "unknown": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.0134,
+            "se": 0.354,
+            "ci_lower": -0.7072,
+            "ci_upper": 0.6804,
+            "z": -0.0379,
+            "p_value": 0.969802,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.1494,
+              "df": 1,
+              "p_heterogeneity": 0.699143,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.15,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.7072,
+              "upper": 0.6804
+            },
+            "weights_percent": [
+              56.31,
+              43.69
+            ]
+          },
+          "≤10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.0327,
+            "se": 0.2145,
+            "ci_lower": -0.3877,
+            "ci_upper": 0.453,
+            "z": 0.1523,
+            "p_value": 0.87895,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 2.2399,
+              "df": 2,
+              "p_heterogeneity": 0.326298,
+              "I2": 10.7,
+              "I2_interpretation": "low",
+              "H2": 1.12,
+              "tau2": 0.014933,
+              "tau": 0.1222
+            },
+            "prediction_interval": {
+              "lower": -3.1037,
+              "upper": 3.1691
+            },
+            "weights_percent": [
+              27.61,
+              39.98,
+              32.4
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.1687,
+          "df": 2,
+          "p_value": 0.919108,
+          "significant": false
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.1421,
+            "se": 0.1605,
+            "ci_lower": -0.1725,
+            "ci_upper": 0.4567,
+            "z": 0.8852,
+            "p_value": 0.376041,
+            "k": 5,
+            "heterogeneity": {
+              "Q": 0.7585,
+              "df": 4,
+              "p_heterogeneity": 0.943926,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.19,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.1725,
+              "upper": 0.4567
+            },
+            "weights_percent": [
+              33.41,
+              25.74,
+              20.28,
+              11.58,
+              8.99
+            ]
+          },
+          "Yes": {
+            "pooled_effect": -0.4227,
+            "se": 0.3894,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.7983,
+          "df": 1,
+          "p_value": 0.179922,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.060 (95% CI: -0.231 to 0.351), p=0.6857 (not significant). Heterogeneity: I²=0.0% (low).",
+    "measure": "executive function",
+    "outcome_name": "Specific cognitive domains"
+  },
+  "Specific_cognitive_domains_attention": {
+    "k": 5,
+    "studies": [
+      "Chen et al., Alzheimer's & Dementia 2025",
+      "Jones et al., Scientific Reports 2023",
+      "Gu et al., Frontiers in Neuroscience 2022",
+      "Koch et al., NeuroImage 2018",
+      "Ferrucci et al., Neurology 2008"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.5687,
+      "se": 0.1718,
+      "ci_lower": 0.232,
+      "ci_upper": 0.9054,
+      "z": 3.3109,
+      "p_value": 0.00093,
+      "weights": [
+        37.63,
+        19.68,
+        23.8,
+        10.07,
+        8.83
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.541,
+      "se": 0.2533,
+      "ci_lower": 0.0446,
+      "ci_upper": 1.0374,
+      "z": 2.1362,
+      "p_value": 0.032667,
+      "k": 5,
+      "heterogeneity": {
+        "Q": 7.8332,
+        "df": 4,
+        "p_heterogeneity": 0.097882,
+        "I2": 48.9,
+        "I2_interpretation": "moderate",
+        "H2": 1.96,
+        "tau2": 0.151777,
+        "tau": 0.3896
+      },
+      "prediction_interval": {
+        "lower": -0.9378,
+        "upper": 2.0198
+      },
+      "weights_percent": [
+        27.87,
+        21.26,
+        23.26,
+        14.42,
+        13.2
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.5402,
+      "se": 0.2557,
+      "ci_lower": 0.0391,
+      "ci_upper": 1.0413,
+      "z": 2.1129,
+      "p_value": 0.03461,
+      "k": 5,
+      "heterogeneity": {
+        "Q": 7.8332,
+        "df": 4,
+        "p_heterogeneity": 0.097882,
+        "I2": 48.9,
+        "I2_interpretation": "moderate",
+        "H2": 1.96,
+        "tau2": 0.157466,
+        "tau": 0.3968
+      },
+      "prediction_interval": {
+        "lower": -0.9621,
+        "upper": 2.0424
+      },
+      "weights_percent": [
+        27.71,
+        21.26,
+        23.22,
+        14.51,
+        13.29
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.541,
+      "se": 0.2533,
+      "ci_lower": 0.0446,
+      "ci_upper": 1.0374,
+      "z": 2.1362,
+      "p_value": 0.032667,
+      "k": 5,
+      "heterogeneity": {
+        "Q": 7.8332,
+        "df": 4,
+        "p_heterogeneity": 0.097882,
+        "I2": 48.9,
+        "I2_interpretation": "moderate",
+        "H2": 1.96,
+        "tau2": 0.151777,
+        "tau": 0.3896
+      },
+      "prediction_interval": {
+        "lower": -0.9378,
+        "upper": 2.0198
+      },
+      "weights_percent": [
+        27.87,
+        21.26,
+        23.26,
+        14.42,
+        13.2
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Chen et al., Alzheimer's & Dementia 2025",
+          "pooled_effect": 0.571,
+          "ci_lower": -0.1155,
+          "ci_upper": 1.2575,
+          "I2": 58.4
+        },
+        {
+          "excluded_study": "Jones et al., Scientific Reports 2023",
+          "pooled_effect": 0.5967,
+          "ci_lower": -0.0318,
+          "ci_upper": 1.2251,
+          "I2": 58.2
+        },
+        {
+          "excluded_study": "Gu et al., Frontiers in Neuroscience 2022",
+          "pooled_effect": 0.3136,
+          "ci_lower": -0.072,
+          "ci_upper": 0.6993,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Koch et al., NeuroImage 2018",
+          "pooled_effect": 0.5455,
+          "ci_lower": -0.0561,
+          "ci_upper": 1.1471,
+          "I2": 61.5
+        },
+        {
+          "excluded_study": "Ferrucci et al., Neurology 2008",
+          "pooled_effect": 0.6445,
+          "ci_lower": 0.1165,
+          "ci_upper": 1.1725,
+          "I2": 51.5
+        }
+      ],
+      "influential_studies": [
+        "Chen et al., Alzheimer's & Dementia 2025",
+        "Jones et al., Scientific Reports 2023",
+        "Gu et al., Frontiers in Neuroscience 2022",
+        "Koch et al., NeuroImage 2018"
+      ],
+      "full_analysis": {
+        "pooled_effect": 0.541,
+        "ci_lower": 0.0446,
+        "ci_upper": 1.0374
+      }
+    },
+    "publication_bias_note": "Only 5 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "rTMS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.408,
+            "se": 0.2487,
+            "ci_lower": -0.0795,
+            "ci_upper": 0.8954,
+            "z": 1.6403,
+            "p_value": 0.100941,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0101,
+              "df": 1,
+              "p_heterogeneity": 0.919761,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.01,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.0795,
+              "upper": 0.8954
+            },
+            "weights_percent": [
+              78.9,
+              21.1
+            ]
+          },
+          "tACS": {
+            "pooled_effect": 0.2884,
+            "se": 0.3872,
+            "k": 1
+          },
+          "tDCS": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.6918,
+            "se": 0.7594,
+            "ci_lower": -0.7966,
+            "ci_upper": 2.1802,
+            "z": 0.911,
+            "p_value": 0.362273,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 5.0759,
+              "df": 1,
+              "p_heterogeneity": 0.024261,
+              "I2": 80.3,
+              "I2_interpretation": "considerable",
+              "H2": 5.08,
+              "tau2": 0.933725,
+              "tau": 0.9663
+            },
+            "prediction_interval": {
+              "lower": -0.7966,
+              "upper": 2.1802
+            },
+            "weights_percent": [
+              54.52,
+              45.48
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.2313,
+          "df": 2,
+          "p_value": 0.890799,
+          "significant": false
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Amnestic mild cognitive impairment (aMCI)": {
+            "pooled_effect": 0.395,
+            "se": 0.28,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "pooled_effect": 1.3854,
+            "se": 0.3521,
+            "k": 1
+          },
+          "early AD / prodromal Alzheimer's disease": {
+            "pooled_effect": 0.4564,
+            "se": 0.5414,
+            "k": 1
+          },
+          "multi-domain amnestic mild cognitive impairment (md-aMCI)": {
+            "pooled_effect": 0.2884,
+            "se": 0.3872,
+            "k": 1
+          },
+          "probable AD": {
+            "pooled_effect": -0.1396,
+            "se": 0.5781,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 7.8332,
+          "df": 4,
+          "p_value": 0.097882,
+          "significant": false
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "Frontal": {
+            "pooled_effect": 0.2884,
+            "se": 0.3872,
+            "k": 1
+          },
+          "Left temporal area (T3)": {
+            "pooled_effect": 1.3854,
+            "se": 0.3521,
+            "k": 1
+          },
+          "precuneus (PC)": {
+            "pooled_effect": 0.4564,
+            "se": 0.5414,
+            "k": 1
+          },
+          "precuneus (Pz site)": {
+            "pooled_effect": 0.395,
+            "se": 0.28,
+            "k": 1
+          },
+          "temporoparietal areas bilaterally (P3-T5 left side; P6-T4 right side)": {
+            "pooled_effect": -0.1396,
+            "se": 0.5781,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 7.8332,
+          "df": 4,
+          "p_value": 0.097882,
+          "significant": false
+        }
+      },
+      "Session count": {
+        "subgroups": {
+          ">10 sessions": {
+            "pooled_effect": 0.395,
+            "se": 0.28,
+            "k": 1
+          },
+          "unknown": {
+            "pooled_effect": 0.4564,
+            "se": 0.5414,
+            "k": 1
+          },
+          "≤10 sessions": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.5794,
+            "se": 0.4639,
+            "ci_lower": -0.3297,
+            "ci_upper": 1.4886,
+            "z": 1.2491,
+            "p_value": 0.211619,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 7.0244,
+              "df": 2,
+              "p_heterogeneity": 0.029831,
+              "I2": 71.5,
+              "I2_interpretation": "substantial",
+              "H2": 3.51,
+              "tau2": 0.45495,
+              "tau": 0.6745
+            },
+            "prediction_interval": {
+              "lower": -9.8219,
+              "upper": 10.9807
+            },
+            "weights_percent": [
+              35.57,
+              37.16,
+              27.26
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.1162,
+          "df": 2,
+          "p_value": 0.943539,
+          "significant": false
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.7604,
+            "se": 0.3488,
+            "ci_lower": 0.0767,
+            "ci_upper": 1.4441,
+            "z": 2.1798,
+            "p_value": 0.029269,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 5.1514,
+              "df": 2,
+              "p_heterogeneity": 0.076101,
+              "I2": 61.2,
+              "I2_interpretation": "substantial",
+              "H2": 2.58,
+              "tau2": 0.219547,
+              "tau": 0.4686
+            },
+            "prediction_interval": {
+              "lower": -6.6619,
+              "upper": 8.1827
+            },
+            "weights_percent": [
+              40.84,
+              35.42,
+              23.74
+            ]
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.1559,
+            "se": 0.3217,
+            "ci_lower": -0.4747,
+            "ci_upper": 0.7864,
+            "z": 0.4845,
+            "p_value": 0.628054,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.3784,
+              "df": 1,
+              "p_heterogeneity": 0.53847,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.38,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.4747,
+              "upper": 0.7864
+            },
+            "weights_percent": [
+              69.03,
+              30.97
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.623,
+          "df": 1,
+          "p_value": 0.202675,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.541 (95% CI: 0.045 to 1.037), p=0.0327 (significant). Heterogeneity: I²=48.9% (moderate).",
+    "measure": "attention",
+    "outcome_name": "Specific cognitive domains"
+  },
+  "Functional_outcomes_ADL": {
+    "k": 5,
+    "studies": [
+      "Cantoni et al., JAMA Network Open 2025",
+      "Manenti et al., Frontiers in Aging Neuroscience 2024",
+      "Ahmed et al., J Neurol 2012",
+      "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+      "Cantoni et al., JAMA Network Open 2025"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": -0.3917,
+      "se": 0.1072,
+      "ci_lower": -0.6019,
+      "ci_upper": -0.1816,
+      "z": -3.6533,
+      "p_value": 0.000259,
+      "weights": [
+        38.19,
+        12.38,
+        4.34,
+        6.9,
+        38.19
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": -0.106,
+      "se": 0.2714,
+      "ci_lower": -0.6379,
+      "ci_upper": 0.426,
+      "z": -0.3905,
+      "p_value": 0.696177,
+      "k": 5,
+      "heterogeneity": {
+        "Q": 20.1238,
+        "df": 4,
+        "p_heterogeneity": 0.000472,
+        "I2": 80.1,
+        "I2_interpretation": "considerable",
+        "H2": 5.03,
+        "tau2": 0.270077,
+        "tau": 0.5197
+      },
+      "prediction_interval": {
+        "lower": -1.9718,
+        "upper": 1.7598
+      },
+      "weights_percent": [
+        24.54,
+        20.3,
+        13.76,
+        16.87,
+        24.54
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": -0.0326,
+      "se": 0.3881,
+      "ci_lower": -0.7933,
+      "ci_upper": 0.728,
+      "z": -0.0841,
+      "p_value": 0.93297,
+      "k": 5,
+      "heterogeneity": {
+        "Q": 20.1238,
+        "df": 4,
+        "p_heterogeneity": 0.000472,
+        "I2": 80.1,
+        "I2_interpretation": "considerable",
+        "H2": 5.03,
+        "tau2": 0.645949,
+        "tau": 0.8037
+      },
+      "prediction_interval": {
+        "lower": -2.873,
+        "upper": 2.8077
+      },
+      "weights_percent": [
+        22.28,
+        20.38,
+        16.53,
+        18.53,
+        22.28
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": -0.106,
+      "se": 0.2714,
+      "ci_lower": -0.6379,
+      "ci_upper": 0.426,
+      "z": -0.3905,
+      "p_value": 0.696177,
+      "k": 5,
+      "heterogeneity": {
+        "Q": 20.1238,
+        "df": 4,
+        "p_heterogeneity": 0.000472,
+        "I2": 80.1,
+        "I2_interpretation": "considerable",
+        "H2": 5.03,
+        "tau2": 0.270077,
+        "tau": 0.5197
+      },
+      "prediction_interval": {
+        "lower": -1.9718,
+        "upper": 1.7598
+      },
+      "weights_percent": [
+        24.54,
+        20.3,
+        13.76,
+        16.87,
+        24.54
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Cantoni et al., JAMA Network Open 2025",
+          "pooled_effect": 0.0997,
+          "ci_lower": -0.6908,
+          "ci_upper": 0.8902,
+          "I2": 84.0
+        },
+        {
+          "excluded_study": "Manenti et al., Frontiers in Aging Neuroscience 2024",
+          "pooled_effect": 0.0027,
+          "ci_lower": -0.6703,
+          "ci_upper": 0.6756,
+          "I2": 85.1
+        },
+        {
+          "excluded_study": "Ahmed et al., J Neurol 2012",
+          "pooled_effect": -0.4895,
+          "ci_lower": -0.7043,
+          "ci_upper": -0.2746,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+          "pooled_effect": -0.1122,
+          "ci_lower": -0.7285,
+          "ci_upper": 0.5042,
+          "I2": 84.3
+        },
+        {
+          "excluded_study": "Cantoni et al., JAMA Network Open 2025",
+          "pooled_effect": 0.0997,
+          "ci_lower": -0.6908,
+          "ci_upper": 0.8902,
+          "I2": 84.0
+        }
+      ],
+      "influential_studies": [
+        "Ahmed et al., J Neurol 2012"
+      ],
+      "full_analysis": {
+        "pooled_effect": -0.106,
+        "ci_lower": -0.6379,
+        "ci_upper": 0.426
+      }
+    },
+    "publication_bias_note": "Only 5 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "Anodal tDCS": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "Gamma tACS": {
+            "pooled_effect": -0.55,
+            "se": 0.1735,
+            "k": 1
+          },
+          "anodal tDCS + VRRS + Tele@H-VRRS": {
+            "pooled_effect": -0.3888,
+            "se": 0.3047,
+            "k": 1
+          },
+          "high frequency rTMS": {
+            "pooled_effect": 1.7642,
+            "se": 0.5148,
+            "k": 1
+          },
+          "tACS": {
+            "pooled_effect": -0.55,
+            "se": 0.1735,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 20.1238,
+          "df": 4,
+          "p_value": 0.000472,
+          "significant": true
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Alzheimer's disease": {
+            "pooled_effect": 1.7642,
+            "se": 0.5148,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "pooled_effect": -0.3888,
+            "se": 0.3047,
+            "k": 1
+          },
+          "probable mild to moderate AD": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "prodromal or mild Alzheimer disease": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.55,
+            "se": 0.1227,
+            "ci_lower": -0.7905,
+            "ci_upper": -0.3095,
+            "z": -4.4831,
+            "p_value": 7e-06,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.7905,
+              "upper": -0.3095
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 20.1233,
+          "df": 3,
+          "p_value": 0.00016,
+          "significant": true
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "bilateral DLPFC": {
+            "pooled_effect": 1.7642,
+            "se": 0.5148,
+            "k": 1
+          },
+          "left DLPFC": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "precuneus": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.55,
+            "se": 0.1227,
+            "ci_lower": -0.7905,
+            "ci_upper": -0.3095,
+            "z": -4.4831,
+            "p_value": 7e-06,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.7905,
+              "upper": -0.3095
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          },
+          "unknown": {
+            "pooled_effect": -0.3888,
+            "se": 0.3047,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 20.1233,
+          "df": 3,
+          "p_value": 0.00016,
+          "significant": true
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.0298,
+            "se": 0.4214,
+            "ci_lower": -0.7962,
+            "ci_upper": 0.8558,
+            "z": 0.0707,
+            "p_value": 0.943607,
+            "k": 3,
+            "heterogeneity": {
+              "Q": 19.1221,
+              "df": 2,
+              "p_heterogeneity": 7e-05,
+              "I2": 89.5,
+              "I2_interpretation": "considerable",
+              "H2": 9.56,
+              "tau2": 0.443854,
+              "tau": 0.6662
+            },
+            "prediction_interval": {
+              "lower": -9.9868,
+              "upper": 10.0464
+            },
+            "weights_percent": [
+              37.47,
+              25.05,
+              37.47
+            ]
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.2497,
+            "se": 0.2442,
+            "ci_lower": -0.7283,
+            "ci_upper": 0.2289,
+            "z": -1.0225,
+            "p_value": 0.306522,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.5826,
+              "df": 1,
+              "p_heterogeneity": 0.445297,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.58,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.7283,
+              "upper": 0.2289
+            },
+            "weights_percent": [
+              64.22,
+              35.78
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.3293,
+          "df": 1,
+          "p_value": 0.566055,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: -0.106 (95% CI: -0.638 to 0.426), p=0.6962 (not significant). Heterogeneity: I²=80.1% (considerable).",
+    "measure": "ADL",
+    "outcome_name": "Functional outcomes"
+  },
+  "Functional_outcomes_IADL": {
+    "k": 3,
+    "studies": [
+      "Manenti et al., Frontiers in Aging Neuroscience 2024",
+      "Ahmed et al., J Neurol 2012",
+      "Cotelli et al., Frontiers in Aging Neuroscience 2014"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.1752,
+      "se": 0.2201,
+      "ci_lower": -0.2561,
+      "ci_upper": 0.6066,
+      "z": 0.7961,
+      "p_value": 0.425949,
+      "weights": [
+        52.65,
+        18.28,
+        29.07
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.4339,
+      "se": 0.5678,
+      "ci_lower": -0.6789,
+      "ci_upper": 1.5467,
+      "z": 0.7642,
+      "p_value": 0.444775,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 11.96,
+        "df": 2,
+        "p_heterogeneity": 0.002529,
+        "I2": 83.3,
+        "I2_interpretation": "considerable",
+        "H2": 5.98,
+        "tau2": 0.797612,
+        "tau": 0.8931
+      },
+      "prediction_interval": {
+        "lower": -13.0129,
+        "upper": 13.8806
+      },
+      "weights_percent": [
+        36.23,
+        30.33,
+        33.43
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.4431,
+      "se": 0.6181,
+      "ci_lower": -0.7684,
+      "ci_upper": 1.6546,
+      "z": 0.7169,
+      "p_value": 0.473439,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 11.96,
+        "df": 2,
+        "p_heterogeneity": 0.002529,
+        "I2": 83.3,
+        "I2_interpretation": "considerable",
+        "H2": 5.98,
+        "tau2": 0.975936,
+        "tau": 0.9879
+      },
+      "prediction_interval": {
+        "lower": -14.3638,
+        "upper": 15.25
+      },
+      "weights_percent": [
+        35.78,
+        30.79,
+        33.44
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.4339,
+      "se": 0.5678,
+      "ci_lower": -0.6789,
+      "ci_upper": 1.5467,
+      "z": 0.7642,
+      "p_value": 0.444775,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 11.96,
+        "df": 2,
+        "p_heterogeneity": 0.002529,
+        "I2": 83.3,
+        "I2_interpretation": "considerable",
+        "H2": 5.98,
+        "tau2": 0.797612,
+        "tau": 0.8931
+      },
+      "prediction_interval": {
+        "lower": -13.0129,
+        "upper": 13.8806
+      },
+      "weights_percent": [
+        36.23,
+        30.33,
+        33.43
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Manenti et al., Frontiers in Aging Neuroscience 2024",
+          "pooled_effect": 0.8542,
+          "ci_lower": -0.8738,
+          "ci_upper": 2.5823,
+          "I2": 86.1
+        },
+        {
+          "excluded_study": "Ahmed et al., J Neurol 2012",
+          "pooled_effect": -0.1801,
+          "ci_lower": -0.6573,
+          "ci_upper": 0.297,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+          "pooled_effect": 0.7,
+          "ci_lower": -1.3012,
+          "ci_upper": 2.7012,
+          "I2": 91.5
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.4339,
+        "ci_lower": -0.6789,
+        "ci_upper": 1.5467
+      }
+    },
+    "publication_bias_note": "Only 3 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "Anodal tDCS": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "anodal tDCS + VRRS + Tele@H-VRRS": {
+            "pooled_effect": -0.2796,
+            "se": 0.3033,
+            "k": 1
+          },
+          "high frequency rTMS": {
+            "pooled_effect": 1.7642,
+            "se": 0.5148,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 11.96,
+          "df": 2,
+          "p_value": 0.002529,
+          "significant": true
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Alzheimer's disease": {
+            "pooled_effect": 1.7642,
+            "se": 0.5148,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "pooled_effect": -0.2796,
+            "se": 0.3033,
+            "k": 1
+          },
+          "probable mild to moderate AD": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 11.96,
+          "df": 2,
+          "p_value": 0.002529,
+          "significant": true
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "bilateral DLPFC": {
+            "pooled_effect": 1.7642,
+            "se": 0.5148,
+            "k": 1
+          },
+          "left DLPFC": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "unknown": {
+            "pooled_effect": -0.2796,
+            "se": 0.3033,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 11.96,
+          "df": 2,
+          "p_value": 0.002529,
+          "significant": true
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "pooled_effect": 1.7642,
+            "se": 0.5148,
+            "k": 1
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.1801,
+            "se": 0.2435,
+            "ci_lower": -0.6573,
+            "ci_upper": 0.297,
+            "z": -0.74,
+            "p_value": 0.459324,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.3023,
+              "df": 1,
+              "p_heterogeneity": 0.582454,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.3,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.6573,
+              "upper": 0.297
+            },
+            "weights_percent": [
+              64.43,
+              35.57
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 11.6564,
+          "df": 1,
+          "p_value": 0.00064,
+          "significant": true
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.434 (95% CI: -0.679 to 1.547), p=0.4448 (not significant). Heterogeneity: I²=83.3% (considerable).",
+    "measure": "IADL",
+    "outcome_name": "Functional outcomes"
+  },
+  "Functional_outcomes_ADCS-ADL": {
+    "k": 3,
+    "studies": [
+      "Cantoni et al., JAMA Network Open 2025",
+      "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+      "Cantoni et al., JAMA Network Open 2025"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": -0.5044,
+      "se": 0.1175,
+      "ci_lower": -0.7347,
+      "ci_upper": -0.2742,
+      "z": -4.2934,
+      "p_value": 1.8e-05,
+      "weights": [
+        45.86,
+        8.28,
+        45.86
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": -0.5044,
+      "se": 0.1175,
+      "ci_lower": -0.7347,
+      "ci_upper": -0.2742,
+      "z": -4.2934,
+      "p_value": 1.8e-05,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 1.665,
+        "df": 2,
+        "p_heterogeneity": 0.434954,
+        "I2": 0,
+        "I2_interpretation": "low",
+        "H2": 0.83,
+        "tau2": 0.0,
+        "tau": 0.0
+      },
+      "prediction_interval": {
+        "lower": -0.7347,
+        "upper": -0.2742
+      },
+      "weights_percent": [
+        45.86,
+        8.28,
+        45.86
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": -0.5044,
+      "se": 0.1175,
+      "ci_lower": -0.7347,
+      "ci_upper": -0.2741,
+      "z": -4.293,
+      "p_value": 1.8e-05,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 1.665,
+        "df": 2,
+        "p_heterogeneity": 0.434954,
+        "I2": 0,
+        "I2_interpretation": "low",
+        "H2": 0.83,
+        "tau2": 5e-06,
+        "tau": 0.0023
+      },
+      "prediction_interval": {
+        "lower": -1.9977,
+        "upper": 0.9889
+      },
+      "weights_percent": [
+        45.86,
+        8.29,
+        45.86
+      ]
+    },
+    "recommended_model": "fixed_effect",
+    "primary_analysis": {
+      "model": "fixed",
+      "pooled_effect": -0.5044,
+      "se": 0.1175,
+      "ci_lower": -0.7347,
+      "ci_upper": -0.2742,
+      "z": -4.2934,
+      "p_value": 1.8e-05,
+      "weights": [
+        45.86,
+        8.28,
+        45.86
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Cantoni et al., JAMA Network Open 2025",
+          "pooled_effect": -0.3991,
+          "ci_lower": -0.8801,
+          "ci_upper": 0.0819,
+          "I2": 35.0
+        },
+        {
+          "excluded_study": "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+          "pooled_effect": -0.55,
+          "ci_lower": -0.7905,
+          "ci_upper": -0.3095,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Cantoni et al., JAMA Network Open 2025",
+          "pooled_effect": -0.3991,
+          "ci_lower": -0.8801,
+          "ci_upper": 0.0819,
+          "I2": 35.0
+        }
+      ],
+      "influential_studies": [
+        "Cantoni et al., JAMA Network Open 2025",
+        "Cantoni et al., JAMA Network Open 2025"
+      ],
+      "full_analysis": {
+        "pooled_effect": -0.5044,
+        "ci_lower": -0.7347,
+        "ci_upper": -0.2742
+      }
+    },
+    "publication_bias_note": "Only 3 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "Anodal tDCS": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "Gamma tACS": {
+            "pooled_effect": -0.55,
+            "se": 0.1735,
+            "k": 1
+          },
+          "tACS": {
+            "pooled_effect": -0.55,
+            "se": 0.1735,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.665,
+          "df": 2,
+          "p_value": 0.434954,
+          "significant": false
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "probable mild to moderate AD": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "prodromal or mild Alzheimer disease": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.55,
+            "se": 0.1227,
+            "ci_lower": -0.7905,
+            "ci_upper": -0.3095,
+            "z": -4.4831,
+            "p_value": 7e-06,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.7905,
+              "upper": -0.3095
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.665,
+          "df": 1,
+          "p_value": 0.196931,
+          "significant": false
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "left DLPFC": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          },
+          "precuneus": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.55,
+            "se": 0.1227,
+            "ci_lower": -0.7905,
+            "ci_upper": -0.3095,
+            "z": -4.4831,
+            "p_value": 7e-06,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.7905,
+              "upper": -0.3095
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.665,
+          "df": 1,
+          "p_value": 0.196931,
+          "significant": false
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "model": "random_effects_dl",
+            "pooled_effect": -0.55,
+            "se": 0.1227,
+            "ci_lower": -0.7905,
+            "ci_upper": -0.3095,
+            "z": -4.4831,
+            "p_value": 7e-06,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.0,
+              "df": 1,
+              "p_heterogeneity": 1.0,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.0,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.7905,
+              "upper": -0.3095
+            },
+            "weights_percent": [
+              50.0,
+              50.0
+            ]
+          },
+          "Yes": {
+            "pooled_effect": 0.0,
+            "se": 0.4082,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 1.665,
+          "df": 1,
+          "p_value": 0.196931,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: -0.504 (95% CI: -0.735 to -0.274), p=0.0000 (significant). Heterogeneity: I²=0.0% (low).",
+    "measure": "ADCS-ADL",
+    "outcome_name": "Functional outcomes"
+  },
+  "Neuropsychiatric_symptoms_NPI": {
+    "k": 3,
+    "studies": [
+      "Manenti et al., Frontiers in Aging Neuroscience 2024",
+      "Zhao et al., Frontiers in Aging Neuroscience 2024",
+      "Cotelli et al., Frontiers in Aging Neuroscience 2014"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.3655,
+      "se": 0.2023,
+      "ci_lower": -0.0309,
+      "ci_upper": 0.7619,
+      "z": 1.8072,
+      "p_value": 0.070738,
+      "weights": [
+        44.67,
+        30.79,
+        24.54
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.369,
+      "se": 0.2472,
+      "ci_lower": -0.1155,
+      "ci_upper": 0.8535,
+      "z": 1.4927,
+      "p_value": 0.13552,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 2.917,
+        "df": 2,
+        "p_heterogeneity": 0.232585,
+        "I2": 31.4,
+        "I2_interpretation": "moderate",
+        "H2": 1.46,
+        "tau2": 0.058118,
+        "tau": 0.2411
+      },
+      "prediction_interval": {
+        "lower": -4.0183,
+        "upper": 4.7563
+      },
+      "weights_percent": [
+        40.82,
+        32.0,
+        27.18
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.3689,
+      "se": 0.2442,
+      "ci_lower": -0.1097,
+      "ci_upper": 0.8475,
+      "z": 1.5106,
+      "p_value": 0.130893,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 2.917,
+        "df": 2,
+        "p_heterogeneity": 0.232585,
+        "I2": 31.4,
+        "I2_interpretation": "moderate",
+        "H2": 1.46,
+        "tau2": 0.053813,
+        "tau": 0.232
+      },
+      "prediction_interval": {
+        "lower": -3.9107,
+        "upper": 4.6485
+      },
+      "weights_percent": [
+        41.02,
+        31.94,
+        27.04
+      ]
+    },
+    "recommended_model": "random_effects_dl",
+    "primary_analysis": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.369,
+      "se": 0.2472,
+      "ci_lower": -0.1155,
+      "ci_upper": 0.8535,
+      "z": 1.4927,
+      "p_value": 0.13552,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 2.917,
+        "df": 2,
+        "p_heterogeneity": 0.232585,
+        "I2": 31.4,
+        "I2_interpretation": "moderate",
+        "H2": 1.46,
+        "tau2": 0.058118,
+        "tau": 0.2411
+      },
+      "prediction_interval": {
+        "lower": -4.0183,
+        "upper": 4.7563
+      },
+      "weights_percent": [
+        40.82,
+        32.0,
+        27.18
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Manenti et al., Frontiers in Aging Neuroscience 2024",
+          "pooled_effect": 0.4699,
+          "ci_lower": -0.358,
+          "ci_upper": 1.2979,
+          "I2": 58.1
+        },
+        {
+          "excluded_study": "Zhao et al., Frontiers in Aging Neuroscience 2024",
+          "pooled_effect": 0.1398,
+          "ci_lower": -0.3367,
+          "ci_upper": 0.6163,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Cotelli et al., Frontiers in Aging Neuroscience 2014",
+          "pooled_effect": 0.5065,
+          "ci_lower": -0.1483,
+          "ci_upper": 1.1613,
+          "I2": 50.2
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.369,
+        "ci_lower": -0.1155,
+        "ci_upper": 0.8535
+      }
+    },
+    "publication_bias_note": "Only 3 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "Anodal tDCS": {
+            "pooled_effect": 0.027,
+            "se": 0.4083,
+            "k": 1
+          },
+          "anodal tDCS + VRRS + Tele@H-VRRS": {
+            "pooled_effect": 0.2018,
+            "se": 0.3026,
+            "k": 1
+          },
+          "rTMS": {
+            "pooled_effect": 0.8728,
+            "se": 0.3645,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 2.917,
+          "df": 2,
+          "p_value": 0.232585,
+          "significant": false
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Mild Cognitive Impairment": {
+            "pooled_effect": 0.2018,
+            "se": 0.3026,
+            "k": 1
+          },
+          "depression in Alzheimer's disease": {
+            "pooled_effect": 0.8728,
+            "se": 0.3645,
+            "k": 1
+          },
+          "probable mild to moderate AD": {
+            "pooled_effect": 0.027,
+            "se": 0.4083,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 2.917,
+          "df": 2,
+          "p_value": 0.232585,
+          "significant": false
+        }
+      },
+      "Stimulation target": {
+        "subgroups": {
+          "bilateral DLPFC": {
+            "pooled_effect": 0.8728,
+            "se": 0.3645,
+            "k": 1
+          },
+          "left DLPFC": {
+            "pooled_effect": 0.027,
+            "se": 0.4083,
+            "k": 1
+          },
+          "unknown": {
+            "pooled_effect": 0.2018,
+            "se": 0.3026,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 2.917,
+          "df": 2,
+          "p_value": 0.232585,
+          "significant": false
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "pooled_effect": 0.8728,
+            "se": 0.3645,
+            "k": 1
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.1398,
+            "se": 0.2431,
+            "ci_lower": -0.3367,
+            "ci_upper": 0.6163,
+            "z": 0.5752,
+            "p_value": 0.565184,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.1183,
+              "df": 1,
+              "p_heterogeneity": 0.730881,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.12,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.3367,
+              "upper": 0.6163
+            },
+            "weights_percent": [
+              64.55,
+              35.45
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 2.799,
+          "df": 1,
+          "p_value": 0.094323,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.369 (95% CI: -0.116 to 0.854), p=0.1355 (not significant). Heterogeneity: I²=31.4% (moderate).",
+    "measure": "NPI",
+    "outcome_name": "Neuropsychiatric symptoms"
+  },
+  "Neuropsychiatric_symptoms_GDS": {
+    "k": 3,
+    "studies": [
+      "Manenti et al., Frontiers in Aging Neuroscience 2024",
+      "Kim et al., Frontiers in Neuroscience 2023",
+      "Ahmed et al., J Neurol 2012"
+    ],
+    "fixed_effect": {
+      "model": "fixed",
+      "pooled_effect": 0.2415,
+      "se": 0.2238,
+      "ci_lower": -0.1971,
+      "ci_upper": 0.68,
+      "z": 1.0791,
+      "p_value": 0.280563,
+      "weights": [
+        54.61,
+        20.01,
+        25.38
+      ]
+    },
+    "random_effects_dl": {
+      "model": "random_effects_dl",
+      "pooled_effect": 0.2415,
+      "se": 0.2238,
+      "ci_lower": -0.1971,
+      "ci_upper": 0.68,
+      "z": 1.0791,
+      "p_value": 0.280563,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 0.8148,
+        "df": 2,
+        "p_heterogeneity": 0.665377,
+        "I2": 0,
+        "I2_interpretation": "low",
+        "H2": 0.41,
+        "tau2": 0.0,
+        "tau": 0.0
+      },
+      "prediction_interval": {
+        "lower": -0.1971,
+        "upper": 0.68
+      },
+      "weights_percent": [
+        54.61,
+        20.01,
+        25.38
+      ]
+    },
+    "random_effects_reml": {
+      "model": "random_effects_reml",
+      "pooled_effect": 0.2415,
+      "se": 0.2238,
+      "ci_lower": -0.1971,
+      "ci_upper": 0.68,
+      "z": 1.079,
+      "p_value": 0.280574,
+      "k": 3,
+      "heterogeneity": {
+        "Q": 0.8148,
+        "df": 2,
+        "p_heterogeneity": 0.665377,
+        "I2": 0,
+        "I2_interpretation": "low",
+        "H2": 0.41,
+        "tau2": 5e-06,
+        "tau": 0.0023
+      },
+      "prediction_interval": {
+        "lower": -2.602,
+        "upper": 3.0849
+      },
+      "weights_percent": [
+        54.61,
+        20.01,
+        25.38
+      ]
+    },
+    "recommended_model": "fixed_effect",
+    "primary_analysis": {
+      "model": "fixed",
+      "pooled_effect": 0.2415,
+      "se": 0.2238,
+      "ci_lower": -0.1971,
+      "ci_upper": 0.68,
+      "z": 1.0791,
+      "p_value": 0.280563,
+      "weights": [
+        54.61,
+        20.01,
+        25.38
+      ]
+    },
+    "leave_one_out": {
+      "leave_one_out": [
+        {
+          "excluded_study": "Manenti et al., Frontiers in Aging Neuroscience 2024",
+          "pooled_effect": 0.2545,
+          "ci_lower": -0.3965,
+          "ci_upper": 0.9055,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Kim et al., Frontiers in Neuroscience 2023",
+          "pooled_effect": 0.3225,
+          "ci_lower": -0.1679,
+          "ci_upper": 0.8129,
+          "I2": 0
+        },
+        {
+          "excluded_study": "Ahmed et al., J Neurol 2012",
+          "pooled_effect": 0.1466,
+          "ci_lower": -0.3611,
+          "ci_upper": 0.6543,
+          "I2": 0
+        }
+      ],
+      "influential_studies": [],
+      "full_analysis": {
+        "pooled_effect": 0.2415,
+        "ci_lower": -0.1971,
+        "ci_upper": 0.68
+      }
+    },
+    "publication_bias_note": "Only 3 studies — publication bias tests unreliable with <10 studies",
+    "subgroup_analyses": {
+      "Stimulation type": {
+        "subgroups": {
+          "anodal tDCS + VRRS + Tele@H-VRRS": {
+            "pooled_effect": 0.2306,
+            "se": 0.3028,
+            "k": 1
+          },
+          "high frequency rTMS": {
+            "pooled_effect": 0.5203,
+            "se": 0.4442,
+            "k": 1
+          },
+          "tDCS": {
+            "pooled_effect": -0.0825,
+            "se": 0.5002,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.8148,
+          "df": 2,
+          "p_value": 0.665377,
+          "significant": false
+        }
+      },
+      "Population": {
+        "subgroups": {
+          "Alzheimer's disease": {
+            "pooled_effect": 0.5203,
+            "se": 0.4442,
+            "k": 1
+          },
+          "Mild Cognitive Impairment": {
+            "pooled_effect": 0.2306,
+            "se": 0.3028,
+            "k": 1
+          },
+          "amyloid positron emission tomography-positive Alzheimer's disease": {
+            "pooled_effect": -0.0825,
+            "se": 0.5002,
+            "k": 1
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.8148,
+          "df": 2,
+          "p_value": 0.665377,
+          "significant": false
+        }
+      },
+      "Combined with cognitive training": {
+        "subgroups": {
+          "No": {
+            "pooled_effect": 0.5203,
+            "se": 0.4442,
+            "k": 1
+          },
+          "Yes": {
+            "model": "random_effects_dl",
+            "pooled_effect": 0.1466,
+            "se": 0.259,
+            "ci_lower": -0.3611,
+            "ci_upper": 0.6543,
+            "z": 0.5661,
+            "p_value": 0.571344,
+            "k": 2,
+            "heterogeneity": {
+              "Q": 0.2867,
+              "df": 1,
+              "p_heterogeneity": 0.59232,
+              "I2": 0,
+              "I2_interpretation": "low",
+              "H2": 0.29,
+              "tau2": 0.0,
+              "tau": 0.0
+            },
+            "prediction_interval": {
+              "lower": -0.3611,
+              "upper": 0.6543
+            },
+            "weights_percent": [
+              73.18,
+              26.82
+            ]
+          }
+        },
+        "test_for_differences": {
+          "Q_between": 0.5282,
+          "df": 1,
+          "p_value": 0.467367,
+          "significant": false
+        }
+      }
+    },
+    "summary": "Pooled effect: 0.241 (95% CI: -0.197 to 0.680), p=0.2806 (not significant). Heterogeneity: I²=0.0% (low).",
+    "measure": "GDS",
+    "outcome_name": "Neuropsychiatric symptoms"
+  }
+}

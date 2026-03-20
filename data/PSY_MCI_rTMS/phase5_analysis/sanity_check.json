@@ -1,0 +1,1382 @@
+{
+  "total": 186,
+  "clean": 150,
+  "with_warnings": 36,
+  "with_errors": 0,
+  "details": [
+    {
+      "study_id": "PMID_41013466",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39604076",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40658276",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_41414714",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40984052",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_41216839",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 26+26=52 ≠ 135"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40736330",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40801847",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_41359335",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40420669",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40305881",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40838395",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39755599",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40336555",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40004217",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40785301",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 16+15=31 ≠ 47"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39138281",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40500659",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40746364",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38804028",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 14+14=28 ≠ 19"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38056370",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38310304",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39863318",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36834642",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40125804",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_37534626",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_41199470",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_41258002",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39336854",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40176122",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38365761",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38966802",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 23+21=44 ≠ 109"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40756002",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_37156876",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38908485",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_37608981",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 44+49=93 ≠ 180"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38105601",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_37744398",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39267112",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38944654",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35134853",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38414493",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35594397",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_33762220",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 20+20=40 ≠ 20"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_37615489",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_37872457",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_31790015",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 17+17=34 ≠ 17"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35068464",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39269839",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40443505",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 14+14=28 ≠ 14"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_33957292",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35250453",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38503484",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34752934",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39845447",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34924374",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38178837",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34200847",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38007663",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35625731",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38427493",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_30395314",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38287520",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38360452",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40312071",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40185902",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38709534",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_37601952",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34602464",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 32+32=64 ≠ 32"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34388179",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38155843",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_39324544",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36623419",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_33935089",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35607946",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_38970141",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40878312",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36281767",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35339351",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_33063732",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34751749",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_31127779",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36125835",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+15=30 ≠ 45"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36942495",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_32280093",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36660288",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35700915",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_33581283",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36137949",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_40143889",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_29331848",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 9+9=18 ≠ 9"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35839637",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34762980",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34366347",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_28637840",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 16+16=32 ≠ 16"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_31285793",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36313021",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+12=27 ≠ 40"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_26160997",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_32437690",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_31555109",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34764150",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 20+20=40 ≠ 20"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_25449530",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 18+18=36 ≠ 18"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_27903289",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "EPMC_PMC12782143",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_33679572",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_31196835",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_29277405",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_33610772",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36704634",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 10+8=18 ≠ 27"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_31609693",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_30940012",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35370614",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_32925060",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_27823981",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_34267648",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_26401945",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 20+20=40 ≠ 20"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_36098440",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_35478169",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_26064066",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 11+11=22 ≠ 11"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_18525028",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 10+10=20 ≠ 10"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_22514525",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 8+8=16 ≠ 108"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_25346688",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_21671144",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+15=30 ≠ 45"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_21840288",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+15=30 ≠ 15"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_18977813",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 10+10=20 ≠ 10"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "PMID_24678298",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 12+12=24 ≠ 36"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "SCOPUS_2-s2.0-105029980285",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "SCOPUS_2-s2.0-85214924861",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "SCOPUS_2-s2.0-85083859922",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_7",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_45",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_111",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_230",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_242",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_259",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+15=30 ≠ 15"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_271",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_307",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_323",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_357",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_366",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 42+42=84 ≠ 42"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_382",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+15=30 ≠ 15"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_383",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_406",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_415",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+15=30 ≠ 45"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_417",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_418",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_466",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_558",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_572",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_589",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_598",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_605",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 59+50=109 ≠ 131"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_614",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_617",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_694",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 20+20=40 ≠ 20"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_695",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_697",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 15+15=30 ≠ 45"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_708",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_711",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 11+11=22 ≠ 11"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_716",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_726",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 20+20=40 ≠ 20"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_735",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_744",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_cochrane_749",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1-500_415",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1001-1500_224",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1001-1500_279",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1001-1500_412",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1001-1500_468",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1501-2000_0",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1501-2000_119",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1501-2000_120",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 10+10=20 ≠ 10"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1501-2000_438",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 1501-2000_467",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 2001-2495_199",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 18+18=36 ≠ 18"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 2001-2495_217",
+      "passed": true,
+      "warnings": [
+        "N mismatch: 17+17=34 ≠ 17"
+      ],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 2001-2495_332",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_22",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_66",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_155",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_156",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_293",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_298",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_302",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_339",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    },
+    {
+      "study_id": "RIS_records 501-1000_455",
+      "passed": true,
+      "warnings": [],
+      "errors": [],
+      "auto_fixes": []
+    }
+  ]
+}

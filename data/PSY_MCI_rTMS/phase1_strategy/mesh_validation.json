@@ -1,0 +1,37 @@
+{
+  "validated_terms": {
+    "population": [
+      {
+        "term": "Cognitive Dysfunction",
+        "status": "valid",
+        "note": "Valid MeSH heading. This is a broad term for disturbances in cognitive functions."
+      },
+      {
+        "term": "Mild Cognitive Impairment",
+        "status": "valid",
+        "note": "Valid MeSH heading. This is a specific type of cognitive dysfunction, located under 'Cognitive Dysfunction' in the MeSH tree."
+      },
+      {
+        "term": "Alzheimer Disease",
+        "status": "valid",
+        "note": "Valid MeSH heading. This is a major cause of dementia and cognitive dysfunction."
+      }
+    ],
+    "intervention": [
+      {
+        "term": "Transcranial Magnetic Stimulation",
+        "status": "valid",
+        "note": "Valid MeSH heading."
+      },
+      {
+        "term": "Transcranial Direct Current Stimulation",
+        "status": "valid",
+        "note": "Valid MeSH heading."
+      }
+    ]
+  },
+  "additional_suggestions": [
+    "Neurocognitive Disorders",
+    "Dementia"
+  ]
+}

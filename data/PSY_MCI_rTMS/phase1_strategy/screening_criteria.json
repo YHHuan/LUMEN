@@ -1,0 +1,17 @@
+{
+  "inclusion_criteria": [
+    "Population: Adults (≥18 years) with a formal diagnosis of Mild Cognitive Impairment (any subtype) or mild/early-stage Alzheimer's Disease, according to established criteria (e.g., NIA-AA, DSM-5, Petersen).",
+    "Intervention: Application of a non-invasive brain stimulation technique, including repetitive Transcranial Magnetic Stimulation (rTMS, iTBS, cTBS), transcranial Direct Current Stimulation (tDCS), or transcranial Alternating Current Stimulation (tACS).",
+    "Comparison: Sham stimulation, no intervention, usual care, waiting list, or an active control group (e.g., different NIBS parameters).",
+    "Outcomes: At least one primary or secondary outcome of interest is reported (e.g., global cognition, safety, ADLs, neuropsychiatric symptoms).",
+    "Study Design: Randomized Controlled Trial (RCT), Controlled Clinical Trial (CCT), or randomized crossover trial with an adequate washout period.",
+    "Publication Date: Published between January 1, 2000 and December 31, 2025.",
+    "Language: Full text available in English or Chinese."
+  ],
+  "exclusion_criteria": [
+    "Population: Healthy controls, subjective cognitive decline without MCI diagnosis, moderate-to-severe dementia, or other dementia etiologies (e.g., vascular, frontotemporal, Lewy body).",
+    "Intervention: Invasive stimulation (e.g., DBS, VNS), electroconvulsive therapy (ECT), or studies where the effect of NIBS cannot be isolated from a concurrent active intervention (e.g., NIBS + cognitive training vs. cognitive training alone).",
+    "Study Design: Non-controlled trials, observational studies, case reports/series, reviews, meta-analyses, protocols, conference abstracts, or animal/in-vitro studies.",
+    "Population: Studies exclusively on pediatric or adolescent populations (<18 years)."
+  ]
+}

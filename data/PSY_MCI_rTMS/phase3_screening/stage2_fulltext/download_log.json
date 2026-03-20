@@ -1,0 +1,2126 @@
+[
+  {
+    "study_id": "PMID_41013466",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_41013466.pdf",
+    "doi": "10.1186/s12984-025-01738-1"
+  },
+  {
+    "study_id": "PMID_39604076",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39604076.pdf",
+    "doi": "10.1093/cercor/bhae460"
+  },
+  {
+    "study_id": "PMID_40658276",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40658276.pdf",
+    "doi": "10.1007/s10072-025-08315-3"
+  },
+  {
+    "study_id": "PMID_41414714",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_41414714.pdf",
+    "doi": "10.1002/cns.70707"
+  },
+  {
+    "study_id": "PMID_40513355",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40513355.pdf",
+    "doi": "10.1016/j.nicl.2025.103819"
+  },
+  {
+    "study_id": "PMID_40984052",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40984052.pdf",
+    "doi": "10.1177/13872877251376547"
+  },
+  {
+    "study_id": "PMID_41216839",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_41216839.pdf",
+    "doi": "10.1002/alz.70895"
+  },
+  {
+    "study_id": "PMID_40736330",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40736330.pdf",
+    "doi": "10.1097/wnr.0000000000002199"
+  },
+  {
+    "study_id": "PMID_40801847",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40801847.pdf",
+    "doi": "10.1177/13872877251366656"
+  },
+  {
+    "study_id": "PMID_41359335",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_41359335.pdf",
+    "doi": "10.1001/jamanetworkopen.2025.46556"
+  },
+  {
+    "study_id": "PMID_39958266",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39958266.pdf",
+    "doi": "10.4068/cmj.2025.61.1.1"
+  },
+  {
+    "study_id": "PMID_40254536",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40254536.pdf",
+    "doi": "10.1002/jbio.70019"
+  },
+  {
+    "study_id": "PMID_40420669",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40420669.pdf",
+    "doi": "10.1177/13872877251344599"
+  },
+  {
+    "study_id": "PMID_40305881",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.clinph.2025.04.012"
+  },
+  {
+    "study_id": "PMID_40838395",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1177/15459683251360731"
+  },
+  {
+    "study_id": "PMID_39755599",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39755599.pdf",
+    "doi": "10.1186/s12877-024-05625-7"
+  },
+  {
+    "study_id": "PMID_40336555",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40336555.pdf",
+    "doi": "10.1159/000545553"
+  },
+  {
+    "study_id": "PMID_40004217",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40004217.pdf",
+    "doi": "10.3390/ijms26041754"
+  },
+  {
+    "study_id": "PMID_40785301",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40785301.pdf",
+    "doi": "10.30773/pi.2025.0057"
+  },
+  {
+    "study_id": "PMID_39138281",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39138281.pdf",
+    "doi": "10.1038/s41598-024-67664-9"
+  },
+  {
+    "study_id": "PMID_39165554",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39165554.pdf",
+    "doi": "10.5498/wjp.v14.i8.1216"
+  },
+  {
+    "study_id": "PMID_40500659",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40500659.pdf",
+    "doi": "10.1016/j.neurot.2025.e00619"
+  },
+  {
+    "study_id": "PMID_39476073",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1001/jamapsychiatry.2024.3241"
+  },
+  {
+    "study_id": "PMID_40746364",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40746364.pdf",
+    "doi": "10.3389/fnagi.2025.1597311"
+  },
+  {
+    "study_id": "PMID_38804028",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38804028.pdf",
+    "doi": "10.3349/ymj.2023.0430"
+  },
+  {
+    "study_id": "PMID_40765731",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40765731.pdf",
+    "doi": "10.1155/jare/6616509"
+  },
+  {
+    "study_id": "PMID_38056370",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.clinph.2023.11.003"
+  },
+  {
+    "study_id": "PMID_38310304",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38310304.pdf",
+    "doi": "10.1186/s13195-023-01370-y"
+  },
+  {
+    "study_id": "PMID_39863318",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39863318.pdf",
+    "doi": "10.1016/j.tjpad.2024.100023"
+  },
+  {
+    "study_id": "PMID_36834642",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36834642.pdf",
+    "doi": "10.3390/ijms24043231"
+  },
+  {
+    "study_id": "PMID_40039580",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1109/embc53108.2024.10782425"
+  },
+  {
+    "study_id": "PMID_40125804",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40125804.pdf",
+    "doi": "10.1111/cns.70301"
+  },
+  {
+    "study_id": "PMID_37534626",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_37534626.pdf",
+    "doi": "10.1002/brb3.3169"
+  },
+  {
+    "study_id": "PMID_41199470",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_41199470.pdf",
+    "doi": "10.1111/cns.70630"
+  },
+  {
+    "study_id": "PMID_41258002",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_41258002.pdf",
+    "doi": "10.1038/s41398-025-03726-4"
+  },
+  {
+    "study_id": "PMID_39336854",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39336854.pdf",
+    "doi": "10.3390/jcm13185367"
+  },
+  {
+    "study_id": "PMID_38365761",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38365761.pdf",
+    "doi": "10.1186/s12984-024-01313-0"
+  },
+  {
+    "study_id": "PMID_38966802",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38966802.pdf",
+    "doi": "10.3389/fnagi.2024.1414593"
+  },
+  {
+    "study_id": "PMID_40756002",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1007/s11571-025-10310-5"
+  },
+  {
+    "study_id": "PMID_37156876",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_37156876.pdf",
+    "doi": "10.1038/s41598-023-34582-1"
+  },
+  {
+    "study_id": "PMID_38908485",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.bbr.2024.115117"
+  },
+  {
+    "study_id": "PMID_39077918",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1093/cercor/bhae310"
+  },
+  {
+    "study_id": "PMID_38105601",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1177/15500594231215847"
+  },
+  {
+    "study_id": "PMID_34256276",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34256276.pdf",
+    "doi": "10.1016/j.jpsychires.2021.07.012"
+  },
+  {
+    "study_id": "PMID_37744398",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_37744398.pdf",
+    "doi": "10.3389/fnagi.2023.1234086"
+  },
+  {
+    "study_id": "PMID_39874376",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39874376.pdf",
+    "doi": "10.1371/journal.pone.0317700"
+  },
+  {
+    "study_id": "PMID_38410745",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38410745.pdf",
+    "doi": "10.3389/fnagi.2024.1343926"
+  },
+  {
+    "study_id": "PMID_39267112",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39267112.pdf",
+    "doi": "10.1186/s13195-024-01570-0"
+  },
+  {
+    "study_id": "EPMC_PMC12741360",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC12741360.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "PMID_41015617",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1007/s11357-025-01888-z"
+  },
+  {
+    "study_id": "PMID_38944654",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38944654.pdf",
+    "doi": "10.1038/s41582-024-00976-6"
+  },
+  {
+    "study_id": "PMID_40335871",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40335871.pdf",
+    "doi": "10.1007/s11517-025-03366-2"
+  },
+  {
+    "study_id": "PMID_35134853",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35134853.pdf",
+    "doi": "10.1093/cercor/bhac010"
+  },
+  {
+    "study_id": "PMID_38414493",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38414493.pdf",
+    "doi": "10.3389/fragi.2023.1171133"
+  },
+  {
+    "study_id": "PMID_39595863",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39595863.pdf",
+    "doi": "10.3390/brainsci14111099"
+  },
+  {
+    "study_id": "PMID_36093863",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36093863.pdf",
+    "doi": "10.1017/s1092852922000979"
+  },
+  {
+    "study_id": "PMID_40123238",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1177/13872877251320124"
+  },
+  {
+    "study_id": "PMID_35594397",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35594397.pdf",
+    "doi": "10.1073/pnas.2113778119"
+  },
+  {
+    "study_id": "PMID_33762220",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33762220.pdf",
+    "doi": "10.1016/j.brs.2021.03.007"
+  },
+  {
+    "study_id": "PMID_37729717",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.psychres.2023.115461"
+  },
+  {
+    "study_id": "PMID_37615489",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_37615489.pdf",
+    "doi": "10.1097/wad.0000000000000577"
+  },
+  {
+    "study_id": "PMID_37872457",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_37872457.pdf",
+    "doi": "10.1186/s41747-023-00376-3"
+  },
+  {
+    "study_id": "PMID_31790015",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31790015.pdf",
+    "doi": "10.1097/yct.0000000000000639"
+  },
+  {
+    "study_id": "PMID_35068464",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.3233/jad-215390"
+  },
+  {
+    "study_id": "PMID_39269839",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.3233/jad-240400"
+  },
+  {
+    "study_id": "PMID_40443505",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40443505.pdf",
+    "doi": "10.3389/fneur.2025.1566476"
+  },
+  {
+    "study_id": "PMID_34392162",
+    "status": "downloaded",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34392162.pdf",
+    "doi": "10.1016/j.psychres.2021.114151"
+  },
+  {
+    "study_id": "PMID_40031488",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1109/embc53108.2024.10782607"
+  },
+  {
+    "study_id": "PMID_33957292",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33957292.pdf",
+    "doi": "10.1016/j.rehab.2021.101536"
+  },
+  {
+    "study_id": "PMID_35250453",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35250453.pdf",
+    "doi": "10.3389/fnins.2022.811403"
+  },
+  {
+    "study_id": "PMID_38503484",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38503484.pdf",
+    "doi": "10.1136/jnnp-2023-333152"
+  },
+  {
+    "study_id": "PMID_34752934",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34752934.pdf",
+    "doi": "10.1016/j.brs.2021.11.007"
+  },
+  {
+    "study_id": "PMID_39845447",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39845447.pdf",
+    "doi": "10.3389/fnagi.2024.1460853"
+  },
+  {
+    "study_id": "PMID_34924374",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34924374.pdf",
+    "doi": "10.3233/jad-210661"
+  },
+  {
+    "study_id": "PMID_38178837",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38178837.pdf",
+    "doi": "10.3389/fnins.2023.1327886"
+  },
+  {
+    "study_id": "PMID_34200847",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34200847.pdf",
+    "doi": "10.3390/brainsci11060772"
+  },
+  {
+    "study_id": "PMID_38007663",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38007663.pdf",
+    "doi": "10.3233/jad-230826"
+  },
+  {
+    "study_id": "PMID_35625731",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35625731.pdf",
+    "doi": "10.3390/biomedicines10050994"
+  },
+  {
+    "study_id": "PMID_38427493",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.3233/jad-240002"
+  },
+  {
+    "study_id": "PMID_39515419",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.brs.2024.11.003"
+  },
+  {
+    "study_id": "PMID_30395314",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_30395314.pdf",
+    "doi": "10.1093/geronb/gby134"
+  },
+  {
+    "study_id": "PMID_36729723",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36729723.pdf",
+    "doi": "10.1093/brain/awad019"
+  },
+  {
+    "study_id": "PMID_38287520",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38287520.pdf",
+    "doi": "10.1111/cns.14564"
+  },
+  {
+    "study_id": "PMID_38360452",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38360452.pdf",
+    "doi": "10.1016/j.neurot.2024.e00331"
+  },
+  {
+    "study_id": "PMID_40312071",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40312071.pdf",
+    "doi": "10.1136/ebnurs-2025-104298"
+  },
+  {
+    "study_id": "PMID_40185902",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1038/s41380-025-02991-5"
+  },
+  {
+    "study_id": "PMID_38709534",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38709534.pdf",
+    "doi": "10.1001/jamanetworkopen.2024.9220"
+  },
+  {
+    "study_id": "PMID_31424410",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31424410.pdf",
+    "doi": "10.3233/jad-190306"
+  },
+  {
+    "study_id": "PMID_37601952",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_37601952.pdf",
+    "doi": "10.2147/cia.s416992"
+  },
+  {
+    "study_id": "PMID_36436729",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.bbr.2022.114226"
+  },
+  {
+    "study_id": "PMID_34602464",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34602464.pdf",
+    "doi": "10.3233/jad-201091"
+  },
+  {
+    "study_id": "PMID_34388179",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34388179.pdf",
+    "doi": "10.1371/journal.pone.0256100"
+  },
+  {
+    "study_id": "PMID_38155843",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38155843.pdf",
+    "doi": "10.1136/gpsych-2023-101166"
+  },
+  {
+    "study_id": "PMID_39324544",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39324544.pdf",
+    "doi": "10.1002/alz.14255"
+  },
+  {
+    "study_id": "PMID_36675330",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36675330.pdf",
+    "doi": "10.3390/jcm12020401"
+  },
+  {
+    "study_id": "PMID_36623419",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36623419.pdf",
+    "doi": "10.1016/j.cortex.2022.10.015"
+  },
+  {
+    "study_id": "PMID_32568198",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_32568198.pdf",
+    "doi": "10.3233/jad-200141"
+  },
+  {
+    "study_id": "PMID_33935089",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33935089.pdf",
+    "doi": "10.3233/jad-210003"
+  },
+  {
+    "study_id": "PMID_35607946",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35607946.pdf",
+    "doi": "10.1002/ana.26411"
+  },
+  {
+    "study_id": "PMID_35368257",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35368257.pdf",
+    "doi": "10.3389/fnins.2022.814003"
+  },
+  {
+    "study_id": "PMID_38970141",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38970141.pdf",
+    "doi": "10.1186/s13195-024-01501-z"
+  },
+  {
+    "study_id": "PMID_40878312",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40878312.pdf",
+    "doi": "10.3988/jcn.2025.0162"
+  },
+  {
+    "study_id": "PMID_38868852",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38868852.pdf",
+    "doi": "10.29399/npa.28420"
+  },
+  {
+    "study_id": "PMID_36281767",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36281767.pdf",
+    "doi": "10.1093/brain/awac285"
+  },
+  {
+    "study_id": "PMID_35339351",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.neucli.2022.02.003"
+  },
+  {
+    "study_id": "PMID_33063732",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33063732.pdf",
+    "doi": "10.4103/1673-5374.295345"
+  },
+  {
+    "study_id": "PMID_38229621",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38229621.pdf",
+    "doi": "10.4103/aian.aian_586_23"
+  },
+  {
+    "study_id": "EPMC_PMC11709928",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC11709928.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "PMID_34751749",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1093/cercor/bhab371"
+  },
+  {
+    "study_id": "PMID_31127779",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31127779.pdf",
+    "doi": "10.3233/jad-181296"
+  },
+  {
+    "study_id": "PMID_36125835",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36125835.pdf",
+    "doi": "10.2174/1567205019666220920090919"
+  },
+  {
+    "study_id": "PMID_36942495",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36942495.pdf",
+    "doi": "10.1111/cns.14177"
+  },
+  {
+    "study_id": "PMID_32280093",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_32280093.pdf",
+    "doi": "10.3233/jad-191234"
+  },
+  {
+    "study_id": "PMID_36660288",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36660288.pdf",
+    "doi": "10.3389/fpsyg.2022.1071737"
+  },
+  {
+    "study_id": "PMID_35700915",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35700915.pdf",
+    "doi": "10.1016/j.brs.2022.06.004"
+  },
+  {
+    "study_id": "PMID_33581283",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33581283.pdf",
+    "doi": "10.1016/j.brs.2021.01.012"
+  },
+  {
+    "study_id": "PMID_36137949",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36137949.pdf",
+    "doi": "10.31083/j.jin2105140"
+  },
+  {
+    "study_id": "PMID_34833381",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34833381.pdf",
+    "doi": "10.3390/medicina57111164"
+  },
+  {
+    "study_id": "PMID_40143889",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_40143889.pdf",
+    "doi": "10.1177/26331055251328355"
+  },
+  {
+    "study_id": "PMID_29331848",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_29331848.pdf",
+    "doi": "10.1016/j.psychres.2017.12.063"
+  },
+  {
+    "study_id": "PMID_35839637",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.psychres.2022.114721"
+  },
+  {
+    "study_id": "PMID_32950361",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_32950361.pdf",
+    "doi": "10.1016/j.jagp.2020.08.016"
+  },
+  {
+    "study_id": "PMID_34240627",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34240627.pdf",
+    "doi": "10.2217/nmt-2020-0061"
+  },
+  {
+    "study_id": "PMID_38539615",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_38539615.pdf",
+    "doi": "10.3390/brainsci14030226"
+  },
+  {
+    "study_id": "EPMC_PMC11713888",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC11713888.pdf",
+    "doi": "10.1002/alz.093289"
+  },
+  {
+    "study_id": "PMID_34762980",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.neulet.2021.136337"
+  },
+  {
+    "study_id": "PMID_40865406",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.archger.2025.106000"
+  },
+  {
+    "study_id": "PMID_34366347",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34366347.pdf",
+    "doi": "10.3233/jad-210378"
+  },
+  {
+    "study_id": "PMID_28637840",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_28637840.pdf",
+    "doi": "10.1523/jneurosci.0260-17.2017"
+  },
+  {
+    "study_id": "PMID_31285793",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31285793.pdf",
+    "doi": "10.1590/1980-57642018dn13-020007"
+  },
+  {
+    "study_id": "PMID_36313021",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36313021.pdf",
+    "doi": "10.3389/fnagi.2022.993306"
+  },
+  {
+    "study_id": "PMID_26160997",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_26160997.pdf",
+    "doi": "10.1155/2015/287843"
+  },
+  {
+    "study_id": "PMID_36412517",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1093/brain/awac322"
+  },
+  {
+    "study_id": "PMID_35912517",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35912517.pdf",
+    "doi": "10.1002/hbm.26032"
+  },
+  {
+    "study_id": "PMID_32437690",
+    "status": "downloaded",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_32437690.pdf",
+    "doi": "10.1016/j.apmr.2020.03.023"
+  },
+  {
+    "study_id": "PMID_31555109",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31555109.pdf",
+    "doi": "10.3389/fnhum.2019.00273"
+  },
+  {
+    "study_id": "PMID_34764150",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34764150.pdf",
+    "doi": "10.1136/jnnp-2021-326885"
+  },
+  {
+    "study_id": "PMID_25449530",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_25449530.pdf",
+    "doi": "10.1016/j.jalz.2014.07.159"
+  },
+  {
+    "study_id": "PMID_34952254",
+    "status": "downloaded",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34952254.pdf",
+    "doi": "10.1016/j.psychres.2021.114348"
+  },
+  {
+    "study_id": "PMID_27903289",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_27903289.pdf",
+    "doi": "10.1186/s13195-016-0218-6"
+  },
+  {
+    "study_id": "EPMC_PMC12760700",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC12760700.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "PMID_30539900",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_30539900.pdf",
+    "doi": "10.4103/0366-6999.247217"
+  },
+  {
+    "study_id": "EPMC_PMC12782143",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC12782143.pdf",
+    "doi": "10.1002/alz70856_105318"
+  },
+  {
+    "study_id": "PMID_33679572",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33679572.pdf",
+    "doi": "10.3389/fneur.2020.614351"
+  },
+  {
+    "study_id": "EPMC_PMC12725345",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC12725345.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "PMID_31196835",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31196835.pdf",
+    "doi": "10.1016/j.brs.2019.06.003"
+  },
+  {
+    "study_id": "PMID_29277405",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_29277405.pdf",
+    "doi": "10.1016/j.neuroimage.2017.12.048"
+  },
+  {
+    "study_id": "PMID_33610772",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33610772.pdf",
+    "doi": "10.1016/j.nlm.2021.107410"
+  },
+  {
+    "study_id": "PMID_36704634",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36704634.pdf",
+    "doi": "10.1007/s11571-022-09818-x"
+  },
+  {
+    "study_id": "PMID_31609693",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31609693.pdf",
+    "doi": "10.3233/jad-190888"
+  },
+  {
+    "study_id": "EPMC_PMC11709330",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC11709330.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "PMID_30940012",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_30940012.pdf",
+    "doi": "10.1177/1545968319840285"
+  },
+  {
+    "study_id": "PMID_31529691",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_31529691.pdf",
+    "doi": "10.1002/acn3.50823"
+  },
+  {
+    "study_id": "EPMC_PMC12761092",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC12761092.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "PMID_35370614",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35370614.pdf",
+    "doi": "10.3389/fnagi.2022.847223"
+  },
+  {
+    "study_id": "PMID_32925060",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_32925060.pdf",
+    "doi": "10.3233/jad-200640"
+  },
+  {
+    "study_id": "PMID_27823981",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_27823981.pdf",
+    "doi": "10.18632/oncotarget.13060"
+  },
+  {
+    "study_id": "PMID_34267648",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34267648.pdf",
+    "doi": "10.3389/fnagi.2021.693611"
+  },
+  {
+    "study_id": "PMID_26401945",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_26401945.pdf",
+    "doi": "10.3233/jad-150067"
+  },
+  {
+    "study_id": "PMID_36098440",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_36098440.pdf",
+    "doi": "10.1017/s1041610222000813"
+  },
+  {
+    "study_id": "PMID_33190659",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_33190659.pdf",
+    "doi": "10.1017/s1041610220003518"
+  },
+  {
+    "study_id": "PMID_39214819",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_39214819.pdf",
+    "doi": "10.1016/j.neurot.2024.100438"
+  },
+  {
+    "study_id": "EPMC_PMC6513356",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/EPMC_PMC6513356.pdf",
+    "doi": "10.1002/14651858.CD013065"
+  },
+  {
+    "study_id": "PMID_35478169",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_35478169.pdf",
+    "doi": "10.18632/aging.204044"
+  },
+  {
+    "study_id": "PMID_26064066",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_26064066.pdf",
+    "doi": "10.4137/jen.s24004"
+  },
+  {
+    "study_id": "PMID_18525028",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_18525028.pdf",
+    "doi": "10.1212/01.wnl.0000317060.43722.a3"
+  },
+  {
+    "study_id": "PMID_22514525",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_22514525.pdf",
+    "doi": "10.3389/fnhum.2012.00062"
+  },
+  {
+    "study_id": "PMID_26977125",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_26977125.pdf",
+    "doi": "10.11919/j.issn.1002-0829.215107"
+  },
+  {
+    "study_id": "PMID_25346688",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_25346688.pdf",
+    "doi": "10.3389/fnagi.2014.00275"
+  },
+  {
+    "study_id": "PMID_24917846",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_24917846.pdf",
+    "doi": "10.3389/fneur.2014.00080"
+  },
+  {
+    "study_id": "PMID_30561282",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_30561282.pdf",
+    "doi": "10.1176/appi.neuropsych.18100224"
+  },
+  {
+    "study_id": "PMID_29678442",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_29678442.pdf",
+    "doi": "10.1016/j.brs.2018.03.016"
+  },
+  {
+    "study_id": "PMID_21671144",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_21671144.pdf",
+    "doi": "10.1007/s00415-011-6128-4"
+  },
+  {
+    "study_id": "PMID_21840288",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_21840288.pdf",
+    "doi": "10.1016/j.brs.2011.06.006"
+  },
+  {
+    "study_id": "PMID_29519726",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_29519726.pdf",
+    "doi": "10.1016/j.brs.2018.02.013"
+  },
+  {
+    "study_id": "PMID_34393740",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_34393740.pdf",
+    "doi": "10.3389/fnhum.2021.687968"
+  },
+  {
+    "study_id": "PMID_18977813",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_18977813.pdf",
+    "doi": "10.1136/jnnp.2007.141853"
+  },
+  {
+    "study_id": "PMID_24678298",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_24678298.pdf",
+    "doi": "10.3389/fnagi.2014.00038"
+  },
+  {
+    "study_id": "PMID_30350733",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_30350733.pdf",
+    "doi": "10.1080/14737175.2018.1538792"
+  },
+  {
+    "study_id": "SCOPUS_2-s2.0-105029980285",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/SCOPUS_2-s2.0-105029980285.pdf",
+    "doi": "10.2174/011570159X389814251019160424"
+  },
+  {
+    "study_id": "SCOPUS_2-s2.0-85214924861",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.32598/bcn.2024.514.2"
+  },
+  {
+    "study_id": "SCOPUS_2-s2.0-85200335768",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1177/26331055241268108"
+  },
+  {
+    "study_id": "SCOPUS_2-s2.0-85133008173",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1002/ima.22765"
+  },
+  {
+    "study_id": "SCOPUS_2-s2.0-85083859922",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/SCOPUS_2-s2.0-85083859922.pdf",
+    "doi": "10.12809/ajgg-2019-344-oa"
+  },
+  {
+    "study_id": "PMID_27974612",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_27974612.pdf",
+    "doi": "10.1523/JNEUROSCI.2450-16.2016"
+  },
+  {
+    "study_id": "PMID_25656568",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/PMID_25656568.pdf",
+    "doi": "10.1016/j.neuropsychologia.2015.02.002"
+  },
+  {
+    "study_id": "RIS_cochrane_7",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_7.pdf",
+    "doi": "10.1001/jamanetworkopen.2024.26187"
+  },
+  {
+    "study_id": "RIS_cochrane_25",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1093/arclin/acad067.035"
+  },
+  {
+    "study_id": "RIS_cochrane_30",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_36",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1007/s10072-024-07787-z"
+  },
+  {
+    "study_id": "RIS_cochrane_39",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_39.pdf",
+    "doi": "10.1111/ner.12958"
+  },
+  {
+    "study_id": "RIS_cochrane_45",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_45.pdf",
+    "doi": "10.1016/j.clinph.2013.04.311"
+  },
+  {
+    "study_id": "RIS_cochrane_88",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1093/arclin/acad067.040"
+  },
+  {
+    "study_id": "RIS_cochrane_111",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1002/alz.094951"
+  },
+  {
+    "study_id": "RIS_cochrane_155",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_155.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_203",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_203.pdf",
+    "doi": "10.1017/S1041610221001770"
+  },
+  {
+    "study_id": "RIS_cochrane_229",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_229.pdf",
+    "doi": "10.1016/j.brs.2018.12.322"
+  },
+  {
+    "study_id": "RIS_cochrane_230",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_230.pdf",
+    "doi": "10.1016/j.brs.2017.01.254"
+  },
+  {
+    "study_id": "RIS_cochrane_242",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_242.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_259",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_259.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_271",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_271.pdf",
+    "doi": "10.1016/j.jalz.2018.06.688"
+  },
+  {
+    "study_id": "RIS_cochrane_301",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_301.pdf",
+    "doi": "10.5692/clinicalneurol.59_supplement_S260"
+  },
+  {
+    "study_id": "RIS_cochrane_307",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_307.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_323",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_323.pdf",
+    "doi": "10.1016/j.jagp.2020.01.101"
+  },
+  {
+    "study_id": "RIS_cochrane_333",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_333.pdf",
+    "doi": "10.1002/alz.052303"
+  },
+  {
+    "study_id": "RIS_cochrane_334",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_334.pdf",
+    "doi": "10.1016/j.clinph.2019.12.226"
+  },
+  {
+    "study_id": "RIS_cochrane_340",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_340.pdf",
+    "doi": "10.1002/alz.076315"
+  },
+  {
+    "study_id": "RIS_cochrane_355",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_355.pdf",
+    "doi": "10.1111/ene.16339"
+  },
+  {
+    "study_id": "RIS_cochrane_357",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_357.pdf",
+    "doi": "10.1002/alz.052145"
+  },
+  {
+    "study_id": "RIS_cochrane_360",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_360.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_361",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_366",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_366.pdf",
+    "doi": "10.1016/j.jalz.2018.06.2797"
+  },
+  {
+    "study_id": "RIS_cochrane_382",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_382.pdf",
+    "doi": "10.1111/ner.12809"
+  },
+  {
+    "study_id": "RIS_cochrane_383",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_383.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_384",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_384.pdf",
+    "doi": "10.1016/j.brs.2024.12.376"
+  },
+  {
+    "study_id": "RIS_cochrane_400",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_400.pdf",
+    "doi": "10.1002/alz.076719"
+  },
+  {
+    "study_id": "RIS_cochrane_406",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_406.pdf",
+    "doi": "10.1002/alz.063960"
+  },
+  {
+    "study_id": "RIS_cochrane_411",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_411.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_415",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_415.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_417",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_417.pdf",
+    "doi": "10.1016/j.brs.2023.01.284"
+  },
+  {
+    "study_id": "RIS_cochrane_418",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_418.pdf",
+    "doi": "10.1016/j.jalz.2018.06.2794"
+  },
+  {
+    "study_id": "RIS_cochrane_457",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_457.pdf",
+    "doi": "10.5692/clinicalneurol.61_supplement_S226"
+  },
+  {
+    "study_id": "RIS_cochrane_458",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_458.pdf",
+    "doi": "10.5692/clinicalneurol.61_supplement_S221"
+  },
+  {
+    "study_id": "RIS_cochrane_466",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_466.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_467",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.2139/ssrn.5369450"
+  },
+  {
+    "study_id": "RIS_cochrane_510",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_510.pdf",
+    "doi": "10.1002/alz.086785"
+  },
+  {
+    "study_id": "RIS_cochrane_539",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.biopsych.2025.02.241"
+  },
+  {
+    "study_id": "RIS_cochrane_558",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_558.pdf",
+    "doi": "10.14283/jpad.2022.130"
+  },
+  {
+    "study_id": "RIS_cochrane_572",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_572.pdf",
+    "doi": "10.1002/alz.081816"
+  },
+  {
+    "study_id": "RIS_cochrane_579",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_579.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_589",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_589.pdf",
+    "doi": "10.1016/j.clinph.2015.09.079"
+  },
+  {
+    "study_id": "RIS_cochrane_597",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_597.pdf",
+    "doi": "10.1111/ene.12807"
+  },
+  {
+    "study_id": "RIS_cochrane_598",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_598.pdf",
+    "doi": "10.1016/j.clinph.2015.11.413"
+  },
+  {
+    "study_id": "RIS_cochrane_600",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_600.pdf",
+    "doi": "10.1016/j.clinph.2022.07.413"
+  },
+  {
+    "study_id": "RIS_cochrane_605",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_605.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_614",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_614.pdf",
+    "doi": "10.1016/j.brs.2018.12.701"
+  },
+  {
+    "study_id": "RIS_cochrane_617",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_617.pdf",
+    "doi": "10.1002/alz.072962"
+  },
+  {
+    "study_id": "RIS_cochrane_669",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_669.pdf",
+    "doi": "10.1111/jgs.16431"
+  },
+  {
+    "study_id": "RIS_cochrane_694",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_694.pdf",
+    "doi": "10.1111/ene.14974"
+  },
+  {
+    "study_id": "RIS_cochrane_695",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_695.pdf",
+    "doi": "10.1016/j.ibror.2019.07.1555"
+  },
+  {
+    "study_id": "RIS_cochrane_696",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_696.pdf",
+    "doi": "10.1016/j.clinph.2021.02.132"
+  },
+  {
+    "study_id": "RIS_cochrane_697",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_697.pdf",
+    "doi": "10.1002/alz.050257"
+  },
+  {
+    "study_id": "RIS_cochrane_708",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_708.pdf",
+    "doi": "10.1016/j.brs.2023.01.376"
+  },
+  {
+    "study_id": "RIS_cochrane_711",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_711.pdf",
+    "doi": "10.1016/j.brs.2017.01.543"
+  },
+  {
+    "study_id": "RIS_cochrane_715",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1002/alz.066899"
+  },
+  {
+    "study_id": "RIS_cochrane_716",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_716.pdf",
+    "doi": "10.1002/alz.078533"
+  },
+  {
+    "study_id": "RIS_cochrane_726",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_726.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_735",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_735.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_cochrane_744",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_744.pdf",
+    "doi": "10.1016/j.jalz.2019.06.4605"
+  },
+  {
+    "study_id": "RIS_cochrane_749",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_cochrane_749.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1-500_187",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1-500_187.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1-500_251",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1-500_272",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1212/WNL.0000000000210604"
+  },
+  {
+    "study_id": "RIS_records 1-500_333",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1-500_333.pdf",
+    "doi": "10.2139/ssrn.5067527"
+  },
+  {
+    "study_id": "RIS_records 1-500_415",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.brs.2024.12.503"
+  },
+  {
+    "study_id": "RIS_records 1-500_423",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1-500_423.pdf",
+    "doi": "10.1016/j.brs.2024.12.720"
+  },
+  {
+    "study_id": "RIS_records 1-500_461",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1-500_461.pdf",
+    "doi": "10.5692/clinicalneurol.65_supplement_S227"
+  },
+  {
+    "study_id": "RIS_records 1-500_470",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_54",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_54.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_86",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_86.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_87",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_90",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_90.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_101",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.clinph.2022.07.380"
+  },
+  {
+    "study_id": "RIS_records 1001-1500_115",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_115.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_130",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_130.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_146",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_149",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_149.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_191",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_206",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_206.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_209",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_224",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_224.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_225",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_254",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_254.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_273",
+    "status": "downloaded",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_273.pdf",
+    "doi": "10.1002/alz.053520"
+  },
+  {
+    "study_id": "RIS_records 1001-1500_279",
+    "status": "downloaded",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_279.pdf",
+    "doi": "10.1002/alz.057842"
+  },
+  {
+    "study_id": "RIS_records 1001-1500_334",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_396",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_403",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_412",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_412.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_414",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1001-1500_468",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1001-1500_468.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_0",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_0.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_3",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_28",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_28.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_68",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_75",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_77",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_115",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_115.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_119",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_119.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_120",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_120.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_132",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_136",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_136.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_160",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_160.pdf",
+    "doi": "10.1016/j.jalz.2019.09.025"
+  },
+  {
+    "study_id": "RIS_records 1501-2000_176",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_176.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_219",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_219.pdf",
+    "doi": "10.1016/j.brs.2018.12.802"
+  },
+  {
+    "study_id": "RIS_records 1501-2000_221",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_221.pdf",
+    "doi": "10.1016/j.brs.2018.12.456"
+  },
+  {
+    "study_id": "RIS_records 1501-2000_241",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_241.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_285",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_326",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_336",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_347",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_347.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_362",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_380",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_380.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_381",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_400",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_401",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_431",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_431.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_438",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_438.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_440",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_440.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 1501-2000_467",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 1501-2000_467.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_19",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_19.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_86",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_86.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_107",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_107.pdf",
+    "doi": "10.1016/j.clinph.2015.11.083"
+  },
+  {
+    "study_id": "RIS_records 2001-2495_157",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_170",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_180",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_180.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_199",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_199.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_217",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_217.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_226",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_226.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_227",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_227.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_275",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_332",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_332.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_374",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_374.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_382",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 2001-2495_418",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 2001-2495_418.pdf",
+    "doi": "10.1016/j.jalz.2009.04.574"
+  },
+  {
+    "study_id": "RIS_records 2001-2495_431",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_22",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_22.pdf",
+    "doi": "10.1016/j.brs.2024.10.009"
+  },
+  {
+    "study_id": "RIS_records 501-1000_31",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_31.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_33",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_52",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_66",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_66.pdf",
+    "doi": "10.1017/S1041610224002631"
+  },
+  {
+    "study_id": "RIS_records 501-1000_87",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_87.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_88",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_155",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_155.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_156",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_156.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_161",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_161.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_177",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_193",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_193.pdf",
+    "doi": "10.48305/jims.v42.i755.0058"
+  },
+  {
+    "study_id": "RIS_records 501-1000_201",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.sleep.2023.11.133"
+  },
+  {
+    "study_id": "RIS_records 501-1000_293",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.jns.2023.121418"
+  },
+  {
+    "study_id": "RIS_records 501-1000_298",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1002/alz.075510"
+  },
+  {
+    "study_id": "RIS_records 501-1000_302",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1002/alz.075282"
+  },
+  {
+    "study_id": "RIS_records 501-1000_339",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_339.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_376",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_377",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_396",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_404",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.clinph.2023.03.088"
+  },
+  {
+    "study_id": "RIS_records 501-1000_412",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_412.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_415",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_429",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_455",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_455.pdf",
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_458",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": ""
+  },
+  {
+    "study_id": "RIS_records 501-1000_484",
+    "status": "manual_download_needed",
+    "pdf_path": null,
+    "doi": "10.1016/j.brs.2023.01.488"
+  },
+  {
+    "study_id": "RIS_records 501-1000_485",
+    "status": "already_exists",
+    "pdf_path": "data/phase3_screening/stage2_fulltext/fulltext_pdfs/RIS_records 501-1000_485.pdf",
+    "doi": "10.1016/j.brs.2023.01.285"
+  }
+]

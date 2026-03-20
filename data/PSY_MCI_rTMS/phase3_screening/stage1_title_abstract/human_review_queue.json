@@ -1,0 +1,123 @@
+[
+  {
+    "study_id": "PMID_40312071",
+    "pmid": "40312071",
+    "pmc_id": "",
+    "doi": "10.1136/ebnurs-2025-104298",
+    "title": "Combined transcranial direct current stimulation and cognitive remediation therapy modestly slows cognitive decline in older adults with remitted depression and mild cognitive impairment.",
+    "abstract": "",
+    "authors": [
+      "Roiser JP",
+      "Costello H"
+    ],
+    "first_author": "",
+    "journal": "",
+    "year": "2025",
+    "mesh_terms": [],
+    "publication_types": [],
+    "source": "europepmc",
+    "is_open_access": false,
+    "full_text_url": "https://doi.org/10.1136/ebnurs-2025-104298"
+  },
+  {
+    "study_id": "PMID_38868852",
+    "pmid": "38868852",
+    "pmc_id": "PMC11165608",
+    "doi": "10.29399/npa.28420",
+    "title": "Repetitive Transcranial Magnetic Stimulation Improves Hippocampal N-Acetlaspartate Levels and Visual Memory Scores in Alzheimer's Disease.",
+    "abstract": "The latest research into the pathophysiology of Alzheimer's Disease (AD) has included several cognitive deficits related to hippocampal functioning. However, current clinical research fails to consider the full extent of the heterogeneous cognitive spectrum of AD, resulting in a lack of the specific methods required to draw definitive diagnostic and therapeutic conclusions. This also includes in-vivo metabolic measurements for tailoring the diagnostic and therapeutic regimens in humans with AD. Magnetic resonance spectroscopy and repetitive transcranial magnetic stimulation (rTMS) are two novel diagnostic and therapeutic approaches that must be modified to treat AD. In the present study, we aimed to investigate the underlying therapeutic role of rTMS in humans with AD by evaluating the in-vivo hippocampal metabolites before and after rTMS treatment. Based on the data obtained using the fMRI data in our previous study and on the references reported in the literature, in the present study, we decided to use hippocampal NAA data after rTMS stimulation and found a significant increase in NAA levels. To the best of our knowledge, no other study has evaluated the effect of rTMS on hippocampal metabolites in humans with AD.",
+    "authors": [
+      "Velioğlu HA",
+      "Sayman D",
+      "Hanoğlu L",
+      "Akan GE",
+      "Çankaya Ş",
+      "Yuluğ B"
+    ],
+    "first_author": "",
+    "journal": "",
+    "year": "2024",
+    "mesh_terms": [],
+    "publication_types": [],
+    "source": "europepmc",
+    "is_open_access": false,
+    "full_text_url": "https://doi.org/10.29399/npa.28420"
+  },
+  {
+    "study_id": "EPMC_PMC6513356",
+    "pmid": "",
+    "pmc_id": "PMC6513356",
+    "doi": "10.1002/14651858.CD013065",
+    "title": "Non‐invasive brain stimulation for improving cognitive function in people with dementia and mild cognitive impairment",
+    "abstract": "",
+    "authors": [
+      "Zhang J",
+      "Liu J",
+      "Li J",
+      "Zhang C",
+      "Qu M"
+    ],
+    "first_author": "",
+    "journal": "",
+    "year": "2018",
+    "mesh_terms": [],
+    "publication_types": [],
+    "source": "europepmc",
+    "is_open_access": false,
+    "full_text_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6513356/?tool=EBI",
+    "sources": [
+      "europepmc",
+      "scopus"
+    ]
+  },
+  {
+    "study_id": "PMID_29519726",
+    "pmid": "29519726",
+    "pmc_id": "",
+    "doi": "10.1016/j.brs.2018.02.013",
+    "title": "Combining cognitive training and multi-site rTMS to improve cognitive functions in Alzheimer's disease.",
+    "abstract": "",
+    "authors": [
+      "Nguyen JP",
+      "Suarez A",
+      "Le Saout E",
+      "Meignier M",
+      "Nizard J",
+      "Lefaucheur JP"
+    ],
+    "first_author": "",
+    "journal": "",
+    "year": "2018",
+    "mesh_terms": [],
+    "publication_types": [],
+    "source": "europepmc",
+    "is_open_access": false,
+    "full_text_url": "https://doi.org/10.1016/j.brs.2018.02.013"
+  },
+  {
+    "study_id": "RIS_records 1501-2000_326",
+    "pmid": "",
+    "pmc_id": "",
+    "doi": "",
+    "title": "Brain Stimulation for Neurological Patients",
+    "abstract": "Brief Summary This is a prospective double-blind randomized placebo-controlled crossover clinical trial",
+    "authors": [],
+    "first_author": "",
+    "journal": "clinicaltrials.gov",
+    "year": "2018",
+    "mesh_terms": [
+      "placebo",
+      "Alzheimer disease",
+      "crossover procedure",
+      "double blind procedure",
+      "brain depth stimulation",
+      "clinical trial",
+      "human",
+      "randomized controlled trial",
+      "controlled study",
+      "therapy"
+    ],
+    "publication_types": [],
+    "source": "records 1501-2000"
+  }
+]

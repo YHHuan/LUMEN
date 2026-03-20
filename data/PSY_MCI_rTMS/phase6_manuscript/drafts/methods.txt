@@ -1,0 +1,61 @@
+# Methods
+
+## Protocol and registration
+
+This systematic review and meta-analysis was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. The protocol was prospectively registered with PROSPERO (registration number pending).
+
+## Eligibility criteria
+
+### Inclusion criteria
+
+**Population:** Adults (≥18 years) with a formal diagnosis of Mild Cognitive Impairment (any subtype, including amnestic) or mild/early-stage Alzheimer's Disease, based on established criteria (e.g., NIA-AA, DSM-5, Petersen).
+
+**Intervention:** At least one group receiving a non-invasive brain stimulation technique, including rTMS (and its variants like iTBS/cTBS), tDCS, or tACS.
+
+**Comparison:** A control group receiving sham stimulation, no intervention, usual care, a waiting list, or an active control (e.g., different stimulation parameters).
+
+**Outcomes:** Reports quantitative data for at least one pre-specified primary or secondary outcome (global cognition, safety, specific cognitive domains, functional status, neuropsychiatric symptoms, quality of life).
+
+**Study Design:** Randomized Controlled Trial (RCT), Controlled Clinical Trial (CCT), or randomized crossover trial with an adequate washout period.
+
+### Exclusion criteria
+
+**Population:** Healthy older adults, or individuals with a primary diagnosis of other neurological or psychiatric conditions (e.g., moderate-to-severe AD, vascular dementia, Parkinson's disease, stroke, major depressive disorder).
+
+**Intervention:** Invasive brain stimulation (e.g., Deep Brain Stimulation), studies where the effect of NIBS cannot be isolated from a concurrent intervention (e.g., NIBS + cognitive training vs. cognitive training alone is excluded if there is no NIBS vs. sham group).
+
+**Study Design:** Non-controlled studies, observational studies, case reports, case series, reviews, meta-analyses, protocols, editorials, and conference abstracts.
+
+**Other:** Non-human studies (animal, in-vitro, ex-vivo).
+
+## Information sources
+
+We searched four electronic databases: MEDLINE (via PubMed), Scopus, Cochrane Central Register of Controlled Trials (CENTRAL), and Crossref from January 2000 onwards. Additional searches were conducted in ClinicalTrials.gov and the WHO International Clinical Trials Registry Platform (ICTRP) to identify ongoing or unpublished trials. Reference lists of included studies and relevant systematic reviews were manually screened for additional eligible studies. The search was limited to studies published in English or Chinese.
+
+## Search strategy
+
+The search strategy combined controlled vocabulary terms (MeSH terms for MEDLINE) and free-text terms for both population and intervention concepts. For the population, we used terms related to mild cognitive impairment ("Cognitive Dysfunction"[Majr], "mild cognitive impairment", "MCI", "amnestic mild cognitive impairment", "aMCI") and early-stage Alzheimer's disease ("Alzheimer Disease"[Majr], "mild Alzheimer*", "early Alzheimer*", "prodromal Alzheimer*"). For the intervention, we included terms for non-invasive brain stimulation techniques ("Transcranial Magnetic Stimulation"[Majr], "Transcranial Direct Current Stimulation"[Majr], "rTMS", "tDCS", "tACS", "theta burst stimulation", "iTBS", "cTBS", "non-invasive brain stimulation", "NIBS"). The search strategy was adapted for each database's specific syntax and controlled vocabulary. Where possible, searches were limited to randomized controlled trials and clinical trials using publication type filters.
+
+## Selection process
+
+Two independent reviewers (initials to be added) conducted title and abstract screening, followed by full-text review of potentially eligible studies using systematic review management software. Disagreements were resolved through discussion, with a third reviewer (initials to be added) serving as arbiter when consensus could not be reached. The selection process was documented using a PRISMA flow diagram showing the number of records identified, screened, excluded, and included at each stage.
+
+## Data collection
+
+Data extraction was performed independently by two reviewers using a standardized, pilot-tested data extraction form. Extracted data included: (1) study characteristics (author, year, country, study design, sample size, randomization method); (2) participant demographics (age, sex, education, diagnostic criteria, disease severity); (3) intervention details (NIBS modality, stimulation parameters, target location, number of sessions, session duration, concurrent interventions); (4) control group characteristics; (5) outcome measures and assessment timepoints; and (6) results data (means, standard deviations, effect sizes, adverse events). Discrepancies in data extraction were resolved through discussion or consultation with a third reviewer.
+
+## Risk of bias assessment
+
+Risk of bias was assessed independently by two reviewers using the Cochrane Risk of Bias tool 2 (RoB 2) for randomized trials. The tool evaluates five domains: (1) bias arising from the randomization process; (2) bias due to deviations from intended interventions; (3) bias due to missing outcome data; (4) bias in measurement of the outcome; and (5) bias in selection of the reported result. Each domain was rated as low risk, some concerns, or high risk, with an overall risk of bias judgment determined according to RoB 2 guidelines. Disagreements were resolved through discussion or consultation with a third reviewer.
+
+## Effect measures
+
+For continuous outcomes, we calculated standardized mean differences (SMDs) with 95% confidence intervals to account for different measurement scales across studies. For dichotomous outcomes, we calculated risk ratios (RRs) with 95% confidence intervals. When studies reported multiple timepoints, we prioritized immediate post-intervention effects for the primary analysis, with follow-up effects analyzed separately.
+
+## Synthesis methods
+
+Meta-analyses were performed using a random-effects model (DerSimonian-Laird method) to account for expected heterogeneity across studies. Statistical heterogeneity was assessed using the Chi² test (p < 0.10 indicating significant heterogeneity) and quantified using the I² statistic, with values of 25%, 50%, and 75% representing low, moderate, and high heterogeneity, respectively. Tau² was calculated to estimate between-study variance.
+
+Pre-planned subgroup analyses were conducted based on: (1) stimulation type (rTMS, tDCS, tACS); (2) population (MCI only, mild AD only, mixed); (3) stimulation target (DLPFC, temporal, parietal, multi-site); (4) session count (≤10 sessions, >10 sessions); and (5) combined with cognitive training (yes, no). Sensitivity analyses included: excluding studies with high risk of bias, excluding crossover trials, restricting to sham-controlled studies only, restricting to studies with sample size >20, and leave-one-out analysis to assess individual study influence.
+
+Publication bias was assessed using funnel plots and Egger's regression test when ≥10 studies were available for a given outcome. All analyses were performed using Review Manager 5.4 (Cochrane Collaboration) and R statistical software (version 4.3.0) with the meta and metafor packages.

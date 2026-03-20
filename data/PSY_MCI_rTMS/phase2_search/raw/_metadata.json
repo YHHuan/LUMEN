@@ -1,0 +1,17 @@
+{
+  "pubmed_results.json": {
+    "updated_at": "2026-03-01T08:39:32.222461",
+    "size_bytes": 631779,
+    "record_count": 236
+  },
+  "europepmc_results.json": {
+    "updated_at": "2026-03-01T08:39:32.485524",
+    "size_bytes": 3993165,
+    "record_count": 1864
+  },
+  "scopus_results.json": {
+    "updated_at": "2026-03-01T08:39:32.533268",
+    "size_bytes": 295830,
+    "record_count": 603
+  }
+}

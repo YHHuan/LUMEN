@@ -1,0 +1,47 @@
+{
+  "computed_date": "2026-03-20",
+  "ground_truth": "corrected_human_consensus",
+  "corrections": [
+    "PMID_34670135: human=include → corrected to exclude (LLM correct)",
+    "PMID_34716559: human=include → corrected to exclude (LLM correct)"
+  ],
+  "sample_size": 100,
+  "ground_truth_distribution": {
+    "include": 42,
+    "exclude": 58
+  },
+  "llm_distribution": {
+    "include": 50,
+    "exclude": 50
+  },
+  "confusion_matrix": {
+    "TP": 42,
+    "FP": 8,
+    "FN": 0,
+    "TN": 50
+  },
+  "metrics": {
+    "sensitivity": 1.0,
+    "specificity": 0.862,
+    "precision_ppv": 0.84,
+    "npv": 1.0,
+    "f1": 0.913,
+    "accuracy": 0.92,
+    "cohens_kappa_llm_vs_human": 0.84
+  },
+  "human_interrater": {
+    "observed_agreement": 0.86,
+    "cohens_kappa": 0.709,
+    "pabak": 0.72
+  },
+  "false_positives": [
+    {"study_id": "PMID_25656568", "type": "review article"},
+    {"study_id": "PMID_24917846", "type": "review article"},
+    {"study_id": "PMID_35478169", "type": "editorial/commentary"},
+    {"study_id": "PMID_36098440", "type": "editorial/commentary"},
+    {"study_id": "PMID_36436729", "type": "wrong study design (NIS)"},
+    {"study_id": "RIS_cochrane_357", "type": "unspecified"},
+    {"study_id": "PMID_36704634", "type": "unspecified"},
+    {"study_id": "EPMC_PMC12741360", "type": "unspecified"}
+  ]
+}

@@ -1,0 +1,67 @@
+citation,study_id,action,source_rank,outcome_fields,has_pmid,doi,title
+"Yao et al., Brain Stimulation 2022",PMID_40801847,REMOVE,0,0,Y,10.1177/13872877251366656,Effects of cerebellar intermittent theta-burst stimulation on patients with Alzh
+"Yao et al., Brain Stimulation 2022",PMID_38944654,REMOVE,0,0,Y,10.1038/s41582-024-00976-6,Non-invasive stimulation for treating cognitive impairment in Alzheimer disease.
+"Yao et al., Brain Stimulation 2022",PMID_35700915,KEEP,0,6,Y,10.1016/j.brs.2022.06.004,Effect of cerebellum stimulation on cognitive recovery in patients with Alzheime
+"Yao et al., Brain Stimulation 2022",RIS_records 2001-2495_86,REMOVE,3,0,N,,Neurostimulation and Cognitive Intervention in Alzheimer's Disease
+"Yao et al., Brain Stimulation 2022",RIS_records 501-1000_31,REMOVE,3,1,N,,Effects of Cerebellar Transcranial Magnetic Stimulation on Patients with Alzheim
+"Yao et al., Brain Stimulation 2022",RIS_records 501-1000_161,REMOVE,3,0,N,,Effects of Repetitive Transcranial Magnetic Stimulation on Sleep and Cognitive F
+"Meinzer et al., Alzheimer's & Dementia 2014",PMID_40513355,KEEP,0,6,Y,10.1016/j.nicl.2025.103819,Network-targeted transcranial magnetic stimulation (TMS) for mild cognitive impa
+"Meinzer et al., Alzheimer's & Dementia 2014",RIS_cochrane_340,REMOVE,3,6,N,10.1002/alz.076315,The PACt-MD randomized clinical trial: prevention of Alzheimer's dementiawith Co
+"Meinzer et al., Alzheimer's & Dementia 2014",RIS_records 2001-2495_180,REMOVE,3,6,N,,Prevention of Alzheimer's Dimentia With Cognitive Remediation Plus Transcranial 
+"Meinzer et al., Alzheimer's & Dementia 2014",RIS_records 2001-2495_199,REMOVE,3,6,N,,A Study for the Short- and Long-term Improvement of Cognitive Function (Evaluate
+"Meinzer et al., Alzheimer's & Dementia 2014",RIS_records 2001-2495_226,REMOVE,3,8,N,,Transcranial Magnetic Stimulation for Apathy in Mild Cognitive Impairment:Pilot 
+"Cantoni et al., JAMA Network Open 2025",PMID_41359335,KEEP,0,36,Y,10.1001/jamanetworkopen.2025.46556,Home-Based Gamma Transcranial Alternating Current Stimulation in Patients With A
+"Cantoni et al., JAMA Network Open 2025",RIS_cochrane_45,REMOVE,3,18,N,10.1016/j.clinph.2013.04.311,Transcranial direct current stimulation and Alzheimer's disease
+"Cantoni et al., JAMA Network Open 2025",RIS_records 1001-1500_54,REMOVE,3,18,N,,Markers of Clinical and Biological Response to Home Delivered Transcranial Alter
+"Cantoni et al., JAMA Network Open 2025",RIS_records 1501-2000_136,REMOVE,3,18,N,,The Efficacy of 4Hz Transcranial Alternating Current Stimulation for Patients Wi
+"Cantoni et al., JAMA Network Open 2025",RIS_records 501-1000_87,REMOVE,3,18,N,,Effect of Transcranial Alternating Current Stimulation(tACS) for Early Alzheimer
+"Warren et al., Alzheimer's Dement 2023",PMID_39604076,KEEP,0,0,Y,10.1093/cercor/bhae460,Comparative efficacy of intermittent theta burst stimulation and high-frequency 
+"Warren et al., Alzheimer's Dement 2023",RIS_cochrane_572,REMOVE,3,0,N,10.1002/alz.081816,Interventional clinical trial findings from targeted multiday repetitive transcr
+"Warren et al., Alzheimer's Dement 2023",RIS_cochrane_716,REMOVE,3,2,N,10.1002/alz.078533,Interventional clinical trial findings from targetedmultiday repetitive transcra
+"Cui et al., Alzheimer's Dement 2021",PMID_36125835,KEEP,0,2,Y,10.2174/1567205019666220920090919,High Frequency Repetitive Transcranial Magnetic Stimulation Improves Cognitive P
+"Cui et al., Alzheimer's Dement 2021",RIS_cochrane_415,REMOVE,3,2,N,,Cognitive effects of highfrequency repetitive transcranial magnetic stimulation 
+"Cui et al., Alzheimer's Dement 2021",RIS_cochrane_697,REMOVE,3,4,N,10.1002/alz.050257,The combination of acetylcholinesterase inhibitor therapy and high-frequency rep
+"Koch et al., Brain Stimulation 2023",RIS_cochrane_307,KEEP,3,2,N,,Transcranial magnetic stimulation of deep brain regions in Alzheimer's disease
+"Koch et al., Brain Stimulation 2023",RIS_cochrane_417,REMOVE,3,2,N,10.1016/j.brs.2023.01.284,Repetitive transcranial magnetic stimulation of the precuneus as a new promising
+"Koch et al., Brain Stimulation 2023",RIS_records 2001-2495_227,REMOVE,3,2,N,,Repetitive Transcranial Magnetic Stimulation for Apathy in Alzheimer's Dementia
+"Liu et al., Clinical Neurophysiology 2021",RIS_cochrane_360,KEEP,3,20,N,,Non-invasive brain modulation of aberrant networks in Alzheimer's disease
+"Liu et al., Clinical Neurophysiology 2021",RIS_cochrane_696,REMOVE,3,10,N,10.1016/j.clinph.2021.02.132,O-TS005. Significant effects on functional integration within the parietal memor
+"Liu et al., Clinical Neurophysiology 2021",RIS_cochrane_749,REMOVE,3,20,N,,Clinical Application of tDCS in Alzheimers Disease
+"Chu et al., Journal of Alzheimer's Disease 2025",PMID_40984052,KEEP,0,5,Y,10.1177/13872877251376547,Effectiveness and safety of high-definition transcranial direct current stimulat
+"Chu et al., Journal of Alzheimer's Disease 2025",RIS_records 1501-2000_119,REMOVE,3,5,N,,The Effect of High Definition Transcranial Direct Current Stimulation (HD-tDCS) 
+"Li et al., Brain Stimulation 2021",PMID_40420669,KEEP,0,32,Y,10.1177/13872877251344599,Individual electric field in cortical white matter is correlated with cognitive 
+"Li et al., Brain Stimulation 2021",PMID_33581283,REMOVE,0,32,Y,10.1016/j.brs.2021.01.012,Cortical plasticity is correlated with cognitive improvement in Alzheimer's dise
+"Tang et al., Alzheimer's Research & Therapy 2024",PMID_39267112,KEEP,0,9,Y,10.1186/s13195-024-01570-0,TRanscranial AlterNating current stimulation FOR patients with mild Alzheimer's 
+"Tang et al., Alzheimer's Research & Therapy 2024",RIS_records 1501-2000_241,REMOVE,3,9,N,,The Effects of TRanscranial AlterNating Current Stimulation FOR Patients With Mi
+"Saha et al., Brain Sci 2024",PMID_40335871,KEEP,0,3,Y,10.1007/s11517-025-03366-2,Using baseline MRI radiomic features to predict the efficacy of repetitive trans
+"Saha et al., Brain Sci 2024",PMID_38539615,REMOVE,0,2,Y,10.3390/brainsci14030226,Can Brain Volume-Driven Characteristic Features Predict the Response of Alzheime
+"Benussi et al., Brain Stimulation 2021",PMID_33762220,KEEP,0,0,Y,10.1016/j.brs.2021.03.007,"Exposure to gamma tACS in Alzheimer's disease: A randomized, double-blind, sham-"
+"Benussi et al., Brain Stimulation 2021",RIS_cochrane_694,REMOVE,3,0,N,10.1111/ene.14974,"Gamma tACS over the precuneus in Alzheimer's disease: a randomized, double-blind"
+"Moussavi et al., 2024",PMID_38360452,KEEP,0,2,Y,10.1016/j.neurot.2024.e00331,Repetitive transcranial magnetic stimulation as a treatment for Alzheimer's dise
+"Moussavi et al., 2024",RIS_records 501-1000_155,REMOVE,3,2,N,,"A Randomized, Double-blind Placebo Controlled Trial of High Intensity Transcrani"
+"Li et al., General Psychiatry 2023",PMID_38155843,KEEP,0,12,Y,10.1136/gpsych-2023-101166,Impact of twice-a-day transcranial direct current stimulation intervention on co
+"Li et al., General Psychiatry 2023",RIS_cochrane_242,REMOVE,3,28,N,,Using transcranial direct current stimulation to improve cognitive function in m
+"Koch et al., Brain 2022",PMID_36281767,KEEP,0,6,Y,10.1093/brain/awac285,"Precuneus magnetic stimulation for Alzheimer's disease: a randomized, sham-contr"
+"Koch et al., Brain 2022",RIS_records 1001-1500_149,REMOVE,3,6,N,,A Randomized Double-blinded Sham-controlled Trial of Precuneus RTMS in Mild to M
+"Cui et al., Journal of Alzheimer's Disease 2019",PMID_31127779,KEEP,0,12,Y,10.3233/jad-181296,Repetitive Transcranial Magnetic Stimulation Induced Hypoconnectivity Within the
+"Cui et al., Journal of Alzheimer's Disease 2019",SCOPUS_2-s2.0-105029980285,REMOVE,2,12,N,10.2174/011570159X389814251019160424,Repetitive Transcranial Magnetic Stimulation Alters Brain Communication Networks
+"Gulley et al., Neurodegener. Dis. Manag. 2021",PMID_34240627,KEEP,0,2,Y,10.2217/nmt-2020-0061,Neurostimulation for cognitive enhancement in Alzheimer's disease (the NICE-AD s
+"Gulley et al., Neurodegener. Dis. Manag. 2021",RIS_records 1501-2000_28,REMOVE,3,2,N,,Non-Invasive Home Neurostimulation for Mild to Moderate Alzheimer's Disease: Dou
+"Koch et al., NeuroImage 2018",PMID_29277405,KEEP,0,40,Y,10.1016/j.neuroimage.2017.12.048,Transcranial magnetic stimulation of the precuneus enhances memory and neural ac
+"Koch et al., NeuroImage 2018",RIS_records 501-1000_339,REMOVE,3,27,N,,Repeated Transcranial Magnetic Stimulation in the Elderly With Cognitive
+"Khedr et al., Neurorehabilitation and Neural Repair 2019",PMID_30940012,KEEP,0,28,Y,10.1177/1545968319840285,Therapeutic Role of Transcranial Direct Current Stimulation in Alzheimer Disease
+"Khedr et al., Neurorehabilitation and Neural Repair 2019",RIS_records 1501-2000_431,REMOVE,3,28,N,,Therapeutic Role of Transcranial Direct Current Stimulation (tDCS) in Alzheimer 
+"Boggio et al., J Neurol Neurosurg Psychiatry 2009",PMID_18977813,KEEP,0,9,Y,10.1136/jnnp.2007.141853,Temporal cortex direct current stimulation enhances performance on a visual reco
+"Boggio et al., J Neurol Neurosurg Psychiatry 2009",RIS_records 1501-2000_120,REMOVE,3,9,N,,Transcranial Direct Current Stimulation in Typical and Atypical Alzheimer's Dise
+"Coppi et al., Clinical Neurophysiology 2016",RIS_cochrane_589,KEEP,3,3,N,10.1016/j.clinph.2015.09.079,Repetitive Transcranial Magnetic Stimulation (rTMS) applied with H-coil in Alzhe
+"Coppi et al., Clinical Neurophysiology 2016",RIS_cochrane_598,REMOVE,3,3,N,10.1016/j.clinph.2015.11.413,ID 295 – Deep repetitive transcranial magnetic stimulation with the H-coil in Al
+"Mencarelli et al., Brain Stimulation 2023",RIS_cochrane_600,REMOVE,3,0,N,10.1016/j.clinph.2022.07.413,TH-227. Structural and functional connectivity changes in patients with Alzheime
+"Mencarelli et al., Brain Stimulation 2023",RIS_cochrane_708,KEEP,3,3,N,10.1016/j.brs.2023.01.376,Structural and functional connectivity changes in AD patients after 24 weeks of 
+"Rajji T et al., Brain Stimulation 2019",RIS_cochrane_614,KEEP,3,2,N,10.1016/j.brs.2018.12.701,Using repetitive Paired Associative Stimulation to enhance brain plasticity and 
+"Rajji T et al., Brain Stimulation 2019",RIS_cochrane_744,REMOVE,3,0,N,10.1016/j.jalz.2019.06.4605,STUDYING THE EFFECTS OF REPETITIVE PAIRED ASSOCIATIVE STIMULATION ON DLPFC PLAST
+"Koch et al., Alzheimer's Dement 2023",RIS_cochrane_617,KEEP,3,8,Y,10.1002/alz.072962,Precuneus magnetic stimulation for Alzheimer's disease: a novel TMS-EEG based pe
+"Koch et al., Alzheimer's Dement 2023",RIS_cochrane_735,REMOVE,3,8,N,,"Precuneus magnetic stimulation for Alzheimer's disease: a randomized, sham-contr"
+"Benussi et al., 2021",RIS_cochrane_726,KEEP,3,0,N,,Exploratory research of rTMS in Alzheimer's disease
+"Benussi et al., 2021",RIS_records 2001-2495_374,REMOVE,3,0,N,,Deep-TMS for the Treatment of Alzheimer Disease Patients
+"Cruz Gonzalez et al., Brain Stimulation 2019",RIS_records 1501-2000_115,KEEP,3,3,N,,Effects of Transcranial Alternating Current Stimulation(tACS) Combined With Comp
+"Cruz Gonzalez et al., Brain Stimulation 2019",RIS_records 1501-2000_221,REMOVE,3,3,N,10.1016/j.brs.2018.12.456,Is transcranial direct current stimulation (tDCS) an effective adjunct to cognit

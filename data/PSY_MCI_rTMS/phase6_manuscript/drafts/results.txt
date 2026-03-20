@@ -1,0 +1,77 @@
+# Results
+
+## Study Selection
+
+The systematic search identified 1,941 records across four databases: Crossref (n = 500), PubMed (n = 213), Scopus (n = 448), and Cochrane (n = 780). After deduplication, 1,471 unique records remained for screening. Title and abstract screening excluded 1,193 records, leaving 278 studies for full-text assessment. Of these, 61 studies were excluded based on eligibility criteria, and 164 studies could not be assessed due to unavailable full-text articles. Ultimately, 53 studies met the inclusion criteria and were included in the quantitative synthesis.
+
+The primary reasons for exclusion during full-text assessment were population-related criteria (n = 25), study design limitations (n = 21), intervention-related factors (n = 11), comparison group issues (n = 2), and inadequate data reporting (n = 2). The study selection process is detailed in Figure 1.
+
+## Study Characteristics
+
+The 53 included studies encompassed 1,411 participants across various neurostimulation interventions for cognitive enhancement in Alzheimer's disease and mild cognitive impairment. The majority of studies employed randomized controlled trial designs (RCT: n = 39, crossover RCT: n = 2, crossover: n = 8), with 2 studies having unreported designs and 2 studies with null design classification.
+
+Intervention types were diverse, with repetitive transcranial magnetic stimulation (rTMS) being the most common (n = 13), followed by transcranial direct current stimulation (tDCS) and its variants (tDCS: n = 12, HD-tDCS: n = 4, anodal tDCS: n = 2, anodal transcranial direct current stimulation: n = 1, transcranial direct current stimulation: n = 2). Transcranial alternating current stimulation variants included gamma tACS (n = 3), gamma-tACS (n = 1), tACS (n = 1), transcranial alternating current stimulation (tACS) (n = 1), and Multi-site theta-tACS (n = 1). Other interventions included intermittent theta-burst stimulation variants (iTBS: n = 2, accelerated intermittent theta-burst stimulation: n = 1, accelerated intermittent theta burst stimulation: n = 1), combined approaches (combined rTMS and cognitive training: n = 1, tDCS + cognitive stimulation: n = 1, cognitive training combined with transcranial direct current stimulation: n = 1), and specialized techniques (circuit-based paired associative stimulation: n = 1, gamma-frequency TMS: n = 1, high-frequency rTMS: n = 1). Two studies had unreported intervention types.
+
+The study populations primarily comprised individuals with Alzheimer's disease (n = 15) and various forms of mild cognitive impairment (Mild Cognitive Impairment: n = 4, mild cognitive impairment: n = 4, Mild cognitive impairment: n = 3, amnestic mild cognitive impairment: n = 2, Amnestic Mild Cognitive Impairment: n = 1, amnestic mild cognitive impairment (aMCI): n = 1, multi-domain amnestic mild cognitive impairment (md-aMCI): n = 1, amnestic MCI or very mild AD: n = 1, amnestic MCI due to Alzheimer's disease: n = 1, Mild Cognitive Impairment (MCI): n = 1). Additional populations included Alzheimer disease (n = 3), early-stage variants (early-stage Alzheimer's disease: n = 1, early AD: n = 1), mild variants (mild Alzheimer's Disease: n = 1, Mild Alzheimer's Disease: n = 1, probable mild Alzheimer's dementia: n = 1), neurocognitive disorder classifications (mild neurocognitive disorder due to Alzheimer's disease (NCD-AD): n = 1, mild neurocognitive disorder due to possible Alzheimer's disease: n = 1), specialized populations (Alzheimer's disease with apathy: n = 1, mild cognitive impairment with apathy: n = 1, MCI with dysphagia risk: n = 1), mixed populations (older adults with and without mild cognitive impairment: n = 1, MCI and mild AD: n = 1), and broader classifications (Alzheimer's disease spectrum: n = 1, MCI-AD: n = 1). Two studies had unreported population characteristics.
+
+## Risk of Bias
+
+Risk of bias assessment was completed for all 53 included studies using the Cochrane Risk of Bias 2 tool. The overall risk of bias distribution revealed that 51 studies (96.2%) had some concerns, while 2 studies (3.8%) were rated as having high risk of bias. No studies achieved a low risk of bias rating across all domains. The risk of bias summary is presented in Figure 4.
+
+## Synthesis Results
+
+### Global Cognition
+
+#### ADAS-Cog
+
+Three studies (Sabbagh et al., Alzheimer's & Dementia 2020; Cantoni et al., JAMA Network Open 2025; Li et al., Brain Stimulation 2021) provided data for ADAS-Cog outcomes. The random-effects meta-analysis revealed no significant effect of neurostimulation on ADAS-Cog scores (standardized mean difference [SMD] = 0.236, 95% CI: -1.050 to 1.521, p = 0.719). Heterogeneity was considerable (I² = 91.8%, Q = 24.50, df = 2, p < 0.001, τ² = 1.063). The prediction interval ranged from -15.289 to 15.760, indicating substantial variability in potential treatment effects across settings.
+
+#### MMSE
+
+Seven studies (Padala et al., Journal of Alzheimer's Disease 2020; Melendez et al., Journal of Alzheimer's Disease 2023; Park et al., Yonsei Med J 2024; Padala et al., Psychiatry Res 2018; Im et al., Brain Stimul 2019; Li et al., Brain Stimulation 2021; Gomes et al., Dement Neuropsychol 2019) contributed to the MMSE analysis. The random-effects meta-analysis demonstrated a significant positive effect of neurostimulation on MMSE scores (SMD = 1.426, 95% CI: 0.171 to 2.680, p = 0.026). However, heterogeneity was considerable (I² = 91.1%, Q = 67.43, df = 6, p < 0.001, τ² = 2.401). The prediction interval was -2.884 to 5.735.
+
+### Specific Cognitive Domains
+
+#### Memory
+
+Two studies (Melendez et al., Journal of Alzheimer's Disease 2023; Gomes et al., Dement Neuropsychol 2019) assessed memory outcomes. The random-effects analysis showed no significant effect on memory performance (SMD = 0.756, 95% CI: -0.405 to 1.917, p = 0.202). Heterogeneity was considerable (I² = 75.6%, Q = 4.10, df = 1, p = 0.043, τ² = 0.542).
+
+### Functional Outcomes
+
+#### Activities of Daily Living (ADL)
+
+Two studies (Padala et al., Journal of Alzheimer's Disease 2020; Cantoni et al., JAMA Network Open 2025) provided ADL data. The random-effects meta-analysis found no significant effect on ADL outcomes (SMD = 1.231, 95% CI: -2.621 to 5.083, p = 0.531). Heterogeneity was considerable (I² = 89.8%, Q = 9.80, df = 1, p = 0.002, τ² = 7.005).
+
+#### ADCS-ADL
+
+The same two studies contributed to ADCS-ADL analysis. Due to low heterogeneity (I² = 0%, Q = 0.46, df = 1, p = 0.496), a fixed-effects model was applied, revealing a significant negative effect (SMD = -0.519, 95% CI: -0.847 to -0.191, p = 0.002), indicating improvement in functional outcomes.
+
+## Subgroup Analyses
+
+### Global Cognition (MMSE)
+
+Subgroup analyses revealed significant differences between stimulation types (Q = 18.26, df = 1, p < 0.001). rTMS demonstrated a large positive effect (SMD = 2.971, 95% CI: 2.072 to 3.869, p < 0.001, k = 3) with moderate heterogeneity (I² = 26.3%), while tDCS showed no significant effect (SMD = 0.480, 95% CI: -0.225 to 1.186, p = 0.182, k = 4) with substantial heterogeneity (I² = 57.0%).
+
+Population subgroups also differed significantly (Q = 23.08, df = 5, p < 0.001). Studies in Alzheimer's disease showed a significant positive effect (SMD = 2.116, 95% CI: 0.095 to 4.137, p = 0.040, k = 2) with considerable heterogeneity (I² = 91.3%), while mild cognitive impairment with apathy demonstrated the largest effect (SMD = 3.4, SE = 0.791, k = 1).
+
+Stimulation target analysis revealed significant differences (Q = 67.06, df = 5, p < 0.001), with left DLPFC showing the strongest effect (SMD = 3.115, SE = 0.344, k = 1) and bilateral DLPFC showing minimal effect (SMD = 0.129, SE = 0.484, k = 1).
+
+Session count subgroups showed no significant differences (Q = 0.018, df = 1, p = 0.892), with both >10 sessions (SMD = 1.491, 95% CI: -0.312 to 3.293, p = 0.105, k = 4) and ≤10 sessions (SMD = 1.318, 95% CI: -0.398 to 3.034, p = 0.132, k = 3) showing non-significant effects despite considerable heterogeneity in both groups.
+
+### Other Outcomes
+
+For ADAS-Cog, subgroup analyses by stimulation type, population, stimulation target, and cognitive training combination all showed significant differences between subgroups, but individual subgroup effects remained non-significant due to limited study numbers.
+
+Memory outcomes showed significant differences between Alzheimer's disease and mild cognitive impairment populations (Q = 4.10, df = 1, p = 0.043), with Alzheimer's disease showing a larger effect (SMD = 1.443, SE = 0.529) compared to mild cognitive impairment (SMD = 0.245, SE = 0.264).
+
+## Sensitivity Analyses
+
+Leave-one-out analyses identified several influential studies. For MMSE outcomes, three studies were identified as influential: Melendez et al. (2023), Park et al. (2024), and Padala et al. (2018). Removal of these studies individually resulted in confidence intervals that included the null effect or substantially altered effect estimates.
+
+For memory outcomes, Gomes et al. (2019) was identified as influential, with its removal changing the pooled effect from 0.756 (95% CI: -0.405 to 1.917) to 0.245 (95% CI: -0.272 to 0.762).
+
+For functional outcomes, both studies contributing to ADL and ADCS-ADL analyses were identified as influential due to the small number of studies and opposing effect directions.
+
+## Publication Bias
+
+Formal assessment of publication bias was not conducted due to insufficient study numbers for reliable testing. All outcome analyses included fewer than 10 studies, making funnel plot asymmetry tests and regression-based approaches unreliable. The limited number of studies across outcomes (ranging from 2 to 7 studies per analysis) precludes meaningful evaluation of publication bias using conventional statistical methods.

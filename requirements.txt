@@ -1,0 +1,51 @@
+# ============================================
+# Meta-Analysis Generator - Dependencies
+# ============================================
+# 安裝方式:
+#   cd meta-analysis-generator
+#   python -m venv venv
+#   source venv/bin/activate  (Linux/Mac)
+#   # 或 venv\Scripts\activate (Windows)
+#   pip install -r requirements.txt
+# ============================================
+
+# === Core ===
+pyyaml>=6.0
+python-dotenv>=1.0
+requests>=2.31
+aiohttp>=3.9
+tenacity>=8.2          # retry logic for API calls
+tqdm>=4.66             # progress bars
+
+# === LLM ===
+openai>=1.30           # OpenRouter uses OpenAI-compatible API
+tiktoken>=0.7          # token counting (for GPT models)
+langfuse>=2.0          # LLM observability + TRIPOD-LLM audit logging
+
+# === PDF Processing ===
+pymupdf>=1.24          # fitz - best PDF text extraction
+pdfplumber>=0.11       # table-aware PDF extraction (升級重點)
+
+# === Data Processing ===
+pandas>=2.1
+numpy>=1.26
+rispy>=0.9             # .ris file parser (Cochrane/Embase imports)
+thefuzz>=0.22          # fuzzy title matching for deduplication
+python-Levenshtein>=0.25  # speed up thefuzz
+
+# === Statistical Analysis ===
+scipy>=1.12
+statsmodels>=0.14
+matplotlib>=3.8
+seaborn>=0.13
+
+# === Document Generation ===
+python-docx>=1.1       # .docx output
+Jinja2>=3.1            # template engine
+
+# === Utilities ===
+hashlib-additional>=1.0.1  # content hashing for cache (optional)
+diskcache>=5.6         # persistent disk cache
+jsonschema>=4.21       # data validation
+beautifulsoup4>=4.12   # HTML parsing for Sci-Hub / LibGen PDF extraction
+fake-useragent>=1.5    # random browser User-Agent spoofing (doi_hunter)

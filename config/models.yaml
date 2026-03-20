@@ -1,0 +1,151 @@
+# ============================================
+# LLM Model Configuration via OpenRouter
+# ============================================
+# 每個 agent 角色對應不同模型
+# pricing 用於 token budget 追蹤 (USD per 1M tokens)
+# temperature: 0.0 across all agents for reproducibility (TRIPOD 6c)
+# seed: 42 for all agents (TRIPOD 6c)
+# ============================================
+
+default_provider: "openrouter"
+base_url: "https://openrouter.ai/api/v1"
+
+models:
+  # === 策略規劃 ===
+  strategist:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-11"
+    role: "RESEARCH_STRATEGIST"
+    description: "分析 PICO、生成搜尋策略、MeSH terms"
+    max_tokens: 8192
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 3.0
+      output_per_million: 15.0
+
+  # === 篩選 Screener 1 — Gemini Flash Lite + thinking ===
+  screener1:
+    model_id: "google/gemini-3.1-flash-lite-preview"
+    pinned_at: "2026-03-12"
+    role: "SCREENER_1"
+    description: "Title/Abstract 篩選 (獨立審查者 1) — 5-point scale, thinking=high"
+    max_tokens: 4096
+    temperature: 0.0
+    seed: 42
+    # reasoning_effort: OpenRouter Gemini thinking level — minimal|low|medium|high
+    reasoning_effort: "high"
+    pricing:
+      input_per_million: 0.25
+      output_per_million: 1.50
+
+  # === 篩選 Screener 2 ===
+  screener2:
+    model_id: "openai/gpt-4.1-mini"
+    pinned_at: "2026-03-13"
+    role: "SCREENER_2"
+    description: "Title/Abstract 篩選 (獨立審查者 2) — 5-point confidence scale; OpenAI 2025-04 release, reliable structured JSON output"
+    max_tokens: 1024
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 0.40
+      output_per_million: 1.60
+
+  # === 仲裁者 ===
+  arbiter:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-11"
+    role: "ARBITER"
+    description: "解決篩選衝突 (firm disagreements only; undecided → human queue)"
+    max_tokens: 2048
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 3.0
+      output_per_million: 15.0
+
+  # === 資料提取 ===
+  extractor:
+    model_id: "google/gemini-3.1-pro-preview"
+    pinned_at: "2026-03-11"
+    role: "DATA_EXTRACTOR"
+    description: "從全文提取結構化數據"
+    max_tokens: 8192
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 2.0
+      output_per_million: 12.0
+
+  # === 提取一致性驗證 ===
+  extractor_tiebreaker:
+    model_id: "openai/gpt-5.4"
+    pinned_at: "2026-03-11"
+    role: "EXTRACTOR_TIEBREAKER"
+    description: "Phase 4 self-consistency 3rd-model tiebreaker"
+    max_tokens: 8192
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 2.5
+      output_per_million: 15.0
+
+  # === 統計分析師 ===
+  statistician:
+    model_id: "openai/gpt-5.4"
+    pinned_at: "2026-03-11"
+    role: "STATISTICIAN"
+    description: "生成統計代碼、檢驗分析"
+    max_tokens: 8192
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 2.5
+      output_per_million: 15.0
+
+  # === 論文撰寫 ===
+  writer:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-12"
+    role: "MANUSCRIPT_WRITER"
+    description: "撰寫 manuscript 初稿，PRISMA 2020"
+    max_tokens: 8192
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 3.0
+      output_per_million: 15.0
+
+  # === 方法學審查 ===
+  methodologist:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-11"
+    role: "METHODOLOGIST"
+    description: "審查方法學嚴謹性"
+    max_tokens: 4096
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 3.0
+      output_per_million: 15.0
+
+  # === 引用驗證 ===
+  citation_guardian:
+    model_id: "openai/gpt-5.4"
+    pinned_at: "2026-03-11"
+    role: "CITATION_GUARDIAN"
+    description: "驗證每個引用的準確性，3-pass 流程"
+    max_tokens: 2048
+    temperature: 0.0
+    seed: 42
+    pricing:
+      input_per_million: 2.5
+      output_per_million: 15.0
+
+# === Batch 處理設定 ===
+batch_settings:
+  screening_batch_size: 10
+  batch_delay_seconds: 2
+  max_retries: 3
+  retry_delay: 5

@@ -1,0 +1,17 @@
+{
+  "extracted_data.json": {
+    "updated_at": "2026-03-15T17:50:25.912962",
+    "size_bytes": 676118,
+    "record_count": 186
+  },
+  "risk_of_bias.json": {
+    "updated_at": "2026-03-15T17:50:26.444914",
+    "size_bytes": 334100,
+    "record_count": 186
+  },
+  "validation_report.json": {
+    "updated_at": "2026-03-15T17:50:26.546039",
+    "size_bytes": 19885,
+    "record_count": 4
+  }
+}

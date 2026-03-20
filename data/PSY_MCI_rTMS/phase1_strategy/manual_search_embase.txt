@@ -1,0 +1,27 @@
+Embase via Ovid — Search Strategy
+====================================
+Interface: Ovid (https://ovidsp.ovid.com)
+Date range: 2000–2025 (applied as limit in final step)
+
+⚠ IMPORTANT: Embase uses EMTREE controlled vocabulary, NOT MeSH.
+  Lines marked '/* EMTREE */' use MeSH terms as approximate mappings.
+  Verify and replace with correct EMTREE terms before running:
+  → Emtree browser: https://www.embase.com/search/quick (click Emtree)
+
+1. exp Cognitive Dysfunction/ OR exp Mild Cognitive Impairment/ OR exp Alzheimer Disease/  /* EMTREE — verify equivalents before running */
+2. (mild cognitive impairment$).ti,ab. OR (MCI).ti,ab. OR (amnestic MCI).ti,ab. OR (aMCI$).ti,ab. OR (nonamnestic MCI).ti,ab. OR (non-amnestic MCI).ti,ab. OR (naMCI$).ti,ab. OR (prodromal dementia$).ti,ab. OR (pre-dementia$).ti,ab. OR (predementia$).ti,ab. OR (cognitive impairment$).ti. OR (cognitive decline$).ti. OR (memory loss$).ti. OR (Alzheimer's disease$).ti,ab. OR (Alzheimer disease$).ti,ab. OR (Alzheimers disease$).ti,ab. OR (early Alzheimer$).ti,ab. OR (mild Alzheimer$).ti,ab. OR (early stage Alzheimer$).ti,ab. OR (prodromal Alzheimer$).ti,ab. OR (probable Alzheimer$).ti,ab. OR (dementia$).ti.
+3. 1 OR 2
+4. exp Transcranial Magnetic Stimulation/ OR exp Transcranial Direct Current Stimulation/  /* EMTREE — verify equivalents before running */
+5. (non-invasive brain stimulation$).ti,ab. OR (noninvasive brain stimulation$).ti,ab. OR (NIBS).ti,ab. OR (brain stimulation$).ti. OR (neurostimulation$).ti. OR (neuromodulation$).ti. OR (transcranial magnetic stimulation$).ti,ab. OR (TMS).ti,ab. OR (repetitive TMS).ti,ab. OR (rTMS$).ti,ab. OR (intermittent theta burst stimulation$).ti,ab. OR (iTBS$).ti,ab. OR (continuous theta burst stimulation$).ti,ab. OR (cTBS$).ti,ab. OR (theta-burst stimulation$).ti,ab. OR (transcranial direct current stimulation$).ti,ab. OR (tDCS$).ti,ab. OR (transcranial alternating current stimulation$).ti,ab. OR (tACS$).ti,ab.
+6. 4 OR 5
+7. 3 AND 6
+8. limit 7 to (yr="2000 - 2025" and article)   [FINAL — use this result set]
+
+How to use:
+1. Log in to Ovid Embase
+2. Enter each numbered line sequentially in the search box
+3. The interface builds a history list automatically
+4. Run the final line (highest number) to get the combined result
+5. Export: Export → RIS format → save as embase_export.ris
+6. Place in: data/phase2_search/raw/embase_export.ris
+7. Run: python scripts/run_phase2.py --deduplicate

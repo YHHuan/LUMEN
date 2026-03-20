@@ -1,0 +1,33 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Large binary data (PDFs, Zotero exports)
+*.pdf
+data/*/phase3_screening/stage2_fulltext/fulltext_pdfs/
+data/*/zotero_export/
+
+# LLM response cache (recreatable, costs money to re-run)
+data/*/.cache/
+
+# Other projects (not validated)
+data/Salt_sensitivity/
+
+# Runtime checkpoints
+data/*/.checkpoints/
+
+# Budget tracking
+data/*/.budget/
+
+# Manuscript drafts (not public yet)
+方法學投稿相關/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
