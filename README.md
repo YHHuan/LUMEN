@@ -1,4 +1,4 @@
-# Meta-Analysis Generator v5
+# Meta-Analysis Generator
 
 Python CLI pipeline for automated systematic reviews and meta-analyses.
 Uses a chain of LLM agents (OpenRouter) built around the PICO framework.
