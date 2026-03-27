@@ -1,0 +1,88 @@
+version: "2.1"
+
+system_prompt: |
+  You are a data extraction specialist for systematic reviews and meta-analyses.
+  Extract structured data from the provided study content.
+
+  CRITICAL RULES:
+  1. For EVERY numeric value, provide evidence_span — the exact text or table cell.
+  2. If a value is not found, set field to null and evidence_span to "NOT FOUND IN SOURCE".
+  3. NEVER estimate, calculate, or infer values not explicitly stated.
+  4. For table data: "Table X, Row Y: [exact content]"
+  5. For text data: quote the exact sentence (max 30 words).
+  6. Set confidence: "high" (explicit, unambiguous), "medium" (requires interpretation),
+     "low" (uncertain, derived).
+
+  OUTCOME TYPE DETECTION:
+  For each outcome, determine the outcome_type FIRST:
+  - "continuous": means, SDs, sample sizes reported (e.g., depression scores, blood pressure)
+  - "binary": events/totals or proportions reported (e.g., remission, response, mortality, infection rate)
+  - "time_to_event": hazard ratios, survival data (e.g., time to death, time to hospitalization)
+  - "precomputed": the paper reports effect sizes directly (OR, RR, HR, VE%, SMD with CI)
+
+  IMPORTANT — EXTRACT BOTH CONTINUOUS AND BINARY WHEN AVAILABLE:
+  Many studies report BOTH continuous scores AND binary rates for the same construct.
+  For example, a depression study may report:
+    - Continuous: mean BDI-II score ± SD per group (outcome_type="continuous")
+    - Binary: number achieving remission (BDI-II < 10) per group (outcome_type="binary")
+  Extract BOTH as separate outcome entries. Binary outcomes include:
+    - Remission rates (e.g., "X of Y patients achieved remission")
+    - Response rates (e.g., "≥50% reduction in score")
+    - Recovery rates, clinically significant improvement rates
+    - Any dichotomized endpoint with events/totals per group
+  For binary outcomes, fill events (number with event) and total (group size) in each group.
+
+  Extract the fields appropriate for each outcome_type. Leave irrelevant fields as null.
+
+  Return valid JSON matching the provided extraction schema.
+
+extraction_schema:
+  study_design: "string"
+  population_description: "string"
+  total_n: "integer"
+  intervention_description: "string"
+  control_description: "string"
+  outcomes:
+    - measure: "string"
+      timepoint: "string"
+      outcome_type: "string (continuous|binary|time_to_event|precomputed)"
+      # --- Continuous outcome fields ---
+      intervention_group:
+        mean: "float"
+        sd: "float"
+        se: "float"
+        n: "integer"
+        events: "integer"
+        total: "integer"
+        evidence_span: "string"
+        evidence_page: "integer"
+        evidence_type: "string"
+        confidence: "string"
+      control_group:
+        mean: "float"
+        sd: "float"
+        se: "float"
+        n: "integer"
+        events: "integer"
+        total: "integer"
+        evidence_span: "string"
+        evidence_page: "integer"
+        evidence_type: "string"
+        confidence: "string"
+      # --- Pre-computed effect sizes (reported directly in paper) ---
+      effect_size: "float"
+      effect_measure: "string (OR|RR|HR|SMD|MD|RD|VE)"
+      se: "float"
+      ci_lower: "float"
+      ci_upper: "float"
+      p_value: "float"
+      log_scale: "boolean"
+      # --- Hazard ratio fields ---
+      hr: "float"
+      hr_ci_lower: "float"
+      hr_ci_upper: "float"
+      hr_se: "float"
+      # --- Vaccine effectiveness fields ---
+      ve_pct: "float"
+      ve_ci_lower: "float"
+      ve_ci_upper: "float"

@@ -1,0 +1,126 @@
+# Domain 2: CBT-I for Major Depressive Disorder with Comorbid Insomnia
+# Reference: Furukawa et al., J Affect Disord, 2024 (PMID: 39242039)
+# DOI: 10.1016/j.jad.2024.09.017
+# Difficulty: Medium
+# Expected studies: 19 trials, 4,808 participants
+# Registered: OSF https://osf.io/kcndz/
+
+population: >
+  Adults with major depressive disorder (MDD) and comorbid insomnia,
+  diagnosed by DSM or ICD criteria for MDD, and meeting clinical
+  insomnia criteria (ISI >= 10 or equivalent). Mean age 33.2 (SD 15.0),
+  73.2% women. Median PHQ-9 16 (range 8-21), mean ISI 19.2 (SD 5.4).
+
+intervention: >
+  Cognitive behavioral therapy for insomnia (CBT-I) in any format:
+  face-to-face individual (12 trials), digital/online (7 trials).
+  Components: sleep restriction (19/19), stimulus control (19/19),
+  cognitive restructuring for insomnia (17/19), third wave (3/19).
+  Median treatment duration: 8 weeks (range 4-16).
+
+comparison: >
+  Control conditions including waitlist (6 arms), treatment as usual (13 arms),
+  sleep hygiene education alone, attention control, or pharmacotherapy alone.
+
+effect_measure: "OR"
+outcome_type: "binary"
+
+outcome:
+  primary: >
+    Depression response (>=50% reduction on validated scale) at
+    post-treatment. OR with 95% CI.
+  secondary:
+    - Insomnia remission (satisfactory state on validated self-report scale)
+    - All-cause dropout (acceptability proxy)
+    - Depression severity continuous (SMD)
+    - Insomnia severity continuous (SMD)
+
+study_design: Randomized controlled trials (RCTs)
+
+gold_standard:
+  # Primary outcome
+  pooled_effect: "OR = 2.28"
+  confidence_interval: "95% CI: 1.67 to 3.12"
+  heterogeneity_i2: 36
+  heterogeneity_tau2: 0.11
+  prediction_interval: "1.03 to 5.05"
+  grade_certainty: "Moderate (downgraded for study limitations)"
+  interpretation: >
+    CBT-I significantly more beneficial than control for depression
+    response. Control response rate 17%, CBT-I response rate 32%
+    (95% CI: 26%-39%).
+  statistical_method: "Random-effects pairwise meta-analysis, OR, R meta package"
+  n_studies: 18  # for primary (19 trials total, 1 excluded from primary)
+  n_participants: 4762  # for primary outcome
+  n_participants_total: 4808
+
+  # Secondary outcomes
+  insomnia_remission:
+    effect: "OR = 3.57"
+    ci: "95% CI: 2.48 to 5.14"
+    i2: 29
+    tau2: 0.12
+    prediction_interval: "1.55 to 8.20"
+    grade: "Moderate"
+    note: "Control remission 9%, CBT-I 26% (95% CI: 20%-34%)"
+  dropout:
+    effect: "OR = 1.69"
+    ci: "95% CI: 0.98 to 2.89"
+    i2: 62
+    tau2: 0.54
+    grade: "Low"
+    note: "Control dropout 15%, CBT-I 23% (95% CI: 15%-34%)"
+  depression_continuous:
+    effect: "SMD = -0.49"
+    ci: "95% CI: -0.71 to -0.28"
+  insomnia_continuous:
+    effect: "SMD = -0.84"
+    ci: "95% CI: -1.11 to -0.58"
+  depression_excluding_sleep_subscales:
+    effect: "OR = 2.32"
+    ci: "95% CI: 1.28 to 4.20"
+    note: "Confirms effect beyond sleep domain"
+
+  search_databases:
+    - PubMed
+    - Cochrane Central Register of Controlled Trials
+    - PsycINFO
+  search_date: "2024-03-27"
+
+included_studies:
+  - author: "Carney et al."
+    year: 2017
+  - author: "Chan et al."
+    year: 2023
+  - author: "Chung et al."
+    year: 2024
+  - author: "Dyrberg et al."
+    year: 2022
+  - author: "Gebara et al."
+    year: 2019
+  - author: "Glozier et al."
+    year: 2019
+  - author: "Henry et al."
+    year: 2021
+  - author: "Lopez et al."
+    year: 2019
+  - author: "Manber et al."
+    year: 2008
+  - author: "Manber et al."
+    year: 2016
+  - author: "Norell-Clarke et al."
+    year: 2015
+  - author: "Pigeon et al."
+    year: 2017
+  - author: "Pigeon et al."
+    year: 2022
+  - author: "Rotger et al."
+    year: 2024
+  - author: "Sadler et al."
+    year: 2018
+  - author: "Wagley et al."
+    year: 2013
+  - author: "Watanabe et al."
+    year: 2011
+  - author: "van der Zweerde et al."
+    year: 2019

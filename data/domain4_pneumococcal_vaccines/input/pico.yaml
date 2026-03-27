@@ -1,0 +1,175 @@
+# Domain 4: Pneumococcal Vaccine Efficacy/Effectiveness in Adults
+# Reference: Farrar et al., Pathogens, 2023 (PMID: 37242402, PMC10222197)
+# DOI: 10.3390/pathogens12050732
+# Difficulty: Hard
+# Expected studies: 19 studies (7 PCV13, 13 PPSV23, 1 both)
+# PROSPERO: CRD42021258668
+
+population: >
+  Adults (16-18 years and older) including healthy adults,
+  adults with chronic conditions, and immunocompromised individuals.
+  Studies from middle- and high-income settings.
+
+intervention: >
+  Pneumococcal vaccines: 13-valent pneumococcal conjugate vaccine (PCV13)
+  and 23-valent pneumococcal polysaccharide vaccine (PPSV23).
+
+comparison: >
+  No vaccination, placebo, or alternative pneumococcal vaccine type.
+
+effect_measure: "VE_OR"
+outcome_type: "precomputed"
+
+outcome:
+  primary: >
+    Vaccine efficacy (from RCTs) and vaccine effectiveness (from
+    observational studies) against vaccine-type invasive pneumococcal
+    disease (VT-IPD) and vaccine-type pneumococcal pneumonia (VT-PP).
+    Reported as VE% with 95% confidence intervals.
+  secondary:
+    - Subgroup by immunocompromising conditions
+    - Subgroup by age (65-74 years)
+    - Serotype 3 specific outcomes
+
+study_design: >
+  Randomized controlled trials (for efficacy) and observational studies
+  (case-control, indirect cohort, test-negative design for effectiveness).
+
+gold_standard:
+  # PCV13 — from 1 RCT (CAPITA trial)
+  pcv13_efficacy_ipd:
+    effect: "VE = 75%"
+    ci: "95% CI: 41% to 91%"
+    source: "Bonten 2015 (CAPITA RCT)"
+    certainty: "High"
+  pcv13_efficacy_pp:
+    effect: "VE = 45%"
+    ci: "95% CI: 14% to 65%"
+    source: "Bonten 2015 (CAPITA RCT)"
+    note: "Against first episode PCV13-type non-bacteremic, non-invasive CAP"
+  pcv13_effectiveness_ipd_range: "47% to 68% (3 observational studies)"
+  pcv13_effectiveness_pp_range: "38% to 68% (3 observational studies, wide CIs)"
+
+  # PPSV23 — pooled from observational studies
+  ppsv23_effectiveness_ipd:
+    effect: "VE = 45%"
+    ci: "95% CI: 37% to 51%"
+    i2: 0
+    n_studies: 9
+    note: "Observational studies, <5 years since vaccination"
+  ppsv23_effectiveness_ipd_no_immunocomp:
+    effect: "VE = 60%"
+    ci: "95% CI: 47% to 69%"
+    i2: 0
+    n_studies: 3
+  ppsv23_effectiveness_ipd_age_65_74:
+    effect: "VE = 52%"
+    ci: "95% CI: 36% to 64%"
+    i2: 5.2
+    n_studies: 3
+  ppsv23_effectiveness_pp:
+    effect: "VE = 18%"
+    ci: "95% CI: -4% to 35%"
+    i2: 0
+    n_studies: 5
+    note: "Not statistically significant"
+  ppsv23_effectiveness_pp_age_65_74:
+    effect: "VE = 26%"
+    ci: "95% CI: -6% to 49%"
+    i2: 0
+    n_studies: 3
+
+  statistical_method: "Random-effects, Comprehensive Meta-Analysis v3"
+  n_studies: 19
+  rob_tools:
+    - "Cochrane risk-of-bias 2.0 (for RCTs)"
+    - "Newcastle-Ottawa Scale (for observational studies)"
+  search_databases:
+    - Medline
+    - Embase
+    - CINAHL
+    - Web of Science
+    - Scopus
+    - Epistemonikos
+    - Cochrane Library
+  search_period: "2016-01 to 2022-03"
+
+included_studies:
+  # PCV13 studies (7)
+  - author: "Bonten et al. (CAPITA)"
+    year: 2015
+    design: "RCT"
+    country: "Netherlands"
+  - author: "Heo et al."
+    year: 2022
+    design: "Test-negative"
+    country: "South Korea"
+  - author: "Lewis et al."
+    year: 2019
+    design: "Cohort"
+    country: "USA"
+  - author: "McLaughlin et al."
+    year: 2018
+    design: "Test-negative"
+    country: "USA"
+  - author: "Pilishvili et al. (ReferenceUSA controls)"
+    year: 2018
+    design: "Case-control"
+    country: "USA"
+  - author: "Pilishvili et al. (Medicare controls)"
+    year: 2018
+    design: "Case-control"
+    country: "USA"
+  - author: "Prato et al."
+    year: 2018
+    design: "Test-negative"
+    country: "Italy"
+  # PPSV23 studies (13, 1 overlap with PCV13)
+  - author: "Andrews et al."
+    year: 2012
+    design: "Indirect cohort"
+    country: "UK"
+  - author: "Chandler et al."
+    year: 2022
+    design: "Test-negative"
+    country: "USA"
+  - author: "Djennad et al."
+    year: 2018
+    design: "Indirect cohort"
+    country: "UK"
+  - author: "Dominguez et al."
+    year: 2005
+    design: "Case-control"
+    country: "Spain"
+  - author: "Gutierrez-Rodriguez et al."
+    year: 2014
+    design: "Indirect cohort"
+    country: "Spain"
+  - author: "Kim et al."
+    year: 2019
+    design: "Case-control"
+    country: "South Korea"
+  - author: "Lawrence et al."
+    year: 2020
+    design: "Case-control (nested TND)"
+    country: "England"
+  - author: "Perniciaro et al."
+    year: 2021
+    design: "Indirect cohort"
+    country: "Germany"
+  - author: "Rudnick et al."
+    year: 2013
+    design: "Indirect cohort"
+    country: "Canada"
+  - author: "Shimbashi et al."
+    year: 2020
+    design: "Indirect cohort"
+    country: "Japan"
+  - author: "Su et al."
+    year: 2021
+    design: "Indirect cohort + screening method"
+    country: "Taiwan"
+  - author: "Suzuki et al."
+    year: 2017
+    design: "Test-negative"
+    country: "Japan"

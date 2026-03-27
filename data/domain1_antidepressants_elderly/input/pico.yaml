@@ -1,0 +1,100 @@
+# Domain 1: Antidepressants for Depression in Older Adults with Dementia
+# Reference: Lenouvel et al., Psychiatry Research, 2024 (PMID: 39163819)
+# DOI: 10.1016/j.psychres.2024.116114
+# Difficulty: Easy / Clean
+# Expected studies: 8 RCTs, 617 participants
+# PROSPERO: CRD42019126323
+
+population: >
+  Older adults (aged 65 years and above) with a diagnosis of dementia
+  (any type including Alzheimer's disease, vascular dementia, mixed dementia,
+  Lewy body dementia) and comorbid depression (diagnosed by clinical criteria
+  or validated depression scales).
+
+intervention: >
+  Antidepressant pharmacotherapy including selective serotonin reuptake
+  inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs),
+  tricyclic antidepressants (TCAs), and atypical antidepressants
+  (e.g., mirtazapine, trazodone).
+
+comparison: >
+  Placebo or usual care without antidepressant treatment.
+
+effect_measure: "SMD"
+outcome_type: "continuous"
+
+outcome:
+  primary: >
+    Change in depressive symptom severity measured by validated scales
+    (e.g., Hamilton Depression Rating Scale, Cornell Scale for Depression
+    in Dementia, Montgomery-Asberg Depression Rating Scale).
+  secondary:
+    - Cognitive function (MMSE, ADAS-Cog)
+    - Quality of life (EQ-5D)
+    - Activities of daily living / functionality
+    - Adverse events and discontinuation rates
+
+study_design: Randomized controlled trials (RCTs) only
+
+gold_standard:
+  pooled_effect: "SMD = -0.10"
+  confidence_interval: "95% CI: -0.26 to 0.07"
+  heterogeneity_i2: 1
+  interpretation: >
+    No significant effect of antidepressants on depression in older
+    adults with dementia. Moderately certain (GRADE downgraded for
+    imprecision). NNT = 18 (95% CI: -7 to 26).
+  statistical_method: "Random-effects model, SMD, RevMan 5.4"
+  n_studies: 8
+  n_participants: 617
+  n_intervention: 339
+  n_control: 278
+  subgroups:
+    mild_depression:
+      effect: "SMD = -0.23"
+      ci: "95% CI: -0.54 to 0.09"
+      i2: 0
+      n_studies: 4
+      n_participants: 160
+    moderate_severe_depression:
+      effect: "SMD = -0.06"
+      ci: "95% CI: -0.28 to 0.16"
+      i2: 22
+      n_studies: 4
+      n_participants: 457
+  ssri_only_sensitivity: "SMD = -0.19 (95% CI: -0.38 to 0.00)"
+  search_databases:
+    - Medline
+    - Embase
+    - Cochrane Central Register of Controlled Trials
+  search_yield: 27771 after deduplication
+  full_text_reviewed: 57
+  included_for_qualitative: 14
+  included_for_quantitative: 8
+
+included_studies:
+  - author: "Banerjee et al."
+    year: 2013
+    drug: "Sertraline / Mirtazapine"
+    note: "Two intervention arms; control halved to avoid double-counting"
+  - author: "de Vasconcelos Cunha et al."
+    year: 2007
+    drug: "Venlafaxine"
+  - author: "Fuchs et al."
+    year: 1993
+    drug: "Maprotiline"
+  - author: "Magai et al."
+    year: 2000
+    drug: "Sertraline"
+  - author: "Petracca et al."
+    year: 1996
+    drug: "Clomipramine"
+  - author: "Taragano et al."
+    year: 1997
+    drug: "Fluoxetine"
+  - author: "Rosenberg et al."
+    year: 2010
+    drug: "Sertraline"
+  - author: "Jeong et al."
+    year: 2022
+    drug: "Escitalopram"

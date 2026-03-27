@@ -1,0 +1,111 @@
+# Domain 5: SGLT2 Inhibitors in Heart Failure
+# Reference: Vaduganathan et al., The Lancet, 2022 (PMID: 36041474)
+# DOI: 10.1016/S0140-6736(22)01429-5
+# Difficulty: Easy / Clean
+# Open Access: Yes (accepted manuscript, CC BY-NC-ND)
+# PROSPERO: CRD42022327527
+
+population: >
+  Adults with heart failure (HFrEF, HFmrEF, or HFpEF),
+  with or without type 2 diabetes mellitus.
+  21,947 participants across 5 trials.
+
+intervention: >
+  Sodium-glucose cotransporter 2 (SGLT2) inhibitors:
+  dapagliflozin 10mg daily (DELIVER, DAPA-HF),
+  empagliflozin 10mg daily (EMPEROR-Preserved, EMPEROR-Reduced),
+  sotagliflozin 200-400mg daily (SOLOIST-WHF).
+
+comparison: >
+  Placebo (all 5 trials were placebo-controlled).
+
+effect_measure: "HR"
+outcome_type: "time_to_event"
+
+outcome:
+  primary: >
+    Composite of cardiovascular death or first hospitalisation
+    for heart failure. Reported as hazard ratio with 95% CI.
+  secondary:
+    - Cardiovascular death
+    - First hospitalisation for heart failure
+    - All-cause mortality
+    - KCCQ health status (clinically meaningful improvement >=5 pts)
+
+study_design: Randomized controlled trials (RCTs) — fixed-effects meta-analysis
+
+gold_standard:
+  # Primary: CV death or first HHF (5 trials)
+  pooled_effect: "HR = 0.77"
+  confidence_interval: "95% CI: 0.72 to 0.82"
+  nnt: "25 (95% CI: 20-31) over 23 months"
+  heterogeneity: "No between-trial heterogeneity (Cochran Q)"
+  interpretation: >
+    SGLT2i reduce composite CV death/HHF by 23% across HF spectrum.
+    Consistent across 14 subgroups including all EF ranges.
+  statistical_method: "Fixed-effects meta-analysis, inverse-variance, STATA v16"
+  n_studies: 5
+  n_participants: 21947
+  median_followup: "23 months (weighted mean)"
+
+  # Secondary outcomes
+  cv_death:
+    effect: "HR = 0.87"
+    ci: "95% CI: 0.79 to 0.95"
+    nnt: "88 (95% CI: 54-229) over 22 months"
+  first_hhf:
+    effect: "HR = 0.72"
+    ci: "95% CI: 0.67 to 0.78"
+    nnt: "28 (95% CI: 24-35)"
+  all_cause_mortality:
+    effect: "HR = 0.92"
+    ci: "95% CI: 0.86 to 0.99"
+    nnt: "92 (95% CI: 52-733)"
+
+  # Prespecified subanalysis: HFmrEF/HFpEF only (DELIVER + EMPEROR-Preserved)
+  hfmref_hfpef:
+    effect: "HR = 0.80"
+    ci: "95% CI: 0.73 to 0.87"
+    n_participants: 12251
+    cv_death: "HR 0.88 (95% CI: 0.77-1.00)"
+    first_hhf: "HR 0.74 (95% CI: 0.67-0.83)"
+
+  # EF subgroups (all 5 trials)
+  ef_subgroups:
+    le_40: "HR 0.75 (95% CI: 0.68-0.83)"
+    41_49: "HR 0.78 (95% CI: 0.67-0.90)"
+    50_59: "HR 0.79 (95% CI: 0.68-0.93)"
+    ge_60: "HR 0.81 (95% CI: 0.69-0.96)"
+    p_heterogeneity: 0.83
+
+  journal: "The Lancet"
+  volume: "400(10354)"
+  pages: "757-767"
+  access: "Open access (accepted manuscript from University of Glasgow repository)"
+
+included_studies:
+  - trial: "DELIVER"
+    drug: "Dapagliflozin"
+    registration: "NCT03619213"
+    population: "HFmrEF/HFpEF"
+    sponsor: "AstraZeneca"
+  - trial: "EMPEROR-Preserved"
+    drug: "Empagliflozin"
+    registration: "NCT03057951"
+    population: "HFmrEF/HFpEF"
+    sponsor: "Boehringer Ingelheim / Eli Lilly"
+  - trial: "DAPA-HF"
+    drug: "Dapagliflozin"
+    registration: "NCT03036124"
+    population: "HFrEF"
+    sponsor: "AstraZeneca"
+  - trial: "EMPEROR-Reduced"
+    drug: "Empagliflozin"
+    registration: "NCT03057977"
+    population: "HFrEF"
+    sponsor: "Boehringer Ingelheim / Eli Lilly"
+  - trial: "SOLOIST-WHF"
+    drug: "Sotagliflozin"
+    registration: "NCT03521934"
+    population: "Worsening HF (any EF)"
+    sponsor: "Sanofi / Lexicon"

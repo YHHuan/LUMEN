@@ -1,0 +1,124 @@
+# Domain 3: Laparoscopic vs Open Cholecystectomy
+# Reference: Roy & Sheikh, Avicenna J Med, 2024 (PMC11057899)
+# DOI: 10.1055/s-0043-1777710
+# Difficulty: Medium
+# Expected studies: 24 studies, ~33,741 patients
+
+population: >
+  Patients with gallbladder disease requiring cholecystectomy,
+  including cholelithiasis, cholecystitis (acute or chronic),
+  and biliary colic. Adults of any age.
+
+intervention: >
+  Laparoscopic cholecystectomy (LC), including standard
+  multi-port and single-incision techniques.
+
+comparison: >
+  Open cholecystectomy (OC), traditional surgical approach.
+
+effect_measure: "OR"
+outcome_type: "binary"
+
+outcome:
+  primary: >
+    Mortality (odds ratio with 95% CI).
+  secondary:
+    - Bile leakage
+    - Common bile duct injury
+    - Gangrene
+    - Hospital stay (mean difference, days)
+    - Major complications
+    - Median hospital stay (days)
+    - Pneumonia
+    - Sick leaves (days)
+    - Wound infection
+
+study_design: >
+  Prospective nonrandomized, retrospective, and prospective randomized trials.
+  No RCTs were identified comparing LC vs OC at time of screening.
+
+gold_standard:
+  # Primary: Mortality
+  pooled_effect: "Mortality OR = 0.30"
+  confidence_interval: "95% CI: 0.30 to 0.45"
+  p_value: "< 0.00001"
+  heterogeneity: "Minimal (I-squared 0-50% range)"
+  interpretation: >
+    Laparoscopic cholecystectomy significantly favored for mortality.
+    Note: CI lower bound equals point estimate — possible typo in
+    original paper, but reported as published.
+  statistical_method: "Mantel-Haenszel random-effects, RevMan 5.4"
+  n_studies: 24
+  n_studies_mortality: 11
+  n_participants: 33741
+  n_lc: 16920  # for mortality analysis
+  n_oc: 16821  # for mortality analysis
+
+  # Secondary outcomes
+  hospital_stay:
+    effect: "MD = -2.68 days"
+    ci: "95% CI: -3.66 to -1.70"
+    p_value: "< 0.00001"
+  major_complications:
+    effect: "OR = 0.35"
+    ci: "95% CI: 0.19 to 0.64"
+    p_value: "0.0005"
+  wound_infection:
+    effect: "OR = 0.29"
+    ci: "95% CI: 0.16 to 0.51"
+    p_value: "< 0.0001"
+  sick_leaves:
+    effect: "OR = 0.34"
+    ci: "95% CI: 0.14 to 0.80"
+    p_value: "0.01"
+  non_significant:
+    - "Bile leakage (p > 0.05)"
+    - "Common bile duct injury (p > 0.05)"
+    - "Gangrene (p > 0.05)"
+    - "Median hospital stay days (p > 0.05)"
+    - "Pneumonia (p > 0.05)"
+
+  rob_tools:
+    - "ROBINS-I (13 nonrandomized studies)"
+    - "ROB-2 (7 randomized trials)"
+  search_databases:
+    - PubMed Central/Medline
+    - EMBASE
+    - Web of Science
+    - CINAHL
+    - JSTOR
+    - Cochrane Library
+    - Scopus
+    - EBSCO
+  search_period: "1993-2023"
+  search_yield: 739 after deduplication
+  full_text_reviewed: 29
+
+included_studies:
+  - author: "Araujo-Texeira et al."
+    year: 1999
+  - author: "Feldman et al."
+    year: 1994
+  - author: "Glavic et al."
+    year: 2001
+  - author: "Johansson et al."
+    year: 2005
+  - author: "Karim and Kadyal"
+    year: 2015
+  - author: "Kiviluoto et al."
+    year: 1998
+  - author: "Krahenbühl and Büchler"
+    year: 1996
+  - author: "Maxwell et al."
+    year: 1998
+  - author: "Pessaux et al."
+    year: 2001
+  - author: "Tucker et al."
+    year: 2011
+  - author: "Unger et al."
+    year: 1993
+  - author: "Catena et al. (ACTIVE Study)"
+    year: 2022
+  # Note: 24 total studies included; 12 listed above are from the
+  # mortality forest plot (refs 26-37). Remaining 12 studies contributed
+  # to secondary outcomes only — full list in paper's Table 2.

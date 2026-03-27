@@ -1,0 +1,111 @@
+# LUMEN v2 — Claude-only model configuration
+# All agents use Anthropic Claude models via OpenRouter
+# Purpose: Parallel validation run using single-provider architecture
+#
+# Key differences from models.yaml:
+# - All agents → Claude models (no Google/OpenAI)
+# - Screener 1 & 2 use SAME model (Claude Haiku 4.5) — run twice for stability
+# - Heavy roles (extractor, statistician, writer) → Claude Sonnet 4.6
+# - Light roles (rescue_screener) → Claude Haiku 4.5
+#
+# Usage: python scripts/run_phase3_stage1.py --config config/models_claude_only.yaml
+#        (requires adding --config flag support, or symlink/copy over models.yaml)
+
+models:
+  strategist:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-21"
+    temperature: 0.3
+    max_tokens: 4096
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+  # Screener 1 & 2: SAME Claude Haiku model, run independently
+  # This tests inter-run stability (same model, same prompt, different calls)
+  screener_1:
+    model_id: "anthropic/claude-haiku-4-5-20251001"
+    pinned_at: "2026-03-21"
+    temperature: 0.0
+    max_tokens: 512
+    pricing:
+      input_per_1m: 0.80
+      output_per_1m: 4.00
+
+  screener_2:
+    model_id: "anthropic/claude-haiku-4-5-20251001"
+    pinned_at: "2026-03-21"
+    temperature: 0.0
+    max_tokens: 512
+    pricing:
+      input_per_1m: 0.80
+      output_per_1m: 4.00
+
+  arbiter:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-21"
+    temperature: 0.0
+    max_tokens: 512
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+  rescue_screener:
+    model_id: "anthropic/claude-haiku-4-5-20251001"
+    pinned_at: "2026-03-21"
+    temperature: 0.0
+    max_tokens: 50
+    pricing:
+      input_per_1m: 0.80
+      output_per_1m: 4.00
+
+  extractor:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-21"
+    temperature: 0.0
+    max_tokens: 8192
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+  extractor_tiebreaker:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-21"
+    temperature: 0.0
+    max_tokens: 4096
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+  statistician:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-21"
+    temperature: 0.2
+    max_tokens: 8192
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+  writer:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-21"
+    temperature: 0.4
+    max_tokens: 8192
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+  citation_guardian:
+    model_id: "anthropic/claude-sonnet-4-6"
+    pinned_at: "2026-03-21"
+    temperature: 0.0
+    max_tokens: 2048
+    pricing:
+      input_per_1m: 3.00
+      output_per_1m: 15.00
+
+# Batch settings (same as default)
+batch_settings:
+  screening_batch_size: 10
+  extraction_passes: 3
+  rescue_batch_size: 20

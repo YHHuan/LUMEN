@@ -1,0 +1,75 @@
+# ── Python ──
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ── Environment / secrets ──
+.env
+*.key
+
+# ── Data: exclude ALL run outputs, keep only input/pico.yaml ──
+data/.active_project
+data/.audit/
+data/*/.audit/
+data/*/.budget/
+data/*/.meta/
+data/*/phase1_strategy/
+data/*/phase2_search/
+data/*/phase3_screening/
+data/*/phase4_extraction/
+data/*/phase4_5_planning/
+data/*/phase5_analysis/
+data/*/phase6_manuscript/
+data/*/quality_assessment/
+data/*/pdf_groundtruth/
+data/*/benchmark/
+data/*/transparency/
+data/*/*.md
+data/*/*.json
+
+# ── PDFs (too large for git) ──
+pdf_backup/
+*.pdf
+
+# ── Cache ──
+.cache/
+*.hnswlib
+*.faiss
+
+# ── Reports (generated output, reproducible) ──
+reports/
+
+# ── Validation & ablation (run results, not source code) ──
+validation/
+
+# ── Reference papers (copyrighted) ──
+SRMA_INFO_reference/
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Internal working notes ──
+BREAKPOINTS.md
+GUIDE_zh.md
+LUMEN_manuscript_outline_v3_arxiv.md
+PAPER_DATA_GUIDE.md
+
+# ── Claude internal ──
+.claude/
+
+# ── Workspace drafts (final versions in paper/) ──
+workspace/
+paper/
+
+# ── Images (generated figures) ──
+*.png

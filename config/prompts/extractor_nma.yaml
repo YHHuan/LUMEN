@@ -1,0 +1,67 @@
+version: "2.0"
+
+system_prompt: |
+  You are a data extraction specialist for NETWORK meta-analyses (NMA).
+  Extract structured data from the provided study content.
+
+  KEY DIFFERENCE FROM PAIRWISE MA:
+  - Studies may have 2 or MORE treatment arms (multi-arm trials).
+  - Extract ALL arms separately, not just intervention vs control.
+  - Each arm needs: treatment name, sample size, and outcome data.
+  - Use consistent treatment naming across studies (e.g., always "Placebo" not "PBO"/"Control"/"No treatment").
+
+  CRITICAL RULES:
+  1. For EVERY numeric value, provide evidence_span — the exact text or table cell.
+  2. If a value is not found, set field to null and evidence_span to "NOT FOUND IN SOURCE".
+  3. NEVER estimate, calculate, or infer values not explicitly stated.
+  4. For table data: "Table X, Row Y: [exact content]"
+  5. For text data: quote the exact sentence (max 30 words).
+  6. Set confidence: "high" (explicit, unambiguous), "medium" (requires interpretation),
+     "low" (uncertain, derived).
+  7. For crossover designs, note if within-subject correlation is reported.
+
+  Return valid JSON matching the provided extraction schema.
+
+extraction_schema:
+  study_design: "string"
+  population_description: "string"
+  total_n: "integer"
+  n_arms: "integer"
+  is_multiarm: "boolean"
+  is_crossover: "boolean"
+  arms:
+    - treatment_name: "string"
+      treatment_category: "string"
+      n: "integer"
+      outcomes:
+        - measure: "string"
+          timepoint: "string"
+          mean: "float"
+          sd: "float"
+          events: "integer"
+          total: "integer"
+          evidence_span: "string"
+          evidence_page: "integer"
+          evidence_type: "string"
+          confidence: "string"
+  pairwise_comparisons:
+    - treat1: "string"
+      treat2: "string"
+      effect_measure: "string"
+      effect_size: "float"
+      se: "float"
+      ci_lower: "float"
+      ci_upper: "float"
+      p_value: "float"
+      evidence_span: "string"
+      evidence_page: "integer"
+      confidence: "string"
+  within_subject_correlation: "float or null"
+  risk_of_bias:
+    randomization: "string"
+    allocation_concealment: "string"
+    blinding_participants: "string"
+    blinding_outcome: "string"
+    incomplete_outcome: "string"
+    selective_reporting: "string"
+    overall: "string"

@@ -1,0 +1,112 @@
+# ============================================
+# PICO Input — Salt Sensitivity & Cardiovascular Outcomes
+# ============================================
+# NOTE: This is an EXPOSURE-based (observational) meta-analysis.
+# "intervention" field below describes the EXPOSURE (salt sensitivity),
+# not a treatment. Comparison = salt-resistant / non-salt-sensitive subjects.
+
+pico:
+  population: |
+    Adults (≥18 years) with measurable blood pressure response to sodium loading/depletion.
+    Includes:
+    - Normotensive adults with salt sensitivity phenotyping
+    - Hypertensive adults with salt sensitivity phenotyping
+    Setting: inpatient metabolic ward, outpatient clinic, or community cohort
+    Exclusion: animal studies, pediatric populations (<18 years)
+
+  intervention: |
+    Exposure: Salt Sensitivity of Blood Pressure (SSBP)
+    Definition: quantitative blood pressure response to dietary sodium change
+    Standard metric: ΔBP / ΔNa (mmHg per 50 mmol Na change), unified conversion
+    Classification methods accepted:
+    - Weinberger protocol (saline loading + furosemide depletion)
+    - Sullivan/Kawasaki low-high sodium diet crossover
+    - Any validated salt loading/depletion protocol reporting BP response
+    - Categorical classification as "salt-sensitive" vs "salt-resistant" with defined cutpoints
+    Minimum threshold: ≥10 mmHg systolic BP rise with sodium loading (or equivalent)
+
+  comparison: |
+    - Salt-resistant individuals (non-salt-sensitive, by same protocol)
+    - Normotensive salt-resistant controls
+    - General population (for cohort studies comparing salt-sensitive subgroup to overall)
+
+  outcome:
+    primary:
+      - name: "MACE (Major Adverse Cardiovascular Events)"
+        measures: ["non-fatal stroke", "non-fatal MI", "cardiovascular death"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "Incident hypertension"
+        measures: ["new-onset hypertension", "rate of hypertension development"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "Cardiovascular death"
+        measures: ["CV mortality", "cardiovascular cause of death"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "All-cause mortality"
+        measures: ["total mortality", "all-cause death"]
+        metric: "HR, RR, or OR with 95% CI"
+
+    secondary:
+      - name: "Fatal and non-fatal myocardial infarction"
+        measures: ["MI", "acute myocardial infarction", "coronary events"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "Fatal and non-fatal stroke"
+        measures: ["cerebrovascular events", "ischemic stroke", "hemorrhagic stroke"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "New onset heart failure"
+        measures: ["incident heart failure", "heart failure hospitalization"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "ESRD (End-Stage Renal Disease)"
+        measures: ["end-stage kidney disease", "dialysis", "renal replacement therapy"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "New onset type 2 diabetes"
+        measures: ["incident diabetes", "new-onset T2DM", "diabetes mellitus"]
+        metric: "HR, RR, or OR with 95% CI"
+      - name: "Blood pressure (quantitative)"
+        measures: ["systolic BP change", "diastolic BP change", "delta SBP", "delta DBP"]
+        metric: "MD or WMD (mmHg)"
+
+  timepoints:
+    - label: "Short-term follow-up"
+      description: "≤1 year after salt sensitivity assessment"
+    - label: "Medium-term follow-up"
+      description: "1–5 years after salt sensitivity assessment"
+    - label: "Long-term follow-up"
+      description: ">5 years after salt sensitivity assessment (preferred for hard outcomes)"
+
+study_design:
+  include:
+    - "Prospective cohort study"
+    - "Retrospective cohort study"
+    - "Longitudinal observational study"
+    - "Randomized Controlled Trial (with salt sensitivity phenotyping and outcome data)"
+    - "Controlled clinical trial (with salt sensitivity measurement)"
+    - "Cross-sectional study (for prevalence data)"
+  exclude:
+    - "Case reports"
+    - "Case series (n<10)"
+    - "Animal studies"
+    - "In vitro / mechanistic studies"
+    - "Conference abstracts only (no full text)"
+    - "Clinical trial registrations without results"
+    - "Review articles / systematic reviews / meta-analyses"
+    - "Editorial / commentary / letter (without original data)"
+
+language: ["English", "Chinese"]
+
+date_range:
+  start: "1980-01-01"
+  end: "2025-12-31"
+
+subgroup_analyses:
+  - variable: "Salt sensitivity classification method"
+    groups: ["Weinberger protocol", "diet-based crossover", "other validated protocol"]
+  - variable: "Baseline hypertension status"
+    groups: ["normotensive", "hypertensive", "mixed"]
+  - variable: "Follow-up duration"
+    groups: ["<5 years", "5–10 years", ">10 years"]
+  - variable: "Sex"
+    groups: ["male", "female", "mixed"]
+  - variable: "Ethnicity/race"
+    groups: ["Asian", "Black/African American", "White/Caucasian", "mixed/other"]
+  - variable: "Age group"
+    groups: ["18–40", "41–65", ">65"]

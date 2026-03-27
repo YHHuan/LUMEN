@@ -1,0 +1,49 @@
+# LUMEN v2 — LLM-based Unified Meta-analysis Extraction Network
+# Core
+openai>=1.30                    # OpenRouter-compatible client
+pyyaml>=6.0
+python-dotenv>=1.0
+rich>=13.0                      # CLI output formatting
+tqdm>=4.65
+
+# PDF processing
+pdfplumber>=0.10                # Text extraction + simple table fallback
+pypdf>=4.0                      # PDF reading utilities
+pypdfium2>=4.0                  # PDF-to-image for Gemini multimodal pipeline
+
+# Table detection & extraction (primary)
+gmft>=0.4                       # GPU-free table detection via DETR + structure recognition
+
+# Sentence embeddings for vector retrieval
+sentence-transformers>=3.0      # Local embedding model (all-MiniLM-L6-v2)
+hnswlib>=0.8                    # HNSW approximate nearest neighbor index
+
+# Statistics (pure Python, no R dependency)
+numpy>=1.24
+scipy>=1.11                     # Optimization (REML), distributions, linregress
+statsmodels>=0.14               # Supplementary regression utilities
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.13
+
+# Data handling
+pandas>=2.0
+rispy>=0.9                      # RIS file parsing
+
+# HTTP / API clients
+httpx>=0.27                     # Async HTTP client for API calls
+tenacity>=8.2                   # Retry logic
+
+# Human review output
+markdown>=3.5                   # Markdown rendering for review cards
+jinja2>=3.1                     # HTML templating
+
+# Caching
+diskcache>=5.6                  # Persistent disk-based LLM response cache
+
+# Deduplication
+rapidfuzz>=3.0                  # Fuzzy string matching for title dedup
+
+# Utilities
+hashlib-additional>=1.0; python_version<"3.11"

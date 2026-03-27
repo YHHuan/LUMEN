@@ -1,0 +1,100 @@
+# LUMEN v2 algorithmic upgrade settings
+
+pre_screening:
+  rescue_mode: "llm_lite"           # "regex_only" | "llm_lite" | "disabled"
+  rescue_model: "google/gemini-3.1-flash-lite-preview"
+  rescue_temperature: 0.0
+  rescue_max_tokens: 50             # Just yes/no + 1 sentence reason
+  positive_signal_threshold: 1      # Min positive keywords to rescue (regex mode)
+
+extraction:
+  use_table_transformer: true       # gmft-based table detection
+  use_vector_retrieval: true
+  vector_model: "all-MiniLM-L6-v2"
+  vector_top_k: 15                  # Chunks per extraction field
+  chunk_size: 512                   # Tokens per chunk
+  chunk_overlap: 64                 # Token overlap between chunks
+  require_evidence_span: true       # Claim-grounded extraction
+  max_pdf_pages_for_full_context: 8 # Below this, skip vector retrieval
+
+phase5:
+  engine: "r"                        # "r" (metafor, primary) | "python" | "both" | "auto" (prefer R)
+  estimator: "REML"                 # "DL" (DerSimonian-Laird) | "REML"
+  optimizer: "L-BFGS-B"            # scipy.optimize method for REML
+  sensitivity_analyses:
+    leave_one_out: true
+    cumulative: true
+    influence: true
+  subgroup_by: ["stimulation_type", "population_diagnosis", "stimulation_target"]
+  publication_bias:
+    egger_test: true
+    trim_and_fill: true
+    failsafe_n: true
+  hartung_knapp: true               # Hartung-Knapp-Sidik-Jonkman adjustment
+  meta_regression: true             # Mixed-effects meta-regression
+
+nma:
+  enabled: false                      # Set true to run NMA instead of pairwise MA
+  engine: "netmeta"                   # "netmeta" (frequentist, R) — no JAGS needed
+  method_tau: "REML"                  # tau2 estimator for netmeta
+  effect_measure: "SMD"               # "SMD" | "MD" | "RR" | "OR" | "HR"
+  reference_group: null               # Set to control treatment name, or null for auto
+  ranking_method: "P-score"           # "P-score" (frequentist SUCRA equivalent)
+  small_values: "undesirable"         # "undesirable" | "desirable" (for ranking direction)
+  consistency_checks:
+    design_decomposition: true        # Q decomposition (between-design inconsistency)
+    node_splitting: true              # Direct vs indirect evidence comparison
+    net_heat_plot: true               # Net heat plot for inconsistency visualization
+  sensitivity_analyses:
+    leave_one_out: true               # LOO with network connectivity check
+    exclude_high_rob: true            # Re-run excluding high RoB studies
+  plots:
+    network_graph: true               # Network geometry (nodes=treatments, edges=studies)
+    forest_plot: true                 # All treatments vs reference
+    league_table: true                # Full pairwise comparison matrix
+    league_heatmap: true              # Color-coded league table
+    funnel_plot: true                 # Comparison-adjusted funnel plot
+    ranking_plot: true                # P-score bar chart
+  cinema:
+    generate_template: true           # Generate CINeMA assessment template CSV
+  treatment_mapping:
+    llm_assisted: true                # Use LLM to map treatment names to canonical nodes
+    max_nodes: 20                     # Max treatment nodes (warn if exceeded)
+
+quality_assessment:
+  rob2_enabled: true                # Run RoB-2 assessment
+  grade_enabled: true               # Run GRADE certainty rating
+  rob2_llm_assisted: true           # Use LLM for RoB-2 (vs manual template)
+  grade_indirectness_llm: true      # Use LLM for indirectness domain
+
+pdf_conversion:
+  engine: "gemini"                  # "gemini" | "pdfplumber" | "auto"
+  gemini_model: "google/gemini-3.1-pro-preview"
+  max_pages: 50
+  pages_per_batch: 5
+  dpi: 200
+
+phase6:
+  citation_mode: "grounded"         # "free" (v1 behavior) | "grounded"
+  reference_pool_max: 200           # Max references in the pool
+  citation_verification: true       # LLM verifies each citation claim match
+  citation_hybrid_search: true      # BM25 + vector hybrid retrieval
+  bm25_weight: 0.4                  # Weight for BM25 in hybrid scoring
+  vector_weight: 0.6                # Weight for vector similarity
+  assertion_verification: true      # Verify assertions after citation resolution
+  max_citations_per_claim: 3
+
+human_review:
+  output_format: "html"             # "markdown" | "html"
+  include_evidence_spans: true
+  include_confidence_flags: true
+  collapsible_sections: true
+
+ablation:
+  enabled: false                    # Set true when running ablation experiments
+  conditions:                       # Which components to ablate
+    - "single_screener"             # Use only Screener 1
+    - "single_pass_extraction"      # 1-pass instead of 3-pass
+    - "no_prescreen"                # Skip Phase 3.0
+    - "no_vector_retrieval"         # Full context instead of RAG
+    - "no_table_transformer"        # Raw PDF text only
