@@ -189,6 +189,7 @@ def _nested_arms_to_contrasts(study_id: str, arms: List[Dict], tname_fn) -> List
                 n2 = arms[j].get("n") or o2.get("total")
 
                 te, se = None, None
+                corrections = []
 
                 # Binary: events/total → log-RR
                 em = None
@@ -201,19 +202,35 @@ def _nested_arms_to_contrasts(study_id: str, arms: List[Dict], tname_fn) -> List
                             int(o2["events"]), int(tot2),
                         )
                         em = "RR"
-                # Continuous: mean/sd/n → SMD
+                # Continuous: mean/sd/n → SMD (with SE/SD confusion check)
                 elif o1.get("mean") is not None and o2.get("mean") is not None:
-                    sd1 = o1.get("sd")
-                    sd2 = o2.get("sd")
-                    if sd1 and sd2 and n1 and n2:
-                        te, se = _compute_smd(
-                            float(o1["mean"]), float(sd1), int(n1),
-                            float(o2["mean"]), float(sd2), int(n2),
-                        )
+                    sd1_raw = o1.get("sd")
+                    sd2_raw = o2.get("sd")
+                    if sd1_raw and sd2_raw and n1 and n2:
+                        m1, m2 = float(o1["mean"]), float(o2["mean"])
+                        sd1_raw, sd2_raw = float(sd1_raw), float(sd2_raw)
+                        # Check SE/SD confusion per arm
+                        sd1, corr1, msg1 = _check_se_sd_confusion(
+                            m1, sd1_raw, int(n1), measure)
+                        sd2, corr2, msg2 = _check_se_sd_confusion(
+                            m2, sd2_raw, int(n2), measure)
+                        corrections = []
+                        if corr1:
+                            corrections.append(msg1)
+                        if corr2:
+                            corrections.append(msg2)
+                        te, se = _compute_smd(m1, sd1, int(n1), m2, sd2, int(n2))
+                        # Post-hoc sanity check
+                        if te is not None:
+                            te, se, extra = _check_smd_sanity(
+                                te, se, study_id, t1, t2, measure,
+                                sd1, sd2, int(n1), int(n2), m1, m2,
+                                corrections)
+                            corrections.extend(extra)
                         em = "SMD"
 
                 if te is not None and se is not None and se > 0:
-                    contrasts.append({
+                    entry = {
                         "studlab": study_id,
                         "treat1": t1,
                         "treat2": t2,
@@ -221,13 +238,125 @@ def _nested_arms_to_contrasts(study_id: str, arms: List[Dict], tname_fn) -> List
                         "seTE": round(se, 6),
                         "outcome": measure,
                         "effect_measure": em,
-                    })
+                    }
+                    if corrections:
+                        entry["corrections"] = corrections
+                    contrasts.append(entry)
 
     return contrasts
 
 
-def _compute_smd(m1, sd1, n1, m2, sd2, n2):
-    """Compute Hedges' g (bias-corrected SMD)."""
+def _check_se_sd_confusion(mean_val, reported_sd, n, measure_name=""):
+    """
+    Detect likely SE/SD confusion in reported data.
+
+    Heuristic: If reported "SD" is suspiciously small relative to n,
+    it's likely SE. SD = SE * sqrt(n).
+
+    Returns: (corrected_sd, was_corrected, explanation)
+    """
+    import math
+
+    if reported_sd is None or reported_sd <= 0 or n is None or n <= 1:
+        return reported_sd, False, ""
+
+    sqrt_n = math.sqrt(n)
+    corrected_sd = reported_sd * sqrt_n
+
+    # --- Heuristic 1: domain-specific small SD for weight/BMI change ---
+    measure_lower = measure_name.lower() if measure_name else ""
+    is_weight_bmi = any(kw in measure_lower for kw in ("weight", "bmi", "body mass"))
+    if is_weight_bmi and n > 20 and reported_sd < 2.0:
+        explanation = (
+            f"SE/SD correction applied for '{measure_name}': "
+            f"reported SD={reported_sd} too small for n={n} "
+            f"(weight/BMI threshold: SD<2.0 with n>20). "
+            f"Corrected SD = {reported_sd} * sqrt({n}) = {corrected_sd:.2f}"
+        )
+        logger.warning(explanation)
+        return corrected_sd, True, explanation
+
+    # --- Heuristic 2: SD suspiciously small relative to mean ---
+    # Only apply to change scores (negative mean or small absolute mean suggests change)
+    abs_mean = abs(mean_val) if mean_val else 0
+    is_likely_change = (mean_val is not None and (mean_val < 0 or abs_mean < 20))
+    if is_likely_change and abs_mean > 1.0 and n > 20 and reported_sd < abs_mean * 0.15:
+        explanation = (
+            f"SE/SD correction applied for '{measure_name}': "
+            f"reported SD={reported_sd} < 15% of |mean|={abs_mean:.2f} "
+            f"with n={n}. Corrected SD = {reported_sd} * sqrt({n}) = {corrected_sd:.2f}"
+        )
+        logger.warning(explanation)
+        return corrected_sd, True, explanation
+
+    # --- Heuristic 3: ratio test — reported value closer to expected SE ---
+    # If we assume real SD ~ corrected_sd, then expected SE = corrected_sd / sqrt(n)
+    # = reported_sd (tautological). Instead, use the *other arm* logic at caller level.
+    # Here we just flag if the coefficient of variation is implausibly low.
+    if abs_mean > 0 and n > 20:
+        cv = reported_sd / abs_mean
+        expected_cv_if_se = cv * sqrt_n
+        # If CV < 0.05 and correcting would give a plausible CV (0.2-2.0), likely SE
+        if cv < 0.05 and 0.1 < expected_cv_if_se < 3.0:
+            explanation = (
+                f"SE/SD correction applied for '{measure_name}': "
+                f"CV={cv:.3f} implausibly low for n={n}. "
+                f"Corrected SD = {reported_sd} * sqrt({n}) = {corrected_sd:.2f} "
+                f"(corrected CV={expected_cv_if_se:.3f})"
+            )
+            logger.warning(explanation)
+            return corrected_sd, True, explanation
+
+    return reported_sd, False, ""
+
+
+def _check_smd_sanity(te, se, study_id, t1, t2, measure, sd1_orig, sd2_orig, n1, n2,
+                       m1, m2, corrections):
+    """
+    Post-hoc sanity check: if |SMD| > 3.0 and neither arm was already corrected,
+    attempt SE→SD correction on the arm with the smaller SD and recompute.
+
+    Returns: (te, se, extra_corrections)
+    """
+    import math
+
+    if te is None or abs(te) <= 3.0:
+        return te, se, []
+
+    extra_corrections = []
+    new_sd1, new_sd2 = sd1_orig, sd2_orig
+    corrected_any = False
+
+    # Try correcting the arm with smaller SD
+    for label, sd_val, n_val, mean_val in [("arm1", sd1_orig, n1, m1), ("arm2", sd2_orig, n2, m2)]:
+        if n_val > 10 and sd_val > 0:
+            candidate = sd_val * math.sqrt(n_val)
+            # Check if corrected value is more plausible
+            other_sd = sd2_orig if label == "arm1" else sd1_orig
+            if other_sd > 0 and sd_val < other_sd * 0.3:
+                msg = (
+                    f"Post-hoc SMD sanity correction for {study_id} "
+                    f"({t1} vs {t2}, '{measure}'): |SMD|={abs(te):.2f} > 3.0. "
+                    f"{label} SD={sd_val} -> {candidate:.2f} (SE*sqrt(n))"
+                )
+                logger.warning(msg)
+                extra_corrections.append(msg)
+                if label == "arm1":
+                    new_sd1 = candidate
+                else:
+                    new_sd2 = candidate
+                corrected_any = True
+
+    if corrected_any:
+        te2, se2 = _compute_smd_raw(m1, new_sd1, n1, m2, new_sd2, n2)
+        if te2 is not None:
+            return te2, se2, extra_corrections
+
+    return te, se, extra_corrections
+
+
+def _compute_smd_raw(m1, sd1, n1, m2, sd2, n2):
+    """Compute Hedges' g (bias-corrected SMD) — raw computation, no SE/SD checks."""
     import math
     sd_pooled = math.sqrt(((n1 - 1) * sd1**2 + (n2 - 1) * sd2**2) / (n1 + n2 - 2))
     if sd_pooled == 0:
@@ -238,6 +367,11 @@ def _compute_smd(m1, sd1, n1, m2, sd2, n2):
     g = d * j
     se = math.sqrt((n1 + n2) / (n1 * n2) + g**2 / (2 * (n1 + n2 - 2))) * j
     return g, se
+
+
+def _compute_smd(m1, sd1, n1, m2, sd2, n2):
+    """Compute Hedges' g (bias-corrected SMD)."""
+    return _compute_smd_raw(m1, sd1, n1, m2, sd2, n2)
 
 
 def _compute_log_rr(e1, n1, e2, n2):

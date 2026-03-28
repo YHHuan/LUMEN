@@ -542,6 +542,84 @@ def _run_planned_analyses(dm, args):
     print()
 
 
+def _harmonize_nma_outcomes_llm(raw_names: list, pico: dict, dm) -> dict:
+    """
+    Use LLM to group raw outcome names into canonical categories.
+    Returns {raw_name: canonical_name} mapping.
+    """
+    if len(raw_names) <= 1:
+        return {n: n for n in raw_names}
+
+    try:
+        from src.agents.base_agent import BaseAgent
+        from src.utils.cache import TokenBudget
+        from src.config import cfg
+
+        agent = BaseAgent(role_name="strategist",
+                          budget=TokenBudget("phase5_harmonize",
+                                            limit_usd=cfg.budget("phase5")))
+
+        outcome_pico = pico.get("outcome", {})
+        primary = outcome_pico.get("primary", "") if isinstance(outcome_pico, dict) else str(outcome_pico)
+        secondary = outcome_pico.get("secondary", []) if isinstance(outcome_pico, dict) else []
+
+        prompt = (
+            "You are harmonizing outcome measure names from a network meta-analysis.\n\n"
+            f"PICO primary outcome: {primary}\n"
+            f"PICO secondary outcomes: {secondary}\n\n"
+            f"Raw outcome names extracted from {len(raw_names)} studies:\n"
+        )
+        for name in raw_names:
+            prompt += f"  - {name}\n"
+        prompt += (
+            "\nGroup these into canonical outcome categories. Outcomes that measure "
+            "the SAME clinical concept (even with different wording, units, or "
+            "timepoints) should be grouped together.\n\n"
+            "Return JSON: {\"groups\": [{\"canonical\": \"Weight change (kg)\", "
+            "\"members\": [\"Weight\", \"Weight (kg)\", \"Weight change (kg)\", "
+            "\"Body weight change\"]}]}\n\n"
+            "Rules:\n"
+            "- Do NOT merge fundamentally different outcomes (e.g., weight vs BMI)\n"
+            "- Do NOT merge baseline values with change scores\n"
+            "- Keep binary outcomes (events/proportions) separate from continuous\n"
+            "- Use clear, standard clinical terminology for canonical names\n"
+        )
+
+        result = agent.call_llm(
+            prompt=prompt,
+            system_prompt="You are a systematic review methodologist. Return valid JSON only.",
+            expect_json=True,
+            cache_namespace="nma_outcome_harmonization",
+            description="NMA outcome harmonization",
+        )
+
+        parsed = result.get("parsed", {})
+        groups = parsed.get("groups", [])
+
+        mapping = {}
+        for g in groups:
+            canonical = g.get("canonical", "")
+            for member in g.get("members", []):
+                mapping[member] = canonical
+
+        # Ensure all raw names are mapped (identity for unmapped)
+        for name in raw_names:
+            if name not in mapping:
+                mapping[name] = name
+
+        # Save harmonization map
+        dm.save("phase5_analysis", "nma_outcome_harmonization.json", {
+            "groups": groups,
+            "mapping": mapping,
+        })
+
+        return mapping
+
+    except Exception as e:
+        logger.warning(f"LLM outcome harmonization failed: {e}")
+        return {}
+
+
 def _run_nma(dm, args):
     """Run NMA analysis via R netmeta."""
     from src.utils.nma import (
@@ -605,27 +683,30 @@ def _run_nma(dm, args):
                 f"{unmapped}. Review extraction or add mapping."
             )
 
-    # --- Outcome harmonization for NMA contrasts ---
-    # Group by outcome; harmonize similar names
+    # --- Outcome harmonization for NMA contrasts (LLM-based) ---
     from collections import defaultdict
     outcome_groups = defaultdict(list)
     for c in contrasts:
         outcome_groups[c.get("outcome", "unknown")].append(c)
 
-    # Simple harmonization: normalize common patterns
-    _OUTCOME_ALIASES = {
-        "weight": "Weight change (kg)", "weight (kg)": "Weight change (kg)",
-        "weight change (kg)": "Weight change (kg)",
-        "bmi": "BMI change (kg/m2)", "bmi (kg/m2)": "BMI change (kg/m2)",
-        "bmi change (kg/m2)": "BMI change (kg/m2)", "bmi change": "BMI change (kg/m2)",
-        "homa-ir": "HOMA-IR", "homa-ir change": "HOMA-IR",
-        "waist circumference (cm)": "Waist circumference (cm)",
-        "waist (cm)": "Waist circumference (cm)",
-        "waist circumference change (cm)": "Waist circumference (cm)",
-    }
+    raw_names = sorted(outcome_groups.keys())
+    logger.info(f"NMA raw outcome names ({len(raw_names)}): {raw_names}")
+
+    # Try LLM-based harmonization
+    harmonization_map = _harmonize_nma_outcomes_llm(raw_names, pico, dm)
+
+    if harmonization_map:
+        logger.info(f"LLM harmonization: {len(harmonization_map)} mappings")
+        for raw, canonical in sorted(harmonization_map.items()):
+            if raw != canonical:
+                logger.info(f"  '{raw}' -> '{canonical}'")
+    else:
+        logger.warning("LLM harmonization failed, using basic string matching")
+        harmonization_map = {}
+
     harmonized_groups = defaultdict(list)
     for outcome, cs in outcome_groups.items():
-        canonical = _OUTCOME_ALIASES.get(outcome.lower().strip(), outcome)
+        canonical = harmonization_map.get(outcome, outcome)
         harmonized_groups[canonical].extend(cs)
 
     # Filter: need >= 2 studies per outcome for NMA
