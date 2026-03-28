@@ -96,6 +96,10 @@ EXCLUSION_BIGRAMS = {
         ],
         "safe_contexts": [
             "animal naming", "animal fluency",
+            # Background references to animal work — not the study itself
+            "in animal models", "animal models of", "animal studies have",
+            "animal data", "preclinical", "animal experiments have",
+            "from animal", "previous animal",
         ],
         "bare_action": "quarantine",
     },
@@ -111,9 +115,14 @@ def context_aware_keyword_check(
     title: str,
     abstract: str,
     keyword_config: dict = None,
+    pico: dict = None,
 ) -> str:
     """
     Check a study against context-aware exclusion rules.
+
+    PICO-aware: if pico specifies RCT study design AND the title contains
+    strong RCT signals, exclusion keywords in the abstract background
+    (e.g., "animal model" in introduction) are overridden.
 
     Returns:
         "include" — no exclusion keyword found
@@ -124,6 +133,18 @@ def context_aware_keyword_check(
         keyword_config = EXCLUSION_BIGRAMS
 
     text = f"{title} {abstract}".lower()
+    title_lower = title.lower()
+
+    # PICO-aware RCT override: if title has strong RCT signals AND the
+    # exclusion keyword only appears in abstract (not title), quarantine
+    # instead of excluding — the study is likely a human RCT that references
+    # prior animal/review work in its abstract background.
+    _RCT_TITLE_SIGNALS = [
+        "randomized", "randomised", "double-blind", "placebo-controlled",
+        "open-label", "parallel-group", "crossover", "a pilot",
+        "clinical trial", "rct",
+    ]
+    title_has_rct = any(sig in title_lower for sig in _RCT_TITLE_SIGNALS)
 
     # Simple unigram exclusions first
     for kw in SIMPLE_EXCLUSION_KEYWORDS:
@@ -145,6 +166,15 @@ def context_aware_keyword_check(
         # Check exclude contexts
         exclude_hit = any(ctx.lower() in text for ctx in config["exclude_contexts"])
         if exclude_hit:
+            # PICO-aware override: if keyword is only in abstract (not title)
+            # AND title has RCT signals → quarantine instead of hard exclude
+            keyword_in_title = keyword_lower in title_lower
+            if title_has_rct and not keyword_in_title:
+                logger.info(
+                    f"RCT override: '{keyword}' in abstract but title is RCT-like, "
+                    f"quarantining instead of excluding"
+                )
+                return "quarantine"
             return "exclude"
 
         # Bare keyword with no clear context
