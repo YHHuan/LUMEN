@@ -86,9 +86,11 @@ net <- netmeta(
   studlab = nma_data$studlab,
   sm         = EFFECT_MEASURE,
   random     = TRUE,
-  fixed      = TRUE,
+  common     = TRUE,
   method.tau = METHOD_TAU,
-  reference.group = REFERENCE_GROUP
+  reference.group = REFERENCE_GROUP,
+  tol.multiarm = 1.0,
+  details.chkmultiarm = TRUE
 )
 
 cat("Model fitted successfully.\n")
@@ -135,7 +137,10 @@ results$pairwise_vs_reference <- pairwise_results
 if (RUN_RANKING) {
   cat("\n=== Treatment Ranking (P-score) ===\n")
   ranking <- netrank(net, small.values = SMALL_VALUES)
-  pscore <- ranking$Pscore.random
+  # netmeta >= 7.0 uses ranking.random; older uses Pscore.random
+  pscore <- if (!is.null(ranking$ranking.random)) ranking$ranking.random
+            else if (!is.null(ranking$Pscore.random)) ranking$Pscore.random
+            else ranking$Pscore
   rank_df <- data.frame(
     treatment = names(pscore),
     p_score   = round(as.numeric(pscore), 4),
@@ -172,19 +177,37 @@ if (RUN_NETWORK_GRAPH) {
   cat("\n=== Network Graph ===\n")
   png(file.path(FIG_DIR, "nma_network_graph.png"),
       width = FIG_WIDTH, height = FIG_HEIGHT, units = "in", res = FIG_DPI)
-  netgraph(
-    net,
-    seq = "optimal",
-    number.of.studies = TRUE,
-    cex.points = 3,
-    col.points = "steelblue",
-    col = "grey60",
-    plastic = FALSE,
-    thickness = "number.of.studies",
-    multiarm = TRUE,
-    col.multiarm = "purple",
-    points = TRUE
-  )
+  tryCatch({
+    # Node size proportional to total sample size
+    n_per_treat <- tapply(
+      c(nma_data$studlab, nma_data$studlab),
+      c(nma_data$treat1, nma_data$treat2),
+      function(x) length(unique(x))
+    )
+    node_sizes <- sqrt(as.numeric(n_per_treat[net$trts])) * 2 + 1
+    netgraph(
+      net,
+      seq = "optimal",
+      number.of.studies = TRUE,
+      cex.points = node_sizes,
+      col.points = "steelblue",
+      col = "grey50",
+      plastic = FALSE,
+      thickness = "number.of.studies",
+      points = TRUE,
+      cex.number = 1.2,
+      offset = 0.025,
+      adj = 0.5
+    )
+    # Add I2 and tau2 annotation
+    mtext(paste0("I\u00B2 = ", round(net$I2 * 100, 1), "%;  ",
+                 "\u03C4\u00B2 = ", round(net$tau2, 4)),
+          side = 1, line = -1, cex = 0.9, col = "grey30")
+  }, error = function(e) {
+    cat("Network graph error (non-fatal):", conditionMessage(e), "\n")
+    plot.new()
+    text(0.5, 0.5, paste("Network graph error:", conditionMessage(e)), cex = 0.8)
+  })
   dev.off()
   cat("Network graph saved.\n")
 }
@@ -193,23 +216,34 @@ if (RUN_NETWORK_GRAPH) {
 if (RUN_FOREST) {
   cat("\n=== Forest Plot ===\n")
   ref_t <- results$reference_group
-  png(file.path(FIG_DIR, "nma_forest.png"),
-      width = 12, height = max(6, length(net$trts) * 0.8),
-      units = "in", res = FIG_DPI)
-  forest(net,
-         reference.group = ref_t,
-         sortvar = TE,
-         smlab = paste("Treatments vs", ref_t),
-         drop.reference.group = TRUE,
-         label.left  = paste("Favours", ref_t),
-         label.right = "Favours treatment")
-  dev.off()
-  cat("Forest plot saved.\n")
+  tryCatch({
+    n_trts <- length(net$trts) - 1  # minus reference
+    png(file.path(FIG_DIR, "nma_forest.png"),
+        width = 12, height = max(4, n_trts * 1.5 + 2),
+        units = "in", res = FIG_DPI)
+    forest(net,
+           reference.group = ref_t,
+           sortvar = TE,
+           smlab = paste0("Treatments vs ", ref_t,
+                          "\n(I\u00B2=", round(net$I2 * 100, 1), "%, ",
+                          "\u03C4\u00B2=", round(net$tau2, 3), ", ",
+                          "k=", results$n_studies, ")"),
+           drop.reference.group = TRUE,
+           label.left  = paste("Favours", ref_t),
+           label.right = "Favours treatment",
+           xlim = NULL)
+    dev.off()
+    cat("Forest plot saved.\n")
+  }, error = function(e) {
+    try(dev.off(), silent = TRUE)
+    cat("Forest plot error (non-fatal):", conditionMessage(e), "\n")
+  })
 }
 
 # --- 7. League table ---
 if (RUN_LEAGUE) {
   cat("\n=== League Table ===\n")
+  tryCatch({
   if (RUN_RANKING) {
     league <- netleague(net, random = TRUE, seq = ranking, digits = 2)
   } else {
@@ -219,10 +253,14 @@ if (RUN_LEAGUE) {
   write.csv(league_df, file.path(TBL_DIR, "nma_league_table.csv"))
   results$league_table <- league_df
   cat("League table saved.\n")
+  }, error = function(e) {
+    cat("League table error (non-fatal):", conditionMessage(e), "\n")
+  })
 }
 
 # --- 8. League table heatmap ---
 if (RUN_LEAGUE_HEATMAP && RUN_LEAGUE) {
+  tryCatch({
   cat("\n=== League Table Heatmap ===\n")
 
   is_ratio <- EFFECT_MEASURE %in% c("RR", "OR", "HR")
@@ -299,6 +337,10 @@ if (RUN_LEAGUE_HEATMAP && RUN_LEAGUE) {
     dev.off()
     cat("League heatmap saved.\n")
   }
+  }, error = function(e) {
+    try(dev.off(), silent = TRUE)
+    cat("League heatmap error (non-fatal):", conditionMessage(e), "\n")
+  })
 }
 
 # --- 9. Comparison-adjusted funnel plot ---
@@ -306,11 +348,22 @@ if (RUN_FUNNEL) {
   cat("\n=== Funnel Plot ===\n")
   png(file.path(FIG_DIR, "nma_funnel.png"),
       width = FIG_WIDTH, height = FIG_HEIGHT, units = "in", res = FIG_DPI)
-  if (RUN_RANKING) {
-    funnel(net, order = ranking$Pscore.random, pch = 16, col = "steelblue", legend = TRUE)
-  } else {
-    funnel(net, pch = 16, col = "steelblue", legend = TRUE)
-  }
+  tryCatch({
+    if (RUN_RANKING) {
+      # order must be a permutation of 1:n_treats (rank order by P-score)
+      ord <- rank(-pscore)
+      funnel(net, order = ord, pch = 16, col = "steelblue", legend = TRUE)
+    } else {
+      funnel(net, pch = 16, col = "steelblue", legend = TRUE)
+    }
+  }, error = function(e) {
+    cat("Funnel plot error (non-fatal):", conditionMessage(e), "\n")
+    tryCatch(funnel(net, pch = 16, col = "steelblue"),
+             error = function(e2) {
+               plot.new()
+               text(0.5, 0.5, paste("Funnel plot unavailable:", conditionMessage(e2)), cex=0.8)
+             })
+  })
   dev.off()
   cat("Funnel plot saved.\n")
 }
@@ -344,17 +397,36 @@ if (RUN_NODE_SPLITTING) {
     NULL
   })
   if (!is.null(ns)) {
-    ns_df <- as.data.frame(ns)
-    results$node_splitting <- ns_df
+    # Extract node-splitting results — netmeta >= 7 changed output structure
+    ns_df <- tryCatch(as.data.frame(ns), error = function(e) {
+      tryCatch({
+        data.frame(
+          comparison = ns$comparison,
+          direct = ns$direct.random$TE,
+          indirect = ns$indirect.random$TE,
+          diff = ns$compare.random$TE,
+          p = ns$compare.random$p,
+          stringsAsFactors = FALSE
+        )
+      }, error = function(e2) NULL)
+    })
 
-    png(file.path(FIG_DIR, "nma_netsplit_forest.png"),
-        width = 12, height = max(8, nrow(ns_df) * 0.5),
-        units = "in", res = FIG_DPI)
-    forest(ns)
-    dev.off()
-    cat("Node-splitting forest saved.\n")
+    if (!is.null(ns_df)) {
+      results$node_splitting <- ns_df
+      write.csv(ns_df, file.path(TBL_DIR, "nma_node_splitting.csv"), row.names = FALSE)
+    }
 
-    write.csv(ns_df, file.path(TBL_DIR, "nma_node_splitting.csv"), row.names = FALSE)
+    tryCatch({
+      png(file.path(FIG_DIR, "nma_netsplit_forest.png"),
+          width = 12, height = max(8, length(ns$comparison) * 1.5),
+          units = "in", res = FIG_DPI)
+      forest(ns)
+      dev.off()
+      cat("Node-splitting forest saved.\n")
+    }, error = function(e) {
+      try(dev.off(), silent = TRUE)
+      cat("Node-splitting forest error (non-fatal):", conditionMessage(e), "\n")
+    })
   }
 }
 

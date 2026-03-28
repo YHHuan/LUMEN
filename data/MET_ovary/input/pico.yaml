@@ -1,0 +1,117 @@
+# MET_ovary: GLP-1 RA vs Metformin in PCOS — Network Meta-Analysis
+# Source: Research Protocol (張心辰)
+# Purpose: NMA test domain for LUMEN v2
+
+population: >
+  Women of reproductive age diagnosed with Polycystic Ovary Syndrome (PCOS)
+  according to Rotterdam 2003, NIH 1990, or AE-PCOS criteria.
+  Exclude: co-existing endocrine disorders (Cushing's syndrome, congenital
+  adrenal hyperplasia), uncontrolled thyroid disease, Type 1 or Type 2
+  diabetes mellitus (unless non-diabetic subgroup data reported separately).
+
+intervention: >
+  GLP-1 receptor agonists (Liraglutide, Semaglutide, Exenatide, Dulaglutide),
+  administered as monotherapy or in combination with Metformin.
+
+comparison: >
+  Metformin monotherapy, Placebo, or no pharmacological treatment.
+  Two comparison networks:
+  - Head-to-head: GLP-1 RA monotherapy vs Metformin monotherapy
+  - Add-on: (GLP-1 RA + Metformin) vs Metformin alone (+/- Placebo)
+  EXCLUDE: control groups using drugs other than Metformin (e.g., oral
+  contraceptives alone) unless used as common background therapy in both arms.
+  Lifestyle interventions permitted as background therapy provided they are
+  consistent across study arms.
+
+outcome:
+  primary: >
+    Ovulation rate — proportion of women ovulating at least once during
+    follow-up (binary). Verification hierarchy: 1) mid-luteal serum
+    progesterone, 2) ultrasound confirmation, 3) basal body temperature.
+    Note: "menstrual cycle regularization" analyzed separately, NOT merged
+    with confirmed ovulation.
+  secondary:
+    - Clinical pregnancy rate (binary)
+    - Live birth rate (binary)
+    - Miscarriage rate (binary)
+    - Menstrual frequency (cycles/year) or rate of cycle regularization
+    - Weight change (kg, continuous)
+    - BMI change (continuous)
+    - Waist circumference change (continuous)
+    - HOMA-IR change (continuous)
+    - HbA1c change (continuous)
+    - Fasting plasma glucose change (continuous)
+    - Fasting insulin change (continuous)
+    - Discontinuation rate due to adverse events (binary)
+    - Gastrointestinal adverse events — nausea, vomiting (binary)
+
+study_design: Randomized controlled trials (RCTs) only
+
+# No language or date restrictions (per protocol)
+language_restriction: none
+date_restriction: none
+
+# --- Effect measure ---
+# Binary outcomes: Risk Ratio (RR) with 95% CI
+# Continuous outcomes: WMD (same scale) or SMD (different scales)
+effect_measure: "RR"
+outcome_type: "binary"
+
+# --- Analysis type: NMA ---
+analysis_type: "nma"
+
+nma_nodes:
+  - "GLP-1RA"
+  - "Metformin"
+  - "GLP-1RA + Metformin"
+  - "Placebo"
+
+nma_settings:
+  effect_measure: "RR"
+  reference_group: "Metformin"
+  small_values: "undesirable"
+
+# --- Per-project screening override ---
+# Exclude studies with blank/short abstract (cannot judge from title alone)
+exclude_no_abstract: true
+
+# --- Subgroup analyses (pre-specified by protocol) ---
+subgroups:
+  - variable: drug_type
+    label: "GLP-1 RA type"
+    levels: ["Liraglutide", "Semaglutide", "Exenatide", "Dulaglutide"]
+  - variable: bmi_category
+    label: "BMI status"
+    levels: ["BMI < 30", "BMI >= 30"]
+  - variable: treatment_duration
+    label: "Treatment duration"
+    levels: ["<= 16 weeks", "> 16 weeks"]
+  - variable: background_art
+    label: "Background ART/IVF"
+    levels: ["With ART", "Without ART"]
+
+# --- Timing ---
+timing: >
+  Primary analysis at end-of-treatment, prioritizing data closest to 24 weeks.
+  Short-term data (<=12 weeks) analyzed in stratified subgroups.
+
+# --- Search strategy hints ---
+search_terms:
+  population:
+    - "Polycystic Ovary Syndrome"
+    - "PCOS"
+    - "Hyperandrogenism"
+    - "anovulation"
+  intervention:
+    - "GLP-1 receptor agonist"
+    - "Glucagon-like Peptide-1"
+    - "Liraglutide"
+    - "Semaglutide"
+    - "Exenatide"
+    - "Dulaglutide"
+  comparator:
+    - "Metformin"
+    - "Biguanides"
+  study_type:
+    - "randomized controlled trial"
+    - "RCT"

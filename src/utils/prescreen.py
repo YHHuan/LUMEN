@@ -160,9 +160,16 @@ def context_aware_keyword_check(
 def run_prescreen(
     studies: list,
     keyword_config: dict = None,
+    *,
+    pico: dict = None,
 ) -> dict:
     """
     Run the full pre-screening pipeline.
+
+    Args:
+        pico: Optional PICO config dict. If pico.get("exclude_no_abstract")
+              is True, studies with blank/short abstracts are excluded
+              instead of flagged.
 
     Returns:
         {
@@ -172,6 +179,7 @@ def run_prescreen(
             "stats": {...},
         }
     """
+    exclude_no_abstract = (pico or {}).get("exclude_no_abstract", False)
     passed = []
     excluded = []
     quarantined = []
@@ -198,8 +206,12 @@ def run_prescreen(
             study["quarantine_reason"] = "ambiguous_keyword"
             quarantined.append(study)
         else:
-            # Layer 4: Blank abstract check (pass but flag)
+            # Layer 4: Blank abstract check
             if not abstract or abstract.strip() == "" or len(abstract.strip()) < 50:
+                if exclude_no_abstract:
+                    study["exclusion_reason"] = "no_abstract"
+                    excluded.append(study)
+                    continue
                 study["flag"] = "blank_or_short_abstract"
             passed.append(study)
 

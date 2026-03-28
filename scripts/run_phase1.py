@@ -2,10 +2,17 @@
 Phase 1: Strategy Generation — LUMEN v2
 ==========================================
 PICO -> search strategy (MeSH terms, queries, screening criteria)
+
+Modes:
+    python scripts/run_phase1.py                # Auto: interactive if no pico.yaml, else direct
+    python scripts/run_phase1.py --interactive   # Force interactive PICO builder
+    python scripts/run_phase1.py --direct        # Skip interactive, require existing pico.yaml
+
 v2: Also generates positive rescue keywords for pre-screening.
 """
 
 import sys
+import argparse
 import logging
 from pathlib import Path
 
@@ -22,17 +29,43 @@ logger = logging.getLogger(__name__)
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--interactive", action="store_true",
+                        help="Force interactive PICO builder (even if pico.yaml exists)")
+    parser.add_argument("--direct", action="store_true",
+                        help="Skip interactive, require existing pico.yaml")
+    args = parser.parse_args()
+
     select_project()
     dm = DataManager()
-
-    # Load PICO
-    pico = dm.load("input", "pico.yaml")
-    pico_data = pico.get("pico", pico)
-
-    logger.info(f"PICO: {pico_data}")
+    data_dir = get_data_dir()
 
     # Budget
     budget = TokenBudget("phase1", limit_usd=cfg.budget("phase1"), reset=True)
+
+    # ─── PICO loading: interactive or direct ─────────────────
+    pico_exists = dm.exists("input", "pico.yaml")
+
+    if args.interactive or (not pico_exists and not args.direct):
+        # Interactive PICO builder
+        from src.utils.pico_builder import run_interactive_pico_builder
+        logger.info("Starting interactive PICO builder...")
+        pico_data = run_interactive_pico_builder(data_dir, budget=budget)
+        if not pico_data:
+            logger.error("PICO builder cancelled")
+            return
+    elif pico_exists:
+        pico = dm.load("input", "pico.yaml")
+        pico_data = pico.get("pico", pico)
+        logger.info(f"Loaded existing pico.yaml")
+    else:
+        logger.error(
+            "No pico.yaml found. Run with --interactive to create one, "
+            "or create data/<project>/input/pico.yaml manually."
+        )
+        return
+
+    logger.info(f"PICO: {pico_data}")
 
     # Agent
     strategist = StrategistAgent(budget=budget)

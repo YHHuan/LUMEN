@@ -44,7 +44,7 @@ def main():
 
     # Step 1: Context-aware pre-screening
     logger.info("Running context-aware pre-screening...")
-    prescreen_result = run_prescreen(studies)
+    prescreen_result = run_prescreen(studies, pico=pico)
 
     passed = prescreen_result["passed"]
     excluded = prescreen_result["excluded"]

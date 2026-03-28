@@ -1,0 +1,125 @@
+{
+  "n_studies": 3,
+  "n_contrasts": 5,
+  "treatments": ["GLP-1RA", "GLP-1RA + Metformin", "Metformin"],
+  "n_treatments": 3,
+  "n_subnets": 1,
+  "connected": true,
+  "tau2": 0.6679,
+  "I2": 65.9,
+  "Q": 5.8667,
+  "df_Q": 2,
+  "pval_Q": 0.0532,
+  "effect_measure": "RR",
+  "method_tau": "REML",
+  "reference_group": "Metformin",
+  "pairwise_vs_reference": {
+    "GLP-1RA": {
+      "treatment": "GLP-1RA",
+      "TE": -0.6763,
+      "lower": -2.5375,
+      "upper": 1.1848,
+      "pval": 0.4763,
+      "TE_exp": 0.5085,
+      "lower_exp": 0.0791,
+      "upper_exp": 3.2701
+    },
+    "GLP-1RA + Metformin": {
+      "treatment": "GLP-1RA + Metformin",
+      "TE": -0.2361,
+      "lower": -1.3456,
+      "upper": 0.8734,
+      "pval": 0.6767,
+      "TE_exp": 0.7897,
+      "lower_exp": 0.2604,
+      "upper_exp": 2.3951
+    }
+  },
+  "rankings": [
+    {
+      "treatment": "Metformin",
+      "p_score": 0.7118,
+      "rank": 1
+    },
+    {
+      "treatment": "GLP-1RA + Metformin",
+      "p_score": 0.5171,
+      "rank": 2
+    },
+    {
+      "treatment": "GLP-1RA",
+      "p_score": 0.2712,
+      "rank": 3
+    }
+  ],
+  "league_table": [
+    {
+      "Metformin": "Metformin",
+      "GLP-1RA + Metformin": "1.27 [0.42;  3.84]",
+      "GLP-1RA": "7.64 [0.61; 96.30]",
+      "_row": "Metformin"
+    },
+    {
+      "Metformin": "1.27 [0.42;  3.84]",
+      "GLP-1RA + Metformin": "GLP-1RA + Metformin",
+      "GLP-1RA": "1.00 [0.17;  5.90]",
+      "_row": "GLP-1RA + Metformin"
+    },
+    {
+      "Metformin": "1.97 [0.31; 12.65]",
+      "GLP-1RA + Metformin": "1.55 [0.29;  8.37]",
+      "GLP-1RA": "GLP-1RA",
+      "_row": "GLP-1RA"
+    }
+  ],
+  "consistency": {
+    "Q_total": 5.8667,
+    "Q_between_designs": 1.3476,
+    "Q_within_designs": 4.5191,
+    "pval_total": 0.0532,
+    "pval_between": 0.2457,
+    "pval_within": 0.0335,
+    "inconsistency_detected": false
+  },
+  "node_splitting": [
+    {
+      "comparison": "GLP-1RA:GLP-1RA + Metformin",
+      "direct": 0,
+      "indirect": -4.4456,
+      "diff": 4.4456,
+      "p": 0.1222
+    },
+    {
+      "comparison": "GLP-1RA:Metformin",
+      "direct": -2.0329,
+      "indirect": 0.9112,
+      "diff": -2.9441,
+      "p": 0.1222
+    },
+    {
+      "comparison": "GLP-1RA + Metformin:Metformin",
+      "direct": -0.2361
+    }
+  ],
+  "leave_one_out": [
+    {
+      "excluded": "EPMC_37347114",
+      "tau2": 1.2438,
+      "I2_pct": 70.3,
+      "_row": "EPMC_37347114"
+    },
+    {
+      "excluded": "PMID_24362411",
+      "tau2": 0.0435,
+      "I2_pct": 25.8,
+      "_row": "PMID_24362411"
+    },
+    {
+      "excluded": "PMID_34281590",
+      "tau2": 2.5236,
+      "I2_pct": 82,
+      "_row": "PMID_34281590"
+    }
+  ],
+  "cinema_comparisons": 3
+}

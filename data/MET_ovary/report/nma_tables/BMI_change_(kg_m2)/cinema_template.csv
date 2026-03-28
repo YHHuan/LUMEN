@@ -1,0 +1,7 @@
+"treat1","treat2","within_study_bias","across_study_bias","indirectness","imprecision","heterogeneity","incoherence","overall_certainty"
+"GLP-1RA","GLP-1RA + Metformin",NA,NA,NA,NA,NA,NA,NA
+"GLP-1RA","Metformin",NA,NA,NA,NA,NA,NA,NA
+"GLP-1RA + Metformin","Metformin",NA,NA,NA,NA,NA,NA,NA
+"GLP-1RA","Placebo",NA,NA,NA,NA,NA,NA,NA
+"GLP-1RA + Metformin","Placebo",NA,NA,NA,NA,NA,NA,NA
+"Metformin","Placebo",NA,NA,NA,NA,NA,NA,NA

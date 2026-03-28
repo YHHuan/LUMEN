@@ -52,6 +52,19 @@ def validate_phase4_to_5(dm: Optional[DataManager] = None) -> GateResult:
 
     studies_ok = 0
     for study in extracted:
+        # NMA format: outcomes nested inside arms[]
+        if "arms" in study and study["arms"]:
+            for arm in study["arms"]:
+                for o in arm.get("outcomes", []):
+                    if (o.get("mean") is not None and o.get("sd") is not None) or \
+                       (o.get("events") is not None and o.get("total") is not None):
+                        studies_ok += 1
+                        break
+                else:
+                    continue
+                break
+            continue
+        # Pairwise format: outcomes at study root
         for outcome in study.get("outcomes", []):
             # Continuous: mean + sd + n
             has_continuous = False
@@ -99,16 +112,31 @@ def validate_phase5_to_6(dm: Optional[DataManager] = None) -> GateResult:
         return gate
 
     results = dm.load("phase5_analysis", "statistical_results.json")
-    main = results.get("main", {})
-    gate.check("pooled estimate computed",
-               main.get("pooled_effect") is not None,
-               f"effect={main.get('pooled_effect')}")
-    gate.check("CI present",
-               main.get("ci_lower") is not None and main.get("ci_upper") is not None)
-    gate.check("heterogeneity assessed",
-               main.get("I2") is not None,
-               f"I2={main.get('I2')}%")
-    gate.check("extraction data available",
-               dm.exists("phase4_extraction", "extracted_data.json"))
+
+    # NMA format: per-outcome results instead of single pooled estimate
+    if results.get("analysis_type") == "nma":
+        nma = results.get("nma", {})
+        per_outcome = nma.get("per_outcome", {})
+        gate.check("NMA results exist",
+                   len(per_outcome) > 0,
+                   f"{len(per_outcome)} outcomes analysed")
+        gate.check("NMA has successful outcomes",
+                   nma.get("n_outcomes_analysed", 0) > 0,
+                   f"{nma.get('n_outcomes_analysed', 0)} succeeded")
+        gate.check("extraction data available",
+                   dm.exists("phase4_extraction", "extracted_data.json"))
+    else:
+        # Pairwise format
+        main = results.get("main", {})
+        gate.check("pooled estimate computed",
+                   main.get("pooled_effect") is not None,
+                   f"effect={main.get('pooled_effect')}")
+        gate.check("CI present",
+                   main.get("ci_lower") is not None and main.get("ci_upper") is not None)
+        gate.check("heterogeneity assessed",
+                   main.get("I2") is not None,
+                   f"I2={main.get('I2')}%")
+        gate.check("extraction data available",
+                   dm.exists("phase4_extraction", "extracted_data.json"))
     gate.log_summary()
     return gate

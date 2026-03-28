@@ -54,8 +54,13 @@ def main():
         logger.error("Stage gate Phase 4 -> 5 FAILED. Fix extraction data before running Phase 5.")
         return
 
-    # Check NMA mode
-    nma_mode = args.nma or cfg.v2.get("nma", {}).get("enabled", False)
+    # Check NMA mode — per-project pico override takes priority
+    pico = dm.load_if_exists("input", "pico.yaml", default={})
+    nma_mode = (
+        args.nma
+        or pico.get("analysis_type") == "nma"
+        or cfg.v2.get("nma", {}).get("enabled", False)
+    )
     if nma_mode:
         _run_nma(dm, args)
         return
@@ -544,6 +549,9 @@ def _run_nma(dm, args):
         is_netmeta_available, run_nma, load_nma_settings,
     )
 
+    # Load PICO for per-project NMA overrides
+    pico = dm.load_if_exists("input", "pico.yaml", default={})
+
     # Check R + netmeta availability
     if not is_netmeta_available():
         logger.error(
@@ -562,37 +570,147 @@ def _run_nma(dm, args):
         extracted = dm.load("phase4_extraction", "extracted_data.json")
         contrasts = prepare_nma_data(extracted)
 
-    # Validate network
-    validation = validate_network(contrasts)
-    if not validation["valid"]:
-        for err in validation["errors"]:
-            logger.error(f"Network validation: {err}")
-        logger.error("Cannot run NMA — fix network issues first")
-        dm.save("phase5_analysis", "nma_validation_error.json", validation)
+    # Deduplicate contrasts (same study + treat1 + treat2 + outcome)
+    seen = set()
+    deduped = []
+    for c in contrasts:
+        key = (c["studlab"], c["treat1"], c["treat2"], c.get("outcome", ""))
+        if key not in seen:
+            seen.add(key)
+            deduped.append(c)
+    if len(deduped) < len(contrasts):
+        logger.info(f"NMA dedup: {len(contrasts)} → {len(deduped)} contrasts")
+    contrasts = deduped
+
+    # Apply canonical treatment name mapping from pico nma_nodes (safety net)
+    nma_nodes = pico.get("nma_nodes", [])
+    if nma_nodes:
+        # Build case-insensitive mapping: lowered variant → canonical name
+        canonical_map = {}
+        for node in nma_nodes:
+            canonical_map[node.lower().strip()] = node
+        # Map extracted treatment names to canonical forms
+        unmapped = set()
+        for c in contrasts:
+            for key in ("treat1", "treat2"):
+                raw = c[key].strip()
+                mapped = canonical_map.get(raw.lower())
+                if mapped:
+                    c[key] = mapped
+                else:
+                    unmapped.add(raw)
+        if unmapped:
+            logger.warning(
+                f"NMA: {len(unmapped)} treatment names not in canonical nodes: "
+                f"{unmapped}. Review extraction or add mapping."
+            )
+
+    # --- Outcome harmonization for NMA contrasts ---
+    # Group by outcome; harmonize similar names
+    from collections import defaultdict
+    outcome_groups = defaultdict(list)
+    for c in contrasts:
+        outcome_groups[c.get("outcome", "unknown")].append(c)
+
+    # Simple harmonization: normalize common patterns
+    _OUTCOME_ALIASES = {
+        "weight": "Weight change (kg)", "weight (kg)": "Weight change (kg)",
+        "weight change (kg)": "Weight change (kg)",
+        "bmi": "BMI change (kg/m2)", "bmi (kg/m2)": "BMI change (kg/m2)",
+        "bmi change (kg/m2)": "BMI change (kg/m2)", "bmi change": "BMI change (kg/m2)",
+        "homa-ir": "HOMA-IR", "homa-ir change": "HOMA-IR",
+        "waist circumference (cm)": "Waist circumference (cm)",
+        "waist (cm)": "Waist circumference (cm)",
+        "waist circumference change (cm)": "Waist circumference (cm)",
+    }
+    harmonized_groups = defaultdict(list)
+    for outcome, cs in outcome_groups.items():
+        canonical = _OUTCOME_ALIASES.get(outcome.lower().strip(), outcome)
+        harmonized_groups[canonical].extend(cs)
+
+    # Filter: need >= 2 studies per outcome for NMA
+    feasible = {}
+    for outcome, cs in harmonized_groups.items():
+        studies = set(c["studlab"] for c in cs)
+        if len(studies) >= 2:
+            feasible[outcome] = cs
+
+    logger.info(f"NMA outcomes after harmonization: {len(feasible)} feasible "
+                f"(of {len(harmonized_groups)} total)")
+    for outcome, cs in feasible.items():
+        studies = set(c["studlab"] for c in cs)
+        treats = set()
+        for c in cs:
+            treats.add(c["treat1"])
+            treats.add(c["treat2"])
+        logger.info(f"  {outcome}: {len(cs)} contrasts, {len(studies)} studies, {len(treats)} treatments")
+
+    if not feasible:
+        logger.error("No outcomes with >= 2 studies for NMA. Cannot proceed.")
         return
 
-    logger.info(
-        f"Network: {validation['n_treatments']} treatments, "
-        f"{validation['n_studies']} studies, {validation['n_contrasts']} contrasts"
-    )
-    logger.info(f"Treatments: {', '.join(validation['treatments'])}")
-
-    # Output directory
-    output_dir = str(dm.phase_dir("phase5_analysis", "nma"))
-
-    # Run NMA
+    # --- NMA settings ---
     nma_cfg = load_nma_settings()
-    try:
-        results = run_nma_from_settings(contrasts, output_dir)
-    except ValueError as e:
-        # NMA disabled in settings — run with defaults
-        logger.warning(f"Settings issue ({e}), running with defaults")
-        results = run_nma(
-            contrasts, output_dir,
-            effect_measure=nma_cfg.get("effect_measure", "SMD"),
-            method_tau=nma_cfg.get("method_tau", "REML"),
-            reference_group=nma_cfg.get("reference_group"),
+    pico_nma = pico.get("nma_settings", {})
+    for key in ("effect_measure", "reference_group", "small_values"):
+        if key in pico_nma:
+            nma_cfg[key] = pico_nma[key]
+    if "effect_measure" not in pico_nma and pico.get("effect_measure"):
+        nma_cfg["effect_measure"] = pico["effect_measure"]
+
+    # --- Run NMA per feasible outcome ---
+    all_results = {}
+    base_output_dir = str(dm.phase_dir("phase5_analysis", "nma"))
+
+    for outcome, cs in feasible.items():
+        # Validate this outcome's sub-network
+        validation = validate_network(cs)
+        if not validation["valid"]:
+            logger.warning(f"NMA skip '{outcome}': {validation.get('errors', [])}")
+            continue
+
+        logger.info(
+            f"Running NMA for '{outcome}': {validation['n_treatments']} treatments, "
+            f"{validation['n_studies']} studies"
         )
+
+        # Per-outcome output dir (absolute path for R)
+        import os
+        safe_name = outcome.replace("/", "_").replace(" ", "_")[:50]
+        outcome_dir = os.path.abspath(f"{base_output_dir}/{safe_name}")
+        os.makedirs(outcome_dir, exist_ok=True)
+
+        # Detect effect measure from actual computation (tagged in nma.py)
+        em_tags = set(c.get("effect_measure") for c in cs if c.get("effect_measure"))
+        if em_tags == {"RR"}:
+            em = "RR"
+        elif em_tags == {"SMD"}:
+            em = "SMD"
+        elif "RR" in em_tags and "SMD" in em_tags:
+            logger.warning(f"  Mixed effect measures in '{outcome}': {em_tags}, using SMD")
+            em = "SMD"
+        else:
+            em = nma_cfg.get("effect_measure", "SMD")
+        logger.info(f"  Effect measure for '{outcome}': {em} (from: {em_tags or 'config default'})")
+
+        try:
+            result = run_nma(
+                cs, outcome_dir,
+                effect_measure=em,
+                method_tau=nma_cfg.get("method_tau", "REML"),
+                reference_group=nma_cfg.get("reference_group"),
+                small_values=nma_cfg.get("small_values", "undesirable"),
+            )
+            all_results[outcome] = result
+            logger.info(f"  NMA '{outcome}' complete")
+        except (RuntimeError, ValueError) as e:
+            logger.error(f"  NMA '{outcome}' failed: {e}")
+
+    results = {
+        "per_outcome": all_results,
+        "n_outcomes_analysed": len(all_results),
+        "outcomes_skipped": [o for o in feasible if o not in all_results],
+    }
 
     # Save results
     dm.save("phase5_analysis", "nma_results.json", results)
@@ -657,8 +775,8 @@ def _run_nma(dm, args):
         incon = consistency.get("inconsistency_detected", False)
         print(f"\n  Consistency:     p={pval} ({'INCONSISTENCY' if incon else 'OK'})")
 
-    print(f"\n  Figures: {output_dir}/figures/")
-    print(f"  Tables:  {output_dir}/tables/")
+    print(f"\n  Figures: {base_output_dir}/*/figures/")
+    print(f"  Tables:  {base_output_dir}/*/tables/")
     print()
 
 

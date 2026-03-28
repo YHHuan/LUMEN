@@ -1,0 +1,180 @@
+{
+  "studies": [
+    {
+      "study_id": "PMID_40713699",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Some concerns",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_36060969",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Some concerns",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_35710599",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_26032655",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "EPMC_37347114",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "EPMC_PPR386070",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "EPMC_27073422",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "EPMC_28479118",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_25885106",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Some concerns",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_28681988",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_28681988",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_24362411",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_30918134",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Low risk",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_29064743",
+      "overall": "High risk",
+      "D1": "High risk",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Some concerns",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "PMID_34281590",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Some concerns",
+      "D5": "Some concerns"
+    },
+    {
+      "study_id": "EPMC_32995892",
+      "overall": "High risk",
+      "D1": "Some concerns",
+      "D2": "Some concerns",
+      "D3": "Some concerns",
+      "D4": "Some concerns",
+      "D5": "Some concerns"
+    }
+  ],
+  "domain_counts": {
+    "D1": {
+      "Low risk": 0,
+      "Some concerns": 15,
+      "High risk": 1
+    },
+    "D2": {
+      "Low risk": 0,
+      "Some concerns": 16,
+      "High risk": 0
+    },
+    "D3": {
+      "Low risk": 0,
+      "Some concerns": 16,
+      "High risk": 0
+    },
+    "D4": {
+      "Low risk": 10,
+      "Some concerns": 6,
+      "High risk": 0
+    },
+    "D5": {
+      "Low risk": 0,
+      "Some concerns": 16,
+      "High risk": 0
+    }
+  },
+  "overall_counts": {
+    "Low risk": 0,
+    "Some concerns": 0,
+    "High risk": 16
+  }
+}

@@ -1,0 +1,4 @@
+"treatment","p_score","rank"
+"GLP-1RA + Metformin",0.9047,1
+"Metformin",0.4456,2
+"GLP-1RA",0.1497,3

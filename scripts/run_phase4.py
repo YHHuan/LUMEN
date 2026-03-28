@@ -70,7 +70,12 @@ def main():
     pico = dm.load_if_exists("input", "pico.yaml", default={})
 
     # Extraction schema — NMA mode uses multi-arm schema
-    nma_mode = args.nma or cfg.v2.get("nma", {}).get("enabled", False)
+    # Per-project pico override takes priority over global config
+    nma_mode = (
+        args.nma
+        or pico.get("analysis_type") == "nma"
+        or cfg.v2.get("nma", {}).get("enabled", False)
+    )
     if nma_mode:
         import yaml
         nma_prompt_path = Path(__file__).parent.parent / "config" / "prompts" / "extractor_nma.yaml"
@@ -78,7 +83,21 @@ def main():
             nma_prompt_cfg = yaml.safe_load(f)
         extraction_schema = nma_prompt_cfg["extraction_schema"]
         # Override extractor system prompt for NMA
-        extractor._prompt_config["system_prompt"] = nma_prompt_cfg["system_prompt"]
+        nma_system = nma_prompt_cfg["system_prompt"]
+        # Inject canonical treatment names from pico.yaml nma_nodes
+        nma_nodes = pico.get("nma_nodes", [])
+        if nma_nodes:
+            node_list = ", ".join(f'"{n}"' for n in nma_nodes)
+            nma_system += (
+                f"\n  CANONICAL TREATMENT NAMES FOR THIS REVIEW:\n"
+                f"  Map every treatment arm to one of these exact names: {node_list}.\n"
+                f"  Use these names in the treatment_name field — do NOT invent variants.\n"
+                f"  If a specific drug (e.g., Liraglutide) is used, set treatment_name to\n"
+                f"  the canonical category (e.g., \"GLP-1RA\") and record the specific drug\n"
+                f"  in the treatment_category field.\n"
+            )
+            logger.info(f"NMA canonical nodes injected: {nma_nodes}")
+        extractor._prompt_config["system_prompt"] = nma_system
         logger.info("NMA mode: using multi-arm extraction schema")
     else:
         extraction_schema = extractor._prompt_config.get("extraction_schema", {
