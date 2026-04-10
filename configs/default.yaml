@@ -1,0 +1,34 @@
+# LUMEN v3 — default pipeline configuration
+
+defaults:
+  project_dir: "./projects"
+  checkpoint_backend: "memory"       # memory | sqlite
+  log_level: "info"
+  max_retries: 2
+  json_parse_retries: 1
+
+screening:
+  confidence_auto_threshold: 80      # both screeners >= this & agree → skip arbiter
+  arbiter_human_threshold: 60        # arbiter confidence < this → human_review
+  prescreen_quarantine_sample: 0.05  # 5% of excluded re-checked
+
+extraction:
+  n_rounds: 4
+  span_match_threshold: 0.7          # audit #8 fix
+  max_pdf_tokens: 12000
+
+statistics:
+  tau2_methods: ["REML", "DL"]       # try in order
+  hksj_adjustment: true
+  high_i2_threshold: 90              # triggers leave-one-out
+  high_weight_threshold: 40          # single study weight % trigger
+  min_studies_warning: 3
+
+writing:
+  section_order:
+    - methods
+    - results
+    - discussion
+    - introduction
+    - abstract
+  fact_check_enabled: true

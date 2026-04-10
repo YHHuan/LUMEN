@@ -1,0 +1,23 @@
+# LUMEN v3 — model tier definitions (OpenRouter-routed)
+# Used by ModelRouter (lumen/core/router.py)
+# All models use openrouter/ prefix — LiteLLM routes via OPENROUTER_API_KEY
+
+tiers:
+  fast:
+    primary: "openrouter/google/gemini-2.5-flash"
+    fallback: "openrouter/openai/gpt-4.1-mini"
+    max_tokens: 4096
+    cost_per_1k_input: 0.00030
+    cost_per_1k_output: 0.00250
+  smart:
+    primary: "openrouter/anthropic/claude-sonnet-4.5"
+    fallback: "openrouter/google/gemini-2.5-pro"
+    max_tokens: 8192
+    cost_per_1k_input: 0.003
+    cost_per_1k_output: 0.015
+  strategic:
+    primary: "openrouter/anthropic/claude-opus-4.1"
+    fallback: "openrouter/openai/gpt-5"
+    max_tokens: 16384
+    cost_per_1k_input: 0.015
+    cost_per_1k_output: 0.075
