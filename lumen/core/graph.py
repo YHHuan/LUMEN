@@ -143,7 +143,7 @@ def build_graph(
         s1 = ScreenerAgent(router=r, cost_tracker=c, config=cfg, tier_override="fast")
         s2 = ScreenerAgent(router=r, cost_tracker=c, config=cfg)  # default: smart
         arb = ArbiterAgent(router=r, cost_tracker=c, config=cfg)
-        result = screen_ta_node(state, s1, s2, arb)
+        result = screen_ta_node(state, s1, s2, arb, config=cfg)
         result["current_phase"] = "screening"
         return result
 

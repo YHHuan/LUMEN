@@ -21,26 +21,35 @@ class CostTracker:
 
     def __init__(self, project_dir: str | Path | None = None):
         self.totals: dict[str, dict[str, dict[str, float]]] = {}
-        # {phase: {agent: {calls: int, input_tokens: int, output_tokens: int, cost: float}}}
+        # {phase: {agent: {calls, input_tokens, output_tokens, cached_input_tokens, cost}}}
         self._log_path: Path | None = None
         if project_dir:
             self._log_path = Path(project_dir) / "cost_log.jsonl"
             self._log_path.parent.mkdir(parents=True, exist_ok=True)
 
     def record(self, phase: str, agent: str, usage: dict[str, Any]) -> None:
-        """Record a single LLM call's usage. Appends to JSONL + updates totals."""
+        """Record a single LLM call's usage. Appends to JSONL + updates totals.
+
+        Honest-cost fields (P3.6): ``cached_input_tokens`` is the number of input
+        tokens served from a prompt cache (billed at a discount). In v3 there is
+        no caching, so this is always 0 and ``cost`` is entirely *actual* spend.
+        The field is tracked now so that, once prompt caching lands (P0), the
+        report can separate real spend from cache savings without a schema change.
+        """
         # Update in-memory totals
         if phase not in self.totals:
             self.totals[phase] = {}
         if agent not in self.totals[phase]:
             self.totals[phase][agent] = {
-                "calls": 0, "input_tokens": 0, "output_tokens": 0, "cost": 0.0,
+                "calls": 0, "input_tokens": 0, "output_tokens": 0,
+                "cached_input_tokens": 0, "cost": 0.0,
             }
 
         bucket = self.totals[phase][agent]
         bucket["calls"] += 1
         bucket["input_tokens"] += usage.get("input_tokens", 0)
         bucket["output_tokens"] += usage.get("output_tokens", 0)
+        bucket["cached_input_tokens"] += usage.get("cached_input_tokens", 0)
         bucket["cost"] += usage.get("cost", 0.0)
 
         # Append to JSONL
@@ -55,21 +64,32 @@ class CostTracker:
                 fh.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     def summary(self) -> dict[str, Any]:
-        """Return cost breakdown by phase and agent, plus grand total."""
+        """Return cost breakdown by phase and agent, plus grand total.
+
+        Honest-cost (P3.6): ``grand_total_cost`` is *actual* metered spend.
+        ``grand_total_cached_tokens`` counts input tokens served from a prompt
+        cache; ``caching_enabled`` reflects whether any cache hits were recorded.
+        In v3 (no caching) cached tokens are 0 and every dollar is real.
+        """
         grand_total = 0.0
         grand_tokens = 0
+        grand_cached = 0
         grand_calls = 0
         for phase_data in self.totals.values():
             for agent_data in phase_data.values():
                 grand_total += agent_data["cost"]
                 grand_tokens += agent_data["input_tokens"] + agent_data["output_tokens"]
+                grand_cached += agent_data.get("cached_input_tokens", 0)
                 grand_calls += agent_data["calls"]
 
         return {
             "by_phase": self.totals,
             "grand_total_cost": round(grand_total, 6),
             "grand_total_tokens": grand_tokens,
+            "grand_total_cached_tokens": grand_cached,
             "grand_total_calls": grand_calls,
+            "caching_enabled": grand_cached > 0,
+            "cost_basis": "actual",  # every dollar is metered spend (no cache discounts)
         }
 
     def estimate_remaining(self, current_phase: str, n_studies: int) -> dict[str, Any]:
@@ -108,12 +128,13 @@ class CostTracker:
         estimated = cost_per_study * n_studies * remaining_phases / max(len(completed_phases), 1)
 
         return {
-            "cost_so_far": round(total_cost_so_far, 4),
+            "cost_so_far": round(total_cost_so_far, 4),   # actual, metered
             "cost_per_study": round(cost_per_study, 6),
             "completed_phases": completed_phases,
             "remaining_phases": remaining_phases,
             "estimated_remaining": round(estimated, 4),
             "n_studies": n_studies,
+            "basis": "extrapolated",  # ASSUMPTION: linear per-study projection, not billed
         }
 
     @classmethod

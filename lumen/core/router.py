@@ -12,7 +12,8 @@ from typing import Any
 import litellm
 import structlog
 
-from lumen.core.config import load_config, get_tier_config
+from lumen.core.config import load_config, get_tier_config, is_caching_enabled
+from lumen.infra.llm_cache import make_cache_key
 
 logger = structlog.get_logger()
 
@@ -36,11 +37,16 @@ class LumenModelError(Exception):
 class ModelRouter:
     """Route LLM calls through a 3-tier model hierarchy with automatic fallback."""
 
-    def __init__(self, config: dict | None = None, config_path: str | None = None):
+    def __init__(self, config: dict | None = None, config_path: str | None = None,
+                 cache=None):
         if config is None:
             config = load_config(config_path)
         self.config = config
         self._tiers = config.get("tiers", {})
+        # Prompt cache is OFF unless explicitly enabled AND not an evidence run.
+        # When off, the router behaves exactly as v3 did (no cache lookups).
+        self.cache = cache
+        self._caching = is_caching_enabled(config)
 
     def call(
         self,
@@ -66,6 +72,33 @@ class ModelRouter:
         fallback = tier_cfg.get("fallback")
         token_limit = max_tokens or tier_cfg.get("max_tokens", 4096)
 
+        # --- Prompt cache (opt-in; disabled on evidence runs) ---
+        cache_key: str | None = None
+        if self._caching and self.cache is not None:
+            cache_key = make_cache_key(
+                primary, messages, max_tokens=token_limit,
+                temperature=temperature, response_format=response_format,
+            )
+            cached = self.cache.get(cache_key)
+            if cached is not None:
+                logger.info("llm_cache_hit", agent=agent_name, tier=tier, model=primary)
+                usage = {
+                    "model": primary, "agent_name": agent_name,
+                    "input_tokens": 0,  # served from cache, not re-billed
+                    "output_tokens": cached.get("output_tokens", 0),
+                    "cached_input_tokens": cached.get("input_tokens", 0),
+                    "cost": 0.0, "latency_ms": 0.0,
+                    "fallback_used": False, "cache_hit": True,
+                }
+                return cached["text"], usage
+
+        def _store(text: str, usage: dict) -> tuple[str, dict]:
+            if cache_key is not None:
+                self.cache.put(cache_key, text,
+                               usage.get("input_tokens", 0),
+                               usage.get("output_tokens", 0))
+            return text, usage
+
         # Build kwargs
         call_kwargs: dict[str, Any] = {
             "model": primary,
@@ -80,7 +113,7 @@ class ModelRouter:
         primary_error: Exception | None = None
         try:
             text, usage = self._do_call(call_kwargs, tier_cfg, agent_name)
-            return text, usage
+            return _store(text, usage)
         except Exception as e:
             primary_error = e
             logger.warning(
@@ -94,7 +127,7 @@ class ModelRouter:
             try:
                 text, usage = self._do_call(call_kwargs, tier_cfg, agent_name)
                 usage["fallback_used"] = True
-                return text, usage
+                return _store(text, usage)
             except Exception as fallback_err:
                 logger.error(
                     "fallback_model_failed",
@@ -130,6 +163,7 @@ class ModelRouter:
             "agent_name": agent_name,
             "input_tokens": input_tokens,
             "output_tokens": output_tokens,
+            "cached_input_tokens": 0,  # live call: nothing served from cache
             "cost": round(cost_in + cost_out, 6),
             "latency_ms": round(latency_ms, 1),
             "fallback_used": False,

@@ -21,13 +21,14 @@ class LumenState(TypedDict, total=False):
     deduplicated_studies: list[dict]    # after dedup
 
     # === Phase 3 outputs ===
-    prescreen_results: list[dict]       # keyword filter results
-    screening_results: list[dict]       # [{study_id, screener1, screener2, confidence1, confidence2, arbiter?, final_decision}]
-    fulltext_results: list[dict]        # [{study_id, decision, reason}]
+    prescreen_results: list[dict]       # keyword filter results [{..., reason_code}]
+    screening_results: list[dict]       # [{study_id, screener1, screener2, arbiter?, final_decision, tri_state, screening_state, review_required, flags}]
+    needs_human_review: list[dict]      # subset of screening_results with review_required=True (unclear/borderline/flagged)
+    fulltext_results: list[dict]        # [{study_id, decision, reason, reason_code}]
     included_studies: list[dict]        # final included set
 
     # === Phase 4 outputs ===
-    extractions: list[dict]             # [{study_id, round1_skeleton, round2_data, round3_checked, round4_spans}]
+    extractions: list[dict]             # [{study_id, skeleton, extractions:[{...,source_locators:{field:{page,quote,match_confidence}}}], crosscheck, evidence_spans, low_confidence_spans}]
 
     # === Phase 4.5 outputs ===
     outcome_clusters: dict              # {canonical_name: [raw_names]}

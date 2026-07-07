@@ -11,6 +11,7 @@ import re
 import structlog
 
 from lumen.agents.base import BaseAgent, LumenParseError
+from lumen.agents.screening_signals import classify_exclusion_reason, ReasonCode
 
 logger = structlog.get_logger()
 
@@ -62,6 +63,7 @@ class FulltextScreenerAgent(BaseAgent):
                 "reasoning": "Parse failure — included conservatively",
                 "key_sections_reviewed": [],
                 "exclusion_reason": None,
+                "reason_code": ReasonCode.PARSE_FAILURE,
                 "study_id": study.get("study_id", study.get("id", "unknown")),
                 "parse_error": True,
             }
@@ -101,6 +103,13 @@ class FulltextScreenerAgent(BaseAgent):
         result.setdefault("reasoning", "")
         result.setdefault("key_sections_reviewed", [])
         result.setdefault("exclusion_reason", None)
+        # Structured reason code for excludes (P2.2): map the free-text
+        # exclusion rationale to a canonical code for the review queue / PRISMA.
+        if decision == "exclude":
+            result["reason_code"] = classify_exclusion_reason(
+                result.get("exclusion_reason") or result.get("reasoning"))
+        else:
+            result.setdefault("reason_code", None)
         return result
 
 

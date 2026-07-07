@@ -34,7 +34,13 @@ def generate_cost_report(cost_summary: dict, n_studies: int = 0) -> dict:
 
         for agent, stats in sorted(agents.items()):
             calls = stats.get("calls", 0)
-            tokens = stats.get("tokens", 0)
+            # Robust to both shapes: the flat "tokens" key AND the real
+            # CostTracker bucket ("input_tokens" + "output_tokens"). Previously
+            # only "tokens" was read, so real cost reports showed 0 tokens — a
+            # producer/consumer key mismatch (same class as the V4 weight bug).
+            tokens = stats.get("tokens")
+            if tokens is None:
+                tokens = stats.get("input_tokens", 0) + stats.get("output_tokens", 0)
             cost = stats.get("cost", 0.0)
             phase_total["calls"] += calls
             phase_total["tokens"] += tokens
@@ -67,6 +73,9 @@ def generate_cost_report(cost_summary: dict, n_studies: int = 0) -> dict:
         "grand_total": grand_total,
         "per_study": per_study,
         "n_studies": n_studies,
+        # Honesty (P3.6): this report reflects actual metered spend. v3 has no
+        # prompt caching, so there are no assumed cache-discount savings folded in.
+        "cost_basis": "actual",
     }
 
 
@@ -105,6 +114,10 @@ def format_cost_table(report: dict) -> str:
         lines.append(f"    Cost/study:   ${ps['cost_per_study']:.4f}")
         lines.append(f"    Tokens/study: {ps['tokens_per_study']:.0f}")
         lines.append(f"    Calls/study:  {ps['calls_per_study']:.1f}")
+
+    basis = report.get("cost_basis", "actual")
+    lines.append(f"\n  Cost basis: {basis} spend "
+                 "(v3 has no prompt cache; no assumed savings applied).")
 
     return "\n".join(lines)
 

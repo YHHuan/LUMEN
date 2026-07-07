@@ -24,8 +24,9 @@ def _save_pipeline_state(result: dict, output_dir: Path) -> None:
     """Save pipeline state keys needed for PRISMA diagram and audit."""
     state_keys = [
         "raw_results", "deduplicated_studies", "prescreen_results",
-        "screening_results", "fulltext_results", "included_studies",
-        "outcome_clusters", "anomaly_flags", "quality_assessments",
+        "screening_results", "needs_human_review", "fulltext_results",
+        "included_studies", "outcome_clusters", "anomaly_flags",
+        "quality_assessments",
     ]
     state_snapshot = {}
     for key in state_keys:
@@ -34,6 +35,31 @@ def _save_pipeline_state(result: dict, output_dir: Path) -> None:
             state_snapshot[key] = val
     with open(output_dir / "pipeline_state.json", "w") as f:
         json.dump(state_snapshot, f, indent=2, default=str)
+
+
+def _write_review_queue(result: dict, output_dir: Path, project_name: str = "") -> int:
+    """Write review_queue.md from the pipeline result. Returns item count."""
+    from lumen.tools.visualization.review_queue import (
+        build_review_queue, write_review_queue,
+    )
+    rows = build_review_queue(result)
+    write_review_queue(result, output_dir / "review_queue.md",
+                       project_name=project_name)
+    return len(rows)
+
+
+def _print_cost_summary(summary: dict, evidence_run: bool = False) -> None:
+    """Print an honest cost line: actual spend, and whether caching was in play."""
+    cached = summary.get("grand_total_cached_tokens", 0)
+    caching = summary.get("caching_enabled", False)
+    print(f"  Total cost: ${summary['grand_total_cost']:.4f} (actual metered spend)")
+    if evidence_run:
+        print("  Evidence run: caching disabled — every token was freshly metered.")
+    elif caching:
+        print(f"  Prompt cache active: {cached} input tokens served from cache "
+              "(excluded from spend above).")
+    else:
+        print("  Prompt cache: off (v3 has none) — no assumed savings applied.")
 
 
 def _check_api_keys() -> None:
@@ -64,7 +90,9 @@ def _check_api_keys() -> None:
 
 def cmd_run(args: argparse.Namespace) -> None:
     """Run the LUMEN pipeline."""
-    from lumen.core.config import load_config
+    from lumen.core.config import (
+        load_config, apply_evidence_run, is_caching_enabled,
+    )
     from lumen.core.router import ModelRouter
     from lumen.core.cost import CostTracker
     from lumen.core.graph import build_graph
@@ -73,8 +101,20 @@ def cmd_run(args: argparse.Namespace) -> None:
     project_dir.mkdir(parents=True, exist_ok=True)
 
     config = load_config()  # loads from default configs/ directory
+
+    evidence_run = getattr(args, "evidence_run", False)
+    if evidence_run:
+        apply_evidence_run(config)
+        print("LUMEN v3 — EVIDENCE RUN: prompt caching disabled; "
+              "results fully metered and reproducible.")
+
     _check_api_keys()
-    router = ModelRouter(config=config)
+    # Prompt cache only when explicitly enabled (never on an evidence run).
+    cache = None
+    if is_caching_enabled(config):
+        from lumen.infra.llm_cache import PromptCache
+        cache = PromptCache(project_dir / ".llm_cache", namespace=project_dir.name)
+    router = ModelRouter(config=config, cache=cache)
     cost_tracker = CostTracker(str(project_dir))
 
     graph = build_graph(router=router, cost_tracker=cost_tracker, config=config)
@@ -130,9 +170,29 @@ def cmd_run(args: argparse.Namespace) -> None:
         # Save full pipeline state for PRISMA diagram and audit
         _save_pipeline_state(result, output_dir)
 
+        # Human review queue — the signals the pipeline auto-handled but a
+        # human should confirm (unclear screening, borderline excludes, etc.)
+        n_review = _write_review_queue(result, output_dir, project_dir.name)
+        print(f"  Review queue: {n_review} item(s) → {output_dir}/review_queue.md")
+
         print("\nPipeline complete.")
         summary = cost_tracker.summary()
-        print(f"  Total cost: ${summary['grand_total_cost']:.4f}")
+
+        # Audit manifest: makes an evidence run verifiable after the fact.
+        import time as _time
+        manifest = {
+            "evidence_run": evidence_run,
+            "caching_enabled": summary.get("caching_enabled", False),
+            "cost_basis": summary.get("cost_basis", "actual"),
+            "grand_total_cost": summary.get("grand_total_cost", 0.0),
+            "grand_total_cached_tokens": summary.get("grand_total_cached_tokens", 0),
+            "n_review_items": n_review,
+            "timestamp": _time.time(),
+        }
+        with open(output_dir / "run_manifest.json", "w") as f:
+            json.dump(manifest, f, indent=2)
+
+        _print_cost_summary(summary, evidence_run=evidence_run)
 
     except Exception as e:
         logger.error("pipeline_failed", error=str(e))
@@ -355,14 +415,13 @@ def cmd_interactive(args: argparse.Namespace) -> None:
         with open(output_dir / "statistics.json", "w") as f:
             json.dump(result["statistics_results"], f, indent=2, default=str)
 
+    # Full pipeline state + human review queue (same as `run`).
+    _save_pipeline_state(result, output_dir)
+    n_review = _write_review_queue(result, output_dir, project_dir.name)
+    print(f"  Review queue: {n_review} item(s) → {output_dir}/review_queue.md")
+
     print("\n  Done! Review outputs in", output_dir)
-    summary = cost_tracker.summary()
-    total = sum(
-        stats.get("cost", 0)
-        for agents in summary.values()
-        for stats in agents.values()
-    )
-    print(f"  Total cost: ${total:.4f}")
+    _print_cost_summary(cost_tracker.summary())
 
 
 def cmd_plot(args: argparse.Namespace) -> None:
@@ -453,6 +512,11 @@ def main() -> None:
     run_parser.add_argument("--project", required=True, help="Project directory")
     run_parser.add_argument("--phases", default="1-6", help="Phase range (e.g., '1-6', '5-6')")
     run_parser.add_argument("--resume", action="store_true", help="Resume from checkpoint")
+    run_parser.add_argument(
+        "--evidence-run", dest="evidence_run", action="store_true",
+        help="Trustworthy mode: disable prompt caching so every result is "
+             "freshly generated and fully metered (for the published evidence run).",
+    )
 
     # interactive
     int_parser = subparsers.add_parser("interactive", help="Interactive step-by-step mode")

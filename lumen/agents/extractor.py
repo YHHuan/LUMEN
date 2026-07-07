@@ -41,6 +41,39 @@ def _estimate_tokens(base: int, per_item: int, n_items: int) -> int:
     return max(_MIN_TOKENS, min(_MAX_TOKENS, base + per_item * n_items))
 
 
+def attach_source_locators(extractions: list[dict],
+                           spans: list[dict]) -> list[dict]:
+    """Attach a per-value source locator to each extraction row (P2.4).
+
+    v3's Round 4 already binds each extracted value to a PDF span, but it does so
+    in a *separate* ``evidence_spans`` list. This folds those spans back onto the
+    extraction rows so every numeric value carries its provenance inline:
+
+        ext["source_locators"]["arm1.mean"] = {page, quote, match_confidence}
+
+    Rows always get a ``source_locators`` dict (empty if nothing bound), giving
+    downstream code a stable field skeleton to rely on. Pure; matches spans to
+    rows by ``outcome_name``.
+    """
+    by_outcome: dict[str, list[dict]] = {}
+    for s in spans or []:
+        by_outcome.setdefault(s.get("outcome_name"), []).append(s)
+
+    for ext in extractions or []:
+        locators: dict[str, dict] = {}
+        for s in by_outcome.get(ext.get("outcome_name"), []):
+            field = s.get("field")
+            if not field:
+                continue
+            locators[field] = {
+                "page": s.get("pdf_page"),
+                "quote": s.get("pdf_text_span"),
+                "match_confidence": s.get("match_confidence"),
+            }
+        ext["source_locators"] = locators
+    return extractions
+
+
 _MAX_EXTRACT_RETRIES = 2  # total attempts per study (1 original + 1 retry)
 
 
@@ -113,6 +146,9 @@ class ExtractorAgent(BaseAgent):
             s for s in spans
             if s.get("match_confidence", 0) < EVIDENCE_SPAN_THRESHOLD
         ]
+        # P2.4: fold the spans back onto each extraction row so every value
+        # carries its source locator (page / quote / match confidence) inline.
+        attach_source_locators(extractions, spans)
         logger.info("extraction_round4_done", study_id=study_id,
                      n_spans=len(spans),
                      n_low_confidence=len(low_confidence_spans))

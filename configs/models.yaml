@@ -1,6 +1,18 @@
-# LUMEN v3 — model tier definitions (OpenRouter-routed)
+# LUMEN v3 — model tier definitions
 # Used by ModelRouter (lumen/core/router.py)
-# All models use openrouter/ prefix — LiteLLM routes via OPENROUTER_API_KEY
+#
+# Tiers are NOT bound to any provider: the `primary`/`fallback` model string is
+# passed straight to LiteLLM, which routes by prefix. Any tier may name any
+# provider directly, and the API key is read from the environment automatically:
+#   openrouter/google/gemini-2.5-flash   → OPENROUTER_API_KEY  (default below)
+#   anthropic/claude-sonnet-4-5          → ANTHROPIC_API_KEY
+#   gemini/gemini-2.5-flash              → GEMINI_API_KEY / GOOGLE_API_KEY
+#   openai/gpt-5                         → OPENAI_API_KEY
+# To go direct-to-provider, just swap the prefixes below (see PORT_NOTES.md §3).
+# Example direct-provider tier:
+#   fast:
+#     primary: "gemini/gemini-2.5-flash"      # GEMINI_API_KEY
+#     fallback: "anthropic/claude-haiku-4-5"  # ANTHROPIC_API_KEY
 
 tiers:
   fast:
